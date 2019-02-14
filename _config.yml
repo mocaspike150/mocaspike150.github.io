@@ -10,3 +10,5 @@ theme: minima
 
 plugins:
  - jekyll-seo-tag
+ 
+ google_analytics: 'UA-134524506-1'
