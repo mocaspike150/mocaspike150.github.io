@@ -11,4 +11,4 @@ theme: minima
 plugins:
  - jekyll-seo-tag
  
-google_analytics: 'UA-134524506-1'
+google_analytics: 'UA-134524506-2'
