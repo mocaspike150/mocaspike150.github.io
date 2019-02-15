@@ -66,9 +66,7 @@ database, recruiting runners to participating in the New York City marathon as a
 member of the MOCA Team (this participation will not conflict with runner&#39;s Affiliated
 Club at NYRR). The funds raised by the MOCA Team will be used to support the
 museum in fulfilling its mission of preserving the history of Chinese Americans and
-achieving our goal of becoming a nationally recognized institution. We hope that this
-initiative will unite Chinese American from all across the country and show our impact
-on the grand scheme of Americana.
+achieving our goal of becoming a nationally recognized institution. We hope that this initiative will unite Chinese Americans from all across the country and shed light on our contributions throughout American history.  
 
 MOCA Spike 150特邀MOCA 董事会联合主席Jonathan Chu和大纽约地区新晋的华人跑群队长Renny Shih共同担任本次活动的 Co-Captain。
 整个活动自中国农历新年开始，至纽马推向高潮， 在近一年的活动期间，MOCA将组织全美各地华人跑团的象征性接力活动—
