@@ -53,7 +53,7 @@ museum in fulfilling its mission of preserving the history of Chinese Americans 
 achieving our goal of becoming a nationally recognized institution. We hope that this initiative will unite Chinese Americans from all across the country and shed light on our contributions throughout American history.  
 
 In addition, MOCA will send a team to document significant Chinese American events
-throughout the country. On May 10 th , 2019 there will be a large 150th anniversary event
+throughout the country. On May 10th , 2019 there will be a large 150th anniversary event
 scheduled to take place in Utah commemorating the final spike of the Transcontinental
 Railroad. At this event MOCA will announce the start of the Spike Relay, and our
 participation in the Boston Marathon (April), NJ marathon (April), San Diego Rock n Roll
@@ -67,6 +67,9 @@ New York City Marathon. Details are coming soon, please stay tuned! The events a
 programs will be posted on a dedicated website. MOCA also plans to document the
 initiative and create a documentary to celebrate this momentous occasion. Please join
 us as we embark on this long journey 150 years in the making.
+
+Support MOCA's mission, please donate to MOCA Team:
+https://www.crowdrise.com/o/en/campaign/moca-spike-150
 
 ![](https://mocaspike150home.files.wordpress.com/2019/02/moca-spike-150-banner.png)
 
