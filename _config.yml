@@ -1,6 +1,7 @@
 title: MOCA Spike 150 - Running Forward With Our Stories 
 author: MOCA Spike 150
 email: mocaspike150@mocanyc.org
+remote_theme: mocaspike150/mocaspike150-theme
 description: > 
   2019 marks the 150th anniversary of the completion of the transcontinental railroad.  
   The “MOCA Spike 150 - Running Forward with Our Stories!”  initiative will honor the thousands of
@@ -13,4 +14,3 @@ plugins:
  
 google_analytics: 'UA-134524506-2'
 
-remote_theme: mocaspike150/mocaspike150-theme
