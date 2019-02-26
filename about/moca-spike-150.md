@@ -30,6 +30,7 @@ Club at NYRR). The funds raised by the MOCA Team will be used to support the
 museum in fulfilling its mission of preserving the history of Chinese Americans and
 achieving our goal of becoming a nationally recognized institution. We hope that this initiative will unite Chinese Americans from all across the country and shed light on our contributions throughout American history.  
 
+![](https://user-images.githubusercontent.com/46349226/52757899-552b8b00-2fd4-11e9-8f28-9b7f53f7efb9.jpg)
 In addition, MOCA will send a team to document significant Chinese American events
 throughout the country. On May 10th , 2019 there will be a large 150th anniversary event
 scheduled to take place in Utah commemorating the final spike of the Transcontinental
