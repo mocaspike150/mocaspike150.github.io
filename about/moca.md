@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About MOCA
-permalink: /about-moca/
+title: Museum of Chinese in America
+permalink: /about/moca/
 ---
 ![Space holder image](https://user-images.githubusercontent.com/46349226/53448112-a54b1a00-39e4-11e9-8aad-b28d7f5d81c5.PNG)
 
