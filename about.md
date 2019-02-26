@@ -70,6 +70,5 @@ us as we embark on this long journey 150 years in the making.
 
 Support MOCA's mission, please [donate to MOCA Team](https://www.crowdrise.com/o/en/campaign/moca-spike-150).
 
-![](https://mocaspike150home.files.wordpress.com/2019/02/moca-spike-150-banner.png)
 
 [中文](https://mocaspike150.github.io/%E5%85%B3%E4%BA%8E/)
