@@ -46,7 +46,5 @@ programs will be posted on a dedicated website. MOCA also plans to document the
 initiative and create a documentary to celebrate this momentous occasion. Please join
 us as we embark on this long journey 150 years in the making.
 
-Support MOCA's mission, please [donate to MOCA Team](https://www.crowdrise.com/o/en/campaign/moca-spike-150).
-
 
 [中文](https://mocaspike150.github.io/%E5%85%B3%E4%BA%8E/)
