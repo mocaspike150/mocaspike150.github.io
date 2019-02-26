@@ -4,7 +4,7 @@ title: About MOCA
 permalink: /moca/
 ---
 
-Founded in 1980, the [Museum of Chinese in America)(MOCA)](http://www.mocanyc.org/) is dedicated to
+Founded in 1980, the [Museum of Chinese in America(MOCA))](http://www.mocanyc.org/) is dedicated to
 preserving and presenting the history, heritage, culture and diverse experiences of
 people of Chinese descent in the United States. The greatly expanded MOCA at 215
 Centre Street is a national home for the precious narratives of diverse Chinese
