@@ -4,6 +4,8 @@ title: MOCA Spike 150
 permalink: /about-moca-spike-150/
 ---
 
+![](https://user-images.githubusercontent.com/46349226/53438999-12ec4b80-39cf-11e9-94c9-626342b4749c.png)
+
 This year will be the 150th anniversary of the completion of the first transcontinental
 railroad in the United States. To commemorate the contributions of the thousands of
 Chinese laborers responsible for this milestone in American history, MOCA has named
