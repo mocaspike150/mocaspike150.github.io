@@ -1,6 +1,5 @@
 ---
 layout: page
-title: MOCA Spike 150
 permalink: /about-moca-spike-150/
 ---
 
