@@ -3,6 +3,7 @@ layout: page
 title: About MOCA
 permalink: /moca/
 ---
+![Space holder image](https://user-images.githubusercontent.com/46349226/53448112-a54b1a00-39e4-11e9-8aad-b28d7f5d81c5.PNG)
 
 Founded in 1980, the [Museum of Chinese in America(MOCA))](http://www.mocanyc.org/) is dedicated to
 preserving and presenting the history, heritage, culture and diverse experiences of
