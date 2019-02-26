@@ -19,5 +19,14 @@ accommodates its range of visitors which include: New Yorkers, domestic and
 international visitors, neighborhood residents, students and school groups from local
 and regional schools.
 
+Last Year, MOCA began participating in the New York City Marathon as a charitable
+partner. Our team of seven runners raised $88,000 to support MOCA’s mission. Many
+Chinese American running groups and runners learned about our efforts and showed
+their support. We are grateful to them for helping to further our mission in presenting
+the stories of Chinese Americans! This year we hope to reach a larger demographic
+and raise even more money to support our work.
+
+![](https://mocaspike150home.files.wordpress.com/2019/02/moca2018team.jpg)
+TCS NYC Marathon MOCA Charity Team 2018
 
 [中文](https://mocaspike150.github.io/%E5%85%B3%E4%BA%8E/)
