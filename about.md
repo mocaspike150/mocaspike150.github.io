@@ -2,7 +2,7 @@
 layout: page
 title: About MOCA and MOCA Spike 150
 permalink: /about/
-publish: false
+published: false
 ---
 
 Founded in 1980, the Museum of Chinese in America (MOCA) is dedicated to
