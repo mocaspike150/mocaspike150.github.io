@@ -1,12 +1,18 @@
-$header-background: #FFFFFF;
+$header-background: #FFF8EC;
 $header-text-color: $primary-blue;
 
 .site-header {
   border-top: none;
   border-bottom: none;
   background: $header-background;
+  padding: 10px;
 }
 
 .site-title { 
   color: $primary-dark;
 }
+
+.site-header .wrapper {
+  max-width: 100%;
+}
+
