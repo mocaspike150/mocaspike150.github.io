@@ -6,6 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+hero:
+  image: https://user-images.githubusercontent.com/41637129/53459326-5cf12380-3a07-11e9-9131-0068ee8fe49d.png
 ---
-![](https://user-images.githubusercontent.com/46349226/53438999-12ec4b80-39cf-11e9-94c9-626342b4749c.png)
 
