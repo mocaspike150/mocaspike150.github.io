@@ -8,9 +8,11 @@ description: >
   Chinese workers responsible for this great milestone in American History as well as explore 
   the Chinese diaspora throughout America.  
 
+url: "https://mocaspike150.github.io"
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-sitemap
  
 google_analytics: 'UA-134524506-2'
 
