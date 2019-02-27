@@ -1,0 +1,12 @@
+$header-background: $primary-blue;
+$header-text-color: $primary-dark;
+
+.site-header {
+  border-top: none;
+  border-bottom: none;
+  background: $header-background;
+}
+
+.site-title { 
+  color: $primary-dark;
+}

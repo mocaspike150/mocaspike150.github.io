@@ -1,0 +1,22 @@
+$footer-background: $primary-gold;
+$footer-text-color: $primary-dark;
+.site-footer {
+  background: $footer-background;
+  border-top: none;
+}
+.footer-col-wrapper {
+  color: $footer-text-color;
+}
+
+// mobile view adjustment
+.one-half {
+  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+  width:         calc(50% - (#{$spacing-unit} / 2));
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+       width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
