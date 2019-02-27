@@ -1,5 +1,6 @@
 $header-background: #FFFFFF;
 $header-text-color: $primary-blue;
+$page-link-color: $primary-blue;
 
 .site-header {
   border-top: none;
@@ -17,3 +18,8 @@ $header-text-color: $primary-blue;
   padding-left: 0;
 }
 
+.site-nav {
+  .page-link {
+    color: $page-link-color;
+  }
+} 
