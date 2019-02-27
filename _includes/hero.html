@@ -1,0 +1,13 @@
+{%- if page.hero -%}
+  <div class="hero" 
+    {%- if page.hero.image -%}
+      style="background-image: url('{{ page.hero.image }}');"
+    {%- endif -%}
+  >
+    {%- if page.hero.content -%}
+    <div>
+       {{ page.hero.content }}
+    </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}
