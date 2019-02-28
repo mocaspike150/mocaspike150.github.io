@@ -6,6 +6,12 @@
   height: 320px;
 }
 
+.hero.home {
+  @media (min-width: 900px) {
+     height: 520px;
+  } 
+}
+
 .hero div {
   margin: 1em;
   padding: 0.5em;

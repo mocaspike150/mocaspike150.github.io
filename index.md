@@ -8,5 +8,7 @@
 layout: home
 hero:
   image: https://user-images.githubusercontent.com/41637129/53459326-5cf12380-3a07-11e9-9131-0068ee8fe49d.png
+  style: home
 ---
+
 
