@@ -1,5 +1,8 @@
- @font-face {
-    font-family: mocaspikebody;
-    font-weight: 200;
-    src: url(/assets/fonts/Spenser-Light.woff2) format('woff2')
+@font-face {
+    font-family: 'mocaspike';
+    src: url('/assets/fonts/EdmundsburySansRegular-Regular.woff2') format('woff2'),
+        url('/assets/fonts/EdmundsburySansRegular-Regular.woff') format('woff'),
+        url('/assets/fonts/EdmundsburySansRegular-Regular.svg#EdmundsburySansRegular-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
