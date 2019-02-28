@@ -15,5 +15,14 @@ plugins:
  - jekyll-seo-tag
  - jekyll-sitemap
  
+minima:
+  social_links:
+    twitter: mocanyc
+    instagram: mocanyc
+    youtube: mocanyc
+    facebook: mocanyc
+    flickr: mocamuseum
+    vimeo: user4422249
+
 google_analytics: 'UA-134524506-2'
 
