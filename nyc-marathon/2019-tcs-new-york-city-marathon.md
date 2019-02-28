@@ -5,7 +5,7 @@ layout: default
 
 ### TCS New York City Marathon
 
-Race Day: Sunday, November 3, 2019
+**Race Day: Sunday, November 3, 2019**
 
 Be a MOCA Spike 150 Ambassador! Join MOCA Spike 150 TCS New York City Marathon team and commit fundraising minimum of $5,000 to receive:
 
