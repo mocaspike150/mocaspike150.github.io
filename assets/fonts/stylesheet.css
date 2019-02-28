@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Edmundsbury Sans';
+    src: url('EdmundsburySansRegular-Regular.woff2') format('woff2'),
+        url('EdmundsburySansRegular-Regular.woff') format('woff'),
+        url('EdmundsburySansRegular-Regular.svg#EdmundsburySansRegular-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
