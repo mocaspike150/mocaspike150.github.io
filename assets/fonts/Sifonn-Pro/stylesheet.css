@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sifonn';
+    src: url('Sifonn-Pro.woff2') format('woff2'),
+        url('Sifonn-Pro.woff') format('woff'),
+        url('Sifonn-Pro.svg#Sifonn-Pro') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
