@@ -21,6 +21,15 @@ $footer-text-color: $primary-dark;
   }
 }
 
+.social-media-list {
+    margin: 0;
+}
 .social-media-list li a {
   border: 1px solid $primary-blue;
 }
+
+.footer-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
