@@ -35,3 +35,11 @@ $footer-text-font: EdmundsburySansRegular;
     font-weight: 600;
 }
 
+address {
+  ul {
+    margin-left: 0;
+  }
+  li {
+    list-style: none;
+  }
+}

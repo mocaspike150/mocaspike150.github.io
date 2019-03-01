@@ -2,6 +2,14 @@ title: MOCA Spike 150 - Running Forward With Our Stories
 tagline: Running Forward With Our Stories
 author: MOCA Spike 150
 email: mocaspike150@mocanyc.org
+address: >
+  <address>
+  <ul>
+  <li>Museum of Chinese in America</li>
+  <li>215 Centre Street New York, NY 10013</li>
+  <li>855-955-MOCA</li>
+  </ul>
+  </address>
 remote_theme: mocaspike150/mocaspike150-theme
 description: > 
   2019 marks the 150th anniversary of the completion of the transcontinental railroad.  
