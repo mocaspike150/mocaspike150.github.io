@@ -32,9 +32,13 @@ Are you one of the lucky few who are registered for the 2019 TCS New York City M
   - Access to organized team-building activities
   - Cheering stations targeted to push you through the 26.2 mile journey
   - One-Year Individual MOCA Membership ($60 value) *
+  - Special invitations to MOCA signature events throughout the year*
   - Signature MOCA Spike 150 racing top *
   - Priority invitation to pre-race dinner before marathan *
+
 
 *Need to raise at least $500 to receive
 
 ![](https://user-images.githubusercontent.com/46349226/53541187-a5334300-3ae6-11e9-9c4f-2fdcf18cbb6b.jpeg)
+
+<img src="https://user-images.githubusercontent.com/46349226/53541187-a5334300-3ae6-11e9-9c4f-2fdcf18cbb6b.jpeg" width=300px>
