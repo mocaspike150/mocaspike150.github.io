@@ -10,6 +10,10 @@ description: >
 
 url: "https://mocaspike150.github.io"
 
+collections:
+  events:
+    output: true
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
@@ -23,6 +27,7 @@ minima:
     facebook: mocanyc
     flickr: mocamuseum
     vimeo: user4422249
+
 
 google_analytics: 'UA-134524506-2'
 
