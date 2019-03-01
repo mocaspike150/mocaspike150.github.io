@@ -7,7 +7,13 @@ layout: default
 Reference: 
 <a href="https://shopify.github.io/liquid/">liquid</a>
 
-<h2>One level nav</h2>
+<h2>footer test</h2>
+{%- include footer-left.html -%}
+{%- include footer-right.html -%}
+{%- include footer-bottom.html -%}
+
+<h2>Nav test</h2>
+<h3>One level nav</h3>
 {%- if site.data.nav -%}
 <ul class="one-level-nav">
 {%- for item in site.data.nav -%}
@@ -22,7 +28,7 @@ Reference:
 </ul>
 {%- endif -%}
 
-<h2>Two level nav</h2>
+<h3>Two level nav</h3>
 {%- if site.data.nav -%}
 <ul class="two-level-nav">
 {%- for item in site.data.nav -%}
