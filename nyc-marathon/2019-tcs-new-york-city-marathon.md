@@ -10,10 +10,11 @@ hero:
 
 **Sunday, November 3, 2019**
 <div>
-5 Boroughs 
-1 City
+5 Boroughs.  
+1 City. 
 26.2 miles
 </div>
+
 
 Be a MOCA Spike 150 Ambassador! Join MOCA Spike 150 TCS New York City Marathon team and commit fundraising minimum of $5,000 to receive:
 
