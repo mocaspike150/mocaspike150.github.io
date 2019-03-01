@@ -1,12 +1,6 @@
-- title: About
-  subnav:
-    - title: MOCA
-      path: /about/moca
-    - title: MOCA Spike 150
-      path: /about/moca-spike-150
-- title: New York City Marathon
+- title: TCS NYC Marathon
   path: /nyc-marathon/2019-tcs-new-york-city-marathon
-- title: Events
-  path: /events
+- title: About MOCA
+  path: /about/moca
 - title: Donate
   path: https://www.crowdrise.com/o/en/campaign/moca-spike-150
