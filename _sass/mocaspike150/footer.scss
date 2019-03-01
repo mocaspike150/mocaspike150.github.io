@@ -1,6 +1,8 @@
 $footer-background: $primary-gold;
 $footer-text-color: $primary-dark;
+$footer-text-font: EdmundsburySansRegular;
 .site-footer {
+  font-family: $footer-text-font;
   background: $footer-background;
   border-top: none;
 }
