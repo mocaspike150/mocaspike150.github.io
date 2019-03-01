@@ -24,7 +24,7 @@ Be a MOCA Spike 150 Ambassador! Join MOCA Spike 150 TCS New York City Marathon t
 
 Are you one of the lucky few who are registered for the 2019 TCS New York City Marathon? If so, join us as a MOCA Spike 150 Ambassador to support the Museum of Chinese in America! No minimum if you already have race entry. Your role as a MOCA Spike 150 Ambassador will not conflict with your current club affiliation. In fact, it will provide an opportunity for your club to champion a worthy cause! Email [mocaspike150@mocanyc.org](mailto:mocaspike150@mocanyc.org) to signup.
 
-**All MOCA Spike 150 TCS New York City Marathon Runners will receive:**
+**All MOCA Spike 150 TCS New York City Marathon Runners Will Receive:**
 
   - Complimentary virtual training
   - Weekly training runs in New York City
