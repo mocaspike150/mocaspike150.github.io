@@ -7,3 +7,18 @@ Reference:
 <a href="https://shopify.github.io/liquid/">liquid</a>
 <pre>site.data</pre>
 {{ site.data }}
+
+{%- if site.data.nav -%}
+<ul>
+{%- for item in site.data.nav -%}
+  <li>
+    {%- if item.path -%}
+    <a href="{{item.path}}">{{ item.title }}</a>
+    {%- else -%}
+    {{ item.title }}
+    {%- endif -%}
+  
+  </li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
