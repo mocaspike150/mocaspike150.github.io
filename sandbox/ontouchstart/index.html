@@ -9,6 +9,7 @@ Reference:
 <pre>site.data</pre>
 {{ site.data }}
 
+<h2>One level nav</h2>
 {%- if site.data.nav -%}
 <ul>
 {%- for item in site.data.nav -%}
@@ -18,8 +19,36 @@ Reference:
     {%- else -%}
     {{ item.title }}
     {%- endif -%}
-  
   </li>
 {%- endfor -%}
 </ul>
 {%- endif -%}
+
+<h2>Two level nav</h2>
+{%- if site.data.nav -%}
+<ul>
+{%- for item in site.data.nav -%}
+  <li>
+    {%- if item.path -%}
+    <a href="{{item.path}}">{{ item.title }}</a>
+    {%- else -%}
+    {{ item.title }}
+    {%- endif -%}
+    {%- if item.subnav -%}
+    <ul>
+    {%- for subitem in item.subnav -%}
+    <li>
+    {%- if subitem.path -%}
+    <a href="{{subitem.path}}">{{ subitem.title }}</a>
+    {%- else -%}
+    {{ subitem.title }}
+    {%- endif -%}
+    </li>
+    {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
+
