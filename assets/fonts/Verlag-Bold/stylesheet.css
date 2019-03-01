@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Verlag';
+    src: url('Verlag-Bold.woff2') format('woff2'),
+        url('Verlag-Bold.woff') format('woff'),
+        url('Verlag-Bold.svg#Verlag-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

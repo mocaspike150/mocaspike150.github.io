@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Verlag';
+    src: url('Verlag-Light.woff2') format('woff2'),
+        url('Verlag-Light.woff') format('woff'),
+        url('Verlag-Light.svg#Verlag-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
