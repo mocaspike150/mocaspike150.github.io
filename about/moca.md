@@ -4,7 +4,7 @@ title: Museum of Chinese in America
 permalink: /about/moca/
 hero:
   image: https://user-images.githubusercontent.com/41637129/53526107-5e772600-3ab1-11e9-9357-4db8bfc6c891.jpeg
-  content: 'Museum of Chinese in America'
+  content-hidden: 'Museum of Chinese in America'
 ---
 
 Founded in 1980, the [Museum of Chinese in America(MOCA)](http://www.mocanyc.org/) is dedicated to
