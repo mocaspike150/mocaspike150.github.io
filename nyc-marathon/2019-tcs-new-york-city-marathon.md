@@ -34,4 +34,4 @@ Are you one of the lucky few who are registered for the 2019 TCS New York City M
 
 *Need to raise at least $500 to receive
 
-<img src="https://user-images.githubusercontent.com/46349226/53541187-a5334300-3ae6-11e9-9c4f-2fdcf18cbb6b.jpeg" width=50%>
+[](https://user-images.githubusercontent.com/46349226/53541187-a5334300-3ae6-11e9-9c4f-2fdcf18cbb6b.jpeg)
