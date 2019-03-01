@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pig Run
+permalink: /events/2019/02/10/kick-off-run
 ---
 # 大年初六新春欢乐野猪跑邀请!
 

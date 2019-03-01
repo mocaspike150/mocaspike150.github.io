@@ -44,7 +44,7 @@ Marathon (June), Chicago Marathon (October), and the New York City Marathon
 
 
 Kicking off on Feb.10 with 100 runners from multiple local running groups participating in the
-[pig run](/events/pigrun), a series of programs will be followed culminating in the MOCA team running the
+[pig run](/events/2019/02/10/kick-off-run), a series of programs will be followed culminating in the MOCA team running the
 New York City Marathon. Details are coming soon, please stay tuned! The events and
 programs will be posted on a dedicated website. MOCA also plans to document the
 initiative and create a documentary to celebrate this momentous occasion. Please join

@@ -2,6 +2,7 @@
 layout: post
 title: "MOCA Spike 150 Year: A Run for the Pig!"
 author: Amy Ko-Tang
+permalink: /events/2019/02/10/MOCA-Spike150-Year-of-the-pig-run-report
 ---
 ![moca spike 150_pig run](https://user-images.githubusercontent.com/46349226/53204949-eca76400-35fa-11e9-8e0d-6561f793135d.png)
 
@@ -64,4 +65,4 @@ NYC is renowned for its fertile soil for the dreamers, the hard-workers and the 
 
 Support MOCA's mission, please [donate to MOCA Team](https://www.crowdrise.com/o/en/campaign/moca-spike-150).
 
-[中文报导](2019-02-10-MOCA-Spike-150-野豬迎春記)
+[中文报导](/events/2019/02/10/MOCA-Spike-150-野豬迎春記)
