@@ -4,9 +4,7 @@ hero:
   image: https://user-images.githubusercontent.com/46349226/53614243-44b80a80-3ba7-11e9-8ae0-01a7392e32d6.jpg
   content-hidden: 'TCS New York City Marathon'
 ---
-
-
-### TCS New York City Marathon
+# TCS New York City Marathon
 
 **Sunday, November 3, 2019**
 
