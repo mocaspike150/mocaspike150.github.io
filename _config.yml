@@ -7,17 +7,18 @@ description: >
   The “MOCA Spike 150 - Running Forward with Our Stories!”  initiative will honor the thousands of
   Chinese workers responsible for this great milestone in American History as well as explore 
   the Chinese diaspora throughout America.  
+url: "https://www.mocaspike150.org"
+timezone: America/New_York
 
-url: "https://mocaspike150.github.io"
 
 collections:
   events:
     output: true
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
- - jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
  
 minima:
   social_links:
@@ -31,3 +32,10 @@ minima:
 
 google_analytics: 'UA-134524506-2'
 
+exclude: 
+- Dockerfile
+- docker-compose.yml
+- README.md
+- Gemfile
+- Gemfile.lock
+- mocaspike150-theme.gemspec
