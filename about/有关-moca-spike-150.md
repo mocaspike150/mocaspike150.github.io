@@ -39,4 +39,6 @@ permalink: /about/有关-moca-spike-150/
 
 *每颗小水滴有聚集成涌泉的可能性! 积沙成塔, 每一份小钱都可化为大能量!*
 
-MOCA Spike 150活动期间, 欢迎大家慷慨解囊, 可以捐款给整个MOCA Spike 150团队或给任何一位MOCA spike Ambassador跑者, 不管金额大小都是非常大的帮助与鼓励, MOCA Spike 150也在此感谢所有愿意为MOCA而跑跟散播我们正能量讯息的朋友. 捐款链结.
+MOCA Spike 150活动期间, 欢迎大家慷慨解囊, 可以捐款给整个MOCA Spike 150团队或给任何一位MOCA spike Ambassador跑者, 不管金额大小都是非常大的帮助与鼓励, MOCA Spike 150也在此感谢所有愿意为MOCA而跑跟散播我们正能量讯息的朋友. [捐款链结](/donate).
+
+![moca homepage banner](https://user-images.githubusercontent.com/46349226/53680110-5501df80-3ca4-11e9-8152-d96f0536f241.jpg)
