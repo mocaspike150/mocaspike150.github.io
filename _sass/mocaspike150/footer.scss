@@ -26,8 +26,13 @@ $footer-text-font: EdmundsburySansRegular;
 .social-media-list {
     margin: 0;
 }
+
 .social-media-list li a {
   border: 1px solid $primary-blue;
+  padding: 0;
+  img {
+    height: 32px;
+  }
 }
 
 .footer-title {
