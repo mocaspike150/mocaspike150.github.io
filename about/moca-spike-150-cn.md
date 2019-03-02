@@ -1,7 +1,7 @@
 ---
 layout: cn
 title: 有关 MOCA SPIKE 150
-permalink: /about/有关-moca-spike-150/
+permalink: /about/moca-spike-150-cn/
 lang: cn
 ---
 
