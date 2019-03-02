@@ -43,7 +43,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/fb-header.jpg
+      image: /assets/images/fb-header.jpg
       
 google_analytics: 'UA-134524506-2'
 
