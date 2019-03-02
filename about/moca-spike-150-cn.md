@@ -49,4 +49,3 @@ MOCA Spike 150活动期间, 欢迎大家慷慨解囊, 可以捐款给整个MOCA 
 
 ![moca homepage banner](https://user-images.githubusercontent.com/46349226/53680110-5501df80-3ca4-11e9-8152-d96f0536f241.jpg)
 
-
