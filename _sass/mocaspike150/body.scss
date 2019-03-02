@@ -34,11 +34,11 @@ blockquote {
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.2);
+  @include relative-font-size(2.4);
   letter-spacing: -1px;
   line-height: 1;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(2);
+    @include relative-font-size(2.2);
   }
 }
