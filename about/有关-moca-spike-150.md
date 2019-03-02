@@ -17,7 +17,7 @@ lang: cn
 
 谢谢corporate sponsors的熱烈支持，今年MOCA纽马慈善跑团队的15个名额已**全部满额**！然而跑者們还是能用以下的任何方式参与跟支持:
 
-### 如何参与?
+### 参与方式
 
 #### 1. Be a MOCA Spike 150 Ambassador
 
