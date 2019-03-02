@@ -21,7 +21,7 @@ body{
 blockquote {
   color: $body-text-color;
   border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit-10;
+  padding-left: 20px;
   @include relative-font-size(1);
   letter-spacing: -1px;
   font-style: italic;
