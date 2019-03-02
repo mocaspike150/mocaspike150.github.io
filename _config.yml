@@ -39,6 +39,12 @@ minima:
     vimeo: user4422249
 
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/FB%20Header.jpg
+      
 google_analytics: 'UA-134524506-2'
 
 exclude: 
