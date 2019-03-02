@@ -25,9 +25,9 @@ blockquote {
   @include relative-font-size(1);
   letter-spacing: -1px;
   font-style: italic;
-  margin: 20px;
+  margin: 40px 0;
 
   > :last-child {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 }
