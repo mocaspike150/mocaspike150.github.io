@@ -26,3 +26,9 @@ $page-link-color: $primary-blue;
     color: $page-link-color;
   }
 } 
+
+a.page-link:hover {
+  color: $primary-gold;
+  text-decoration: none;
+}
+
