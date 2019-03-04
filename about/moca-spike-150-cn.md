@@ -15,7 +15,11 @@ MOCA自1980年建成以来，一直致力于收集、保存、展示华人在美
 
 现诚邀各跑团跑友支持参与这个活动，鼓励大家通过跑步、通过马拉松，讲出华人自己的故事，回顾过去、立足现在、展望未来，共同书写美国历史，使之更加充实完整。MOAC会在这个长达数月的活动中，记录华人跑团、跑者的故事，讲述华人在美的百年历史，并拍一部纪录片记载这个非营利机构通过公益跑步讲述历史、募捐发展的整个活动记实。
 
-![img_0219-collage](https://user-images.githubusercontent.com/46349226/53706745-c69f7200-3df9-11e9-9a1d-317809f92484.jpg)
+2/18-20 紀錄片導演Ken Eng來到紐約拍攝跑者的訪問
+
+![Runners Interview](https://user-images.githubusercontent.com/46349226/53707213-023b3b80-3dfc-11e9-90a8-71b6f6a51cac.jpg)
+
+![Reunners Interview]https://user-images.githubusercontent.com/46349226/53707138-aa9cd000-3dfb-11e9-81df-e9b6550cd356.jpg)
 
 谢谢corporate sponsors的熱烈支持，今年MOCA纽马慈善跑团队的15个名额已**全部满额**！然而跑者們仍然可以用以下的任何方式参与跟支持:
 
