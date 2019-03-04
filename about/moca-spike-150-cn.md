@@ -21,7 +21,6 @@ MOAC会在这个长达数月的活动中，记录华人跑团、跑者的故事�
 *二月底纪录片导演Ken Eng来到纽约拍摄跑者的访问的相片纪录*
 
 ![Runners Interview](https://user-images.githubusercontent.com/46349226/53707213-023b3b80-3dfc-11e9-90a8-71b6f6a51cac.jpg)
-
 ![Reunners Interview](https://user-images.githubusercontent.com/46349226/53707138-aa9cd000-3dfb-11e9-81df-e9b6550cd356.jpg)
 
 
