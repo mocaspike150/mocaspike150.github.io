@@ -18,7 +18,7 @@ MOCA自1980年建成以来，一直致力于收集、保存、展示华人在美
 
 MOAC会在这个长达数月的活动中，记录华人跑团、跑者的故事，讲述华人在美的百年历史，并拍一部纪录片记载这个非营利机构通过公益跑步讲述历史、募捐发展的整个活动记实。
 
-*二月底纪录片导演Ken Eng来到纽约拍摄跑者的访问的相片纪录*
+*二月底时纪录片导演[Kenneth Eng](https://quincyasianresources.org/meet-kenneth-eng)来到纽约拍摄各年龄层华人跑者的访问的剪影*
 
 ![Runners Interview](https://user-images.githubusercontent.com/46349226/53707213-023b3b80-3dfc-11e9-90a8-71b6f6a51cac.jpg)
 ![Reunners Interview](https://user-images.githubusercontent.com/46349226/53707138-aa9cd000-3dfb-11e9-81df-e9b6550cd356.jpg)
