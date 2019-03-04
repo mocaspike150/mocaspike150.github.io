@@ -26,7 +26,7 @@ MOAC会在这个长达数月的活动中，记录华人跑团、跑者的故事�
 
 ![moca homepage banner](https://user-images.githubusercontent.com/46349226/53707886-db323900-3dfe-11e9-8832-8bb209f2eb52.jpg)
 
-谢谢corporate sponsors的熱烈支持，今年MOCA纽马慈善跑团队的15个名额已**全部满额**！然而跑者們仍然可以用以下的任何方式参与跟支持:
+>感谢corporate sponsors的熱烈支持，今年MOCA纽马慈善跑团队的15个名额已**全部满额**！然而跑者們仍然可以用以下的任何方式参与跟支持:
 
 ### 参与方式:
 
