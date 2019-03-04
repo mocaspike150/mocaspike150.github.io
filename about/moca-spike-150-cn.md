@@ -1,6 +1,6 @@
 ---
 layout: cn
-title: 有关 MOCA SPIKE 150
+title: 有关 MOCA Spike 150
 permalink: /about/moca-spike-150-cn/
 lang: cn
 ---
