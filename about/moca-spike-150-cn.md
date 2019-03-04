@@ -2,8 +2,6 @@
 layout: cn
 title: 有关 MOCA Spike 150
 permalink: /about/moca-spike-150-cn/
-hero:
-  image: https://storage.googleapis.com/wzukusers/user-29679318/images/5a23a659134adQVuzYv1/10772801_d1000.jpg
  
 ---
 
