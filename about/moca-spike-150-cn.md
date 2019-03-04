@@ -58,6 +58,6 @@ MOAC会在这个长达数月的活动中，记录华人跑团、跑者的故事�
 
 MOCA Spike 150活动期间，欢迎大家慷慨解囊。支持MOCA的Mission，您可以捐款给整个MOCA Spike 150团队或给任何一位MOCA spike Ambassador跑者。无论金额多少都是非常强大的任可、鼓励、与帮助, MOCA Spike 150也在此感谢所有愿意为MOCA而跑及传播我们正能量讯息的朋友，让我们为我们自己的历史保存而跑！
 
-支持MOCA的事业，请给[MOCA SPike 150团队捐款](https://www.crowdrise.com/o/en/campaign/moca-spike-150)。
+支持MOCA的事业，请给[MOCA Spike 150团队捐款](https://www.crowdrise.com/o/en/campaign/moca-spike-150)。
 
 
