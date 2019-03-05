@@ -3,7 +3,7 @@ layout: cn
 title: 有关 MOCA Spike 150
 permalink: /about/moca-spike-150-cn/
 hero:
-  image: https://user-images.githubusercontent.com/46349226/53771945-8ea83580-3eb2-11e9-83eb-8132bed6dba5.jpg
+  image: https://user-images.githubusercontent.com/46349226/53772210-8ef50080-3eb3-11e9-93ca-bf0970a446f2.jpg
 ---
 
 > 美国华人博物馆（MOCA）是美国最大的记载华裔美国人历史的非营利博物馆。 MOCA通过收集档案，展览教育向全美和世界宣传华裔对美国文化历史的重要贡献。 博物馆坐落于曼哈顿华埠的中央街215号， 由设计华盛顿越战墙的著名华人建筑师林璎设计。
