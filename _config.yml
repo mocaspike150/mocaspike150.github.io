@@ -41,6 +41,8 @@ minima:
 fb: 
     appid: 2562680747076655
 
+twitter:
+    username: mocanyc
 
 defaults:
   - scope:
