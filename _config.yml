@@ -37,6 +37,9 @@ minima:
     facebook: mocanyc
     flickr: mocamuseum
     vimeo: user4422249
+    
+ fb: 
+    appid: 2562680747076655
 
 
 defaults:
