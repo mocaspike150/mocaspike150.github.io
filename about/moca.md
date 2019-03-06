@@ -3,7 +3,7 @@ layout: page
 title: Museum of Chinese in America
 permalink: /about/moca/
 hero:
-  image: https://user-images.githubusercontent.com/41637129/53526107-5e772600-3ab1-11e9-9357-4db8bfc6c891.jpeg
+  image: https://user-images.githubusercontent.com/46349226/53846554-5fa9c680-3f7b-11e9-9089-1cb70a454cfc.jpg
   content-hidden: 'Museum of Chinese in America'
 ---
 
