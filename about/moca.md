@@ -26,7 +26,7 @@ partner. Our team of seven runners raised $88,000 to support MOCA’s mission. M
 Chinese American running groups and runners learned about our efforts and showed
 their support. We are grateful to them for helping to further our mission in presenting
 the stories of Chinese Americans! This year we hope to reach a larger demographic
-and raise even more fund to support our work.
+and raise even more funds to support our work.
 
 ![](https://mocaspike150home.files.wordpress.com/2019/02/moca2018team.jpg)
 TCS NYC Marathon MOCA Charity Team 2018
