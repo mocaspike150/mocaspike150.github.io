@@ -1,6 +1,7 @@
 ---
 layout: default
 message: MOCA Spike 150 
+
 ---
 
 <a id="gn-twitter-btn" class="gn-btn btn-twitter" href="https://www.twitter.com/intent/tweet?text={{page.message}}">
@@ -22,4 +23,42 @@ message: MOCA Spike 150
   };
 
   return t;
-}(document, "script", "twitter-wjs"));</script>
+}(document, "script", "twitter-wjs"));
+
+function windowPopup(url, width, height) {
+  // Calculate the position of the popup so
+  // it’s centered on the screen.
+  var left = (screen.width / 2) - (width / 2),
+      top = (screen.height / 2) - (height / 2);
+
+  window.open(
+    url,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width=" + width + ",height=" + height + ",top=" + top + ",left=" + left
+  );
+}
+  
+  
+  //jQuery
+$(".js-social-share").on("click", function(e) {
+  e.preventDefault();
+
+  windowPopup($(this).attr("href"), 500, 300);
+});
+
+// Vanilla JavaScript
+var jsSocialShares = document.querySelectorAll(".js-social-share");
+if (jsSocialShares) {
+  [].forEach.call(jsSocialShares, function(anchor) {
+    anchor.addEventListener("click", function(e) {
+      e.preventDefault();
+
+      windowPopup(this.href, 500, 300);
+    });
+  });
+}
+  </script>
+
+<a class="js-social-share" href="https://twitter.com/intent/tweet/?text={{page.message}}&url=https%3A%2F%2Fjonsuh.com%2F" target="_blank">Share on Twitter</a>
+
+
