@@ -7,7 +7,7 @@ hero:
   content-hidden: 'Museum of Chinese in America'
 ---
 
-Founded in 1980, the [Museum of Chinese in America(MOCA)](http://www.mocanyc.org/) is dedicated to
+Founded in 1980, the [Museum of Chinese in America (MOCA)](http://www.mocanyc.org/) is dedicated to
 preserving and presenting the history, heritage, culture and diverse experiences of
 people of Chinese descent in the United States. The greatly expanded MOCA at 215
 Centre Street is a national home for the precious narratives of diverse Chinese
@@ -21,7 +21,7 @@ accommodates its range of visitors which include: New Yorkers, domestic and
 international visitors, neighborhood residents, students and school groups from local
 and regional schools.
 
-Last Year, MOCA began participating in the New York City Marathon as a charitable
+Last year, MOCA began participating in the TCS New York City Marathon as a charitable
 partner. Our team of seven runners raised $88,000 to support MOCA’s mission. Many
 Chinese American running groups and runners learned about our efforts and showed
 their support. We are grateful to them for helping to further our mission in presenting
