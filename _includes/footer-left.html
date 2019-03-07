@@ -1,6 +1,10 @@
 <style>
-  p-name{
+  .p-name{
     font-family: verlag-bold;
+  }
+  .footer-box{
+     style="float: left;
+     padding-right: 10px;
   }
 </style>
 <div class="footer-col one-half">
@@ -17,17 +21,14 @@
     <li><a href="/contact-us/">Contact Us</a></li>
   </ul>
   
-  <div style="float: left;" >
+  <div class="footer-box" >
    <img src="https://user-images.githubusercontent.com/46349226/53992814-c81fb180-40fb-11e9-82af-4f690eb1d966.jpg" width="70">
 </div>
-<div style="float: left;" >
+<div class="footer-box">
    {%- if site.address -%}
       {{ site.address }}
     {%- endif -%}
 </div>
  
-  
-  
 
-      {%- include social-png.html -%}
 </div>
