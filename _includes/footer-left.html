@@ -16,11 +16,18 @@
 
     <li><a href="/contact-us/">Contact Us</a></li>
   </ul>
-  <img src="https://user-images.githubusercontent.com/46349226/53992814-c81fb180-40fb-11e9-82af-4f690eb1d966.jpg" width="70">
   
-    {%- if site.address -%}
-      <li>{{ site.address }}</li>
+  <div style="float: left;" >
+   <img src="https://user-images.githubusercontent.com/46349226/53992814-c81fb180-40fb-11e9-82af-4f690eb1d966.jpg" width="70">
+</div>
+<div style="float: left;" >
+   {%- if site.address -%}
+      {{ site.address }}
     {%- endif -%}
-  </ul>
+</div>
+ 
+  
+  
+
       {%- include social-png.html -%}
 </div>
