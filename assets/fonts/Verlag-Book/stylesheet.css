@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Verlag Book';
+    src: url('Verlag-Book.woff2') format('woff2'),
+        url('Verlag-Book.woff') format('woff'),
+        url('Verlag-Book.svg#Verlag-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
