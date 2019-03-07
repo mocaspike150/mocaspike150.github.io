@@ -1,7 +1,7 @@
 <div class="contact">
     <div class="column">
       <form method="POST" action="https://formspree.io/{{site.contact_email}}">
-	<input type="hidden" name="_next" value="contact-us/index.html"/>
+	<input type="hidden" name="_next" value="contact-us/index.html?thankyou=yes"/>
         <label for="fname">Your Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name.."  class="form-control"  required="" oninvalid="this.setCustomValidity('Enter your name')" onchange="this.setCustomValidity('')" value="">
         <label for="email">Your Email</label>
