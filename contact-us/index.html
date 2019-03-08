@@ -7,6 +7,10 @@ permalink: /contact-us/
 <style>
 
 
+
+<style>
+
+
 * {
   box-sizing: border-box;
 }
@@ -22,7 +26,7 @@ input[type=text], input[type=email], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #FFA10A;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -57,11 +61,53 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+  .column, .col {
     width: 100%;
     margin-top: 0;
   }
 }
+	
+
 </style>
 
-{%- include contact-us-form.html -%}
+<div class="container">
+	<div class="row">
+    		<div class="col" style="padding=10px">
+			<h4>Quesiton? Email us or use the form below to tell us about your question.</h4>
+		 </div>
+	</div>
+  	<div class="row">
+    		<div class="col">
+	    		<div class="contact">
+				<div class="column">
+				<form method="POST" action="https://formspree.io/{{site.contact_email}}">
+				<input type="hidden" name="_next" value="contact-us/thankyou.html"/>
+				<label for="fname"><b>Your Name</b></label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name.."  class="form-control"  required="" oninvalid="this.setCustomValidity('Enter your name')" onchange="this.setCustomValidity('')" value="">
+				<label for="email"><b>Your Email</b></label>
+				<input type="email"  id="email" name="email" placeholder="Your email.." class="form-control" placeholder="" required="" oninvalid="this.setCustomValidity('Enter valid email')" onchange="this.setCustomValidity('')" value="">
+				<label for="message"><b>Message</b></label>
+				<textarea id="message" name="message" placeholder="" style="height:170px"></textarea>
+				<input type="submit" value="Submit">
+				 </form>
+				</div>
+             		</div>
+   	 	</div>
+    		<div class="col">
+			<div class="contact">
+			   <div class="column">
+				  <b>General Information</b><br/>
+				  <a href="mailto:mocaspike150@mocanyc.org">mocaspike150@mocanyc.org</a>
+			      
+				 
+				   <p></p>
+				   <b>The Museum of Chinese in America</b><br/>
+				   215 Centre Street <br/>
+				   New York, NY 10013 <br/>
+				   855-955-6622<br/>
+
+			      </div>
+			</div>
+    		</div>
+  	</div>
+</div>
