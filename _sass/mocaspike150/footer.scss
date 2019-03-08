@@ -16,7 +16,7 @@ $footer-text-font: Verlag-Light;
   width:         calc(50% - (#{$spacing-unit} / 2));
     @media only screen 
     and (min-device-width: 320px) 
-    and (max-device-width: 480px)
+    and (max-device-width: 600px)
     and (-webkit-min-device-pixel-ratio: 2)
     and (orientation: portrait) {
        width:         calc(100% - (#{$spacing-unit} / 2));
