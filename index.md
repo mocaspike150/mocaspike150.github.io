@@ -1,13 +1,7 @@
 ---
 layout: home
 hero:
-  image: https://user-images.githubusercontent.com/41637129/54051793-a7656380-41b0-11e9-9d69-0f0d407f1a33.jpg
-  style: home
-  content-hidden: >
-    <div style="text-align: right">
-    <h1>MOCA Spike 150</h1>
-    <h3>Running Forward With Our Stories</h3>
-    </div>
+  image: https://user-images.githubusercontent.com/41637129/54052038-4b4f0f00-41b1-11e9-98cb-ce0768d39eda.jpg
 ---
 
 At the Museum of Chinese in America (MOCA), a national cultural institution that tells the untold stories in the making of America through the lens of the Chinese immigrant experience, visitors are greeted with the Chinese proverb: “*A journey of a thousand miles begins with a single step.*” It is our way of honoring the pioneering spirit of not only Chinese immigrants but all immigrants who sacrificed and dared to take the first step that blazed a path for future generations in America.
