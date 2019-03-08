@@ -11,4 +11,4 @@ RUN  apk add --no-cache --update --virtual .build_deps make build-base \
 VOLUME ["/site"]
 EXPOSE 4000
 WORKDIR /site
-ENTRYPOINT ["jekyll", "serve", "--drafts", "-w", "--host=0.0.0.0"]
+ENTRYPOINT ["jekyll", "serve", "--drafts", "-w", "--host=0.0.0.0", "--port=8080"]
