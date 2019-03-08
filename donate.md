@@ -4,13 +4,13 @@ title: Donate
 
 ---
 <div class="donate">
-<h3>Be a part of our online fundraising campaign!</h3>
+<h4>Be a part of our online fundraising campaign!</h4>
 
 <div>
   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick" />
   <input type="hidden" name="hosted_button_id" value="7S69937XHZSDL" />
-  <input type="image" src="https://user-images.githubusercontent.com/46349226/54059553-9411c280-41c7-11e9-9cbf-1331e4c5483c.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+  <input type="image" src="https://user-images.githubusercontent.com/46349226/54059816-80b32700-41c8-11e9-8144-7fc2c7d15848.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
   <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
   </form>
  </div>
