@@ -10,7 +10,7 @@ title: Donate
   <div>
     <div><b>General Spike 150 donation:</b></div>
     <div>
- 
+      {%- include paypal.html -%}
     </div>
    </div>
 
