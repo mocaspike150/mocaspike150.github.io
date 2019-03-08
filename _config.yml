@@ -21,6 +21,8 @@ timezone: America/New_York
 contact_email: rshih@mocanyc.org
 
 collections:
+  blog:
+    output: true
   events:
     output: true
 
@@ -59,3 +61,5 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - mocaspike150-theme.gemspec
+
+show_excerpts: true
