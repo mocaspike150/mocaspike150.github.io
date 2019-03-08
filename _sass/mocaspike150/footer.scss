@@ -21,6 +21,12 @@ $footer-text-font: Verlag-Light;
     and (orientation: portrait) {
        width:         calc(100% - (#{$spacing-unit} / 2));
   }
+
+    @media screen and (max-width: 992px) {
+    body {
+       width:         calc(100% - (#{$spacing-unit} / 2));
+     }
+  }
 }
 
 .social-media-list {
