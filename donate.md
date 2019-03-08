@@ -13,14 +13,13 @@ title: Donate
       {%- include paypal.html -%}
     </div>
    </div>
-
-
-
-
   <div>
-  Support Other Spike 150 Marathon Runners
-  ![https://user-images.githubusercontent.com/46349226/54060346-5a8e8680-41ca-11e9-819e-961ef4d24b0b.png](https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc)
-  </div>
+Support Other Spike 150 Marathon Runners
+<a href="https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc">
+<img src="https://user-images.githubusercontent.com/46349226/54060346-5a8e8680-41ca-11e9-819e-961ef4d24b0b.png"/>
+</a>
+
+</div>
 
   <div>
   Pay by check:
