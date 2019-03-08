@@ -19,3 +19,4 @@ Crowdrise
 [Donate to MOCA Marathon team](https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc)
 
 Pay by check:
+Please mail to: xxx
