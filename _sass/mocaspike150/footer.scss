@@ -9,7 +9,9 @@ $footer-text-font: Verlag-Light;
 .footer-col-wrapper {
   color: $footer-text-color;
 }
-
+.footer-col {
+    margin-bottom: 10px;
+}
 // mobile view adjustment
 .one-half {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
