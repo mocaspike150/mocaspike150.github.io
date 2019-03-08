@@ -1,7 +1,7 @@
 ---
 layout: home
 hero:
-  image: https://user-images.githubusercontent.com/41637129/53459326-5cf12380-3a07-11e9-9131-0068ee8fe49d.png
+  image: https://user-images.githubusercontent.com/41637129/54051793-a7656380-41b0-11e9-9d69-0f0d407f1a33.jpg
   style: home
   content-hidden: >
     <div style="text-align: right">
