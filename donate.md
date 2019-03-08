@@ -4,7 +4,7 @@ title: Donate
 
 ---
 <div class="donate">
-<h4>Support MOCA Spike 150 initiative to celebrate the 150th anniversary of the completion of the Transcontinental Railroad, honor the contributions of the Chinese ancestry who toiled and gave their lives to build America into the country it is today, and tell 150 untold stories of Chinese in America.</h4>
+<b>Support MOCA Spike 150 initiative to celebrate the 150th anniversary of the completion of the Transcontinental Railroad, honor the contributions of the Chinese ancestry who toiled and gave their lives to build America into the country it is today, and tell 150 untold stories of Chinese in America.</b>
 
   <div>Be a part of our online fundraising campaign! please click below links to make your donation:</div>
   <div>
