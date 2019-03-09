@@ -11,12 +11,12 @@ title: Donation
 
 /* Create three equal columns that floats next to each other */
   
-.2-column {
+.column {
   width: 50%;
   padding: 10px;
   
 }
-.2-column {
+.column-1 {
   float: left;
   width: 50%;
   padding: 10px;
@@ -32,7 +32,7 @@ title: Donation
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-   .2-column {
+   .column-2 {
     width: 100%;
   }
 }
@@ -42,7 +42,7 @@ title: Donation
 <p>Be a part of our online fundraising campaign! please click below links to make your donation:</p>
 
 <div class="row">
-   <div class="1-column" >
+   <div class="column-1" >
      <p><b>General Spike 150 donation:</b></p>
     <p>{%- include paypal.html -%}</p>
     
@@ -54,12 +54,12 @@ title: Donation
 <div class="row">
  
   
-  <div class="2-column" ">
+  <div class="column-2">
      <p><b>Support TCS New York City Marathon MOCA Team</b></p>
     <p><a href="https://www.crowdrise.com/donate/project/moca-spike-150/mocanyc"><img src="http://www.teamimermanangels.com/uploads/1/0/0/9/100975628/published/2015-tcs-logo.png?1518468308" width="150"></a>
   </p>
   </div>
-  <div class="2-column" >
+  <div class="column-2" >
     <p><b>Support Other Spike 150 Marathon Runners</b></p>
     <p> <a href="https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc"><img src="https://user-images.githubusercontent.com/46349226/54060728-d1784f00-41cb-11e9-845e-7f6f4881601d.png" width="100"></a>
  </p>
@@ -68,7 +68,7 @@ title: Donation
 
 <div class="row">
 
-  <div class="1-column" >
+  <div class="column-1" >
       <p><b>Pay by check:</b></p>
       Mail your check to:<br/>
       215 Centre Street New York, NY 10013<br/>
