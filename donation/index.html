@@ -2,10 +2,19 @@
 layout: page
 title: Donation
 ---
+
+
 <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -14,7 +23,42 @@ title: Donation
   display: table;
   clear: both;
 }
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 </style>
+</head>
+<body>
+
+<h2>Responsive Three Column Layout</h2>
+<p>Be a part of our online fundraising campaign! please click below links to make your donation:</p>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h4>General Spike 150 donation:</4>
+    <p>{%- include paypal.html -%}</p>
+    
+      
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h4>Support Other Spike 150 Marathon Runners</h4>
+    <p> <a href="https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc"><img src="https://user-images.githubusercontent.com/46349226/54060728-d1784f00-41cb-11e9-845e-7f6f4881601d.png"></a>
+ </p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Support MOCA Spike 150 TCS New York City Marathon Team</h2>
+    <p><a href="https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc"><img src="http://www.teamimermanangels.com/uploads/1/0/0/9/100975628/published/2015-tcs-logo.png?1518468308"></a>
+  </p>
+  </div>
+</div>
+  
+  
+
+
 <div class="donate">
 <h3>Be a part of our online fundraising campaign! please click below links to make your donation:</h3>
     <p></p>
@@ -22,32 +66,7 @@ title: Donation
 </div>
 
 
-<div class="row">
-  <div class="column">
-      <p><b>General Spike 150 donation:</b></p>
-    
-      {%- include paypal.html -%}
-  </div>
-  <div class="column">
-    <p><b>Support Other Spike 150 Marathon Runners</b></p>
-    <a href="https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc"><img src="https://user-images.githubusercontent.com/46349226/54060728-d1784f00-41cb-11e9-845e-7f6f4881601d.png"></a>
- 
-  </div>
-  <div class="column">
-     <p><b>Support MOCA Spike 150 TCS New York City Marathon Team</b></p>
-     <a href="https://www.crowdrise.com/donate/project/moca-spike-150-ambassadors/mocanyc"><img src="http://www.teamimermanangels.com/uploads/1/0/0/9/100975628/published/2015-tcs-logo.png?1518468308"></a>
-  </div>
-  
-</div>
 
-<div class="donate">
-  
-  <div class="don-box">
-      </div>
-   <div class="don-box">
-    </div>
-  
-</div>
 
 <div class="donate">
   Pay by check:
