@@ -1,5 +1,9 @@
 ---
 layout: wp
+railroad:
+  sections:
+    - "38.548,18.844 37.709,25.1 36.783,32.036 35.516,41.489 34.586,48.432 33.465,56.796 41.967,57.887 42.969,50.405 43.886,43.555 45.213,33.651 46.131,26.803 47.05,19.938"
+    - "74.151,17.987 65.586,17.718 65.385,26.271 65.223,33.225 64.987,43.353 64.825,50.308 64.692,55.979 73.256,56.247 73.408,49.827 73.567,42.906 73.807,32.774 73.968,25.854 "
 ---
 <style>
   svg {
@@ -8,3 +12,13 @@ layout: wp
 </style>
 <h1>Relay</h1>
 {% include relay.html %}
+
+<h2>Track</h2>
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1280px" height="183.332px" viewBox="0 0 1280 183.332" enable-background="new 0 0 1280 183.332" xml:space="preserve">
+	<g fill="green">
+{% for points in page.railroad.sections %}
+<polygon opacity="0.4"  points="{{ points }}"/>
+{% endfor %}
+<g>
+</svg>
