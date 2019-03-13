@@ -2,6 +2,7 @@
   <div class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">
+       {% if page.header %}
 	<div class="page-header">
 	  <div class="container">
 	    <div class="row hestia-big-title-content">
@@ -9,9 +10,12 @@
        	      </div>
             </div>
 	  </div>
-	  <div class="header-filter" style="background-image: url(/wp/uploads/2019/03/Home_hero.jpg)"></div>
+	  {% if page.header.hero %}
+	  <div class="header-filter" style="background-image: url({{ page.header.hero }})"></div>
+          {% endif %}
+          </div>
         </div>
-      </div>
+      {% endif %}
     </div>
   </div>
 </div>
