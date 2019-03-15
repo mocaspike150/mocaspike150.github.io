@@ -317,3 +317,5 @@ background-color: rgba(0, 0, 0, 0.4) !important;
     -moz-box-shadow: none;
     box-shadow: none;
 }
+
+body.custom-background { background-color: #ffffff; }
