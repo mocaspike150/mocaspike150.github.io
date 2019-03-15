@@ -11,13 +11,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Verlag-Bold";
 
 }
-.footer-big .widget {
-    font-size: 1.1em;
-}
-.footer .widget h5 {
-
-font-family: "Sifonn-Pro"
-}
 
 .navbar .navbar-collapse > .navbar-nav > li.menu-item > a {
     font-family: "Verlag-Bold";
@@ -115,58 +108,6 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in-content, .info-title, .card-title, .page-header.header-small .hestia-title, .page-header.header-small .title, .widget h5, .hestia-title, .title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .carousel h1.hestia-title, .carousel h2.title, .carousel span.sub-title, .woocommerce.single-product h1.product_title, .woocommerce section.related.products h2, .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
     font-family: Verlag-bold;
 }
-
-/*footer*/
-footer.footer.footer-black {
-    background: #FFA10A;
-}
-.footer-big .widget {
-    color: #000B43;
-}
-.footer .widget h5 {
-    margin-bottom: 10px;
-}
-footer.footer.footer-black h5, footer.footer.footer-black h4, footer.footer.footer-black i, footer.footer.footer-black .copyright {
-    color: #000B43;
-}
-.footer-big p {
-    color:#000B43;
-}
-
-.footer-big .copyright {
-
-    display: none;
-}
-
-.footer-title {
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-footer.footer.footer-black .tagline {
-   padding-bottom: 10px;
-}
-
-  .site-footer {
-    /*font-family: verlag-book;*/
-  }
- .moca p {
-    color: #562b00;
-    margin-bottom: 0;
- }
-  .p-name{
-    font-family: verlag-bold;
-  }
-
-  .companyname {
-    font-family: verlag-bold;
-  }
-  .contact_us_link {
-    font-family: verlag-book;
-  }
-  .footer-heading {
-    margin-bottom: 5px;
-  }
-/*from Bergen Runners*/
 
 /*calendar customization*/
 .events-list article.section {
@@ -283,3 +224,5 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 body.custom-background { background-color: #ffffff; }
+
+{% include wp/css/footer.css %}

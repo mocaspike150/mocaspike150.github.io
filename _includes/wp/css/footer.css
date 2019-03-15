@@ -1,0 +1,52 @@
+footer.footer.footer-black {
+    background: #FFA10A;
+}
+.footer-big .widget {
+    font-size: 1.1em;
+    color: #000B43;
+}
+.footer .widget h5 {
+    margin-bottom: 10px;
+    font-family: "Sifonn-Pro"
+}
+footer.footer.footer-black h5, footer.footer.footer-black h4, footer.footer.footer-black i, footer.footer.footer-black .copyright {
+    color: #000B43;
+}
+.footer-big p {
+    color:#000B43;
+}
+
+.footer-big .copyright {
+
+    display: none;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+footer.footer.footer-black .tagline {
+   padding-bottom: 10px;
+}
+
+.site-footer {
+    /*font-family: verlag-book;*/
+}
+
+ .moca p {
+    color: #562b00;
+    margin-bottom: 0;
+ }
+  .p-name{
+    font-family: verlag-bold;
+  }
+
+  .companyname {
+    font-family: verlag-bold;
+  }
+  .contact_us_link {
+    font-family: verlag-book;
+  }
+  .footer-heading {
+    margin-bottom: 5px;
+  }
