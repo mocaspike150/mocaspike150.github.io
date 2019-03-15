@@ -50,3 +50,16 @@ footer.footer.footer-black .tagline {
   .footer-heading {
     margin-bottom: 5px;
   }
+
+.social-media-list {
+    margin: 0
+}
+
+.social-media-list li a {
+    border: 0;
+    padding: 0
+}
+
+.social-media-list li a img {
+    height: 45px
+}
