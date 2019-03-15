@@ -89,3 +89,8 @@ footer.footer.footer-black .tagline {
     fill: currentColor
 }
 
+footer.footer.footer-black i.fab {
+   margin: 10px;
+   font-size: x-large;
+   color: #fff;
+}
