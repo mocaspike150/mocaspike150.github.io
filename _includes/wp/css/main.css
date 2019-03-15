@@ -1,0 +1,285 @@
+{% include wp/css/font.css %}
+
+body {
+  direction: ltr;
+  color: #000b43;
+  font-family: "Verlag-Light";
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Verlag-Bold";
+
+}
+.footer-big .widget {
+    font-size: 1.1em;
+}
+.footer .widget h5 {
+
+font-family: "Sifonn-Pro"
+}
+
+.navbar .navbar-collapse > .navbar-nav > li.menu-item > a {
+    font-family: "Verlag-Bold";
+}
+
+a {
+  color: #75BAE0;
+}
+a:hover, a:focus {
+  color: #FFA10A;
+  text-decoration: none;
+}
+.navbar .navbar-collapse > .navbar-nav > li.menu-item > a {
+    color: #75BAE0;
+}
+.navbar .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#menu-item-88 {
+    background-color:#FFA10A;
+}
+#menu-item-88 a {
+    color: #FFF;
+}
+/*set top nav opacity*/
+
+@media (min-width: 783px) and (min-width: 601px) {
+  body.admin-bar .navbar-default:not(.navbar-transparent) {
+    background: rgba(256, 256, 256, 0.97);
+  }
+}
+/*remove the filter on header*/
+.header-filter::before {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* logo size */
+.navbar .navbar-header .navbar-brand img {
+    width: auto;
+     max-height: 85px; 
+}
+/* navbar default color */
+.navbar.navbar-transparent {
+    color: #75BAE0;
+    background-color: #fff;
+}
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    color: #FFA10A;
+    opacity: 1;
+}
+.navbar-transparent .navbar-brand>img {
+    display: block;
+}
+.navbar-brand>img {
+   display: none; 
+}
+/* navbar margin*/
+.navbar.navbar-transparent > .container {
+    padding-top: 15px;
+}
+
+.container {
+    max-width: 90%;
+}
+
+/*carousel*/
+.carousel {
+    padding-top: 50px;
+}
+/* scroll down nav*/
+
+
+/*front section */
+.hestia-about {
+     color: #000b43; 
+}
+.about, .hestia-about {
+    padding: 40px 0;
+}
+
+.hestia-ribbon.section-image:after{background-color: rgba(0, 0, 0, 0) !important;}
+
+.hestia-features, .features, .products, .hestia-work, .hestia-testimonials, .hestia-blogs, .subscribe-line {
+
+    padding-top: 20px;
+}
+
+/*social share*/
+.obfx-sharing a {
+
+    padding: 2px 5px;
+}
+
+h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in-content, .info-title, .card-title, .page-header.header-small .hestia-title, .page-header.header-small .title, .widget h5, .hestia-title, .title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .carousel h1.hestia-title, .carousel h2.title, .carousel span.sub-title, .woocommerce.single-product h1.product_title, .woocommerce section.related.products h2, .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
+    font-family: Verlag-bold;
+}
+
+/*footer*/
+footer.footer.footer-black {
+    background: #FFA10A;
+}
+.footer-big .widget {
+    color: #000B43;
+}
+.footer .widget h5 {
+    margin-bottom: 10px;
+}
+footer.footer.footer-black h5, footer.footer.footer-black h4, footer.footer.footer-black i, footer.footer.footer-black .copyright {
+    color: #000B43;
+}
+.footer-big p {
+    color:#000B43;
+}
+
+.footer-big .copyright {
+
+    display: none;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+footer.footer.footer-black .tagline {
+   padding-bottom: 10px;
+}
+
+  .site-footer {
+    /*font-family: verlag-book;*/
+  }
+ .moca p {
+    color: #562b00;
+    margin-bottom: 0;
+ }
+  .p-name{
+    font-family: verlag-bold;
+  }
+
+  .companyname {
+    font-family: verlag-bold;
+  }
+  .contact_us_link {
+    font-family: verlag-book;
+  }
+  .footer-heading {
+    margin-bottom: 5px;
+  }
+/*from Bergen Runners*/
+
+/*calendar customization*/
+.events-list article.section {
+    padding-top: 40px;
+
+}
+
+.tribe-events-schedule h2 {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h2.tribe-events-page-title {
+    font-family: inherit;
+}
+article h4 .tribe-event-title {
+    font-size: 18px;
+}
+
+.tribe-event-duration{
+	 /*color: #f5593d;*/
+}
+.single-post-wrap article h4, .page-content-wrap h4 {
+    color:#ffa10a;
+}
+}
+
+
+.tribe-events-list h2.tribe-events-page-title {
+    margin-bottom: 15px;
+}
+h2.tribe-events-page-title {
+    font-family: inherit;
+}
+#tribe-geo-results h2.tribe-events-page-title, h2.tribe-events-page-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+h2.tribe-events-page-title {
+    text-align: left;
+    
+}
+.hestia-ribbon.section-image:after{
+background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.events-list 
+.no-content article.section, .single-tribe_events .no-content article.section {
+    padding-top: 40px;
+		 max-width: 700px;
+   margin: 0 auto;
+}
+
+ 
+
+#tribe-events-content.tribe-events-list {
+  
+    max-width: 700px;
+   margin: 0 auto;
+}
+
+.events-list h1.hestia-title, .single-tribe_events h1.hestia-title {
+	display:none;
+}
+.tribe-events-calendar thead th{
+	  font-size: 12px;    
+		padding:2px 0; 
+}
+
+.events-category .tribe-bar-disabled {
+   display:none;
+}
+/*remove search on event list page*/
+.events-list #tribe-events-bar {
+
+    display: none;
+}
+
+/*remove category heading so no Past events...*/
+.events-category .tribe-events-page-title  {
+ 	display:none; 
+}
+
+/*remove all event list prevent confusion from category detail back to list, users will click back button from browser instead*/
+.tribe-events-back {
+ 	display:none; 
+}
+/*remove the extra top padding for the calendar view*/
+.events-gridview .section {
+    padding: 0 0;
+}
+
+/*remove this event has passed message*/
+.tribe-events-notices {
+   display:none;
+}
+/*remove author*/
+.blog-post .section-text .author.meta-in-content {
+   
+    display: none;
+}
+
+/*cards in page*/
+.blog-post .card-image {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+body.custom-background { background-color: #ffffff; }
