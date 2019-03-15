@@ -56,6 +56,7 @@ footer.footer.footer-black .tagline {
 }
 
 .social-media-list li a {
+    display: block;
     border: 0;
     padding: 0
 }
@@ -82,11 +83,7 @@ footer.footer.footer-black .tagline {
     margin-right: 0
 }
 
-.social-media-list li a {
-    display: block;
-    padding: 7.5px;
-    border: 1px solid #e8e8e8
-}
+
 
 .social-media-list li:hover .svg-icon {
     fill: currentColor
