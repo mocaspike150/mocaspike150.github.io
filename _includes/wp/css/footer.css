@@ -63,3 +63,32 @@ footer.footer.footer-black .tagline {
 .social-media-list li a img {
     height: 45px
 }
+
+.social-media-list {
+    display: table;
+    margin: 0 auto
+}
+
+.social-media-list li {
+    float: left;
+    margin: 0 5px
+}
+
+.social-media-list li:first-of-type {
+    margin-left: 0
+}
+
+.social-media-list li:last-of-type {
+    margin-right: 0
+}
+
+.social-media-list li a {
+    display: block;
+    padding: 7.5px;
+    border: 1px solid #e8e8e8
+}
+
+.social-media-list li:hover .svg-icon {
+    fill: currentColor
+}
+
