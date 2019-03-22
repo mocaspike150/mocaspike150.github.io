@@ -225,4 +225,88 @@ background-color: rgba(0, 0, 0, 0.4) !important;
 
 body.custom-background { background-color: #ffffff; }
 
+
+
+#page-card .container {
+    max-width: 90%;
+}
+#page-card .hestia-blogs .hestia-blog-content .card-blog .content .card-title {
+   
+    font-size: 15px; 
+
+}
+#page-card .hestia-blogs .hestia-blog-content .card-blog .content {
+    text-align: center;
+    padding: 10px;
+}
+
+#page-card .hestia-blogs {
+
+    background-color: #ffffff;
+}
+
+#page-card .hestia-blogs {
+    /*padding-top: 0;*/
+}
+#page-card .hestia-blogs .hestia-blog-content {
+    margin: 20px 0 0;
+    padding: 0;
+}
+div.wpforms-container .wpforms-form button[type=submit].wpforms-submit{
+background-color: #75BAE0;
+}
+div.wpforms-container .wpforms-form button[type=submit].wpforms-submit {
+   padding:10px;
+   padding-bottom:10px;
+   padding-left:20px;
+   padding-right:20px;
+}
+
+/*donation page*/
+#donation .blog-post .card-image {
+   
+    background: #fff5e9;
+}
+
+.obfx-sharing {
+  
+  top:95%;
+
+}
+
+
+@media screen and (max-width: 600px) {
+.obfx-sharing {
+  
+  display:none;
+
+}
+}
+
+body {
+    font-size: 16px
+}
+@media (max-width: 768px){
+.single-post-wrap p, .page-content-wrap p, .single-post-wrap ul, .page-content-wrap ul, .single-post-wrap ol, .page-content-wrap ol, .single-post-wrap dl, .page-content-wrap dl, .single-post-wrap table, .page-content-wrap table, .page-template-template-fullwidth article p, .page-template-template-fullwidth article ul, .page-template-template-fullwidth article ol, .page-template-template-fullwidth article dl, .page-template-template-fullwidth article table {
+    font-size: 18px;
+}
+body {
+    font-size: 17px
+}
+}
+
+.page-content-wrap .title-container{
+    margin:15px 0;
+}
+
+.page-content-wrap .title {
+
+    border-radius: 15px;
+    background:#FFF7ED;
+    padding:10px 15px;
+    margin: 15px 0;
+    color:#361500;
+
+}
+
 {% include wp/css/footer.css %}
