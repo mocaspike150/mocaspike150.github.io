@@ -309,4 +309,24 @@ body {
 
 }
 
+
+@media (max-width: 768px){
+.navbar .navbar-nav .dropdown .dropdown-menu li a {
+    margin: 0;
+    padding: 5px 0 5px 30px;
+    font-size: 11pt;
+}
+
+.navbar .navbar-collapse > .navbar-nav > li.menu-item > a {
+    color: #75BAE0;
+    font-size: 11pt;
+}
+.navbar > .container {
+  
+    padding: 0 15px;
+ 
+}
+
+}
+
 {% include wp/css/footer.css %}
