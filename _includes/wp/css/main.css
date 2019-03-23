@@ -274,27 +274,9 @@ div.wpforms-container .wpforms-form button[type=submit].wpforms-submit {
 
 }
 
-
-@media screen and (max-width: 600px) {
-.obfx-sharing {
-  
-  display:none;
-
-}
-}
-
 body {
     font-size: 16px
 }
-@media (max-width: 768px){
-.single-post-wrap p, .page-content-wrap p, .single-post-wrap ul, .page-content-wrap ul, .single-post-wrap ol, .page-content-wrap ol, .single-post-wrap dl, .page-content-wrap dl, .single-post-wrap table, .page-content-wrap table, .page-template-template-fullwidth article p, .page-template-template-fullwidth article ul, .page-template-template-fullwidth article ol, .page-template-template-fullwidth article dl, .page-template-template-fullwidth article table {
-    font-size: 18px;
-}
-body {
-    font-size: 17px
-}
-}
-
 .page-content-wrap .title-container{
     margin:15px 0;
 }
@@ -309,7 +291,25 @@ body {
 
 }
 
+
+@media screen and (max-width: 600px) {
+.obfx-sharing {
+  
+  display:none;
+
+}
+}
+
+
+
 @media (max-width: 768px){
+.single-post-wrap p, .page-content-wrap p, .single-post-wrap ul, .page-content-wrap ul, .single-post-wrap ol, .page-content-wrap ol, .single-post-wrap dl, .page-content-wrap dl, .single-post-wrap table, .page-content-wrap table, .page-template-template-fullwidth article p, .page-template-template-fullwidth article ul, .page-template-template-fullwidth article ol, .page-template-template-fullwidth article dl, .page-template-template-fullwidth article table {
+    font-size: 18px;
+}
+body {
+    font-size: 17px
+}
+
 .navbar .navbar-nav .dropdown .dropdown-menu li a {
     margin: 0;
     padding: 5px 0 5px 30px;
