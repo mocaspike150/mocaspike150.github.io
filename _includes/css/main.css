@@ -1,4 +1,4 @@
-{% include wp/css/font.css %}
+{% include css/font.css %}
 
 body {
   direction: ltr;
@@ -314,4 +314,4 @@ body {
 
 }
 
-{% include wp/css/footer.css %}
+{% include css/footer.css %}
