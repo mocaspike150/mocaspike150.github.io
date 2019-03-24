@@ -1,0 +1,37 @@
+/*custom fonts*/
+@font-face {
+    font-family: 'EdmundsburySansRegular';
+    src: url('https://mocaspike150.github.io/assets/fonts/EdmundsburySansRegular-Regular/EdmundsburySansRegular-Regular.woff2') format('woff2'),
+        url('https://mocaspike150.github.io/assets/fonts/EdmundsburySansRegular-Regular/EdmundsburySansRegular-Regular.woff') format('woff'),
+        url('https://mocaspike150.github.io/assets/fonts/EdmundsburySansRegular-Regular/EdmundsburySansRegular-Regular.svg#EdmundsburySansRegular-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sifonn-Pro';
+    src: url('https://mocaspike150.github.io/assets/fonts/Sifonn-Pro/Sifonn-Pro.woff2') format('woff2'),
+        url('https://mocaspike150.github.io/assets/fonts/Sifonn-Pro/Sifonn-Pro.woff') format('woff'),
+        url('https://mocaspike150.github.io/assets/fonts/Sifonn-Pro/Sifonn-Pro.svg#Sifonn-Pro') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag-Bold';
+    src: url('https://mocaspike150.github.io/assets/fonts/Verlag-Bold/Verlag-Bold.woff2') format('woff2'),
+        url('https://mocaspike150.github.io/assets/fonts/Verlag-Bold/Verlag-Bold.woff') format('woff'),
+        url('https://mocaspike150.github.io/assets/fonts/Verlag-Bold/Verlag-Bold.svg#Verlag-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag-Light';
+    src: url('https://mocaspike150.github.io/assets/fonts/Verlag-Light/Verlag-Light.woff2') format('woff2'),
+        url('https://mocaspike150.github.io/assets/fonts/Verlag-Light/Verlag-Light.woff') format('woff'),
+        url('https://mocaspike150.github.io/assets/fonts/Verlag-Light/Verlag-Light.svg#Verlag-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
