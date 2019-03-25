@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% if site.data.ambassadors.size > 0 %}
+
 <article id="post-117" class="section section-text">
 		<div class="row">
 			<div class="col-md-12">
@@ -10,60 +12,31 @@ layout: default
 <div class="hestia-blog-content">
 <div class="hestia-blog-content">
 <div class="row">
-<article class="col-xs-12 col-ms-6 col-ms-offset-1 col-sm-3 col-sm-offset-2 col-md-2 hestia-blog-item">
-<div class="card card-plain card-blog">
-<div class="card-image"><a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/MOCAnyc" title="Museum of Chinese in America"><img width="360" height="240" src="https://cdn.crowdrise.com/v2/photo/file/charity/69569" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" /> </a></div>
-<div class="content">
-<p class="card-title entry-title"><a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/MOCAnyca" title="Museum of Chinese in America">Museum of Chinese in America</a></p>
-<p class="card-description">$0</p>
-</div>
-</div>
-</article>
-<article class="col-xs-12 col-ms-6 col-ms-offset-1 col-sm-3 col-sm-offset-2 col-md-2 hestia-blog-item">
-<div class="card card-plain card-blog">
-<div class="card-image"><a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/yuema" title="Yue Ma"><img width="360" height="240" src="https://cdn.crowdrise.com/v2/photo/file/member/4338132" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" /> </a></div>
-<div class="content">
-<p class="card-title entry-title"><a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/yuema" title="Yue Ma">Yue Ma</a></p>
-<p class="card-description">$0</p>
-</div>
-</div>
-</article>
-<article class="col-xs-12 col-ms-6 col-ms-offset-1 col-sm-3 col-sm-offset-2 col-md-2 hestia-blog-item">
-<div class="card card-plain card-blog">
-<div class="card-image"><a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/xinyanhuang" title="Xinyan Huang"><img width="360" height="240" src="https://cdn.crowdrise.com/v2/photo/file/member/5238333" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" /> </a></div>
-<div class="content">
-<p class="card-title entry-title"><a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/xinyanhuang" title="Xinyan Huang">Xinyan Huang</a></p>
-<p class="card-description">$50</p>
-</div>
-</div>
-</article>
-<article class="col-xs-12 col-ms-6 col-ms-offset-1 col-sm-3 col-sm-offset-2 col-md-2 hestia-blog-item">
-<div class="card card-plain card-blog">
-<div class="card-image"><a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/johnyang6" title="John Yang"><img width="360" height="240" src="https://cdn.crowdrise.com/v2/photo/file/member/5238194" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" /> </a></div>
-<div class="content">
-<p class="card-title entry-title"><a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/johnyang6" title="John Yang">John Yang</a></p>
-<p class="card-description">$100</p>
-</div>
-</div>
-</article>
-<article class="col-xs-12 col-ms-6 col-ms-offset-1 col-sm-3 col-sm-offset-2 col-md-2 hestia-blog-item">
-<div class="card card-plain card-blog">
-<div class="card-image"><a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/amykt" title="Amy KT"><img width="360" height="240" src="https://cdn.crowdrise.com/v2/photo/file/member/5238100" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" /></a></div>
-<div class="content">
-<p class="card-title entry-title"><a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/amykt" title="Amy KT">Amy KT</a></p>
-<p class="card-description">$0</p>
-</div>
-</div>
-</article>
-<article class="col-xs-12 col-ms-6 col-ms-offset-1 col-sm-3 col-sm-offset-2 col-md-2 hestia-blog-item">
-<div class="card card-plain card-blog">
-<div class="card-image"><a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/amykt" title="Amy KT"><img width="360" height="240" src="https://cdn.crowdrise.com/v2/photo/file/member/5238100" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="" /></a></div>
-<div class="content">
-<p class="card-title entry-title"><a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/amykt" title="Amy KT">Amy KT</a></p>
-<p class="card-description">$0</p>
-</div>
-</div>
-</article>
+
+  {% for ambassador in site.data.ambassadors %}
+  <article class="col-xs-12 col-ms-6 col-ms-offset-1 col-sm-3 col-sm-offset-2 col-md-2 hestia-blog-item">
+    <div class="card card-plain card-blog">
+      <div class="card-image">
+        <a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/{{ ambassador.id }}" 
+           title="{{ ambassador.name }}">
+          <img width="360" 
+               height="240" 
+               src="{{ ambassador.image }}" 
+               class="attachment-hestia-blog size-hestia-blog wp-post-image" 
+               alt="" />
+        </a>
+      </div>
+      <div class="content">
+        <p class="card-title entry-title">
+        <a class="blog-item-title-link" 
+           href="https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors/{{ ambassador.id }}" 
+           title="{{ ambassador.name }}">{{ ambassador.name }}</a>
+        </p>
+        <p class="card-description">${{ ambassador.amount }}</p>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
 </div>
 <p><!-- /.row --></p>
 </div>
@@ -74,3 +47,5 @@ layout: default
 			</div>
 		</div>
 	</article>
+
+{% endif %}
