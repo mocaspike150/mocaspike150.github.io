@@ -281,7 +281,7 @@ body {
     margin:15px 0;
 }
 
-.page-content-wrap .title {
+.blog-post  .title, .page-content-wrap .title {
 
     border-radius: 15px;
     background:#FFF7ED;
