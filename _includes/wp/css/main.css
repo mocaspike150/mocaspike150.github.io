@@ -291,7 +291,7 @@ body {
 
 }
 
-.blog-post  .title a, .page-content-wrap .title a {
+.blog-post  .title a, .page-content-wrap .title a, , #mocspike150card  a {
   color: #FFA10A;
 }
 @media screen and (max-width: 600px) {
