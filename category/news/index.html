@@ -1,13 +1,4 @@
 ---
 layout: default
 ---
-{%- if site.posts.size > 0 -%}
-    {%- for item in site.posts -%}
-        <h1 style="margin-bottom: 1em">
-            <a href="{{ item.url | relative_url }}">
-               {{ item.title | escape }}
-            </a>
-        </h1>
-      {%- endfor -%}
-{%- endif -%}
-
+{% include news.html %}
