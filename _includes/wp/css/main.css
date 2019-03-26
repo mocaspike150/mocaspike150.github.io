@@ -281,7 +281,7 @@ body {
     margin:15px 0;
 }
 
-.blog-post  .title, .page-content-wrap .title {
+.blog-post  .title, .page-content-wrap .title, #mocspike150card {
 
     border-radius: 15px;
     background:#FFF7ED;
