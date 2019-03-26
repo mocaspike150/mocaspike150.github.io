@@ -315,5 +315,6 @@ body {
 
 
 }
-{% include css/style.css %}
+
 {% include css/footer.css %}
+{% include css/style.css %}
