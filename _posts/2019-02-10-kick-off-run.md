@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 大年初六新春欢乐野猪跑邀请!
-categories: [news]
 image: https://mocaspike150home.files.wordpress.com/2019/02/pigrunmap.jpg
 ---
 感谢纽约岚山跑团的大力支持，美国华人博物馆（MOCA）Spike 150 Team将于本周日2月10日上午8:30举办农历新年kick off run，跑出由岚山精细设计的野猪图路线， MOCA董事会及馆长届时都会到场参予并宣布MOCA Spike 150活动的正式开始，摄影团队也将到位即时纪录华人跑者的凝聚力与活力四射，以此展开MOCA 2019年纽约马拉松系列活动。现诚邀大纽约地区各跑团有MOCA队服的穿上MOCA队服，没有MOCA队服的穿上你们自己的队服，来共同参与见证这个活动的开启。

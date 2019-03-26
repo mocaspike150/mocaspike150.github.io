@@ -1,4 +1,5 @@
 {% if site.posts.size > 0 %}
+<div class="container">
 <section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
 	<div class="container">
 		<div class="row">
@@ -9,10 +10,13 @@
 
 			<div class="row">
         {% for item in site.posts %}
-          {% include news_card.html %}
+          {% if item.categories contains 'news' %}
+            {% include news_card.html %}
+          {% endif %}
         {% endfor %}
 			</div><!-- /.row -->
 		</div>
 	</div>
 </section>
+</div>
 {% endif %}
