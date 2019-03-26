@@ -2,7 +2,7 @@
 
 body {
   direction: ltr;
-  color: #000b43;
+  color: #000b43;F
   font-family: "Verlag-Light";
   background-color: #fff;
 }
@@ -74,7 +74,7 @@ a:hover, a:focus {
 }
 
 .container {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 /*carousel*/
