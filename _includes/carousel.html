@@ -13,6 +13,10 @@
 	  {% if page.header.hero %}
 	  <div class="header-filter" style="background-image: url({{ page.header.hero }})"></div>
           {% endif %}
+          {% comment %}
+          {% include title_content.html %}
+          {% endcomment %}
+
           </div>
         </div>
       {% endif %}
