@@ -2,7 +2,7 @@
 
 body {
   direction: ltr;
-  color: #000b43;
+  color: #000b43;F
   font-family: "Verlag-Light";
   background-color: #fff;
 }
@@ -74,7 +74,7 @@ a:hover, a:focus {
 }
 
 .container {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 /*carousel*/
@@ -281,7 +281,7 @@ body {
     margin:15px 0;
 }
 
-.page-content-wrap .title {
+.blog-post  .title, .page-content-wrap .title, #mocspike150card {
 
     border-radius: 15px;
     background:#FFF7ED;
@@ -291,7 +291,9 @@ body {
 
 }
 
-
+.blog-post  .title a, .page-content-wrap .title a, , #mocspike150card  a {
+  color: #FFA10A;
+}
 @media screen and (max-width: 600px) {
 .obfx-sharing {
   
