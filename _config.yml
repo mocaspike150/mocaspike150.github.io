@@ -4,6 +4,7 @@ author: MOCA Spike 150
 email: mocaspike150@mocanyc.org
 company_name:  Museum of Chinese in America
 permalink: pretty
+excerpt_separator: <!--more-->
 address: >
   <address>
   <ul>
