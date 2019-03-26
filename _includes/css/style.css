@@ -1,0 +1,93 @@
+.moca .address, .moca .tel{
+  font-size:11pt;
+}
+.wrapper.classic-blog .hestia-blogs, .wrapper.no-content .hestia-blogs {
+    padding-top: 0px;
+}
+@media (max-width: 768px){
+
+.navbar .navbar-nav .dropdown .dropdown-menu li a {
+    margin: 0;
+    padding: 5px 0 15px 30px;
+    font-size: 12pt;
+}
+
+.navbar .navbar-collapse > .navbar-nav > li.menu-item > a {
+    color: #75BAE0;
+    font-size: 12pt;
+}
+
+}
+.navbar .navbar-collapse > .navbar-nav > li.menu-item {
+   
+    line-height: 25px;
+}
+
+@media (max-width: 600px){
+body.admin-bar .navbar.navbar-scroll-point.navbar-fixed-top .navbar-collapse, body.admin-bar .navbar.navbar-scroll-point.header-with-topbar.navbar-fixed-top .navbar-collapse {
+    max-height: calc(100% - 70px);
+    margin-top: 68px;
+}
+}
+.image-in-page {
+    margin-top: 20px;
+}
+
+body, ul, .tooltip-inner {
+    font-family: "Verlag-Light";
+}
+
+.author {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: larger;
+    color: #FFA10A;
+}
+
+.blog-post  .imgcaption {
+  font-size:smaller;
+  font-style: italic;
+  background:#FFF7ED;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.blog-post  .imgcard {
+  margin-bottom:0;
+}
+
+
+.title .hashtag {
+ padding:5px;
+}
+.title .hashtag a{
+  font-weight:normal;
+   font-size:smaller;
+   color:#75BAE0;
+}
+.blog .hestia-blogs .card-blog .author {
+  display:none;
+}
+.posted-by {
+ display: none;
+}
+.entry-summary .author {
+    color: #000B43;
+    font-weight: normal;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+/*remove the big title block on blog main pages*/
+#primary {
+   display: none;
+}
+
+/*add space because the big title is removed*?
+.wrapper.classic-blog .hestia-blogs {
+    padding-top: 30px;
+}
+
+.carousel .page-header .row {
+   
+    align-items: flex-end;
+  
+}
