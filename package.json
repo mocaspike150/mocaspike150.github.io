@@ -1,0 +1,20 @@
+{
+  "name": "mocaspike150.github.io",
+  "version": "1.0.0",
+  "description": "Source of https://www.mocaspike150.org",
+  "main": "index.js",
+  "scripts": {
+    "up": "docker-compose up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocaspike150/mocaspike150.github.io.git"
+  },
+  "author": "MOCA Spike 150",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mocaspike150/mocaspike150.github.io/issues"
+  },
+  "homepage": "https://github.com/mocaspike150/mocaspike150.github.io#readme"
+}
