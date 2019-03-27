@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mocaspike150/mocaspike150.github.io/issues"
   },
-  "homepage": "https://github.com/mocaspike150/mocaspike150.github.io#readme"
+  "homepage": "https://github.com/mocaspike150/mocaspike150.github.io#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jsdom": "^14.0.0"
+  }
 }

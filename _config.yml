@@ -22,6 +22,9 @@ collections:
 exclude: 
 - Dockerfile
 - docker-compose.yml
+- node_modules
+- package.json
+- package-lock.json
 - README.md
 
 show_excerpts: true
