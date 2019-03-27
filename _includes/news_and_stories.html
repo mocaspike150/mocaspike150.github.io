@@ -1,0 +1,22 @@
+<div class="container">
+<section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center hestia-blogs-title-area">
+        <h1>News and Stories</h1>
+			</div>
+		</div>
+		<div class="hestia-blog-content">
+
+			<div class="row">
+        {% for item in site.news reversed %}
+            {% include news/card.html %}
+        {% endfor %}
+        {% for item in site.stories %}
+            {% include stories/card.html %}
+        {% endfor %}
+			</div><!-- /.row -->
+		</div>
+	</div>
+</section>
+</div>
