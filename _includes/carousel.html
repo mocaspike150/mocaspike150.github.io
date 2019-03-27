@@ -1,25 +1,24 @@
-{% if page.header %}
-<div id="carousel-hestia-generic" class="carousel slide" data-ride="carousel" >
-  <div class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="item active">
-	<div class="page-header">
-	  <div class="container">
-	    <div class="row hestia-big-title-content">
-	      <div class="big-title-slider-content text-center col-sm-8 col-sm-offset-2 ">
-       	      </div>
-            </div>
-	  </div>
-	  {% if page.header.hero %}
-	  <div class="header-filter" style="background-image: url({{ page.header.hero }})"></div>
-          {% endif %}
-          {% comment %}
-          {% include title_content.html %}
-          {% endcomment %}
+{% if page.image %}
 
-          </div>
-        </div>
-    </div>
-  </div>
-</div>
+<div id="carousel-hestia-generic" class="carousel slide" data-ride="carousel">
+			<div class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					
+		<div class="item active">
+			<div class="page-header" style="min-height: 710.1px;">
+				
+				<div class="container" style="padding-top: 175px;">
+										<div class="row hestia-big-title-content">
+								<div class="
+		 big-title-slider-content text-center col-sm-8 col-sm-offset-2 		">
+											</div>
+							</div>
+									</div><!-- /.container -->
+				<div class="header-filter" style="background-image: url({{ page.image }})"></div><!-- /.header-filter -->
+							</div><!-- /.page-header -->
+		</div>
+						</div>
+			</div>
+		</div>
 {% endif %}
+
