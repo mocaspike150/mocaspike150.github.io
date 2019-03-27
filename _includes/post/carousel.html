@@ -1,21 +1,25 @@
-<div class="carousel slide" data-ride="carousel" >
-  <div class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="item active">
-        <div class="page-header">
-          <div class="container">
-            <div class="row hestia-big-title-content">
-              <div class="big-title-slider-content text-center col-sm-8 col-sm-offset-2 ">
-                <h1>{{ page.title | escape }}</h1>
-              </div>
-            </div>
-          </div>
-          <div class="header-filter" 
-             {% if page.image %} style="background-image: url({{ page.image }}); background-size: cover;" {% endif %}
-          >
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
+<div id="carousel-hestia-generic" class="carousel slide" data-ride="carousel">
+			<div class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					
+		<div class="item active">
+			<div class="page-header" style="min-height: 710.1px;">
+				
+				<div class="container" style="padding-top: 175px;">
+										<div class="row hestia-big-title-content">
+								<div class="
+		 big-title-slider-content text-center col-sm-8 col-sm-offset-2">
+                <h1 style="background: rgba(0, 0, 0, 0.4)">{{ page.title | escape }}</h1>
+											</div>
+							</div>
+									</div><!-- /.container -->
+{% if page.image %}
+				<div class="header-filter" style="background-image: url({{ page.image }})"></div><!-- /.header-filter -->
+{% endif %}
+							</div><!-- /.page-header -->
+		</div>
+						</div>
+			</div>
+		</div>
+
