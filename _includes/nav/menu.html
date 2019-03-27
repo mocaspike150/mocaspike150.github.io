@@ -1,18 +1,58 @@
-<div id="main-navigation" class="collapse navbar-collapse"><ul id="menu-primary-menu" class="nav navbar-nav"><li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-73 active"><a title="Home" href="/">Home</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown"><a title="About" href="/about-moca/" class="dropdown-toggle">About <span class="caret-wrap"><span class="caret"></span></span></a>
+<div id="main-navigation" class="collapse navbar-collapse">
+  <ul id="menu-primary-menu" class="nav navbar-nav">
+    <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-73  {{page.dir}} {% if page.dir == '/' %} active {% endif %}">
+      <a title="Home" href="/">Home</a>
+    </li>
+    <li id="menu-item-1" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1 dropdown
+          {% if page.dir contains '/about-moca' %} active {% endif %}
+          {% if page.dir contains '/moca-spike-150' %} active {% endif %}
+          {% if page.dir contains '/how-to-participate' %} active {% endif %}
+          {% if page.dir contains '/faqs' %} active {% endif %}
+          ">
+      <a title="About" href="/about-moca/" class="dropdown-toggle">
+        About <span class="caret-wrap"><span class="caret"></span></span>
+      </a>
       <ul role="menu" class="dropdown-menu">
-        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About MOCA" href="/about-moca/">About MOCA</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="MOCA and Spike 150" href="/moca-spike-150/">About MOCA Spike 150</a></li>
-        <li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a title="How to Participate" href="/how-to-participate//">How to Participate</a></li>
-        <li class="menu-item menu-item-type-post_type menu-item-object-page"><a title="FAQs" href="/faqs/">FAQs</a></li>
+        <li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="About MOCA" href="/about-moca/">About MOCA</a>
+        </li>
+        <li id="menu-item-3" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="MOCA and Spike 150" href="/moca-spike-150/">About MOCA Spike 150</a>
+        </li>
+        <li id="menu-item-4" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="How to Participate" href="/how-to-participate/">How to Participate</a>
+        </li>
+        <li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="FAQs" href="/faqs/">FAQs</a>
+        </li>
       </ul>
     </li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="TCS NYC Marathon" href="/tcs-new-york-city-marathon/">TCS NYC Marathon</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Virtual Relay" href="/spike-relay">Virtual Relay</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Support" href="/support">Support</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Events" href="/category/events">Events</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="News" href="/category/news">News</a></li>
-    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Stories" href="/category/stories">Stories</a></li>
-    <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a title="Donate" href="/donate/">Donate</a></li>
+    <li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom
+      {% if page.dir contains '/tcs-new-york-city-marathon/' %} active {% endif %}">
+      <a title="TCS NYC Marathon" href="/tcs-new-york-city-marathon/">TCS NYC Marathon</a>
+    </li>
+    <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom
+      {% if page.dir contains '/spike-relay/' %} active {% endif %}">
+      <a title="Virtual Relay" href="/spike-relay">Virtual Relay</a>
+    </li>
+    <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom
+      {% if page.dir contains '/support/' %} active {% endif %}">
+      <a title="Support" href="/support">Support</a>
+    </li>
+    <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom
+      {% if page.path contains 'events' %} active {% endif %}">
+      <a title="Events" href="/category/events">Events</a>
+    </li>
+    <li id="menu-item-10"class="menu-item menu-item-type-custom menu-item-object-custom
+      {% if page.path contains 'news' %} active {% endif %}">
+      <a title="News" href="/category/news">News</a>
+    </li>
+    <li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom
+      {% if page.path contains 'stories' %} active {% endif %}">
+      <a title="Stories" href="/category/stories">Stories</a>
+    </li>
+    <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page
+      {% if page.dir contains '/donate/' %} active {% endif %}">
+      <a title="Donate" href="/donate/">Donate</a></li>
   </ul>
 </div>
