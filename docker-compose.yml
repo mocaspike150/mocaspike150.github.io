@@ -3,6 +3,13 @@ services:
   jekyll:
     build: .
     ports:
-     - "8080:8080"
+     - 8080:8080
     volumes:
      - .:/site
+  node:
+    image: node:10
+    volumes:
+      - ./app:/app
+    ports:
+      - 4000:4000
+    command: "make -C /app start"

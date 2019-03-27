@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/lib/axios.min.js"></script>
+    <script src="/lib/d3.min.js"></script>
+    <script>
+      window.data = [];
+      const display = (data) => {
+        d3.select('body').append('div').text(JSON.stringify(data));
+      };
+      const process = (url, response) => {
+        console.log(url);
+        console.log(response);
+        console.log(response.data);
+        data[url ]= response.data;
+      };
+
+      const urls = ['/node.version.json', '/axios', '/posts', '/pages'];
+      urls.forEach((url) => {
+        axios.get(url).then((response) => { process(url, response) });
+      });
+    </script>
+  </body>
+</html>
