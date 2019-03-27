@@ -1,7 +1,10 @@
 <div class="main  main-raised ">
-  <div class="container">
-    <div class="author">{{ page.author }}</div>
-    {{ content }}
+  <div class="blog-post blog-post-wrapper">
+    <div class="container">
+      <div class="author">{{ page.author }}</div>
+      {{ content }}
+      {% include mocaspike150card.html %}
+    </div>
   </div>
 </div>
 {% include footer.html %}

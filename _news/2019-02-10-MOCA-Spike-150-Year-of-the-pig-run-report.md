@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "MOCA Spike 150 Year: A Run for the Pig!"
+date: 2019-02-10 12:00:00
 author: Amy Ko-Tang
 categories: [news]
 image: https://user-images.githubusercontent.com/46349226/53204949-eca76400-35fa-11e9-8e0d-6561f793135d.png
