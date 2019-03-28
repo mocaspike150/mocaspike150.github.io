@@ -91,3 +91,70 @@ body, ul, .tooltip-inner {
     align-items: flex-end;
   
 }
+
+.tabs {
+     text-align: right;
+     margin-bottom: 10px;
+}
+.tab{
+     padding:5px 20px;
+       border-radius: 15px;
+     margin-right:5px;
+}
+.tab_on {
+  background:#75BAE0;
+  color:#fff;
+}
+.tab_off {
+ 
+  
+}
+
+.hometabs {
+     text-align: left;
+     margin: 20px 10px 10px 0;
+}
+.hometab{
+     padding:10px 20px;
+       border-radius: 15px;
+     margin-right:10px;
+}
+.hometab_button {
+  background:#75BAE0;
+  color:#fff;
+}
+.hometab_button a{
+   background:#75BAE0;
+  color:#fff;
+}
+
+.quicklink {
+    color: #fff;
+    background-color: #75BAE0;
+    padding:10px 15px;
+     border-radius: 15px;
+     margin-right:10px;
+     margin-bottom:5px;
+     text-transform: none;
+}
+
+.infocard{
+  
+    background-color: #FFF7ED;
+    padding:10px 20px;
+    margin-bottom:10px;
+     border-radius: 35px;
+     min-height: 200px;
+    box-shadow: 0 8px 6px -6px #eee;
+   
+}
+.infocard-title{
+   color:#FFA10A;
+   font-weight:bold;
+   font-size:larger;
+   text-align: center;
+   padding:5px;
+}
+.infocard-desc{
+   font-size:11pt;
+}
