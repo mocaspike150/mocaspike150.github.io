@@ -1,0 +1,13 @@
+<div class="container-fluent" style="padding-top: 100px;">
+<section class="section" 
+  {% if page.image %}                                                            
+     style="background-image: url({{ page.image }});"
+  {% endif %}                                                                
+  >
+	<div class="container" style="background: rgba(0, 0, 0, 0.5);">
+				<h2 style="margin:0.1em; color: #FFFFFF;">
+          {{ page.title }}
+        </h2>
+	</div>
+</section>
+</div>
