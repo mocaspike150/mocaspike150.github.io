@@ -158,3 +158,7 @@ body, ul, .tooltip-inner {
 .infocard-desc{
    font-size:11pt;
 }
+
+h1.hestia-title{
+      margin-bottom: 10px;
+}
