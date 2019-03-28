@@ -1,21 +1,5 @@
 {% if site.news.size > 0 %}
-<div class="container">
-<section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center hestia-blogs-title-area">
-        <h1>News</h1>
-			</div>
-		</div>
-		<div class="hestia-blog-content">
-
-			<div class="row">
-        {% for item in site.news reversed %}
-            {% include news/card.html %}
-        {% endfor %}
-			</div><!-- /.row -->
-		</div>
-	</div>
-</section>
-</div>
+  {% for item in site.news reversed %}
+    {% include news/card.html %}
+  {% endfor %}
 {% endif %}
