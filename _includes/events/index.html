@@ -1,5 +1,15 @@
-{% if site.news.size > 0 %}
-  {% for item in site.events %}
-    {% include events/card.html %}
-  {% endfor %}
+{% if site.events.size > 0 %}
+<div class="container">
+<section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
+	<div class="container">
+		<div class="hestia-blog-content">
+			<div class="row">
+        {% for item in site.events %}
+            {% include events/card.html %}
+        {% endfor %}
+			</div><!-- /.row -->
+		</div>
+	</div>
+</section>
+</div>
 {% endif %}
