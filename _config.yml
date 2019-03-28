@@ -9,7 +9,7 @@ timezone: America/New_York
 contact_email: rshih@mocanyc.org
 
 collections:
-  news:
+  experience:
     output: true
     permalink: /:collection/:path
   events:

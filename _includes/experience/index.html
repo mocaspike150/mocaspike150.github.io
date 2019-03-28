@@ -1,11 +1,11 @@
-{% if site.news.size > 0 %}
+{% if site.experience.size > 0 %}
 <div class="container">
 <section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
 	<div class="container">
 		<div class="hestia-blog-content">
 			<div class="row">
-        {% for item in site.news reversed %}
-            {% include news/card.html %}
+        {% for item in site.experience reversed %}
+            {% include experience/card.html %}
         {% endfor %}
 			</div><!-- /.row -->
 		</div>
