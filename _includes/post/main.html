@@ -11,6 +11,9 @@
                   {% endif %}
                 </div>
               </div>
+             {%if page.author %} 
+	       <div class="author">{{ page.author }}</div>
+	     {% endif %}
              {{ content }}
              {% include mocaspike150card.html %}
            </div>
