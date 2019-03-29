@@ -1,4 +1,0 @@
----
-layout: sandbox/home
----
-
