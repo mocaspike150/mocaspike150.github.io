@@ -2,9 +2,8 @@
 layout: post
 title: MOCA Spike 150 野豬迎春跑后記
 date: 2019-02-10 13:00:00
-categories: [news]
 author: Renny Shih
-image: https://user-images.githubusercontent.com/46349226/52622258-5f844280-2e77-11e9-9500-0a59f13280d5.jpeg
+image: /wp/uploads/2019/02/52625399-e983d980-2e7e-11e9-92f0-6c3ca3c1181a-360x240.jpg
 ---
 今年很荣幸的被纽约华人博物馆(Museum of Chinese in America简称MOCA)相中，担任MOCA TCS New York City Marathon Charity Team Co-Captain工作。2019年适逢美国跨洲铁路transcontinental railroad东西向连结完工150周年。 150年前，这条开天辟地的铁路奠定美国跨洲交通基础。铁路一大部分的工程是华工在极恶劣的工作环境下牺牲了不少生命胼手胝足完成的。 他们也是中国人来美的第一波移民。但是，很多人并不了解这段历史，甚至最后完工大典的照片上都没有一张代表华人的面孔。 
 <!--more-->
