@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MOCA Spike 150 Year: A Run for the Pig!"
+title: "MOCA Spike 150: A Run for the Pig!"
 date: 2019-02-10 12:00:00
 author: Amy Ko-Tang
 categories: [news]
