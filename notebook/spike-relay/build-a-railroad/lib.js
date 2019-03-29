@@ -1,5 +1,5 @@
 // URL: https://observablehq.com/d/89f1be3cdf99e7b5
-// Title: Buile a Railroad
+// Title: Build a Railroad
 // Author: Sam Liu (@ontouchstart)
 // Version: 115
 // Runtime version: 1
@@ -10,7 +10,7 @@ const m0 = {
     {
       inputs: ["md"],
       value: (function(md){return(
-md`# Buile a Railroad`
+md`# Build a Railroad`
 )})
     },
     {
