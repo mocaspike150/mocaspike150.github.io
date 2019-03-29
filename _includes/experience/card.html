@@ -1,9 +1,11 @@
 <article class="card card-blog card-plain post-1262 post type-post status-publish format-standard has-post-thumbnail hentry category-experience">
 	<div class="row ">
 		<div class="col-ms-5 col-sm-5">
+      {% if item.card-image %}
 			<div class="card-image">
-				<a href="{{ item.url | relative_url }}" title="{{ item.title | escape }}"><img width="360" height="240" src="{{ item.image }}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt=""></a>
+				<a href="{{ item.url | relative_url }}" title="{{ item.title | escape }}"><img width="360" height="240" src="{{ item.card-image }}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt=""></a>
 			</div>
+      {% endif %}
 		</div>
 		<div class="col-ms-7 col-sm-7">
 			<h6 class="category text-info"><a href="/category/experience" title="View all posts in Experience" rel="tag">Experience</a> </h6>
