@@ -1,15 +1,13 @@
 {% if site.events.size > 0 %}
-<div class="container">
-<section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
+<<section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
 	<div class="container">
 		<div class="hestia-blog-content">
 			<div class="row">
-        {% for item in site.events %}
+        {% for item in site.events reversed %}
             {% include events/card.html %}
         {% endfor %}
 			</div><!-- /.row -->
 		</div>
 	</div>
 </section>
-</div>
 {% endif %}
