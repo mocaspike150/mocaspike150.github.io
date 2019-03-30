@@ -9,6 +9,9 @@
                   {% if page.post-image %}
                    <img class="wp-post-image image-in-page" src="{{ page.post-image }} " alt="" />
                   {% endif %}
+		   {% if page.post-image-caption %}
+			<div class="post-image-caption">{{ page.post-image-caption }}</div>
+                  {% endif %}
                 </div>
               </div>
              {%if page.author %} 
