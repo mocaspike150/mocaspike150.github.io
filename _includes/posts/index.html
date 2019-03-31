@@ -1,0 +1,5 @@
+{% if site.posts.size > 0 %}
+  {% for item in site.posts reversed %}
+    {% include posts/card.html %}
+  {% endfor %}
+{% endif %}

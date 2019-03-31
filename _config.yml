@@ -9,7 +9,7 @@ timezone: America/New_York
 contact_email: rshih@mocanyc.org
 
 collections:
-  experience:
+  posts:
     output: true
     permalink: /:collection/:path
   events:
@@ -29,3 +29,6 @@ exclude:
 - app
 
 show_excerpts: true
+
+plugins:
+  - jekyll-redirect-from

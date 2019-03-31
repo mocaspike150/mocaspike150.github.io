@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "MOCA Spike 150 Year: A Run for the Pig!"
+title: "MOCA Spike 150: A Run for the Pig!"
+date: 2019-02-10 12:00:00
 author: Amy Ko-Tang
-categories: [news]
-image: https://user-images.githubusercontent.com/46349226/53204949-eca76400-35fa-11e9-8e0d-6561f793135d.png
+card-image: /wp/uploads/2019/03/run_for_the_pig-360x240.jpg
+post-image: /wp/uploads/2019/03/run_for_the_pig.jpg
+redirect_from:
+  - /experience/2019-02-10-MOCA-Spike-150-Year-of-the-pig-run-report
 ---
 What a way to ring in the Year of Pig 🐷 with an epic half marathon (plus some) in downtown Manhattan on a chilling Feb morning!  Nearly 100 runners from multiple Chinese running clubs around the New York metropolitan ([Misty Mountain Runners](https://sites.google.com/site/mistymountainrunners/), [Newbee Running club](https://www.strava.com/clubs/204946), [Trail Hoppers](https://www.strava.com/clubs/452045), [Flying Fox](https://flyingfoxcsc.org/) , [Bergen Runners](https://www.bergenrunners.org/) and [Run100871 club](https://mp.weixin.qq.com/s/dyZsdC0tgla_hA12RRG3lw)) warmed up to the invitation and inked their footprints through the streets of Union Square, Flatiron, Greenwich Village, Noho, Washington Square, Tribeca, Battery Park, Wall Street, Chinatown, Stuyvesant Town, Gramercy, Two Bridges, East Village, Lower East Side & Alphabet City.  
 <!--more-->
 
-![](https://user-images.githubusercontent.com/46349226/52622258-5f844280-2e77-11e9-9500-0a59f13280d5.jpeg)
 
 ![](https://user-images.githubusercontent.com/46349226/52604690-e286a800-2e39-11e9-97eb-206d59bd1655.jpg)
 
