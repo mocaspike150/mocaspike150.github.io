@@ -1,0 +1,40 @@
+<div class="main  main-raised " style="margin-top: 70px;">
+   <div class="container">
+    <article class="section section-text">
+	    <div class="row">
+	   	   <div class="col-md-8 page-content-wrap  col-md-offset-2">		
+              <div class="row">
+                <div class="col-md-12">
+                   <h1 class="hestia-title title-in-content " style="text-align: center">{{ page.title }} </h1>
+                  {% if page.post-image %}
+                   <img class="wp-post-image image-in-page" src="{{ page.post-image }} " alt="" / {% if page.post-image-caption %}style="margin-bottom:10px;"{%endif%}>
+                  {% endif %}
+		   {% if page.post-image-caption %}
+			<div class="post-image-caption">{{ page.post-image-caption }}</div>
+                  {% endif %}
+                </div>
+              </div>
+             {%if page.author %} 
+	       <div class="author">{{ page.author }}</div>
+	     {% endif %}
+       <div style="text-align:center;font-size:10pt;margin-bottom:20px;"> {{ page.caption-en }} </br> {{ page.caption-cn }}</div>
+       {{ page.story-en }}
+       <hr/>
+       {{ page.story-cn }}
+           <h6 style="text-align: center"> Countdown to the TCS NYC Marathon on November 3, 2019: <span id="countdown">216</span> Days.</h6>
+             {% include mocaspike150card.html %}
+           </div>
+           <script>
+               const countdown = () => {
+                 const NYCMarathonDay = new Date(2019,10,3);
+                 return parseInt( (NYCMarathonDay - Date.now())  / (3600 * 1000 * 24));
+               }
+               document.getElementById('countdown').innerHTML = countdown();
+           </script>
+
+        </div>
+    </article>
+  </div>
+</div>
+{% include footer.html %}
+{% include social.html %}
