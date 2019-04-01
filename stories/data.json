@@ -1,0 +1,4 @@
+---
+layout: plain
+---
+{{ site.data.stories | jsonify }}
