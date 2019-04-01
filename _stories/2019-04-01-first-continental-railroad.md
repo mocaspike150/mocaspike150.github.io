@@ -12,7 +12,7 @@ story-en: |
   <p>Although records of Chinese workers names were not kept by the companies, an estimated 10,000-15,000 Chinese laborers worked on the construction of the Transcontinental Railroad. While Chinese were reported as living in the area that would become San Francisco as early as 1838, the earliest Chinese immigrants to the U.S. were mainly well-to-do merchants and traders. This initial pull of common laborers from China would prove to be the first major influx of Chinese immigrants to the United States.
 
 story-cn: |
-    <p>1865年，由利兰·斯坦福领导的中央太平洋铁路公司，开始建造第一条横贯大陆的铁路。中国劳工在其建设中发挥了重要作用。1858年，最初的50名中国工人被试验性地聘用，负责建设西部的那部分铁路。同年，随着对劳动力需求的增加以及白人工人对这种既辛苦又危险的工作的抵制，中央太平洋铁路公司（CPRR）开始从加利福尼亚州华人社区聘请更多的华人劳工。有感于中国劳工的工作效率和奉献精神，中央太平洋铁路公（CPRR）当地劳动力资源枯竭时，开始从中国广东省积极招聘劳工。
+    <p>1865年，由利兰·斯坦福领导的中央太平洋铁路公司，开始建造第一条横贯大陆的铁路。中国劳工在其建设中发挥了重要作用。1865年，最初的50名中国工人被试验性地聘用，负责建设西部的那部分铁路。同年，随着对劳动力需求的增加以及白人工人对这种既辛苦又危险的工作的抵制，中央太平洋铁路公司（CPRR）开始从加利福尼亚州华人社区聘请更多的华人劳工。有感于中国劳工的工作效率和奉献精神，中央太平洋铁路公（CPRR）当地劳动力资源枯竭时，开始从中国广东省积极招聘劳工。
 
     <p>虽然这些公司没国工人有保留中姓名的记录，但是估计有一万到一万五千中国劳工参加了美国横贯大陆铁路的建设工作。最早的关于华人居住于旧金山地区的报道是1838年，但早期移民美国的华人主要是富有的商人或者做贸易的，而这些成批来自中国的普通劳动者才被认为是第一批来美国的中国移民。
 
