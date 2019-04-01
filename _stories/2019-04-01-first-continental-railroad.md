@@ -1,6 +1,7 @@
 ---
 layout: story
-title: First Continental Railroad <br>第一条横贯大陆铁路
+title: First Continental Railroad 
+title-cn: 第一条横贯大陆铁路
 caption-en: Postcard of Chinese laborers building the Central Pacific Railroad in the mid-1800s Courtesy of Alex Jay, Museum of Chinese in America (MOCA) Collection
 caption-cn: 19世纪80年代中期华人劳工修建美国中央太平洋铁路明信片Alex Jay捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/46349226/55354759-8385fc80-5494-11e9-922b-546daf0ee9e8.png
