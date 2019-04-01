@@ -32,3 +32,5 @@ show_excerpts: true
 
 plugins:
   - jekyll-redirect-from
+
+google_analytics: 'UA-135436278-1'
