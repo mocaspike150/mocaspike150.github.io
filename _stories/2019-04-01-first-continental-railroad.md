@@ -3,7 +3,7 @@ layout: story
 title: First Continental Railroad <br>第一条横贯大陆铁路
 caption-en: Postcard of Chinese laborers building the Central Pacific Railroad in the mid-1800s Courtesy of Alex Jay, Museum of Chinese in America (MOCA) Collection
 caption-cn: 19世纪80年代中期华人劳工修建美国中央太平洋铁路明信片Alex Jay捐赠，美国华人博物馆（MOCA）馆藏
-post-image: https://user-images.githubusercontent.com/46349226/55340770-570db880-5473-11e9-8243-5b77ee32504a.png
+post-image: https://user-images.githubusercontent.com/46349226/55354759-8385fc80-5494-11e9-922b-546daf0ee9e8.png
 card-image: https://user-images.githubusercontent.com/46349226/55354658-47eb3280-5494-11e9-8506-c1f5f113a4fa.png
 story-en: |
   <p>In 1865, the Central Pacific Railroad, headed by Leland Stanford, began construction on the First Transcontinental Railroad. Chinese laborers would prove instrumental in its construction. In 1858, the first fifty Chinese workers were experimentally hired to begin work on the western portion. By 1865, as the demand for labor increased and white workers showed resistance to the backbreaking, dangerous work, the Central Pacific Railroad (CPRR) began hiring more Chinese laborers from California communities. Impressed by the Chinese laborers’ efficiency and dedication, the CPRR began actively recruiting from Guangdong province when local labor resources were exhausted.</p>
