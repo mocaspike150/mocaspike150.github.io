@@ -10,7 +10,9 @@
 	       <div class="date" style="text-align: center">{{ page.date | date_to_long_string }}</div>
 	     {% endif %}
                   {% if page.post-image %}
+                  <div style="text-align: center">
                    <img class="wp-post-image image-in-page" src="{{ page.post-image }} " alt="" / {% if page.post-image-caption %}style="margin-bottom:10px;"{%endif%}>
+                  </div>
                   {% endif %}
 		   {% if page.post-image-caption %}
 			<div class="post-image-caption">{{ page.post-image-caption }}</div>
