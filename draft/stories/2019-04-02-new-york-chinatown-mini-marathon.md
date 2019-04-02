@@ -1,20 +1,16 @@
 ---
 layout: story
-title: First Continental Railroad 
-title-cn: 第一条横贯大陆铁路
-caption-en: Postcard of Chinese laborers building the Central Pacific Railroad in the mid-1800s Courtesy of Alex Jay, Museum of Chinese in America (MOCA) Collection
-caption-cn: 19世纪80年代中期华人劳工修建美国中央太平洋铁路明信片Alex Jay捐赠，美国华人博物馆（MOCA）馆藏
-post-image: https://user-images.githubusercontent.com/46349226/55354759-8385fc80-5494-11e9-922b-546daf0ee9e8.png
-card-image: https://user-images.githubusercontent.com/46349226/55354658-47eb3280-5494-11e9-8506-c1f5f113a4fa.png
+title: New York Chinatown Mini-Marathon
+title-cn: 纽约华埠迷你马拉松
+caption-en: New York Chinatown Mini-Marathon, 1977<br>Photographs taken by Emile Bocian, Museum of Chinese in America (MOCA) Collection
+caption-cn: 纽约华埠迷你马拉松赛事，1977年<br>照片由Emile Bocian（包信）拍摄，美国华人博物馆（MOCA）馆藏
+post-image: https://user-images.githubusercontent.com/46349226/55405843-e923c880-5528-11e9-830d-22d2340969a8.png
+card-image: https://user-images.githubusercontent.com/46349226/55405843-e923c880-5528-11e9-830d-22d2340969a8.png
 story-en: |
-  <p>In 1865, the Central Pacific Railroad, headed by Leland Stanford, began construction on the First Transcontinental Railroad. Chinese laborers would prove instrumental in its construction. In 1865, the first fifty Chinese workers were experimentally hired to begin work on the western portion. By 1865, as the demand for labor increased and white workers showed resistance to the backbreaking, dangerous work, the Central Pacific Railroad (CPRR) began hiring more Chinese laborers from California communities. Impressed by the Chinese laborers’ efficiency and dedication, the CPRR began actively recruiting from Guangdong province when local labor resources were exhausted.
-  
-  <p>Although records of Chinese workers names were not kept by the companies, an estimated 10,000-15,000 Chinese laborers worked on the construction of the Transcontinental Railroad. While Chinese were reported as living in the area that would become San Francisco as early as 1838, the earliest Chinese immigrants to the U.S. were mainly well-to-do merchants and traders. This initial pull of common laborers from China would prove to be the first major influx of Chinese immigrants to the United States.
+  On August 28 th , 1977 a mini-marathon was held in New York’s Chinatown. While little information is available about the marathon aside from the above photographs taken by Emile Bocian, it appears that the marathon started and finished on Mott Street and saw runners running across the Manhattan Bridge. According to the sparse notes taken by Bocian, a known sensationalist, one of the runners was 67 year old Chan-Ling Wang that Bocian writes was “China’s most famous marathon runner.”
 
 story-cn: |
-    <p>1865年，由利兰·斯坦福领导的中央太平洋铁路公司，开始建造第一条横贯大陆的铁路，中国劳工在其建设中发挥了重要作用。就在1865年当年，最初的50名中国工人被试验性地聘用，负责建设西部的那部分铁路。同年，随着对劳动力需求的增加以及白人工人对这种既辛苦又危险的工作的抵制，中央太平洋铁路公司（CPRR）开始从加利福尼亚州华人社区聘请更多的华人劳工。有感于中国劳工的工作效率和奉献精神，中央太平洋铁路公（CPRR）当地劳动力资源枯竭时，开始从中国广东省积极招聘劳工。
-
-    <p>虽然这些公司没国工人有保留中姓名的记录，但是估计有一万到一万五千中国劳工参加了美国横贯大陆铁路的建设工作。最早的关于华人居住于旧金山地区的报道是1838年，但早期移民美国的华人主要是富有的商人或者做贸易的，而这些成批来自中国的普通劳动者才被认为是第一批来美国的中国移民。
+    1977年8月28日，在纽约唐人街举行了一场小型马拉松比赛。除了上述由摄影师Emile Bocian （包信）拍摄的照片以外，几乎找不到任何关于这个赛事的其他报道。从照片上看，这个小型马拉松赛事的起点和终点都在华埠的勿街，也看到跑者穿过曼哈顿大桥。包信是一位当时小有名气的煽动者，根据他零落的笔迹，一位67岁的跑者Chan-Ling Wang （王长岭）被他描述为“中国最著名的马拉松跑者”。
 
 ---
-In 1865, the Central Pacific Railroad, headed by Leland Stanford, began construction on the First Transcontinental Railroad. Chinese laborers would prove instrumental in its construction. In 1865, the first fifty Chinese workers were experimentally hired to begin work on the western portion. By 1865, as the demand for labor increased and white workers showed resistance to the backbreaking, dangerous work, the Central Pacific Railroad (CPRR) began hiring more Chinese laborers from California communities. Impressed by the Chinese laborers’ efficiency and dedication, the CPRR began actively recruiting from Guangdong province when local labor resources were exhausted.
+On August 28 th , 1977 a mini-marathon was held in New York’s Chinatown. While little information is available about the marathon aside from the above photographs taken by Emile Bocian, it appears that the marathon started and finished on Mott Street and saw runners running across the Manhattan Bridge. According to the sparse notes taken by Bocian, a known sensationalist, one of the runners was 67 year old Chan-Ling Wang that Bocian writes was “China’s most famous marathon runner.”
