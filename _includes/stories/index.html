@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="hestia-blog-content">
 			<div class="row">
-        {% for item in site.stories %}
+        {% for item in site.stories reversed %}
             {% include stories/card.html %}
         {% endfor %}
 			</div><!-- /.row -->
