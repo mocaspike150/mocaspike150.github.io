@@ -1,11 +1,12 @@
 ---
+published: false
 layout: story
 title: Flower Drum Song and Mabel Wing
 title-cn: 花鼓戏和Mabel Wing
 caption-en: Flower Drum Song (Mae Wing in the middle)<br>Courtesy of Mae Wong, Museum of Chinese in America (MOCA) Collection
 caption-cn: 花鼓戏（Mae Wing，前中）<br>Mae Wong捐赠，美国华人博物馆（MOCA）馆藏
-post-image: https://user-images.githubusercontent.com/46349226/55499525-36309900-5614-11e9-975c-8620227eb4c8.jpg
-card-image: https://user-images.githubusercontent.com/46349226/55499524-36309900-5614-11e9-8ae8-203be8b40d47.jpg
+post-image: https://user-images.githubusercontent.com/46349226/55434931-af71b280-5566-11e9-8989-1a0d1a216787.png
+card-image: https://user-images.githubusercontent.com/46349226/55434951-c2848280-5566-11e9-86e7-624602e16fc4.png
 story-en: |
   <p>Flower Drum Song was a Broadway musical directed by Rodgers and Hammerstein in 1958 based on a
   novel by C. Y. Lee. The choreography of the musical imitated the Chop Suey circuit, an Asian American
@@ -32,13 +33,12 @@ story-cn: |
   的更好的职业机会，同时也创造了一个东方视觉舞台，强化了亚裔妇女形象。
 ---
 
-
 Flower Drum Song was a Broadway musical directed by Rodgers and Hammerstein in 1958 based on a
 novel by C. Y. Lee. The choreography of the musical imitated the Chop Suey circuit, an Asian American
 cabaret thrived in Chinatowns in the 1940s and 1950s. Mae Wing (in the middle) performed as an
 ensemble dancer in this well-known musical when it first came out. After winning the “Miss Chinatown”
 in New York Chinese community, 17-year-old Mae was encouraged to try out for the show business by
-reluctantly against her parents’ wishes and achieved great success in the musical.
+reluctantly against her parents’ wishes and achieved great success in the musical. 
 
 
 

@@ -1,0 +1,30 @@
+<section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
+    <div class="container">
+        <div class="hestia-blog-content">
+            <div class="row">
+<article class="card card-blog card-plain post-1262 post type-post status-publish format-standard has-post-thumbnail hentry category-posts">
+	<div class="row ">
+		<div class="col-ms-5 col-sm-5">
+      {% if page.card-image %}
+			<div class="card-image">
+				<a href="{{ page.url | relative_url }}" title="{{ page.title }}"><img width="360" height="240" src="{{ page.card-image }}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt=""></a>
+			</div>
+      {% endif %}
+		</div>
+		<div class="col-ms-7 col-sm-7">
+			<h6 class="category text-info"><a href="/category/posts" title="View all posts in Experience" rel="tag">Experience</a> </h6>
+			<h2 class="card-title entry-title"><a href="{{ page.url | relative_url }}" title="{{ page.title }}" rel="bookmark">{{ page.title  }}</a></h2>
+			<div class="card-description entry-summary ">
+				<div class="author">
+					{{ page.author | escape }}
+          {{ page.date | date_to_long_string }}
+				</div>
+				<p class="list-desc">{{ page.content }} <a href="{{ page.url | relative_url }}" class="more-link"><span aria-label="Continue reading {{ page.title  }}">(more…)</span></a></p>
+			</div>
+		</div>
+	</div>
+</article>
+            </div><!-- /.row -->
+        </div>
+    </div>
+</section>

@@ -1,14 +1,19 @@
 <div class="main  main-raised " style="margin-top: 70px;">
    <div class="container">
-    <article class="section section-text">
+     <article class="section section-text">
 	    <div class="row">
 	   	   <div class="col-md-8 page-content-wrap  col-md-offset-2">		
               <div class="row">
                 <div class="col-md-12">
+        {% if page.path contains 'draft' %}
+          <h1 style="color: red;">Draft</h1>
+          {{ page.exerpt }}
+          {% include story/card.html %}
+        {% endif %}
                    <h1 class="hestia-title title-in-content " style="text-align: center">{{ page.title }}<br>{{ page.title-cn }}</h1>
          	 {%if page.date %} 
 	      		<div class="date" style="text-align: center">{{ page.date | date_to_long_string }}</div>
-		 {% endif %}
+		     {% endif %}
 		{% include story/nav.html %}
 		 </div>
 		</div>
