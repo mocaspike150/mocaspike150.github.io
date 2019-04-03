@@ -1,7 +1,6 @@
 {% for story in site.stories %}
   {% if story.url == page.url %}
-<div class="container">
-									<div class="row">
+
 <div class="story-nav">
   <div class="left">
     {% unless forloop.first %}
@@ -18,8 +17,7 @@
     {% endunless %}
   </div>
 </div>
-     </div>
-</div>
+
     {% break %}
   {% endif %}
 {% endfor %}
