@@ -32,7 +32,6 @@ story-cn: |
   的更好的职业机会，同时也创造了一个东方视觉舞台，强化了亚裔妇女形象。
 ---
 
-
 Flower Drum Song was a Broadway musical directed by Rodgers and Hammerstein in 1958 based on a
 novel by C. Y. Lee. The choreography of the musical imitated the Chop Suey circuit, an Asian American
 cabaret thrived in Chinatowns in the 1940s and 1950s. Mae Wing (in the middle) performed as an
