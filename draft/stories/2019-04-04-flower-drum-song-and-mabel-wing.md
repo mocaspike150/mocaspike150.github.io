@@ -1,5 +1,4 @@
 ---
-published: false
 layout: story
 title: Flower Drum Song and Mabel Wing
 title-cn: 花鼓戏和Mabel Wing
