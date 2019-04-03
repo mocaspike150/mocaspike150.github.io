@@ -6,14 +6,14 @@
     {% unless forloop.first %}
       {% assign previous = forloop.index0 | minus: 1 %}
       {% assign previous_page = site.stories[previous] %}
-      <a href="{{ previous_page.url }}" class="prev" title="{{ previous_page.title }}">&laquo;&laquo; Last Story</a>
+      <a href="{{ previous_page.url }}" class="prev" title="{{ previous_page.title }}">&laquo;&laquo; Next</a>
     {% endunless %}
   </div>
   <div class="right">
     {% unless forloop.last %}
       {% assign next = forloop.index0 | plus: 1 %}
       {% assign next_page = site.stories[next] %}
-      <a href="{{ next_page.url }}" class="next" title="{{ next_page.title }}">Next Story &raquo;&raquo;</a>
+      <a href="{{ next_page.url }}" class="next" title="{{ next_page.title }}">Previous &raquo;&raquo;</a>
     {% endunless %}
   </div>
 </div>
