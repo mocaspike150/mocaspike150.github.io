@@ -1,5 +1,7 @@
 {% for story in site.stories %}
   {% if story.url == page.url %}
+<div class="container">
+									<div class="row">
 <div class="story-nav">
   <div class="left">
     {% unless forloop.first %}
@@ -15,6 +17,8 @@
       <a href="{{ next_page.url }}" class="next">{{ next_page.title }} &raquo;&raquo;</a>
     {% endunless %}
   </div>
+</div>
+     </div>
 </div>
     {% break %}
   {% endif %}
