@@ -41,14 +41,14 @@ a {
   color: #000;
 }
 
-.story-nav .round {
-  border-radius: 50%;
-}
+
 .story-nav .left {
   float:left;
+  font-weight:bold;
   text-align:right;}
 
 .story-nav .right {
   float:right;
+  font-weight:bold;
   text-align:right;
 }
