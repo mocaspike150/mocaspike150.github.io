@@ -13,7 +13,7 @@
     {% unless forloop.last %}
       {% assign next = forloop.index0 | plus: 1 %}
       {% assign next_page = site.stories[next] %}
-      <a href="{{ next_page.url }}" class="next" title="{{ next_page.title }}">{{ next_page.title }} &raquo;&raquo; Next Story</a>
+      <a href="{{ next_page.url }}" class="next" title="{{ next_page.title }}">Next Story &raquo;&raquo;</a>
     {% endunless %}
   </div>
 </div>
