@@ -44,3 +44,11 @@ a {
 .story-nav .round {
   border-radius: 50%;
 }
+.story-nav .left {
+  float:left;
+  text-align:right;}
+
+.story-nav .right {
+  float:right;
+  text-align:right;
+}
