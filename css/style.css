@@ -27,18 +27,18 @@ a {
 }
 
 .story-nav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #ffa10a;
+  color: #fff;
 }
 
 .story-nav .previous {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: #75BAE0;
+  color: #fff;
 }
 
 .story-nav .next {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #75BAE0;
+  color: #fff;
 }
 
 .story-nav .round {
