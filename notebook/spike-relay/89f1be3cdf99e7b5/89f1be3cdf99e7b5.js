@@ -105,7 +105,7 @@ require("d3@5")
       name: "mile",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://mocaspike150.github.io/json/mile.json')
+d3.json('https://www.mocaspike150.org/json/mile.json')
 )})
     }
   ]
