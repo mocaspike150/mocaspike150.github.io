@@ -26,29 +26,4 @@ a {
   padding: 8px 16px;
 }
 
-.story-nav a:hover {
-  background-color: #ffa10a;
-  color: #fff;
-}
 
-.story-nav .prev {
-  background-color: #eee;
-  color: #000;
-}
-
-.story-nav .next {
-  background-color: #eee;
-  color: #000;
-}
-
-
-.story-nav .left {
-  float:left;
-  font-weight:bold;
-  text-align:right;}
-
-.story-nav .right {
-  float:right;
-  font-weight:bold;
-  text-align:right;
-}
