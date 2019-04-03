@@ -26,21 +26,21 @@ a {
   padding: 8px 16px;
 }
 
-.storynav a:hover {
+.story-nav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.storynav .previous {
+.story-nav .previous {
   background-color: #f1f1f1;
   color: black;
 }
 
-.storynav .next {
+.story-nav .next {
   background-color: #4CAF50;
   color: white;
 }
 
-.storynav .round {
+.story-nav .round {
   border-radius: 50%;
 }
