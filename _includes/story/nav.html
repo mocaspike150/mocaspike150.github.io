@@ -37,6 +37,9 @@
       <a href="{{ previous_page.url }}" class="prev" title="{{ previous_page.title }}">&laquo;&laquo; Prev</a>
     {% endunless %}
   </div>
+  {%if page.date %} 
+	      <div class="date" style="text-align: center">{{ page.date | date_to_long_string }}</div>
+	 {% endif %}
   <div class="right">
     {% unless forloop.last %}
       {% assign next = forloop.index0 | plus: 1 %}
