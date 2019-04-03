@@ -1,14 +1,14 @@
 {% for story in site.stories %}
   {% if story.url == page.url %}
 <div class="story-nav">
-  <div class="left align-right">
+  <div class="left">
     {% unless forloop.first %}
       {% assign previous = forloop.index0 | minus: 1 %}
       {% assign previous_page = site.stories[previous] %}
       <a href="{{ previous_page.url }}" class="prev">{{ previous_page.title }}</a>
     {% endunless %}
   </div>
-  <div class="right align-left">
+  <div class="right">
     {% unless forloop.last %}
       {% assign next = forloop.index0 | plus: 1 %}
       {% assign next_page = site.stories[next] %}
