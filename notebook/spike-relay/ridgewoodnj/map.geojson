@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "ID": "001",
-        "name": "Ridgewood, NJ"
+        "club": "Bergen Runners"
       },
       "geometry": {
         "type": "Point",

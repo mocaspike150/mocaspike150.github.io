@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/@ontouchstart/ridgewood-nj
 // Title: Ridgewood NJ
 // Author: Sam Liu (@ontouchstart)
-// Version: 144
+// Version: 145
 // Runtime version: 1
 
 const m0 = {
-  id: "07d58ed57f7998c7@144",
+  id: "07d58ed57f7998c7@145",
   variables: [
     {
       inputs: ["md"],
@@ -55,7 +55,7 @@ md`# Ridgewood NJ`
     g.append('text')
         .attr("fill", "#64C188")
         .attr("transform", `translate(-20, 0)`)
-        .text('Bergen Runners');
+        .text(d.properties.club);
     
   }
 
@@ -115,7 +115,7 @@ d3.json('https://www.mocaspike150.org/notebook/spike-relay/ridgewoodnj/map.geojs
 };
 
 const notebook = {
-  id: "07d58ed57f7998c7@144",
+  id: "07d58ed57f7998c7@145",
   modules: [m0]
 };
 
