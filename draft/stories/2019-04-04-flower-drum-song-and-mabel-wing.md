@@ -4,8 +4,8 @@ title: Flower Drum Song and Mabel Wing
 title-cn: 花鼓戏和Mabel Wing
 caption-en: Flower Drum Song (Mae Wing in the middle)<br>Courtesy of Mae Wong, Museum of Chinese in America (MOCA) Collection
 caption-cn: 花鼓戏（Mae Wing，前中）<br>Mae Wong捐赠，美国华人博物馆（MOCA）馆藏
-post-image: https://user-images.githubusercontent.com/46349226/55434931-af71b280-5566-11e9-8989-1a0d1a216787.png
-card-image: https://user-images.githubusercontent.com/46349226/55434951-c2848280-5566-11e9-86e7-624602e16fc4.png
+post-image: https://user-images.githubusercontent.com/46349226/55569645-e9aa9380-56cf-11e9-9fe4-bee172fab69f.png
+card-image: https://user-images.githubusercontent.com/46349226/55569646-e9aa9380-56cf-11e9-94d2-db03c282ad38.png
 story-en: |
   <p>Flower Drum Song was a Broadway musical directed by Rodgers and Hammerstein in 1958 based on a
   novel by C. Y. Lee. The choreography of the musical imitated the Chop Suey circuit, an Asian American
