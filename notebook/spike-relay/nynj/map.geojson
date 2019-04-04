@@ -14,6 +14,20 @@
           40.97473030684452
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "002",
+        "club": "Misty Mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.96822214126587,
+          40.77873786688995
+        ]
+      }
     }
   ]
 }
