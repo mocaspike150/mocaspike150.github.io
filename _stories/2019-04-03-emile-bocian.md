@@ -16,4 +16,4 @@ story-cn: |
   <p>接下来将近十年，包信去中国社区拍摄活动照片以及生活片断。这些活动包括拳王穆罕默德·阿里访问唐人街，警察暴力Peter Yew 的抗议活动等等。在我们讲述一百五十个故事期间，我们会发布更多包信的照片，敬请期待。</p>
 ---
 
-The largest photograph collection at MOCA, which contains over 50,000 prints and negatives dating from between 1976 through 1985, belong to Emile Bocian.  The collection was most likely donated to MOCA by former flower drum song ensemble dancer Mabel Wing (real name Mae Wong).   Bocian was a comedy writer turned Public Relations Specialist that eventually became a photojournalist for the now defunct “China Post.”  He first came to Chinatown in the 1970s while acting as public relations agent for the musical act “Stephen Cheng and the Dragon Seeds”... 
+The largest photograph collection at MOCA, which contains over 50,000 prints and negatives dating from between 1976 through 1985, belong to Emile Bocian.  The collection was most likely donated to MOCA by former flower drum song ensemble dancer Mabel Wing (real name Mae Wong).    
