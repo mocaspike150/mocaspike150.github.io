@@ -8,9 +8,12 @@
 <meta property="og:site_name" content="MOCA Spike 150 - Running Forward With Our Stories " />
 {% if page.post-image %}
 <meta property="og:image" content="{{page.post-image}}" />
+<meta name="twitter:image" content="{{page.post-image}}">
 {% else %}
-<meta property="og:image" content="https://www.mocaspike150.org/assets/images/moca-spike-150-share.jpg" />
+<meta property="og:image" content="{{site.image}}" />
+<meta property="twitter:image" content="{{site.image}}" />
 {% endif %}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@mocanyc" />
 <meta name="twitter:creator" content="@MOCA Spike 150" />
+
