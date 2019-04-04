@@ -1,11 +1,5 @@
-// URL: https://observablehq.com/@ontouchstart/ridgewood-nj
-// Title: Ridgewood NJ
-// Author: Sam Liu (@ontouchstart)
-// Version: 92
-// Runtime version: 1
-
 const m0 = {
-  id: "07d58ed57f7998c7@92",
+  id: "07d58ed57f7998c7@106",
   variables: [
     {
       inputs: ["md"],
@@ -34,11 +28,11 @@ md`# Ridgewood NJ`
       .attr("stroke", "#6aa8ca")
       .attr("d", path);
   
-   svg.append("circle")
+ svg.append("circle")
       .attr("fill", "orange")
       .attr("transform", `translate(${data[0]})`)
       .attr("r", 10);
-
+  
   svg.append("path")
       .datum(topojson.mesh(us, us.objects.lower48, (a, b) => a !== b))
       .attr("fill", "none")
@@ -60,15 +54,6 @@ d3.geoAlbersUsa().scale(1280).translate([480, 300])
       name: "ridgewood",
       value: (function(){return(
 [-74.09363150596617,40.97473030684452]
-)})
-    },
-    {
-      name: "data",
-      inputs: ["ridgewood","projection"],
-      value: (function(ridgewood,projection){return(
-([
-  ridgewood
-]).map(projection)
 )})
     },
     {
@@ -104,12 +89,26 @@ require("d3@5")
       value: (function(us){return(
 us.objects.counties
 )})
+    },
+    {
+      name: "geojson",
+      inputs: ["d3"],
+      value: (function(d3){return(
+d3.json('map.geojson')
+)})
+    },
+    {
+      name: "data",
+      inputs: ["geojson","projection"],
+      value: (function(geojson,projection){return(
+geojson.features.map((d) => (projection(d.geometry.coordinates)))
+)})
     }
   ]
 };
 
 const notebook = {
-  id: "07d58ed57f7998c7@92",
+  id: "07d58ed57f7998c7@106",
   modules: [m0]
 };
 
