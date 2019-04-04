@@ -61,7 +61,7 @@ d3.geoAlbersUsa().scale(1280).translate([480, 300])
       inputs: ["d3"],
       value: (async function(d3)
 {
-  const us = await d3.json("https://unpkg.com/us-atlas@1/us/10m.json");
+  const us = await d3.json("../us.json");
   us.objects.lower48 = {
     type: "GeometryCollection",
     geometries: us.objects.states.geometries.filter(d => d.id !== "02" && d.id !== "15")
