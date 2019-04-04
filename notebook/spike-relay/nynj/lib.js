@@ -1,16 +1,16 @@
-// URL: https://observablehq.com/@ontouchstart/ridgewood-nj
-// Title: Ridgewood NJ
+// URL: https://observablehq.com/@ontouchstart/nynj
+// Title: NYNJ
 // Author: Sam Liu (@ontouchstart)
-// Version: 145
+// Version: 150
 // Runtime version: 1
 
 const m0 = {
-  id: "07d58ed57f7998c7@145",
+  id: "8599f9b1b3f4c4c7@150",
   variables: [
     {
       inputs: ["md"],
       value: (function(md){return(
-md`# Ridgewood NJ`
+md`# NYNJ`
 )})
     },
     {
@@ -108,14 +108,14 @@ us.objects.counties
       name: "geojson",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/notebook/spike-relay/ridgewoodnj/map.geojson')
+d3.json('https://www.mocaspike150.org/notebook/spike-relay/nynj/map.geojson')
 )})
     }
   ]
 };
 
 const notebook = {
-  id: "07d58ed57f7998c7@145",
+  id: "8599f9b1b3f4c4c7@150",
   modules: [m0]
 };
 
