@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/@ontouchstart/ridgewood-nj
 // Title: Ridgewood NJ
 // Author: Sam Liu (@ontouchstart)
-// Version: 122
+// Version: 124
 // Runtime version: 1
 
 const m0 = {
-  id: "07d58ed57f7998c7@122",
+  id: "07d58ed57f7998c7@124",
   variables: [
     {
       inputs: ["md"],
@@ -37,11 +37,14 @@ md`# Ridgewood NJ`
       .attr("stroke", "#6aa8ca")
       .attr("stroke-linejoin", "round")
       .attr("d", path);
+  
   for (const d of geojson.features) {
       svg.append("circle")
         .attr("fill", "orange")
         .attr("transform", `translate(${projection(d.geometry.coordinates)})`)
-        .transition(1000)
+        .transition()
+        .delay(1000)
+        .duration(1000)
         .attr("r", 10);
   }
 
@@ -101,7 +104,7 @@ d3.json('https://www.mocaspike150.org/notebook/spike-relay/ridgewoodnj/map.geojs
 };
 
 const notebook = {
-  id: "07d58ed57f7998c7@122",
+  id: "07d58ed57f7998c7@124",
   modules: [m0]
 };
 
