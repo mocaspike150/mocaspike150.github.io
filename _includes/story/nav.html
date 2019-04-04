@@ -48,7 +48,9 @@
     {% unless forloop.last %}
       {% assign next = forloop.index0 | plus: 1 %}
       {% assign next_page = site.stories[next] %}
-      <a href="{{ next_page.url }}" class="next" title="{{ next_page.title }}">Next &raquo;&raquo;</a>
+      {% if next_page.date < site.time %}
+        <a href="{{ next_page.url }}" class="next" title="{{ next_page.title }}">Next &raquo;&raquo;</a>
+      {% endif %}
     {% endunless %}
   </div>
 </div>

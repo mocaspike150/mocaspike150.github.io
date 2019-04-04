@@ -4,7 +4,7 @@
 		<div class="hestia-blog-content">
 			<div class="row">
         {% for item in site.stories reversed %}
-           {% if item.date < site.time %}
+           {% if item.date > site.time %}
              {% include stories/card.html %}
            {% endif %}
         {% endfor %}

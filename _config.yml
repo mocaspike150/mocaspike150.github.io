@@ -9,6 +9,8 @@ timezone: America/New_York
 contact_email: rshih@mocanyc.org
 image: https://www.mocaspike150.org/assets/images/moca-spike-150-share.jpg
 
+future: true
+
 collections:
   posts:
     output: true
