@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/@ontouchstart/ridgewood-nj
 // Title: Ridgewood NJ
 // Author: Sam Liu (@ontouchstart)
-// Version: 138
+// Version: 144
 // Runtime version: 1
 
 const m0 = {
-  id: "07d58ed57f7998c7@138",
+  id: "07d58ed57f7998c7@144",
   variables: [
     {
       inputs: ["md"],
@@ -26,6 +26,7 @@ md`# Ridgewood NJ`
       .style("height", "auto")
       .style("font-family", "Verlag-Light")
       .style("font-size", "16px")
+      .attr("stroke-width", "1")
   
   svg.append("path")
       .datum(topojson.merge(us, us.objects.lower48.geometries))
@@ -43,18 +44,19 @@ md`# Ridgewood NJ`
   for (const d of geojson.features) {
       let g = svg.append('g')
           .attr("transform", `translate(${projection(d.geometry.coordinates)})`);
-      g.append('text')
-        .attr("fill", "#64C188")
-        .attr("transform", `translate(-20, 0)`)
-        .text('Bergen Runners');
-    
+     
       g.append("circle")
         .attr("fill", "orange")
-        .attr("opacity", 0.5)
         .transition()
         .delay(1000)
         .duration(1000)
         .attr("r", 10);
+    
+    g.append('text')
+        .attr("fill", "#64C188")
+        .attr("transform", `translate(-20, 0)`)
+        .text('Bergen Runners');
+    
   }
 
   return svg.node();
@@ -113,7 +115,7 @@ d3.json('https://www.mocaspike150.org/notebook/spike-relay/ridgewoodnj/map.geojs
 };
 
 const notebook = {
-  id: "07d58ed57f7998c7@138",
+  id: "07d58ed57f7998c7@144",
   modules: [m0]
 };
 
