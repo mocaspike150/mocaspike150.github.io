@@ -17,4 +17,4 @@ story-cn: |
     <p>虽然这些公司没国工人有保留中姓名的记录，但是估计有一万到一万五千中国劳工参加了美国横贯大陆铁路的建设工作。最早的关于华人居住于旧金山地区的报道是1838年，但早期移民美国的华人主要是富有的商人或者做贸易的，而这些成批来自中国的普通劳动者才被认为是第一批来美国的中国移民。
 
 ---
-In 1865, the Central Pacific Railroad, headed by Leland Stanford, began construction on the First Transcontinental Railroad. Chinese laborers would prove instrumental in its construction. In 1865, the first fifty Chinese workers were experimentally hired to begin work on the western portion. By 1865, as the demand for labor increased and white workers showed resistance to the backbreaking, dangerous work, the Central Pacific Railroad (CPRR) began hiring more Chinese laborers from California communities. Impressed by the Chinese laborers’ efficiency and dedication, the CPRR began actively recruiting from Guangdong province when local labor resources were exhausted.
+In 1865, the Central Pacific Railroad, headed by Leland Stanford, began construction on the First Transcontinental Railroad. Chinese laborers would prove instrumental in its construction. In 1865, the first fifty Chinese workers were experimentally hired to begin work on the western portion. 
