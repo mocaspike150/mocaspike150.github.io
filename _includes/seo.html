@@ -6,7 +6,11 @@
 <meta property="og:description" content="2019 marks the 150th anniversary of the completion of the transcontinental railroad. The “MOCA Spike 150 - Running Forward with Our Stories!” initiative will honor the thousands of Chinese workers responsible for this great milestone in American History as well as explore the Chinese diaspora throughout America." />
 <meta property="og:url" content="https://www.mocaspike150.org{{page.url}}" />
 <meta property="og:site_name" content="MOCA Spike 150 - Running Forward With Our Stories " />
+{% if page.image %}
+<meta property="og:image" content="{{page.image}}" />
+{% else %}
 <meta property="og:image" content="https://www.mocaspike150.org/assets/images/moca-spike-150-share.jpg" />
+{% endif %}
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@mocanyc" />
 <meta name="twitter:creator" content="@MOCA Spike 150" />
