@@ -34,10 +34,7 @@ story-cn: |
 
 Flower Drum Song was a Broadway musical directed by Rodgers and Hammerstein in 1958 based on a
 novel by C. Y. Lee. The choreography of the musical imitated the Chop Suey circuit, an Asian American
-cabaret thrived in Chinatowns in the 1940s and 1950s. Mae Wing (in the middle) performed as an
-ensemble dancer in this well-known musical when it first came out. After winning the “Miss Chinatown”
-in New York Chinese community, 17-year-old Mae was encouraged to try out for the show business by
-reluctantly against her parents’ wishes and achieved great success in the musical. 
+cabaret thrived in Chinatowns in the 1940s and 1950s. 
 
 
 
