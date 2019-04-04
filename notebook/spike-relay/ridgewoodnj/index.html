@@ -5,7 +5,7 @@
 <body>
 <script type="module">
 
-import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
+import {Inspector, Runtime} from "/notebook/notebook-runtime.js";
 import notebook from "./lib.js";
 
 Runtime.load(notebook, Inspector.into(document.body));
