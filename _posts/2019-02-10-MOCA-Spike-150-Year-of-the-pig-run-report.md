@@ -3,8 +3,8 @@ layout: post
 title: "MOCA Spike 150: A Run for the Pig!"
 date: 2019-02-10 12:00:00
 author: Amy Ko-Tang
-card-image: /wp/uploads/2019/03/run_for_the_pig-360x240.jpg
-post-image: /wp/uploads/2019/03/run_for_the_pig.jpg
+card-image: https://www.mocaspike150.org/wp/uploads/2019/03/run_for_the_pig-360x240.jpg
+post-image: https://www.mocaspike150.org/wp/uploads/2019/03/run_for_the_pig.jpg
 redirect_from:
   - /experience/2019-02-10-MOCA-Spike-150-Year-of-the-pig-run-report
 ---
