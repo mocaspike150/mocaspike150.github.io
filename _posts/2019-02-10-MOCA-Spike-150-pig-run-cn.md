@@ -3,8 +3,8 @@ layout: post
 title: MOCA Spike 150 野豬迎春跑后記
 date: 2019-02-10 13:00:00
 author: Renny Shih
-card-image: /wp/uploads/2019/02/52625399-e983d980-2e7e-11e9-92f0-6c3ca3c1181a-360x240.jpg
-post-image: /wp/uploads/2019/02/52625399-e983d980-2e7e-11e9-92f0-6c3ca3c1181a.jpg
+card-image: https://www.mocaspike150.org/wp/uploads/2019/02/52625399-e983d980-2e7e-11e9-92f0-6c3ca3c1181a-360x240.jpg
+post-image: https://www.mocaspike150.org/wp/uploads/2019/02/52625399-e983d980-2e7e-11e9-92f0-6c3ca3c1181a.jpg
 redirect_from:
   - /experience/2019-02-10-MOCA-Spike-150-pig-run-cn
 ---
