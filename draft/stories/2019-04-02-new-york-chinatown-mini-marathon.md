@@ -4,8 +4,8 @@ title: New York Chinatown Mini-Marathon
 title-cn: 纽约华埠迷你马拉松
 caption-en: New York Chinatown Mini-Marathon, 1977<br>Photographs taken by Emile Bocian, Museum of Chinese in America (MOCA) Collection
 caption-cn: 纽约华埠迷你马拉松赛事，1977年<br>照片由Emile Bocian（包信）拍摄，美国华人博物馆（MOCA）馆藏
-post-image: https://user-images.githubusercontent.com/46349226/55405843-e923c880-5528-11e9-830d-22d2340969a8.png
-card-image: https://user-images.githubusercontent.com/46349226/55405843-e923c880-5528-11e9-830d-22d2340969a8.png
+post-image: https://user-images.githubusercontent.com/46349226/55439093-8c003500-5571-11e9-9019-ff86ca4cd992.jpg
+card-image: https://user-images.githubusercontent.com/46349226/55439092-8c003500-5571-11e9-9df3-61d7b44f858d.jpg
 story-en: |
   On August 28 th , 1977 a mini-marathon was held in New York’s Chinatown. While little information is available about the marathon aside from the above photographs taken by Emile Bocian, it appears that the marathon started and finished on Mott Street and saw runners running across the Manhattan Bridge. According to the sparse notes taken by Bocian, a known sensationalist, one of the runners was 67 year old Chan-Ling Wang that Bocian writes was “China’s most famous marathon runner.”
 
