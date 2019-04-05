@@ -2,8 +2,8 @@
   {% assign counter = 0 %}
   {% for item in site.stories reversed %}
     {% if item.date < site.time %}
-      {% assign start = forloop.index0 %}
-      {% for i in (1..3) %} 
+      {% assign start = forloop.rindex0 %}
+      {% for i in (0..2) %} 
         {% assign next = start | minus: i %}
         {% assign story = site.stories[next] %}
         <article class="col-xs-12 col-ms-10 col-ms-offset-1 col-sm-8 col-sm-offset-2 col-md-4 hestia-blog-item">
