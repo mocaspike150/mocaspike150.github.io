@@ -1,7 +1,7 @@
 ---
 layout: story
 title: The Good Earth
-title-cn: 大地
+title-cn: 《大地》
 caption-en: Courtesy of Alex Jay, Museum of Chinese in America (MOCA) Collection
 caption-cn: Alex Jay捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/46349226/55435753-89e5a880-5568-11e9-8e2c-598d6097c3a2.png
