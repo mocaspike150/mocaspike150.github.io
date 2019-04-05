@@ -1,0 +1,36 @@
+<div class="row">
+  {% assign counter = 0 %}
+  {% for item in site.stories reversed %}
+    {% if item.date < site.time %}
+      {% assign start = forloop.index0 %}
+      {% for i in (1..3) %} 
+        {% assign next = start | minus: i %}
+        {% assign story = site.stories[next] %}
+        <article class="col-xs-12 col-ms-10 col-ms-offset-1 col-sm-8 col-sm-offset-2 col-md-4 hestia-blog-item">
+          <div class="card card-plain card-blog">
+            <div class="card-image">
+              <a href="{{ story.url | relative_url }}" title="{{ story.title }}">
+                <img width="360" height="240" src="{{ story.card-image }}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="">
+              </a>
+            </div>
+            <div class="content">
+              <h6 class="category"><a href="/stories/" title="View all posts in 150 Stories" rel="tag">150 Stories</a> </h6>
+              <h4 class="card-title entry-title">
+                <a class="blog-item-title-link" href="{{ story.url | relative_url }}" title="{{ story.title }}" rel="bookmark">
+                  {{ story.title }}
+                </a>
+              </h4>
+              <div class="card-description">
+                <div class="desc-text">
+                  {{ story.content }}
+                </div>
+                <a class="moretag" href="{{ story.url | relative_url }}"> Read more…</a></div>
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+</div>
+
