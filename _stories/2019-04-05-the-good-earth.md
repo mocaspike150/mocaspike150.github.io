@@ -33,14 +33,7 @@ story-cn: |
 The Good Earth by Pearl S. Buck was published in 1931; her second novel. The novel depicts
 the life of a family living in a rural Chinese village in the early 20 th century. In 1938 Buck would
 win a Nobel Prize in Literature “for her rich and truly epic descriptions of peasant life in China
-and for her biographical masterpieces.”The Good Earth would be adapted for Broadway in 1932
-and that version was adapted for film in 1937. Originally the Chinese American actress Anna
-May Wong was supposed to play the leading role O-Lan but she was replaced by Austrian
-American Actress Luise Rainer. Buck had hoped to cast all Chinese actors but the producers
-didn’t think that the prospect would appeal to American audiences. As a result all the major
-roles were given to western actors in yellow face while Chinese American actors were cast in
-some supporting roles. The movie was nominated for 5 academy awards with Luise Rainer
-winning for best actress.
+and for her biographical masterpieces.
 
 
 
