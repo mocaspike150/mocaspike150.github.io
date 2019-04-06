@@ -1,4 +1,4 @@
   {% for ambassador in site.ambassadors %}
-       {{ambassador.firstname}}  {{ambassador.lastname}} 
+       {% include ambassadors/card.html} 
    {% endfor %}
 
