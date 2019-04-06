@@ -8,4 +8,4 @@ image:
 
 ---
 
-<img src="https://cdn.crowdrise.com/v2/photo/file/member/{{id}}">
+<img src="https://cdn.crowdrise.com/v2/photo/file/member/{{page.id}}">
