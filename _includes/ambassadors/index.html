@@ -1,4 +1,9 @@
-  {% for ambassador in site.ambassadors %}
+<style>
+  .card-plain .card-image {
+    height: 180px;
+}
+</style>
+{% for ambassador in site.ambassadors %}
        {% include ambassadors/card.html %} 
    {% endfor %}
 
