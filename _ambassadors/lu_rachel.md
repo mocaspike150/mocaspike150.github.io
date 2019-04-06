@@ -8,6 +8,7 @@ post-image: https://cdn.crowdrise.com/v2/photo/file/member/5266141
 card-image: https://cdn.crowdrise.com/v2/photo/file/member/5266141
 
 ---
+
 <div class="card-testimonial">
 
 <div class="card-avatar">
