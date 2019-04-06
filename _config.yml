@@ -21,6 +21,9 @@ collections:
   stories:
     output: true
     permalink: /:collection/:path
+  ambassadors:
+    output: true
+    permalink: /:collection/:path
 
 exclude: 
 - Dockerfile
