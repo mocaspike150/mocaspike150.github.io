@@ -7,3 +7,7 @@ team: moca-spike-150-ambassadors
 
 ---
 
+<h4> {{ambassador.firstname}}  {{ambassador.lastname}} </h4>
+<div class="card-avatar">
+			<img src="https://cdn.crowdrise.com/v2/photo/file/member/{{ambassador.crowdrise_id}}">                          
+</div>
