@@ -1,0 +1,14 @@
+<div class="row">
+  {% assign counter = 0 %}
+  {% for item in site.stories reversed %}
+    {% if item.date < site.time %}
+      {% assign start = forloop.rindex0 %}
+      {% for i in (0..2) %} 
+        {% assign next = start | minus: i %}
+        {% assign story = site.stories[next] %}
+        {% include cards/story-card.html %}
+      {% endfor %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+</div>
