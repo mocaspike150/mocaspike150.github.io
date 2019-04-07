@@ -13,4 +13,6 @@ story-cn: |
   <p>十九世纪后期</p>
 ---
 
-In the late 1800s
+In the late 1800s, racial tension towards Chinese mounted as Americans saw the booming immigrant population as
+a threat to their livelihood. These sentiments boiled over into violent, organized attacks on Chinese and
+manifested as anti-Chinese legislation.
