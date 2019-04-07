@@ -9,12 +9,12 @@ card-image: https://user-images.githubusercontent.com/23090526/55685050-15bc5380
 story-en: |
   <p>As a result of the Geary Act that was passed in 1892 Chinese in America were required to apply for a
   certificate of residence from the US Government. They were then required to carry this document at all
-  times. If they were not in possession of the document they would be arrested and deported.
+  times. If they were not in possession of the document they would be arrested and deported.</p>
 
 story-cn: |
     <p>作为1892年“Geary法案”通过的一项结果，在美国的华人都需要向美国政府申请一个居
 住证。然后这个居住证需要被随时带在身上。如果被发现没有这个证件，他们将被逮捕或
-遣返。
+遣返。</p>
 ---
-<p>As a result of the Geary Act that was passed in 1892 Chinese in America were required to apply for a
+As a result of the Geary Act that was passed in 1892 Chinese in America were required to apply for a
   certificate of residence from the US Government.
