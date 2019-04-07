@@ -7,7 +7,7 @@ caption-cn: 1882年5月19日美国财政部通函<br/>Scott Seligman捐赠，美
 post-image: https://user-images.githubusercontent.com/46349226/55684565-47cab700-591a-11e9-886e-eb283711f068.jpg
 card-image: https://user-images.githubusercontent.com/46349226/55684564-47cab700-591a-11e9-9a50-15667e4382da.jpg
 story-en: |
-  <p>In the late 1800s</p>
+  <p>In the late 1800s, put more words...</p>
 
 story-cn: |
   <p>十九世纪后期</p>
