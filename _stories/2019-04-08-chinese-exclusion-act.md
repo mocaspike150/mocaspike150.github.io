@@ -10,7 +10,7 @@ story-en: |
   <p>In the late 1800s, racial tension towards Chinese mounted as Americans saw the booming immigrant population as
 a threat to their livelihood. These sentiments boiled over into violent, organized attacks on Chinese and
 manifested as anti-Chinese legislation. In 1882, Congress passed the Chinese Exclusion Act, the first federal law to
-bar entry to a group of immigrants’ based solely on nationality. The Act prohibited skilled and unskilled Chinese
+bar entry to a group of immigrants' based solely on nationality. The Act prohibited skilled and unskilled Chinese
 laborers from entering the country, although merchants, students, and diplomats could gain passage. The ten-year
 act was renewed in 1892 with the passing of the Geary Act, which among other acts intensified regulations by
 requiring all Chinese to carry documentation. The Act was extended in perpetuity in 1902.
@@ -28,7 +28,7 @@ story-cn: |
 升级。这些情绪激起了对中国人的暴力，有组织的攻击，并表现为立法反华。 1882年，国会通过
 了“排华法案”，成为第一部仅凭国籍就可以将一个移民群体拒之门外的联邦法律。该法案虽然允
 许商人、学生、外交官获得通过，但禁止熟练和不熟练的中国劳工进入美国。这项为期十年的法案
-在1892年得到更新，同时通过了“Geary法案”，连同其它法案一起加强了法规，要求所有中国人
+在1892年得到更新，同时通过了"Geary法案"，连同其它法案一起加强了法规，要求所有中国人
 携带文件。排华法案于获得永久性延期。
   <p>虽然该法案计划用以保护美国经济免受移民引起的工资低迷，但是没有其他民族受到任何移民限制
 。在中国移民高峰期，他们只占被批准总数的4.4%，而欧洲移民占了94%。在这个法案的影响下，
