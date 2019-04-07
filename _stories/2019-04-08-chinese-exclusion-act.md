@@ -13,7 +13,4 @@ story-cn: |
   <p>十九世纪后期</p>
 ---
 
-The Good Earth by Pearl S. Buck was published in 1931; her second novel. The novel depicts
-the life of a family living in a rural Chinese village in the early 20 th century. In 1938 Buck would
-win a Nobel Prize in Literature “for her rich and truly epic descriptions of peasant life in China
-and for her biographical masterpieces.
+In the late 1800s
