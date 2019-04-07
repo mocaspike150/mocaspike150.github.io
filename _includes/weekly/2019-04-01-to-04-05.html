@@ -1,6 +1,6 @@
 <div class="row">
   {% assign counter = 0 %}
-  {% for item in site.stories reversed %}
+  {% for item in site.stories %}
     {% if item.date < site.time %}
       {% assign start = forloop.rindex0 %}
       {% for i in (0..4) %} 
