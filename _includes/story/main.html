@@ -9,7 +9,7 @@
          	 {%if page.date %} 
 	      		<div class="date" style="text-align: center">{{ page.date | date_to_long_string }}</div>
 		     {% endif %}
-		{% include story/nav.html %}
+		
 		 </div>
 		</div>
 		 <div class="row">
@@ -31,6 +31,8 @@
        {{ page.story-en }}
        <hr/>
        {{ page.story-cn }}
+
+       {% include story/nav.html %}
        <h6 style="text-align: center;margin-top:20px;"> Countdown to the <a href="/marathon/">TCS NYC Marathon</a> on November 3, 2019: <span id="countdown">216</span> Days.</h6>
         
              {% include mocaspike150card.html %}
