@@ -25,3 +25,13 @@
  padding-bottom:15px; 
 }
 
+
+.post-footnote {
+    border-radius: 15px;
+    background: #FFF7ED;
+    padding: 20px;
+    margin: 20px 0;
+    color: #361500;
+}
+
+
