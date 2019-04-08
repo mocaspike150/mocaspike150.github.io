@@ -1,0 +1,11 @@
+{% capture  start %}
+  {{ page.start | minus: 1 | times:5 }}
+{% endcapture %}
+
+<div class="row">
+   {% for i in (0..4) %} 
+      {% assign next = start | plus: i %}
+      {% assign story = site.stories[next] %}
+      {% include weekly/card.html %}
+   {% endfor %}
+</div>
