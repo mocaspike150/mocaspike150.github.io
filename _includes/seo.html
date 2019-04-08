@@ -2,9 +2,9 @@
 <meta property="og:title" content="{{page.title}}" />
 <meta name="author" content="{{site.author}}" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="{{page.description}}" />
-<meta property="og:description" content="{{page.description}}" />
-<meta property="og:url" content="https://www.mocaspike150.org{{page.url}}" />
+<meta name="description" content="{% if page.descriptio %}{{page.description}}{% else %}{{site.description}}{% endif %}" />
+<meta property="og:description" content="{% if page.descriptio %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+<meta property="og:url" content="https://www.mocaspike150.org{{page.url}}" >
 <meta property="og:site_name" content="{{site.title}}" />
 {% if page.post-image %}
 <meta property="og:image" content="{{page.post-image}}" />
