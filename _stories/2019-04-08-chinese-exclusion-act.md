@@ -1,4 +1,5 @@
 ---
+date: 2019-04-08 12:00:00 -0400
 layout: story
 title: Chinese Exclusion Act
 title-cn: 排华法
