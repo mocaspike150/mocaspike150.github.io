@@ -1,22 +1,22 @@
-   <article class="col-xs-12 col-ms-10 col-ms-offset-1 col-sm-8 col-sm-offset-2 col-md-4 hestia-blog-item">
-          <div class="card card-plain card-blog">
-            <div class="card-image">
-              <a href="{{ story.url | relative_url }}" title="{{ story.title }}">
-                <img width="360" height="240" src="{{ story.card-image }}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt="">
-              </a>
-            </div>
-            <div class="content">
-              <h6 class="category"><a href="/stories/" title="View all posts in 150 Stories" rel="tag">150 Stories</a> </h6>
-              <h4 class="card-title entry-title">
-                <a class="blog-item-title-link" href="{{ story.url | relative_url }}" title="{{ story.title }}" rel="bookmark">
-                  {{ story.title }}
-                </a>
-              </h4>
-              <div class="card-description">
-                <div class="desc-text">
-                  {{ story.content }}
-                </div>
-                <a class="moretag" href="{{ story.url | relative_url }}"> Read more…</a></div>
-            </div>
-          </div>
-        </article>
+<article class="card card-blog card-plain post-1262 post type-post status-publish format-standard has-post-thumbnail hentry category-posts">
+	<div class="row ">
+		<div class="col-ms-5 col-sm-5">
+      {% if item.card-image %}
+			<div class="card-image">
+				<a href="{{ item.url | relative_url }}" title="{{ item.title }}"><img width="360" height="240" src="{{ item.card-image }}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt=""></a>
+			</div>
+      {% endif %}
+		</div>
+		<div class="col-ms-7 col-sm-7">
+			<h6 class="category text-info"><a href="/category/posts" title="View all posts in 150 Stories" rel="tag">150 Stories</a> </h6>
+			<h2 class="card-title entry-title"><a href="{{ item.url | relative_url }}" title="{{ item.title }}" rel="bookmark">{{ item.title  }}<br> {{ item.title-cn }}</a></h2>
+			<div class="card-description entry-summary ">
+				<div class="author">
+					{{ item.author | escape }}
+          {{ item.date | date_to_long_string }}
+				</div>
+				<!--<p class="list-desc">{{ item.content }} <a href="{{ item.url | relative_url }}" class="more-link"><span aria-label="Continue reading {{ item.title  }}">(more…)</span></a></p>-->
+			</div>
+		</div>
+	</div>
+</article>
