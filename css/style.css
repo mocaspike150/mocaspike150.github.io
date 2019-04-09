@@ -35,3 +35,62 @@
 }
 
 
+  @media only screen and (max-width: 2280px) {
+  .ambassador .card-image {
+     max-height: 127px;
+  }
+    .ambassador .content,  .card .support {
+    font-size:10pt;
+  }
+}
+  @media only screen and (max-width: 991px) {
+  .ambassador .card-image {
+    max-height: 200px;
+  }
+     .ambassador .content,  .card .support {
+    font-size: 11pt;
+  }
+ 
+}
+   @media only screen and (max-width: 766px) {
+  .ambassador .card-image {
+    max-height: 150px;
+  }
+      .ambassador .content,  .card .support {
+    font-size:12pt;
+  }
+ }
+   @media only screen and (max-width: 480px) {
+   .ambassador .card-image {
+    max-height: 128px;
+  }
+    .ambassador .content,  .card .support {
+    font-size:12pt;
+  }
+}
+  
+  
+  .ambassador   {
+     margin-bottom: 10px; 
+  }
+  .ambassador .content {
+   font-weight:bold;
+   text-align:center;
+   background: #FFF7ED;
+  }
+  .ambassador .content a{
+   color:#000B43;
+  }
+  
+   .ambassador .support {
+    font-weight:bold;
+    text-align:center;
+    background: #FFA10A;
+  }
+  .ambassador .support a {
+   color:#fff;
+  }
+  
+
+
+
