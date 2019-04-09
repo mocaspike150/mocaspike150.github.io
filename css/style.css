@@ -68,7 +68,15 @@
     font-size:12pt;
   }
 }
-  
+  .title-block {
+    border-radius: 15px;
+    background: #FFF7ED;
+    padding: 10px 15px;
+    margin: 10px 0 5px 0;
+    color: #361500;
+    display: inline-block;
+    font-weight: bold;
+}
   
   .ambassador   {
      margin-bottom: 10px; 
