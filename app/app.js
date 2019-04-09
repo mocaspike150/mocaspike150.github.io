@@ -10,6 +10,7 @@ const multer  = require('multer');
 const upload = multer();
 const contact = require('./contact');
 const signup = require('./signup');
+const ambassador = require('./ambassador');
 
 app.use(cors());
 
@@ -99,6 +100,8 @@ app.get('/pages', (req, res) => {
 
 app.get('/crowdrise/0', crowdrise(0));
 app.get('/crowdrise/1', crowdrise(1));
+
+app.get('/ambassador/:id/amount', ambassador.amount);
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
