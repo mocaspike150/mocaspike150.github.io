@@ -7,7 +7,6 @@ exports.amount = (req, res) => {
   let endpoint = `${api}/${id}`
   axios.get(endpoint)
     .then( (response) => {
-      console.log(response)
       let html = response.data
       let lines = html.split('\n');
       let raised = lines.filter((d) => ( d.match(/<h2 class="inline raised"/)))[0]
