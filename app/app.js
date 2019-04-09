@@ -9,6 +9,7 @@ const crowdrise = require('./crowdrise');
 const multer  = require('multer');
 const upload = multer();
 const contact = require('./contact');
+const signup = require('./signup');
 
 app.use(cors());
 
@@ -17,6 +18,8 @@ app.use('/', express.static(path.join(__dirname, 'public')))
 app.use('/lib', express.static(path.join(__dirname, 'lib')))
 
 app.post('/contact', upload.none(), contact);
+
+app.post('/signup', upload.none(), signup);
 
 app.get('/node.version.json', (req, res) => {
   res.setHeader('Content-Type', 'application/json');

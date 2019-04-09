@@ -1,7 +1,9 @@
 ---
 layout: page
-action: '/' # tbd on https://moca-spike-150.appspot.com/
-title: Spike Relay Signup
+api:
+  host:   'https://moca-spike-150.appspot.com'
+  path:   'signup' 
+title:   Spike Relay Signup
 ---
 <div class="wpforms-container wpforms-container-full" id="wpforms-236">
   <form 
@@ -10,7 +12,7 @@ title: Spike Relay Signup
         data-formid="236" 
         method="post" 
         enctype="multipart/form-data" 
-        action="{{ page.action }}"
+        action="{{ page.api.host }}/{{ page.api.path }}"
         >
     <div class="wpforms-field-container">
       <div 
