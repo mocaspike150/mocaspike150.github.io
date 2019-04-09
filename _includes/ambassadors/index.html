@@ -64,7 +64,11 @@
 <div class="row">
 
 {% for ambassador in site.ambassadors %}
+  {% if ambassador.type %}
+  
+  {% else %}
        {% include ambassadors/card.html %} 
+  {% endif %}
 {% endfor %}
  </div>
 <div class="row">
