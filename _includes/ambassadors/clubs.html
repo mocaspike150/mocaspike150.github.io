@@ -1,0 +1,14 @@
+<div class="row">
+
+{% for ambassador in site.ambassadors %}
+  {% if ambassador.type == "club" %}
+  
+       {% include ambassadors/card.html %} 
+  {% endif %}
+{% endfor %}
+ </div>
+<div class="row">
+<div class="col-md-12">
+{% include ambassadors/join.html %}
+ </div>
+ </div>
