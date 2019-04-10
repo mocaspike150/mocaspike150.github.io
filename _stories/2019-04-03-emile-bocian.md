@@ -12,7 +12,7 @@ story-en: |
   Bocian went on to take pictures of events and slice of life images of the Chinese community for almost a decade.  Some of these events included Muhhamed Ali’s visit to Chinatown, the Peter Yew Police Brutality protests, etc.  Throughout the course of our 150 stories we will be posting more of Bocian’s images so please stay tuned. 
   </p>
 story-cn: |
-  <p>MOCA最大的照片馆藏是包信档案，包括五万多张照片和底片，时间跨度从1976年到1985年。 该馆藏最有可能是由前《花鼓戏》舞蹈演员Mable Wing(真名Mae Wong)捐赠给MOCA的。包信本是一位喜剧作家，后来转型为一名公共关系专家，最终成为《纽约日报》的摄影记者，《纽约日报》目前已停刊。包信于二十世纪七十年代首次来到唐人街，当时是作为音乐演出“Stephen Cheng and the Dragon Seeds”的公关代理人（Stephen Cheng和他的音乐将在2019年5月2日开幕MOCA的新展《月亮代表我的心: 音乐·记忆 ·共同体》中展出）。正是在这段时间，他遇到了金都戏院和《纽约日报》的老板Lucas Liang（卢卡斯·梁）。梁先生要求他为李小龙的电影《精武门》的首映式进行宣传活动。在包信宣称该片的宣传成功后，梁先生聘请包信为他的报纸做摄影记者，尽管他对中文一窍不通。</p>
+  <p>MOCA最大的照片馆藏是包信档案，包括五万多张照片和底片，时间跨度从1976年到1985年。 该馆藏最有可能是由前《花鼓戏》舞蹈演员Mable Wing(真名Mae Wong)捐赠给MOCA的。包信本是一位喜剧作家，后来转型为一名公共关系专家，最终成为《纽约日报》的摄影记者，《纽约日报》目前已停刊。包信于二十世纪七十年代首次来到唐人街，当时是作为音乐演出“Stephen Cheng and the Dragon Seeds”的公关代理人（Stephen Cheng和他的音乐将在2019年5月2日开幕MOCA的新展《月亮代表我的心: 音乐·记忆 ·共同体》中展出）。正是在这段时间，他遇到了金都戏院和《纽约日报》的老板Lucas Liang（卢卡斯·梁）。梁先生要求他为李小龙的电影《精武门》的首映式进行宣传活动。在包信宣布该片的宣传成功后，梁先生聘请包信为他的报纸做摄影记者，尽管他对中文一窍不通。</p>
   <p>接下来将近十年，包信去中国社区拍摄活动照片以及生活片断。这些活动包括拳王穆罕默德·阿里访问唐人街，警察暴力Peter Yew 的抗议活动等等。在我们讲述一百五十个故事期间，我们会发布更多包信的照片，敬请期待。</p>
 ---
 
