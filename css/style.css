@@ -68,8 +68,6 @@
     font-size:12pt;
   }
 }
- 
-  
   .ambassador   {
      margin-bottom: 10px; 
   }
@@ -87,6 +85,11 @@
     text-align:center;
     background: #FFA10A;
   }
+
+.carousel .hestia-big-title-content .buttons .btn-right {
+    background-color: #75BAE0;
+    border: 0px;
+}
   .ambassador .support a {
    color:#fff;
   }
