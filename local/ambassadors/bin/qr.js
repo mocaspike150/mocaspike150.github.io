@@ -7,7 +7,7 @@ const qr = (user, team, fn) => {
   const path = `https://www.crowdrise.com/o/en/campaign/${team}/${user}`
   QRCode.toDataURL(path, function (err, url) {
     const html = `
-      <img src="${url}"/>
+      <img width="100%" src="${url}"/>
       `
     fs.writeFile(fn, html, (err) => {
       if(err) {
