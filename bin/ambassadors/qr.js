@@ -3,8 +3,8 @@ const QRCode = require('qrcode')
 const axios = require('axios')
 const data = 'https://www.mocaspike150.org/data/ambassadors.json'
 
-const qr = (user, fn) => {
-  const path = `https://www.crowdrise.com/o/en/campaign/moca-spike-150/${user}`
+const qr = (user, team, fn) => {
+  const path = `https://www.crowdrise.com/o/en/campaign/${team}/${user}`
   QRCode.toDataURL(path, function (err, url) {
     const html = `
       <img src="${url}"/>
@@ -25,8 +25,9 @@ axios.get(data)
   .then( (response) => {
     response.data.forEach((d) => {
       const user = d.crowdrise_page
+      const team= d.team
       const fn = `_includes/ambassadors/qr/${d.slug}.html`
-      qr(user, fn)
+      qr(user, team, fn)
     })
   })
   .catch((error) => {
