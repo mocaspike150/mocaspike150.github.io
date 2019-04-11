@@ -4,6 +4,7 @@ _site/
 .jekyll-metadata
 node_modules
 package-lock.json 
+package.json 
 Gemfile.lock
 local
 app
