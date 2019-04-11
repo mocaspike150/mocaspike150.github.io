@@ -1,25 +1,28 @@
 ---
 layout: plain
 ---
+<html>
+<head>
 <style>
 * {
   position: absolute;
   padding: 0;
   margin: 0;
+  background: #000000;
 }
 
 .slide {
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
 }
 
 .slide img {
-  position: absolute;
+}
+
+.slide .qr {
+  top: 180px;
 }
 
 .slide h1 {
-  top: 0;
-  left: 180px;
   padding: 17px;
   font-size: 128px;
   color: #FFFFFF;
@@ -29,12 +32,28 @@ layout: plain
 .hidden {
   opacity: 0;
 }
-
 </style>
+</head>
+<body>
+<div id="container">
 {% for ambassador in site.ambassadors %}
 <div class="slide">
    {% include ambassadors/profile/{{ ambassador.slug }}.html %}
+   <div class="qr">
    {% include ambassadors/qr/{{ ambassador.slug }}.html %}
+   </div>
     <h1>{{ ambassador.firstname }} {{ ambassador.lastname }}</h1>
 </div>
 {% endfor %}
+</div>
+<script>
+   const container = document.getElementById('container')
+   window.onresize = () => {
+     container.style.width = `${window.innerWidth}px`
+     container.style.height = `${window.innerHeight}px`
+   }
+
+   window.onresize();
+</script>
+</body>
+</html>
