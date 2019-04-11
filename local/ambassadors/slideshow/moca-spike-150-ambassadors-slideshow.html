@@ -1,0 +1,40 @@
+---
+layout: plain
+---
+<style>
+* {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+.slide {
+  width: 1920px;
+  height: 1080px;
+}
+
+.slide img {
+  position: absolute;
+}
+
+.slide h1 {
+  top: 0;
+  left: 180px;
+  padding: 17px;
+  font-size: 128px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+</style>
+{% for ambassador in site.ambassadors %}
+<div class="slide">
+   {% include ambassadors/profile/{{ ambassador.slug }}.html %}
+   {% include ambassadors/qr/{{ ambassador.slug }}.html %}
+    <h1>{{ ambassador.firstname }} {{ ambassador.lastname }}</h1>
+</div>
+{% endfor %}
