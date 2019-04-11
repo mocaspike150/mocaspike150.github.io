@@ -1,0 +1,6 @@
+<div class="row">
+{% for ambassador in site.ambassadors %}
+    <h1>{{ ambassador.firstname }} {{ ambassador.lastname }}</h1>
+   {% include ambassadors/qr/{{ ambassador.slug }}.html %}
+{% endfor %}
+</div>
