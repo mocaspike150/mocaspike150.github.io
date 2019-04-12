@@ -1,0 +1,26 @@
+   window.onload = () => {
+	 const container = document.getElementById('container')
+	 container.style.opacity = 1;
+     let slides = document.querySelectorAll('.slide');
+     let i = 0;
+     const show = () => {
+       console.log(i);
+       if (i == slides.length) { 
+         slides[i-1].style.opacity = 0
+         i = 0;
+       }
+       slides[i].style.opacity = 1
+       if(i > 0) {
+         slides[i-1].style.opacity = 0
+       }
+       i++;
+     }
+     show();
+     setInterval(show, delay);
+   } 
+
+   window.onresize = () => {
+     container.style.width = `${window.innerWidth}px`
+     container.style.height = `${window.innerHeight}px`
+   }
+   window.onresize();
