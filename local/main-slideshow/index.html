@@ -48,6 +48,7 @@ layout: plain
 </div>
 </div>
 <script>
+   const delay = 30000
    window.onload = () => {
 	 const container = document.getElementById('container')
 	 container.style.opacity = 1;
@@ -66,7 +67,7 @@ layout: plain
        i++;
      }
      show();
-     setInterval(show, 10000);
+     setInterval(show, delay);
    } 
 
    window.onresize = () => {
