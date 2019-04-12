@@ -2,11 +2,12 @@ const fs = require('fs')
 const axios = require('axios')
 const sharp = require('sharp')
 const data = 'https://www.mocaspike150.org/data/ambassadors.json'
+const placeholder = 'https://user-images.githubusercontent.com/46349226/56007582-392c2900-5ca7-11e9-9113-6391bf266f0d.jpg'
 
 axios.get(data)
   .then( (res) => {
     res.data.forEach((d) => {
-      const image = d['post-image'] ? d['post-image'] : 'https://uploads.crowdrise.com/1551416400/d79067c77ae7be0c2b4d18e63fe987f6.jpg'
+      const image = d['post-image'] ? d['post-image'] : placeholder
       const fn = `_includes/ambassadors/profile/${d.slug}.html`
       const w = 1920
       const h = 1080
