@@ -1,9 +1,9 @@
 ---
 layout: story
-title: Abercrombie and Fitch \"Wok-N-Bowling\" T-shirt
-title-cn: A&F \"炒锅和保龄球\" T恤
-caption-en: Abercrombie and Fitch \"Wok-N-Bowling\" T-shirt<br>Courtesy of I-Ching and Mark Scott, Museum of Chinese in America (MOCA) Collection
-caption-cn: A&F \"炒锅和保龄球\" T恤<br>I-Ching和Mark Scott捐赠，美国华人博物馆（MOCA）馆藏
+title: 'Abercrombie and Fitch "Wok-N-Bowling" T-shirt'
+title-cn: 'A&F "炒锅和保龄球" T恤'
+caption-en: 'Abercrombie and Fitch "Wok-N-Bowling" T-shirt<br>Courtesy of I-Ching and Mark Scott, Museum of Chinese in America (MOCA) Collection'
+caption-cn: 'A&F "炒锅和保龄球" T恤<br>I-Ching和Mark Scott捐赠，美国华人博物馆（MOCA）馆藏'
 post-image: https://user-images.githubusercontent.com/23090526/56087186-d9af5400-5e33-11e9-8505-fb9ea31b6f68.jpg
 card-image: https://user-images.githubusercontent.com/23090526/56087187-dae08100-5e33-11e9-9785-fab0e4eda986.jpg
 story-en: |
