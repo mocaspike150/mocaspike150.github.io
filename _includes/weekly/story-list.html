@@ -7,7 +7,8 @@
       {% assign next = start | plus: i %}
       {% assign story = site.stories[next] %}
       {% if story %}
-        {% include weekly/card.html %}
+        {% if story.date < site.time %}
+          {% include weekly/card.html %}
+        {% endif %}
       {% endif %}
    {% endfor %}
-
