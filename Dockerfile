@@ -14,5 +14,5 @@ ENV TZ=America/New_York
 VOLUME ["/site"]
 EXPOSE 4000
 WORKDIR /site
-ENTRYPOINT ["jekyll", "serve", "--drafts", "-w", "--host=0.0.0.0", "--port=8080"]
+ENTRYPOINT ["jekyll", "serve", "--drafts", "-w", "--host=0.0.0.0", "--port=8080", "--incremental"]
 RUN date
