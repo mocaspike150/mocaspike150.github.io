@@ -3,7 +3,7 @@ layout: post
 title: "MOCA Spike 150: Chinatown 7M Run"
 date: 2019-04-18 12:00:00
 author: Amy Ko-Tang
-card-image: https://user-images.githubusercontent.com/46349226/56404737-4a8cac80-6236-11e9-815b-9ad4d7bc52df.JPG
+card-image: https://user-images.githubusercontent.com/46349226/56405155-f6cf9280-6238-11e9-9f76-201d9e7d3e1e.jpg
 post-image: https://user-images.githubusercontent.com/46349226/56404737-4a8cac80-6236-11e9-815b-9ad4d7bc52df.JPG
 ---
 
