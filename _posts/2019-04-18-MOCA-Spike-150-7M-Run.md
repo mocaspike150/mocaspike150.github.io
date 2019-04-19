@@ -6,7 +6,8 @@ author: Amy Ko-Tang
 card-image: https://user-images.githubusercontent.com/46349226/56404737-4a8cac80-6236-11e9-815b-9ad4d7bc52df.JPG
 post-image: https://user-images.githubusercontent.com/46349226/56404737-4a8cac80-6236-11e9-815b-9ad4d7bc52df.JPG
 ---
-“Our memory is made up of our individual memories and our collective memories. The two are intimately linked. And history is our collective memory. If our collective memory is taken from us - is rewritten - we lose the ability to sustain our true selves.” ~Haruki Murakam
+
+>“Our memory is made up of our individual memories and our collective memories. The two are intimately linked. And history is our collective memory. If our collective memory is taken from us - is rewritten - we lose the ability to sustain our true selves.” ~Haruki Murakam
 
 MOCA Spike 150 provided me with a crash course on the first wave of Chinese in America. With this knowledge came a responsibility and an immediate realization that I now stand at an important crosswalk in history.  These Chinese laborers arrived in America and enabled the nation to realize its dream of connecting the East and the West.  Yet our nation’s history deprived them of their collective memory.  
 <!--more-->
