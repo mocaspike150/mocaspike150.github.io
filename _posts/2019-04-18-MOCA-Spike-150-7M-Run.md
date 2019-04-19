@@ -10,7 +10,7 @@ post-image: https://user-images.githubusercontent.com/46349226/56404737-4a8cac80
 >“Our memory is made up of our individual memories and our collective memories. The two are intimately linked. And history is our collective memory. If our collective memory is taken from us - is rewritten - we lose the ability to sustain our true selves.” ~Haruki Murakam
 <!--more-->
 
-MOCA Spike 150 provided me with a crash course on the first wave of Chinese in America. With this knowledge came a mindfulness and a sense of responsibility that I now stand at an important crosswalk in history.  These Chinese laborers arrived in America and enabled the nation to realize its dream of connecting the East and the West.  Yet our nation’s history deprived them of their collective memory.  
+MOCA Spike 150 provided me with a crash course on the first wave of Chinese in America. With this knowledge came a realization and a dose of responsibility that I now stand at an important crosswalk in history.  These Chinese laborers arrived in America and enabled the nation to realize its dream of connecting the East and the West.  Yet our nation’s history deprived them of their collective memory.  
 
 
 Today, MOCA officially launched its MOCA Spike 150 initiative with the Chinatown 7/4 Mile Run. Three groups.  Two distances.  One goal :  *Run Forward with Our Stories*.  Runners converged at MOCA this morning with enthusiasm and a sense of purpose in equal measure.  We were united by our passion for running and a desire to contribute to a worthy cause. 
