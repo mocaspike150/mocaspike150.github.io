@@ -1,27 +1,37 @@
 // URL: https://observablehq.com/d/624633383f012088
 // Title: Untitled
 // Author: Sam Liu (@ontouchstart)
-// Version: 10
+// Version: 37
 // Runtime version: 1
 
 const m0 = {
-  id: "624633383f012088@10",
+  id: "624633383f012088@37",
   variables: [
     {
-      inputs: ["html"],
-      value: (function(html){return(
-html`<svg width=100 height=200><g fill="#FBAC22">
-        <polygon points="16.109,0 16.109,117.862 16.135,117.862 21.641,164.522 41.076,117.862 41.076,0  "/>
-        <rect x="4.834" width="26.068" height="13.524"/>
-</g>
-</svg>`
+      name: "d3",
+      inputs: ["require"],
+      value: (function(require){return(
+require('d3@5')
+)})
+    },
+    {
+      name: "json_data",
+      inputs: ["d3"],
+      value: (function(d3){return(
+d3.json('https://www.mocaspike150.org/api/spike.json')
+)})
+    },
+    {
+      inputs: ["svg","json_data"],
+      value: (function(svg,json_data){return(
+svg`${json_data.svg}`
 )})
     }
   ]
 };
 
 const notebook = {
-  id: "624633383f012088@10",
+  id: "624633383f012088@37",
   modules: [m0]
 };
 
