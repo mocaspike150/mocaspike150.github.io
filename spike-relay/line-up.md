@@ -8,7 +8,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 1 (5/13-5/19) #####
   - [ChiRunners 驰](https://www.strava.com/clubs/chirunners){:target="_blank"}
   - [Trail Hoppers 山道蚱蜢](https://www.strava.com/clubs/452045){:target="_blank"}
-  - 知足常跑， Patuxent athletic league of striders
+  - [知足常跑， Patuxent athletic league of striders](https://www.strava.com/clubs/pals-301632){:target="_blank"}
 
 ##### Week 2 (5/20 - 5/26) #####
   - [明州华人雪狼跑团 Minnesota Chinese Snow Wolves](https://www.strava.com/clubs/snow-wolves-299365){:target="_blank"}
@@ -52,7 +52,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 
 ##### Week 10 (7/15 - 7/21) #####  
   - [三头牛跑吧](https://www.strava.com/clubs/479503){:target="_blank"}
-  - 知足常跑， Patuxent athletic league of striders
+  - [知足常跑， Patuxent athletic league of striders](https://www.strava.com/clubs/pals-301632){:target="_blank"}
   
 ##### Week 11 (7/22 - 7/28) #####  
   - [鹿跑团DEER](https://www.strava.com/clubs/DeerRunning){:target="_blank"}
@@ -102,7 +102,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 20 (9/23 - 9/29) #####  
   - [ChiRunners 驰](https://www.strava.com/clubs/chirunners){:target="_blank"}
   - [东奔西跑，WERun](https://www.strava.com/clubs/WE_Run){:target="_blank"}
-  - 知足常跑， Patuxent athletic league of striders
+  - [知足常跑， Patuxent athletic league of striders](https://www.strava.com/clubs/pals-301632){:target="_blank"}
 
 ##### Week 21 (9/30 - 10/06) #####  
   - [车城MIRun](https://www.strava.com/clubs/176328){:target="_blank"}
@@ -128,7 +128,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 25 (10/28 - 11/03) #####  
   - [ChiRunners 驰](https://www.strava.com/clubs/chirunners){:target="_blank"}
   - [Trail Hoppers 山道蚱蜢](https://www.strava.com/clubs/452045){:target="_blank"}
-  - 知足常跑， Patuxent athletic league of striders
+  - [知足常跑， Patuxent athletic league of striders](https://www.strava.com/clubs/pals-301632){:target="_blank"}
   - [明州华人雪狼跑团 Minnesota Chinese Snow Wolves](https://www.strava.com/clubs/snow-wolves-299365){:target="_blank"}
   - [达跑团DASH](https://www.strava.com/clubs/dashrungroup){:target="_blank"}
   - [西雅图SU跑团, Seattle United Runners (SU Runners)](https://www.strava.com/clubs/surunners){:target="_blank"}
