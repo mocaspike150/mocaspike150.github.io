@@ -41,7 +41,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 
 ##### Week 8 (7/01 - 7/07) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
-  - [GMCRC](){:target="_blank"}
+  - [GMCRC]{:target="_blank"}
   
 ##### Week 9 (7/08 - 7/14) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
@@ -74,7 +74,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 15 (8/19 - 8/25) #####  
   - [西雅图SU跑团, Seattle United Runners (SU Runners)](https://www.strava.com/clubs/surunners){:target="_blank"}
   - [Nose Hill Running 駜](https://www.strava.com/clubs/nosehillrunning){:target="_blank"}
-  - [GMCRC](){:target="_blank"}
+  - [GMCRC]{:target="_blank"}
 
 ##### Week 16 (8/26 - 9/01) #####  
   - [Ann-Hua Runners](https://www.strava.com/clubs/438046){:target="_blank"}
@@ -113,7 +113,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 23 (10/14 - 10/20) #####  
   - [百駿 Bergen Runners](https://www.strava.com/clubs/327007){:target="_blank"}
   - [Long Running Club]{:target="_blank"}
-  - [GMCRC](){:target="_blank"}
+  - [GMCRC]{:target="_blank"}
 
 ##### Week 24 (10/21 - 10/27) #####  
   - [BURN Running Club](https://www.strava.com/clubs/burnrunning){:target="_blank"}
@@ -139,6 +139,6 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
   - [大华府蒙郡跑团，MARC](https://www.strava.com/clubs/marc){:target="_blank"}
   - [岚山 Misty Mountain Runners](https://www.strava.com/clubs/MistyMountainRunners){:target="_blank"}
   - [车城MIRun](https://www.strava.com/clubs/176328){:target="_blank"}
-  - [GMCRC](){:target="_blank"}
+  - [GMCRC]{:target="_blank"}
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
   - [Nose Hill Running 駜](https://www.strava.com/clubs/nosehillrunning){:target="_blank"}
