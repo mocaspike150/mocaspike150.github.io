@@ -3,7 +3,7 @@ layout: page
 title: MOCA Spike 150 Virtual Relay Club Line UP
 ---
 
-#### First Phase ####
+#### Phase One ####
 
 ##### Week 1 (5/13-5/19) #####
   - [ChiRunners 驰](https://www.strava.com/clubs/chirunners){:target="_blank"}
@@ -42,7 +42,9 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 8 (7/01 - 7/07) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
   - GMCRC
-  
+
+#### Phase Two ####
+
 ##### Week 9 (7/08 - 7/14) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
   - [ChiRunners 驰](https://www.strava.com/clubs/chirunners){:target="_blank"}
@@ -80,7 +82,9 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
   - [Ann-Hua Runners](https://www.strava.com/clubs/438046){:target="_blank"}
   - [纽约新蜂跑团 NewBee Running Club](https://www.strava.com/clubs/newbeerunners){:target="_blank"}
   - [印跑团（Indy Chinese Runners Club）](https://www.strava.com/clubs/Indychineserunner){:target="_blank"}
-  
+ 
+ #### Phase Three ####
+ 
 ##### Week 17 (9/02 - 9/08) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
   - [Nose Hill Running 駜](https://www.strava.com/clubs/nosehillrunning){:target="_blank"}
@@ -118,6 +122,8 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 24 (10/21 - 10/27) #####  
   - [BURN Running Club](https://www.strava.com/clubs/burnrunning){:target="_blank"}
   - [印跑团（Indy Chinese Runners Club）](https://www.strava.com/clubs/Indychineserunner){:target="_blank"}
+
+#### Bonus Week ####
 
 ##### Week 25 (10/28 - 11/03) #####  
   - [ChiRunners 驰](https://www.strava.com/clubs/chirunners){:target="_blank"}
