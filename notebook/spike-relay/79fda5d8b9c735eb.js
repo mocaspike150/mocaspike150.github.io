@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/79fda5d8b9c735eb
 // Title: Untitled
 // Author: Sam Liu (@ontouchstart)
-// Version: 14
+// Version: 31
 // Runtime version: 1
 
 const m0 = {
-  id: "79fda5d8b9c735eb@14",
+  id: "79fda5d8b9c735eb@31",
   variables: [
     {
       name: "d3",
@@ -53,6 +53,68 @@ d3.geoAlbersUsa().scale(1280).translate([480, 300])
       name: "spike",
       value: (function(){return(
 [-112.5475, 41.618611]
+)})
+    },
+    {
+      name: "track",
+      inputs: ["d3"],
+      value: (function(d3){return(
+d3.json('https://www.mocaspike150.org/json/track.json')
+)})
+    },
+    {
+      name: "build",
+      inputs: ["DOM","d3"],
+      value: (function(DOM,d3){return(
+(track, mile) => {
+  let t = Math.floor(mile * 42 / 1912)
+  const svg = DOM.svg(1280, 183)
+  svg.style = "width: 100%;"
+  const container = d3.select(svg)
+  
+  let g = container.selectAll('g').data(track).enter().append('g');
+  g.attr('fill', 'none')
+  g.append('path')
+    .attr('d', (d, i) => { return d.path[0] })
+    .attr('fill', (d, i) => { return (i < t) ? '#64C188' : '#ccc'})
+  g.append('path')
+    .attr('d', (d, i) => { return d.path[1] })
+    .attr('fill', (d, i) => { return (i < t) ? '#64C188' : '#ccc'})
+  g.append('polygon')
+    .attr('points', (d, i) => { return d.points })
+    .attr('fill', (d, i) => { return (i < t) ? '#64C188' : '#ccc'})
+ 
+  return svg;
+}
+)})
+    },
+    {
+      name: "t0",
+      value: (function(){return(
+Date.now()
+)})
+    },
+    {
+      name: "mile_data",
+      value: (function(){return(
+{ mile: 1200 }
+)})
+    },
+    {
+      name: "mile",
+      inputs: ["now","t0","mile_data"],
+      value: (function(now,t0,mile_data){return(
+() => {
+  let dt = now - t0
+  let T = 3000
+  return parseInt(mile_data.mile * (dt < T ? (dt / T) : 1) )
+}
+)})
+    },
+    {
+      inputs: ["build","track","mile"],
+      value: (function(build,track,mile){return(
+build(track, mile())
 )})
     },
     {
@@ -112,7 +174,7 @@ d3.geoAlbersUsa().scale(1280).translate([480, 300])
 };
 
 const notebook = {
-  id: "79fda5d8b9c735eb@14",
+  id: "79fda5d8b9c735eb@31",
   modules: [m0]
 };
 
