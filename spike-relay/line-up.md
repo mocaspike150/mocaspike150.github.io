@@ -27,7 +27,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
   
 ##### Week 5 (6/10 - 6/16) #####  
   - [百駿 Bergen Runners](https://www.strava.com/clubs/327007){:target="_blank"}
-  - [Long Running Club]{:target="_blank"}
+  - Long Running Club
 
 ##### Week 6 (6/17 - 6/23) #####  
   - [巍巍南开](https://www.strava.com/clubs/nankai){:target="_blank"}
@@ -69,12 +69,12 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 14 (8/12 - 8/18) #####  
   - [巍巍南开](https://www.strava.com/clubs/nankai){:target="_blank"}
   - [明州华人雪狼跑团 Minnesota Chinese Snow Wolves](https://www.strava.com/clubs/snow-wolves-299365){:target="_blank"}
-  - [Long Running Club]{:target="_blank"}
+  - Long Running Club
 
 ##### Week 15 (8/19 - 8/25) #####  
   - [西雅图SU跑团, Seattle United Runners (SU Runners)](https://www.strava.com/clubs/surunners){:target="_blank"}
   - [Nose Hill Running 駜](https://www.strava.com/clubs/nosehillrunning){:target="_blank"}
-  - [GMCRC]{:target="_blank"}
+  - GMCRC
 
 ##### Week 16 (8/26 - 9/01) #####  
   - [Ann-Hua Runners](https://www.strava.com/clubs/438046){:target="_blank"}
@@ -132,13 +132,13 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
   - [鹿跑团DEER](https://www.strava.com/clubs/DeerRunning){:target="_blank"}
   - [三头牛跑吧](https://www.strava.com/clubs/479503){:target="_blank"}
   - [东奔西跑，WERun](https://www.strava.com/clubs/WE_Run){:target="_blank"}
-  - [Long Running Club]{:target="_blank"}
+  - Long Running Club
   - [百駿 Bergen Runners](https://www.strava.com/clubs/327007){:target="_blank"}
   - [BURN Running Club](https://www.strava.com/clubs/burnrunning){:target="_blank"}
   - [巍巍南开](https://www.strava.com/clubs/nankai){:target="_blank"}
   - [大华府蒙郡跑团，MARC](https://www.strava.com/clubs/marc){:target="_blank"}
   - [岚山 Misty Mountain Runners](https://www.strava.com/clubs/MistyMountainRunners){:target="_blank"}
   - [车城MIRun](https://www.strava.com/clubs/176328){:target="_blank"}
-  - [GMCRC]{:target="_blank"}
+  - GMCRC
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
   - [Nose Hill Running 駜](https://www.strava.com/clubs/nosehillrunning){:target="_blank"}
