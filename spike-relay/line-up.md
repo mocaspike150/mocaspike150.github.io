@@ -41,7 +41,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 
 ##### Week 8 (7/01 - 7/07) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
-  - [GMCRC]
+  - GMCRC
   
 ##### Week 9 (7/08 - 7/14) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
