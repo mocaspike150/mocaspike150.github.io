@@ -83,7 +83,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
   - [纽约新蜂跑团 NewBee Running Club](https://www.strava.com/clubs/newbeerunners){:target="_blank"}
   - [印跑团（Indy Chinese Runners Club）](https://www.strava.com/clubs/Indychineserunner){:target="_blank"}
  
- #### Phase Three ####
+#### Phase Three ####
  
 ##### Week 17 (9/02 - 9/08) #####  
   - [飛狐PHIRE](https://www.strava.com/clubs/PhireRunners){:target="_blank"}
