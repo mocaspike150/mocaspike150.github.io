@@ -1,7 +1,7 @@
 ---
 date: 2019-04-26 12:00:00 -0400
 layout: story
-title: <i>A Grain of Sand</i>
+title: A Grain of Sand
 title-cn: 《一粒沙》
 caption-en: <i>A Grain of Sand</i><br>Courtesy of Henry Chu, Museum of Chinese in America (MOCA) Collection
 caption-cn: 1882年5月19日美国财政部通函<br/>Scott Seligman捐赠，美国华人博物馆（MOCA）馆藏
