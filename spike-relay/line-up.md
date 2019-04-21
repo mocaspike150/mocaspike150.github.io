@@ -113,7 +113,7 @@ title: MOCA Spike 150 Virtual Relay Club Line UP
 ##### Week 23 (10/14 - 10/20) #####  
   - [百駿 Bergen Runners](https://www.strava.com/clubs/327007){:target="_blank"}
   - [Long Running Club]{:target="_blank"}
-  - [GMCRC]{:target="_blank"}
+  - GMCRC
 
 ##### Week 24 (10/21 - 10/27) #####  
   - [BURN Running Club](https://www.strava.com/clubs/burnrunning){:target="_blank"}
