@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/0507eb34c55e3cfb
 // Title: Untitled
 // Author: Sam Liu (@ontouchstart)
-// Version: 42
+// Version: 43
 // Runtime version: 1
 
 const m0 = {
-  id: "0507eb34c55e3cfb@42",
+  id: "0507eb34c55e3cfb@43",
   variables: [
     {
       name: "d3",
@@ -41,7 +41,7 @@ Object.keys(profile)
     .append('li')
     .html((d) => (`
 ${profile[d].en} ${profile[d].cn}
-<a href="https://www.strava.com/club/${d}" target="_">${d}</a> 
+<a href="https://www.strava.com/clubs/${d}" target="_">${d}</a> 
 `))
   
   return container.node()
@@ -58,7 +58,7 @@ Object.keys(profile)
 };
 
 const notebook = {
-  id: "0507eb34c55e3cfb@42",
+  id: "0507eb34c55e3cfb@43",
   modules: [m0]
 };
 
