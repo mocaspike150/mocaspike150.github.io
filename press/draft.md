@@ -38,6 +38,9 @@ xinhuanet.com April 14, 2019
 **[美国华人博物馆获230万美元拨款 或建永久性场馆](https://www.chinanews.com/hr/2019/04-16/8810526.shtml){:target="_blank"}**
 ECNS.CN April 16, 2019
 
+**[美国华人博物馆获拨款](http://ny.uschinapress.com/spotlight/2019/04-16/164654.html){:target="_blank"}**
+China Press April 16, 2019
+
 **[紀念華工修築鐵路150年 美國華人博物館發起接力跑](http://www.hkcna.hk/content/2019/0409/756312.shtml){:target="_blank"}**
 Hong Kong China News Agency April 9, 2019
 
