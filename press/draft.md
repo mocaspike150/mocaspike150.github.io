@@ -5,17 +5,21 @@ title: Press
 ##### Press Release
 
 **[Museum of Chinese In America Receives $2.3 Million In Capital Funding From NYC City Council and Office of Manhattan Borough President](http://www.mocanyc.org/files/Capital_Funding_Press_Release.pdf){:target="_blank"}**
+
 April 15, 2019
 
 **[Museum of Chinese In America Launches MOCA Spike 150 Initiative Honoring 150th Anniversary of Transcontinental Railroad](http://www.mocanyc.org/files/MOCA%20Spike%20150_Press%20Release.pdf){:target="_blank"}**
+
 April 8, 2019
 
 ##### Media Coverage
 
 **[纪念华工参与修建美铁150周年 美国华人博物馆办马拉松](http://video.sinovision.net/?id=49793){:target="_blank"}**
+
 SinoVision April 17, 2019
 
 **[MOCA Program Highlights Chinese Railroad Workers](https://voicesofny.org/2019/04/moca-program-highlights-chinese-railroad-workers/){:target="_blank"}**
+
 Voices of New York April 17, 2019
 
 **[美國華人博物館獲230萬美元撥款 或建永久性場館](http://www.hkcna.hk/content/2019/0417/757753.shtml){:target="_blank"}**
@@ -31,6 +35,7 @@ ECNS.CN April 16, 2019
 China Press April 16, 2019
 
 **[Tribeca Citizen: Museum of Chinese in America Secures Funding](https://tribecacitizen.com/2019/04/16/seen-heard-springsteen-plays-tribeca-grill/){:target="_blank"}**
+
  tribecacitizen April 16, 2019
 
 **[MOCA Awarded $2.3 Million Capital Grant Towards Building Acquisition](https://www.broadwayworld.com/article/MOCA-Awarded-23-Million-Capital-Grant-Towards-Building-Acquisition-20190415){:target="_blank"}**
