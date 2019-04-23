@@ -4,7 +4,7 @@ title: Press
 ---
 ##### Press Release
 
-**[Museum of Chinese In America Receives $2.3 Million In Capital Funding From NYC City Council and Office of Manhattan Borough President](http://www.mocanyc.org/files/Capital_Funding_Press_Release.pdf){:target="_blank"}**
+###### [Museum of Chinese In America Receives $2.3 Million In Capital Funding From NYC City Council and Office of Manhattan Borough President](http://www.mocanyc.org/files/Capital_Funding_Press_Release.pdf){:target="_blank"}
 
 April 15, 2019
 
