@@ -11,7 +11,7 @@ story-en: |
   <p>Chinatown has always had trouble with cleanliness but there is a constant effort to urge residents to be more environmentally aware and clean up the neighborhood. In 1972, children from 3 New York public schools in Chinatown (P.S. 2, P.S. 23, and P.S. 42) created artwork to encourage people to “Clean up Chinatown.” On this Earth Day we would like to urge you to go out and demonstrate support for the wellbeing of the environment by volunteering at a clean-up event (https://www.epa.gov/earthday/earth-day-events ) or even simply taking public transportation instead of driving.</p>
 
 story-cn: |
-  <p>唐人街一直以来受到清洁方面的困扰，好在敦促居民更加环保和清洁社区的努力在不断地持续着。1972年，来自三所唐人街纽约公立小学的孩子们（公立第2小学、公立第23小学、以及公立第42小学）创作艺术品，鼓励人们“清洁唐人街”。今天是“地球日”，我们想敦促您走出去，为一项清洁活动当志愿者(https://www.epa.gov/earthday/earth-day-events )，来支持 环境保护，或者就是简单地乘坐公共交通而不是开车。</p>
+  <p>唐人街一直以来受到清洁方面的困扰，好在敦促居民更加环保和清洁社区的努力在不断地持续着。1972年，来自三所唐人街纽约公立小学的孩子们（公立第2小学、公立第23小学、以及公立第42小学）创作艺术品，鼓励人们“清洁唐人街”。今天是“地球日”，我们想敦促您走出去，为一项清洁活动当志愿者(https://www.epa.gov/earthday/earth-day-events )，来支持环境保护，或者就是简单地乘坐公共交通而不是开车。</p>
 ---
 
 Chinatown has always had trouble with cleanliness but there is a constant effort to urge residents to be more environmentally aware and clean up the neighborhood.
