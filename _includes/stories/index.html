@@ -1,18 +1,11 @@
 {% if site.stories.size > 0 %}
 <section class="hestia-blogs " id="blog" data-sorder="hestia_blog">
-  <div class="container">
-    <div class="hestia-blog-content">
-      <div class="row">
-        {% assign counter = 0 %}
+	<div class="container">
+		<div class="hestia-blog-content">
+			<div class="row">
         {% for item in site.stories reversed %}
            {% if item.date < site.time %}
-             {% assign start = forloop.rindex0 %}
-             {% for i in (0..4) %}
-               {% assign next = start | minus: i %}
-               {% assign item = site.stories[next] %}
-               {% include stories/card.html %}
-             {% endfor %}
-             {% break %}
+             {% include stories/card.html %}
            {% endif %}
         {% endfor %}
 			</div>
