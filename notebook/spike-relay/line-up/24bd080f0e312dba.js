@@ -1,12 +1,18 @@
 // URL: https://observablehq.com/d/24bd080f0e312dba
-// Title: Untitled
+// Title: MOCA Spike 150 Virtual Relay Club Line UP
 // Author: Sam Liu (@ontouchstart)
-// Version: 72
+// Version: 78
 // Runtime version: 1
 
 const m0 = {
-  id: "24bd080f0e312dba@72",
+  id: "24bd080f0e312dba@78",
   variables: [
+    {
+      inputs: ["md"],
+      value: (function(md){return(
+md`# MOCA Spike 150 Virtual Relay Club Line UP`
+)})
+    },
     {
       name: "d3",
       inputs: ["require"],
@@ -34,26 +40,6 @@ d3.json('https://www.mocaspike150.org/api/club/profile.json')
       value: (function(club_profile){return(
 Object.keys(club_profile)
 )})
-    },
-    {
-      inputs: ["d3","DOM","id","club_profile"],
-      value: (function(d3,DOM,id,club_profile)
-{
-  const container =  d3.select(DOM.element('div'))
-  container.append('h1').html('Club Profile')
-  container.append('ol')
-    .selectAll('li')
-    .data(id)
-    .enter()
-    .append('li')
-    .html((d) => (`
-${club_profile[d].en} ${club_profile[d].cn}
-<a href="https://www.strava.com/clubs/${d}" target="_">${d}</a> 
-`))
-  
-  return container.node()
-}
-)
     },
     {
       name: "weeks",
@@ -96,7 +82,7 @@ ${club_profile[d].en} ${club_profile[d].cn}
 };
 
 const notebook = {
-  id: "24bd080f0e312dba@72",
+  id: "24bd080f0e312dba@78",
   modules: [m0]
 };
 
