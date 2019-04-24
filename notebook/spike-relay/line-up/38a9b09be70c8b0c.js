@@ -1,16 +1,16 @@
 // URL: https://observablehq.com/d/38a9b09be70c8b0c
-// Title: MOCA Spike 150 Virtual Relay Club Line UP
+// Title: MOCA Spike 150 Virtual Relay Club Line Up
 // Author: Sam Liu (@ontouchstart)
-// Version: 105
+// Version: 109
 // Runtime version: 1
 
 const m0 = {
-  id: "38a9b09be70c8b0c@105",
+  id: "38a9b09be70c8b0c@109",
   variables: [
     {
       inputs: ["md"],
       value: (function(md){return(
-md`# MOCA Spike 150 Virtual Relay Club Line UP`
+md`# MOCA Spike 150 Virtual Relay Club Line Up`
 )})
     },
     {
@@ -32,13 +32,6 @@ d3.json('https://www.mocaspike150.org/api/relay/week.json')
       inputs: ["d3"],
       value: (function(d3){return(
 d3.json('https://www.mocaspike150.org/api/club/profile.json')
-)})
-    },
-    {
-      name: "id",
-      inputs: ["club_profile"],
-      value: (function(club_profile){return(
-Object.keys(club_profile)
 )})
     },
     {
@@ -68,6 +61,7 @@ Object.keys(club_profile)
     container.append('h1').html(`Phase ${id}`)
     for (let week of phase[id].sort()) {
       container.append('h2').html(`Week ${parseInt(week)}`)
+      container.append('div').html(`From ${relay_week[week]["start"]} to ${relay_week[week]["end"]}`)
       container.append('ul')
         .selectAll('li')
         .data(relay_week[week]["teams"])
@@ -88,7 +82,7 @@ ${club_profile[d].en} ${club_profile[d].cn}
 };
 
 const notebook = {
-  id: "38a9b09be70c8b0c@105",
+  id: "38a9b09be70c8b0c@109",
   modules: [m0]
 };
 
