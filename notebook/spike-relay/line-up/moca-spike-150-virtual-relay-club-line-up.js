@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/@ontouchstart/moca-spike-150-virtual-relay-club-line-up
 // Title: MOCA Spike 150 Virtual Relay Club Line Up
 // Author: Sam Liu (@ontouchstart)
-// Version: 98
+// Version: 99
 // Runtime version: 1
 
 const m0 = {
-  id: "6a188faa4436cc94@98",
+  id: "6a188faa4436cc94@99",
   variables: [
     {
       inputs: ["md"],
@@ -28,6 +28,8 @@ md`# MOCA Spike 150 Virtual Relay Club Line Up`
         .data(relay_week[week]["teams"])
         .enter()
         .append('li')
+        .style('list-style', 'none')
+        .style('margin', '1em')
         .html((d) => { 
         return `
 <img src="${avatar[d].src}"/>
@@ -92,7 +94,7 @@ d3.json('https://www.mocaspike150.org/api/club/avatar.json')
 };
 
 const notebook = {
-  id: "6a188faa4436cc94@98",
+  id: "6a188faa4436cc94@99",
   modules: [m0]
 };
 
