@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/@ontouchstart/moca-spike-150-relay-prototype
 // Title: MOCA Spike 150 Relay Prototype
 // Author: Sam Liu (@ontouchstart)
-// Version: 54
+// Version: 70
 // Runtime version: 1
 
 const m0 = {
-  id: "60f2deef113c007d@54",
+  id: "60f2deef113c007d@70",
   variables: [
     {
       inputs: ["md"],
@@ -27,13 +27,13 @@ map(us, data)
     },
     {
       name: "map",
-      inputs: ["d3","DOM","topojson","projection","avatar"],
-      value: (function(d3,DOM,topojson,projection,avatar){return(
+      inputs: ["d3","DOM","topojson","projection","spike_svg","avatar"],
+      value: (function(d3,DOM,topojson,projection,spike_svg,avatar){return(
 (us, data) => {
   const width = 960;
   const height = 600;
   const path = d3.geoPath();
-  const spike = [-112.5475, 41.618611]
+  const spike_location = [-112.5475, 41.618611]
   const svg = d3.select(DOM.svg(width, height))
       .style("width", "100%")
       .style("height", "auto")
@@ -55,32 +55,31 @@ map(us, data)
       .attr("d", path);
 
   let g = svg.append('g')
-          .attr("transform", `translate(${projection(spike)})`)
+          .attr("transform", `translate(${projection(spike_location)})`)
   
-  g.append("circle")
-        .attr("fill", "orange")
-        .attr("r", 8)
+  let spike = g.append('g');
+  spike.attr("transform", 'scale(0.2)').html(`${spike_svg.svg}`)
+       .attr("opacity", 0);
+  spike.transition()
+       .delay(1000)
+       .duration(2000)
+       .attr("opacity", 1)
               
   for (const key of Object.keys(data)) {
     for (const d of data[key]) {
       let g = svg.append('g')
-          .attr("transform", `translate(${projection(spike)})`);
+          .attr("transform", `translate(${projection(spike_location)})`)
+          .attr("opacity", 0)
      
-      /*
-      g.append("circle")
-        .attr("fill", "orange")
-        .attr("r", 5)
-  
-      */
      g.append("image")
         .attr("width", 16)
         .attr("height", 16)
         .attr("xlink:href", avatar[key].src)
      
-      
       g.transition()
         .delay(1000)
         .duration(2000)
+        .attr("opacity", 1)
         .attr("transform", `translate(${projection(d)})`);    
     }
   }
@@ -136,6 +135,13 @@ map(us, data)
       name: "t0",
       value: (function(){return(
 Date.now()
+)})
+    },
+    {
+      name: "spike_svg",
+      inputs: ["d3"],
+      value: (function(d3){return(
+d3.json('https://www.mocaspike150.org/api/spike.json')
 )})
     },
     {
@@ -198,7 +204,7 @@ require('d3@5')
 };
 
 const notebook = {
-  id: "60f2deef113c007d@54",
+  id: "60f2deef113c007d@70",
   modules: [m0]
 };
 
