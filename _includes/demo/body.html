@@ -1,18 +1,16 @@
-    
 <body class="home page-template-default page page-id-8 custom-background wp-custom-logo tribe-no-js blog-post header-layout-classic-blog">
   {% include header.html %}
     <style>
-.observablehq--inspect { display: none; }
+     .observablehq--inspect { display: none; }
      #notebook {    
-         background: #FFF7ED;
+        background: #FFF7ED;
         padding-top: 180px;
-        }
-   
+     }
 </style>
 <div id="notebook"></div>
 <script type="module">
   // Load the Observable runtime and inspector.
-  import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
+  import {Runtime, Inspector} from "{{ page.notebook }}";
   // Your notebook, compiled as an ES module.
   import notebook from 'https://api.observablehq.com/d/4d379ee88ea1d728.js';
   // Load the notebook, observing its cells with a default Inspector
