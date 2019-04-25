@@ -4,7 +4,7 @@ layout: story
 title: Yellow Pearl
 title-cn: 《黄珍珠》
 caption-en: <i>Yellow Pearl</i><br>Museum of Chinese in America (MOCA) Basement Workshop Collection
-caption-cn: 《黄珍珠》<br>美国华人博物馆（MOCA）馆藏
+caption-cn: 《黄珍珠》<br>美国华人博物馆（MOCA）地下室工作坊馆藏
 post-image: https://user-images.githubusercontent.com/23090526/56465058-34acf200-63c4-11e9-8472-a7cf50b2bfec.jpg
 card-image: https://user-images.githubusercontent.com/23090526/56465057-34145b80-63c4-11e9-91f2-b57883c366e1.jpg
 story-en: |
