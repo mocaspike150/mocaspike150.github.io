@@ -4,7 +4,7 @@ layout: story
 title: Leonard Liao
 title-cn: 廖锦俊
 caption-en: Leon Youngboy, self-titled album, Courtesy of Leonard Liao, Museum of Chinese in America (MOCA) Collection
-caption-cn: Leon Youngboy, 自我命名的唱片，美国华人博物馆（MOCA）馆藏
+caption-cn: Leon Youngboy, 自我命名的唱片，廖锦俊捐赠美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/56871732-afdb5d00-69ef-11e9-9289-b9dbc23e3b4c.jpg
 card-image: https://user-images.githubusercontent.com/23090526/56871730-aeaa3000-69ef-11e9-9bcf-192b9e11b045.jpg
 story-en: |
