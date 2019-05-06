@@ -1,8 +1,8 @@
 ---
 date: 2019-05-02 12:00:00 -0400
 layout: story
-title: Teresa Teng (<a href="https://www.youtube.com/watch?v=gD-S8favMR8&feature=youtu.be" rel="noopener noreferrer" target="_blank">Tian Mi Mi</a>)
-title-cn: 邓丽君《<a href="https://www.youtube.com/watch?v=gD-S8favMR8&feature=youtu.be" rel="noopener noreferrer" target="_blank">甜蜜蜜</a>》
+title: Teresa Teng <a href="https://www.youtube.com/watch?v=gD-S8favMR8&feature=youtu.be" rel="noopener noreferrer" target="_blank">Tian Mi Mi</a>
+title-cn: 邓丽君 <a href="https://www.youtube.com/watch?v=gD-S8favMR8&feature=youtu.be" rel="noopener noreferrer" target="_blank">甜蜜蜜</a>
 caption-en: <i>Tian Mi Mi</i> Lobby Card, Museum of Chinese in America (MOCA) Collection
 caption-cn: 电影《甜蜜蜜》宣传卡，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/56871672-06946700-69ef-11e9-94d7-85aaca758deb.jpg
