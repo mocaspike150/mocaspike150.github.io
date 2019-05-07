@@ -4,6 +4,7 @@
      .observablehq--inspect { display: none; }
      #notebook { padding-top: 100px; }
     </style>
+{% if page.notebook %}
 <div id="notebook"></div>
 <script type="module">
   // Load the Observable runtime and inspector.
@@ -14,6 +15,7 @@
   // that simply renders the value of each cell into the provided DOM node.
   Runtime.load(notebook, Inspector.into(document.getElementById('notebook')));
 </script>
+{% endif %}
   {% include main.html %}
   {% include foot-script.html %}
 </body>
