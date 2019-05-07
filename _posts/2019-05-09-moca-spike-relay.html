@@ -5,6 +5,7 @@ title: MOCA Spike 150 全美线上接力准备起跑!
 author: Renny Shih
 card-image: https://user-images.githubusercontent.com/46349226/57272240-e56fee00-7060-11e9-9a6d-336a0dfc4c77.jpg
 post-image: https://user-images.githubusercontent.com/46349226/57271098-23b6de80-705c-11e9-950d-24805172c16a.jpg
+notebook: 'https://api.observablehq.com/d/a897e99bc53adb5c.js'
 ---
 <blockquote>
 
@@ -21,3 +22,17 @@ post-image: https://user-images.githubusercontent.com/46349226/57271098-23b6de80
 <p>
 让我们来快速地介绍一下此次参与在线接力的29个北美华人跑团, 以大致的地域位置来区分如下:
 </p>
+   <style>
+     .observablehq--inspect { display: none; }
+     #notebook { padding-top: 100px; }
+    </style>
+<div id="notebook"></div>
+<script type="module">
+  // Load the Observable runtime and inspector.
+  import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
+  // Your notebook, compiled as an ES module.
+  import notebook from "{{ page.notebook }}";
+  // Load the notebook, observing its cells with a default Inspector
+  // that simply renders the value of each cell into the provided DOM node.
+  Runtime.load(notebook, Inspector.into(document.getElementById('notebook')));
+</script>
