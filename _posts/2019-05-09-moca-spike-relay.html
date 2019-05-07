@@ -25,9 +25,9 @@ notebook: 'https://api.observablehq.com/d/6457efa735213e25.js'
 <div class="footnote">*排序照由东到西的地理区，以及建立Strava club的时间序来排</div>
    <style>
      .observablehq--inspect { display: none; }
-     #notebook { padding-top: 10px; }
+     #clubs { padding-top: 10px; }
     </style>
-<div id="notebook"></div>
+<div id="clubs"></div>
 <script type="module">
   // Load the Observable runtime and inspector.
   import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
@@ -35,5 +35,5 @@ notebook: 'https://api.observablehq.com/d/6457efa735213e25.js'
   import notebook from "{{ page.notebook }}";
   // Load the notebook, observing its cells with a default Inspector
   // that simply renders the value of each cell into the provided DOM node.
-  Runtime.load(notebook, Inspector.into(document.getElementById('notebook')));
+  Runtime.load(notebook, Inspector.into(document.getElementById('clubs')));
 </script>
