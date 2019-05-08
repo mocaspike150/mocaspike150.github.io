@@ -316,5 +316,6 @@ body {
 
 }
 
+{% include css/notebook.css %}
 {% include css/footer.css %}
 {% include css/style.css %}
