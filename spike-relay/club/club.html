@@ -1,6 +1,16 @@
 ---
-layout: demo
-title: MOCA Spike 150
+layout: page
 subtitle: Running Forward With Our Stories
-notebook: 'https://api.observablehq.com/d/3153e56547580874.js'
 ---
+
+<div id="clubs"></div>
+
+<script type="module">
+  // Load the Observable runtime and inspector.
+  import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
+  // Your notebook, compiled as an ES module.
+  import clubs from 'https://api.observablehq.com/d/3d56d18cd7847fcf.js';
+  // Load the notebook, observing its cells with a default Inspector
+  // that simply renders the value of each cell into the provided DOM node.
+  Runtime.load(clubs, Inspector.into(document.getElementById('clubs')));
+</script>

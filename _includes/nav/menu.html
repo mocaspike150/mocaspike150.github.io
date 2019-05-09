@@ -51,9 +51,22 @@
       </ul>
       
     </li>
-    <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom
+    <li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1 dropdown
       {% if page.dir contains '/spike-relay/' %} active {% endif %}">
-      <a title="Spike Relay" href="/spike-relay/">Spike Relay</a>
+      <a title="Spike Relay" href="/spike-relay/" class="dropdown-toggle">Spike Relay <span class="caret-wrap"><span class="caret"></span></span>
+      </a>
+	    
+	<ul role="menu" class="dropdown-menu">
+        <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="Spike Relay Weekly Line Up" href="/spike-relay/weekly/">Spike Relay Weekly Line Up</a>
+        </li>
+	<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="Spike Relay Weekly Line Up" href="/spike-relay/club/">Spike Relay Clubs</a>
+        </li>
+       
+      </ul>
+	    
+	    
     </li>
     <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom
       {% if page.path contains 'events' %} active {% endif %}">
