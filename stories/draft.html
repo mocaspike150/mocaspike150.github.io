@@ -10,10 +10,6 @@ As one of the initiatives of &#8220;MOCA Spike 150: Running Forward with our sto
 <div id="stories"></div>
 <div id="weekly"></div>
 
----
-layout: page
-title: MOCA Spike 150 Virtual Relay
----
 <div id="container"></div>
 <script type="module">
   // Load the Observable runtime and inspector.
@@ -26,6 +22,6 @@ title: MOCA Spike 150 Virtual Relay
   // Load the notebook, observing its cells with a default Inspector
   // that simply renders the value of each cell into the provided DOM node.
   Runtime.load(stories, Inspector.into(document.getElementById('stories')));
-  Runtime.load(stories, Inspector.into(document.getElementById('weekly')));
+  Runtime.load(weekly, Inspector.into(document.getElementById('weekly')));
 </script>
 
