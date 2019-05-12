@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Nancy Yao Massbash
-title: NJ Marathon: Striving and Achieving As One
+title: "NJ Marathon: Striving and Achieving As One"
 card-image: https://user-images.githubusercontent.com/46349226/57584747-f11e4300-74ac-11e9-9284-a8a66d830147.jpg
 post-image: https://user-images.githubusercontent.com/46349226/57584751-fa0f1480-74ac-11e9-87ab-f5814c4cfb20.jpg
 ---
