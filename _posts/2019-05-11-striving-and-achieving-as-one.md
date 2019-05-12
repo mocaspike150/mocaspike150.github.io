@@ -13,4 +13,5 @@ This moment reminded me of the NJ Marathon Relay just a few weeks earlier. I had
 
 As One we can do more than just one. #MOCASpike150 Running Forward with Our Stories
 
-<img src="https://user-images.githubusercontent.com/46349226/57584743-e2d02700-74ac-11e9-8503-4a0000bedc26.JPG">
+![alt text](https://user-images.githubusercontent.com/46349226/57584743-e2d02700-74ac-11e9-8503-4a0000bedc26.JPG "MOCA NJ Marathon Relay Team")
+
