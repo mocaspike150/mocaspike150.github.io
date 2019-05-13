@@ -2,9 +2,9 @@
 crowdrise_id: 5543665
 crowdrise_page: yoloNYC
 firstname: YOLO
-lastname: Running and Biking  Club 
+lastname: "Running and Biking Club" 
 team: moca-spike-150-ambassadors
-post-image: https://uploads.crowdrise.com/1556683200/c7f3bfb48b66a4818e94f36a6f7e3b69.jpg
+post-image: https://uploads.crowdrise.com/1556683200/3c92fd691eb3807f7e0558019e5332f3.jpg
 card-image: https://cdn.crowdrise.com/v2/photo/file/member/5543665
 type: club
 ---
