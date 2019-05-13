@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/3f4fa13115bab893
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 176
+// Version: 177
 // Runtime version: 1
 
 const m0 = {
-  id: "3f4fa13115bab893@176",
+  id: "3f4fa13115bab893@177",
   variables: [
     {
       inputs: ["html","mileage"],
@@ -42,7 +42,7 @@ true
 <div style="width:160px; margin-top: -50px; margin-left: auto;padding-right:10px">
 <div style="color: #ffa10a;
     font-size: 16px;font-style: strong;
-    line-height: 1;;text-align:right;">Current Weekly Mileage</div>
+    line-height: 1;;text-align:right;">Current Week Mileage</div>
 <div style="font-family: Verlag-bold;
     color: #63bf87;
     font-size: 40px;
@@ -305,7 +305,7 @@ d3.json('https://www.mocaspike150.org/api/spike.json')
 };
 
 const notebook = {
-  id: "3f4fa13115bab893@176",
+  id: "3f4fa13115bab893@177",
   modules: [m0]
 };
 
