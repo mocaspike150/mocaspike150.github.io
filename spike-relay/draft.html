@@ -4,14 +4,14 @@ title: MOCA Spike 150 Relay Clubs
 subtitle: Running Forward With Our Stories
 ---
 
-<div id="clubs"></div>
+<div id="map"></div>
 
 <script type="module">
   // Load the Observable runtime and inspector.
   import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
   // Your notebook, compiled as an ES module.
-  import clubs from 'https://api.observablehq.com/d/89235af1e849fe02.js';
+  import map from 'https://api.observablehq.com/d/1e179019619b1314.js';
   // Load the notebook, observing its cells with a default Inspector
   // that simply renders the value of each cell into the provided DOM node.
-  Runtime.load(clubs, Inspector.into(document.getElementById('clubs')));
+  Runtime.load(map, Inspector.into(document.getElementById('map')));
 </script>
