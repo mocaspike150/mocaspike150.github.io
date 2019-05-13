@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/3f4fa13115bab893
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 177
+// Version: 191
 // Runtime version: 1
 
 const m0 = {
-  id: "3f4fa13115bab893@177",
+  id: "3f4fa13115bab893@191",
   variables: [
     {
       inputs: ["html","mileage"],
@@ -14,7 +14,7 @@ html`${mileage}`
 )})
     },
     {
-      name: "leaderboard",
+      name: "animation",
       value: (function(){return(
 true
 )})
@@ -101,18 +101,21 @@ ${team_miles("01")}
     },
     {
       name: "mile",
-      inputs: ["total_miles"],
-      value: (function(total_miles)
+      inputs: ["animation","total_miles","Promises"],
+      value: (async function*(animation,total_miles,Promises)
 {
-  /*let i = 0;
-  const limit = total_miles('01') / 10;
-  while (i < limit) {
-    await Promises.delay(1);
-    yield 10 * (++i);
+  if(animation) {
+    let i = 0;
+    const limit = total_miles('01') / 10;
+    while (i < limit) {
+      await Promises.delay(1);
+      yield 10 * (++i);
+    }
+    yield total_miles('01');
   }
-  yield total_miles('01');
-  */
-  return total_miles('01');
+  else {
+    return total_miles('01');
+  }
 }
 )
     },
@@ -125,13 +128,13 @@ ${team_miles("01")}
     },
     {
       name: "total_miles",
-      inputs: ["week"],
-      value: (function(week){return(
+      inputs: ["week","club_miles"],
+      value: (function(week,club_miles){return(
 (week_id) => {
   let total = 0;
   let teams = week[week_id].teams;
-  for(let id in teams) {
-    total += parseInt(teams[id].mile)
+  for(let team of teams) {
+    total += parseInt(club_miles[team.id].miles)
   }
   return total
 }
@@ -139,17 +142,17 @@ ${team_miles("01")}
     },
     {
       name: "team_miles",
-      inputs: ["week","avatar"],
-      value: (function(week,avatar){return(
+      inputs: ["week","club_miles","avatar"],
+      value: (function(week,club_miles,avatar){return(
 (week_id) => {
   let output = `<div>`
-  let teams = week[week_id].teams.sort((x, y) => (x.mile < y.mile) ? 1 : -1 )
+  let teams = week[week_id].teams.sort((x, y) => (parseInt(club_miles[x.id].miles))  <= (parseInt(club_miles[y.id].miles)) ? 1 : -1 )
   const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
   for(let team of teams) {
     output += `
 <a href="${base}#${team.id}">
 <img style="border-radius: 32px; width: 32px; height: 32px; margin: 5px"  src="${avatar[team.id].src}"/>
-</a>${team.mile} miles
+</a>${parseInt(club_miles[team.id].miles)} miles
 `
   }
   output += `</div>`
@@ -287,25 +290,12 @@ d3.json('https://www.mocaspike150.org/api/spike.json')
   { x: 1235, y: 48, angle: -48 }
 ]
 )})
-    },
-    {
-      inputs: ["leaderboard","week","club_miles"],
-      value: (function(leaderboard,week,club_miles)
-{
-  if(leaderboard) {
-   for(let team of week['01'].teams) {
-     team.mile = parseInt(club_miles[team.id].miles)
-    }
-  }
-  return week
-}
-)
     }
   ]
 };
 
 const notebook = {
-  id: "3f4fa13115bab893@177",
+  id: "3f4fa13115bab893@191",
   modules: [m0]
 };
 
