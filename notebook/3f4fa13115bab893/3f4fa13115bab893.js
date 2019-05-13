@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/3f4fa13115bab893
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 159
+// Version: 176
 // Runtime version: 1
 
 const m0 = {
-  id: "3f4fa13115bab893@159",
+  id: "3f4fa13115bab893@176",
   variables: [
     {
       inputs: ["html","mileage"],
@@ -143,13 +143,13 @@ ${team_miles("01")}
       value: (function(week,avatar){return(
 (week_id) => {
   let output = `<div>`
-  let teams = week[week_id].teams
+  let teams = week[week_id].teams.sort((x, y) => (x.mile < y.mile) ? 1 : -1 )
   const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
-  for(let id in teams) {
+  for(let team of teams) {
     output += `
-<a href="${base}#${teams[id].id}">
-<img style="border-radius: 32px; width: 32px; height: 32px; margin: 5px"  src="${avatar[teams[id].id].src}"/>
-</a>${teams[id].mile} miles
+<a href="${base}#${team.id}">
+<img style="border-radius: 32px; width: 32px; height: 32px; margin: 5px"  src="${avatar[team.id].src}"/>
+</a>${team.mile} miles
 `
   }
   output += `</div>`
@@ -305,7 +305,7 @@ d3.json('https://www.mocaspike150.org/api/spike.json')
 };
 
 const notebook = {
-  id: "3f4fa13115bab893@159",
+  id: "3f4fa13115bab893@176",
   modules: [m0]
 };
 
