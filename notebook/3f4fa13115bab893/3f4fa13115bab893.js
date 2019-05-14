@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/3f4fa13115bab893
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 226
+// Version: 242
 // Runtime version: 1
 
 const m0 = {
-  id: "3f4fa13115bab893@226",
+  id: "3f4fa13115bab893@242",
   variables: [
     {
       inputs: ["html","mileage"],
@@ -14,30 +14,24 @@ html`${mileage}`
 )})
     },
     {
-      name: "animation",
-      value: (function(){return(
-true
-)})
-    },
-    {
       name: "railroad_completed",
-      inputs: ["mile"],
-      value: (function(mile){return(
+      inputs: ["number_of_tracks"],
+      value: (function(number_of_tracks){return(
 `
 <div style="color: #ffa10a;
     font-size: 16px;font-style: strong;
     line-height: 1;"">Number of Railroad Completed</div>
 <div style="font-family: Verlag-bold;
     color: #63bf87;
-    font-size: 40px;line-height: 0.9;">${Math.floor(mile / 1912)}
+    font-size: 40px;line-height: 0.9;">${number_of_tracks}
 </div>
 `
 )})
     },
     {
       name: "current_mileage",
-      inputs: ["mile"],
-      value: (function(mile){return(
+      inputs: ["number_of_tracks","track_length","mile"],
+      value: (function(number_of_tracks,track_length,mile){return(
 `
 <div style="width:160px; margin-top: -50px; margin-left: auto;padding-right:10px">
 <div style="color: #ffa10a;
@@ -46,7 +40,7 @@ true
 <div style="font-family: Verlag-bold;
     color: #63bf87;
     font-size: 40px;
-    line-height: 0.9;text-align:right;">${mile}</div>
+    line-height: 0.9;text-align:right;">${ number_of_tracks * track_length + mile}</div>
 </div>
 `
 )})
@@ -100,22 +94,24 @@ ${team_miles("01")}
 )
     },
     {
+      name: "number_of_tracks",
+      inputs: ["total_miles","track_length"],
+      value: (function(total_miles,track_length){return(
+Math.floor(total_miles('01') / track_length)
+)})
+    },
+    {
       name: "mile",
-      inputs: ["animation","total_miles","Promises"],
-      value: (async function*(animation,total_miles,Promises)
+      inputs: ["total_miles","track_length","Promises"],
+      value: (async function*(total_miles,track_length,Promises)
 {
-  if(animation) {
-    let i = 0;
-    const limit = total_miles('01') ;
-    while (i < limit / 10 - 10) {
-      await Promises.delay(0.5);
-      yield 10 * (++i);
-    }
-    yield total_miles('01');
+  let i = 0;
+  const limit = total_miles('01') % track_length ;
+  while (i < limit / 10 - 10) {
+    await Promises.delay(0.5);
+    yield 10 * (++i);
   }
-  else {
-    return total_miles('01');
-  }
+  yield total_miles('01') % track_length ;
 }
 )
     },
@@ -195,12 +191,17 @@ d3.json('https://www.mocaspike150.org/json/track.json')
 )})
     },
     {
+      name: "track_length",
+      value: (function(){return(
+1776
+)})
+    },
+    {
       name: "build",
-      inputs: ["DOM","d3","track","spike_svg","spike_positions"],
-      value: (function(DOM,d3,track,spike_svg,spike_positions){return(
+      inputs: ["track_length","DOM","d3","track","spike_svg","spike_positions"],
+      value: (function(track_length,DOM,d3,track,spike_svg,spike_positions){return(
 (mile) => {
-  const total = 1776 
-  const t = Math.floor(mile * 42 / total) % 42
+  const t = Math.floor(mile * 42 / track_length) % 42
   const svg = DOM.svg(1280, 183)
   svg.style = "width: 100%;"
   const container = d3.select(svg)
@@ -321,7 +322,7 @@ d3.json('https://www.mocaspike150.org/api/spike.json')
 };
 
 const notebook = {
-  id: "3f4fa13115bab893@226",
+  id: "3f4fa13115bab893@242",
   modules: [m0]
 };
 
