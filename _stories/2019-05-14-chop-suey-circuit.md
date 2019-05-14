@@ -3,8 +3,8 @@ date: 2019-05-14 12:00:00 -0400
 layout: story
 title: Chop Suey Circuit & China Doll Nightclub
 title-cn: Chop Suey巡回演出和中国娃娃夜总会
-caption-en: China Doll Post Card with a Show Ad. of \"Slant Eyed Scandals,\" Courtesy of Marnie Mueller, Museum of<br>Chinese in America (MOCA) Collection
-caption-cn: “中国娃娃”明信片暨演出\"Slant Eyed Scandals\"的广告，Marnie Mueller捐赠，美国华人博物馆（MOCA）馆藏
+caption-en: China Doll Post Card with a Show Ad. of "Slant Eyed Scandals," Courtesy of Marnie Mueller, Museum of<br>Chinese in America (MOCA) Collection
+caption-cn: “中国娃娃”明信片暨演出"Slant Eyed Scandals"的广告，Marnie Mueller捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/57584509-49077a80-74aa-11e9-97bf-4a8f03b455ea.jpg
 card-image: https://user-images.githubusercontent.com/23090526/57584508-47d64d80-74aa-11e9-9cbc-7bf06ce32db9.jpg
 story-en: |
