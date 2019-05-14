@@ -4,18 +4,17 @@ title: Spike 150 Relay
 subtitle: Running Forward With Our Stories
 ---
 <div id="track"></div>
-<div id="currentweek"></div>
-<div style="margin: auto; width: 90%;"><h6>Weekly leaderboard coming soon!</h6></div>
 <div id="map"></div>
+<div id="leaderboard"></div>
 
 <script type="module">
   import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
 
   import track from 'https://api.observablehq.com/d/3f4fa13115bab893.js';
   import map from 'https://api.observablehq.com/d/1e179019619b1314.js';
-  import currentweek from 'https://api.observablehq.com/d/652eb3b29737ccee.js';
+  import leaderboard from 'https://api.observablehq.com/d/652eb3b29737ccee.js';
 
   Runtime.load(track, Inspector.into(document.getElementById('track')));
   Runtime.load(map, Inspector.into(document.getElementById('map')));
-  Runtime.load(currentweek, Inspector.into(document.getElementById('currentweek')));
+  Runtime.load(leaderboard, Inspector.into(document.getElementById('leaderboard')));
 </script>
