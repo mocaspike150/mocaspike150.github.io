@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/3f4fa13115bab893
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 216
+// Version: 226
 // Runtime version: 1
 
 const m0 = {
-  id: "3f4fa13115bab893@216",
+  id: "3f4fa13115bab893@226",
   variables: [
     {
       inputs: ["html","mileage"],
@@ -91,7 +91,7 @@ ${railroad_completed}
 ${team_miles("01")}
 </div>
 <div style="padding-top:15px;font-style:strong;">
-<a href="/spike-relay/">Weekly Leaderboard Coming Soon!</a>
+<a href="/spike-relay/leaderboard">View Weekly Leaderboard</a>
 </div>
 </div>
 
@@ -229,6 +229,12 @@ d3.json('https://www.mocaspike150.org/json/track.json')
 )})
     },
     {
+      inputs: ["club_miles"],
+      value: (function(club_miles){return(
+club_miles(301632)
+)})
+    },
+    {
       name: "club_miles",
       inputs: ["leaderboard"],
       value: (function(leaderboard){return(
@@ -315,7 +321,7 @@ d3.json('https://www.mocaspike150.org/api/spike.json')
 };
 
 const notebook = {
-  id: "3f4fa13115bab893@216",
+  id: "3f4fa13115bab893@226",
   modules: [m0]
 };
 
