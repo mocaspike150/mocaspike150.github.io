@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/3f4fa13115bab893
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 191
+// Version: 216
 // Runtime version: 1
 
 const m0 = {
-  id: "3f4fa13115bab893@191",
+  id: "3f4fa13115bab893@216",
   variables: [
     {
       inputs: ["html","mileage"],
@@ -106,9 +106,9 @@ ${team_miles("01")}
 {
   if(animation) {
     let i = 0;
-    const limit = total_miles('01') / 10;
-    while (i < limit) {
-      await Promises.delay(1);
+    const limit = total_miles('01') ;
+    while (i < limit / 10 - 10) {
+      await Promises.delay(0.5);
       yield 10 * (++i);
     }
     yield total_miles('01');
@@ -134,7 +134,7 @@ ${team_miles("01")}
   let total = 0;
   let teams = week[week_id].teams;
   for(let team of teams) {
-    total += parseInt(club_miles[team.id].miles)
+    total += club_miles(team.id)
   }
   return total
 }
@@ -146,13 +146,13 @@ ${team_miles("01")}
       value: (function(week,club_miles,avatar){return(
 (week_id) => {
   let output = `<div>`
-  let teams = week[week_id].teams.sort((x, y) => (parseInt(club_miles[x.id].miles))  <= (parseInt(club_miles[y.id].miles)) ? 1 : -1 )
+  let teams = week[week_id].teams.sort((x, y) => (club_miles(x.id)  <= club_miles(y.id)) ? 1 : -1 )
   const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
   for(let team of teams) {
     output += `
 <a href="${base}#${team.id}">
 <img style="border-radius: 32px; width: 32px; height: 32px; margin: 5px"  src="${avatar[team.id].src}"/>
-</a>${parseInt(club_miles[team.id].miles)} miles
+</a>${club_miles(team.id)} miles
 `
   }
   output += `</div>`
@@ -199,7 +199,7 @@ d3.json('https://www.mocaspike150.org/json/track.json')
       inputs: ["DOM","d3","track","spike_svg","spike_positions"],
       value: (function(DOM,d3,track,spike_svg,spike_positions){return(
 (mile) => {
-  const total = 1912 
+  const total = 1776 
   const t = Math.floor(mile * 42 / total) % 42
   const svg = DOM.svg(1280, 183)
   svg.style = "width: 100%;"
@@ -230,9 +230,29 @@ d3.json('https://www.mocaspike150.org/json/track.json')
     },
     {
       name: "club_miles",
+      inputs: ["leaderboard"],
+      value: (function(leaderboard){return(
+(id) => {
+  const km = leaderboard[id].map((d) => (parseFloat(d[2])))
+  let total = 0
+  if(km.length > 0) {
+     total = parseInt(km.reduce((x, y) => (x + y)) * 0.621371) 
+  }
+  return total
+}
+)})
+    },
+    {
+      inputs: ["leaderboard"],
+      value: (function(leaderboard){return(
+leaderboard[128445].map((d) => (parseInt(d[2])* 0.621371))
+)})
+    },
+    {
+      name: "leaderboard",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/miles.json')
+d3.json(`https://www.mocaspike150.org/api/leaderboard/week01/leaderboard.json`)
 )})
     },
     {
@@ -295,7 +315,7 @@ d3.json('https://www.mocaspike150.org/api/spike.json')
 };
 
 const notebook = {
-  id: "3f4fa13115bab893@191",
+  id: "3f4fa13115bab893@216",
   modules: [m0]
 };
 
