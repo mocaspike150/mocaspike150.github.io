@@ -10,10 +10,8 @@ subtitle: Running Forward With Our Stories
   import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
 
   import track from 'https://api.observablehq.com/d/75cdb496a2996567.js';
-  import map from 'https://api.observablehq.com/d/1e179019619b1314.js';
   import leaderboard from 'https://api.observablehq.com/d/652eb3b29737ccee.js';
 
   Runtime.load(track, Inspector.into(document.getElementById('track')));
-  Runtime.load(map, Inspector.into(document.getElementById('map')));
   Runtime.load(leaderboard, Inspector.into(document.getElementById('leaderboard')));
 </script>
