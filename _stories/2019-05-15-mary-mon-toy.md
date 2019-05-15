@@ -2,7 +2,7 @@
 date: 2019-05-15 12:00:00 -0400
 layout: story
 title: Mary Mon Toy
-title-cn: Mary Mon Toy
+title-cn: 
 caption-en: Mary Mon Toy in Costume, Courtesy of Marnie Mueller, Museum of Chinese in America (MOCA) Collection
 caption-cn: 身着演出服装的Mary Mon Toy，Marnie Mueller捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/57584608-60933300-74ab-11e9-9df3-d6275fa85cab.jpg
