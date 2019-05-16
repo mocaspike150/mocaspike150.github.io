@@ -4,7 +4,7 @@ crowdrise_page: dashrunningclub
 firstname: Dash
 lastname: Running Club
 team: moca-spike-150-ambassadors
-post-image: https://uploads.crowdrise.com/1556683200/6322ebf9f44f24b961ba9df861c39f03.jpg
+post-image: https://user-images.githubusercontent.com/46349226/57818615-a4f42c80-7752-11e9-92a0-4bc5bc81b77b.JPG
 card-image: https://cdn.crowdrise.com/v2/photo/file/member/5526707
 type: club
 ---
