@@ -33,6 +33,7 @@ exclude:
 - package.json
 - package-lock.json
 - README.md
+- app
 - .gitignore 
 
 show_excerpts: true
