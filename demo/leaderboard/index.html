@@ -12,11 +12,15 @@ pull live data for 100 members from each club.  At the end of the week the
 statistics will be updated based on a club’s actual membership and their
 distance will be averaged and the weekly leaderboards will be adjusted
   accordingly. </div>
+
 <div id="leaderboard"></div>
 
 <script type="module">
-  import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
-  import leaderboard from 'https://api.observablehq.com/d/652eb3b29737ccee.js';
+  import {Runtime, Inspector} from "/notebook/652eb3b29737ccee/runtime.js";
+  import leaderboard from 'https://api.observablehq.com/d/652eb3b29737ccee.js?v=3';
+  import define from "/notebook/652eb3b29737ccee/d/652eb3b29737ccee.js";
 
-  Runtime.load(leaderboard, Inspector.into(document.getElementById('leaderboard')));
+  const runtime = new Runtime();
+  const main = runtime.module(define, Inspector.into(document.getElementById('leaderboard')));
 </script>
+
