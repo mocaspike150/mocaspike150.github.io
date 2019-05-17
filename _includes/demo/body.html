@@ -10,7 +10,7 @@
   // Load the Observable runtime and inspector.
   import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
   // Your notebook, compiled as an ES module.
-  import notebook from "{{ page.notebook }}";
+  import define from "{{ page.notebook }}";
   // Load the notebook, observing its cells with a default Inspector
   // that simply renders the value of each cell into the provided DOM node.
   const runtime = new Runtime();
