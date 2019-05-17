@@ -13,7 +13,8 @@
   import notebook from "{{ page.notebook }}";
   // Load the notebook, observing its cells with a default Inspector
   // that simply renders the value of each cell into the provided DOM node.
-  Runtime.load(notebook, Inspector.into(document.getElementById('notebook')));
+  const runtime = new Runtime();
+  const main = runtime.module(define, Inspector.into(document.getElementById('notebook')));
 </script>
 {% endif %}
   {% include main.html %}
