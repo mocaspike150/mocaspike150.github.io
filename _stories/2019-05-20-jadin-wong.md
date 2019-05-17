@@ -1,5 +1,5 @@
 ---
-date: 2020-05-20 12:00:00 -0400
+date: 2019-05-20 12:00:00 -0400
 layout: story
 title: Jadin Wong
 title-cn: Jadin Wong
