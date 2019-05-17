@@ -5,7 +5,7 @@ export default function define(runtime, observer) {
 html`${mileage}`
 )});
   main.variable(observer("total_fund_raised")).define("total_fund_raised", function(){return(
-'$25,334'
+'$25,484'
 )});
   main.variable(observer("current_week_number")).define("current_week_number", function(){return(
 1
