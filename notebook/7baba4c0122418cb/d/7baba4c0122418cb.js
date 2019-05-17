@@ -1,11 +1,14 @@
-// https://observablehq.com/d/7baba4c0122418cb@405
+// https://observablehq.com/d/7baba4c0122418cb@408
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html","mileage"], function(html,mileage){return(
 html`${mileage}`
 )});
-  main.variable(observer("total_fund_raised")).define("total_fund_raised", function(){return(
-'$25,484'
+  main.variable(observer("total_fund_raised")).define("total_fund_raised", ["total"], function(total){return(
+`$${total.amount.toLocaleString()}`
+)});
+  main.variable(observer("total")).define("total", ["d3"], function(d3){return(
+d3.json('https://www.mocaspike150.org/api/donation/total.json')
 )});
   main.variable(observer("current_week_number")).define("current_week_number", function(){return(
 1
