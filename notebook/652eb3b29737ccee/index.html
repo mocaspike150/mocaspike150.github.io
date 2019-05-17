@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Untitled</title>
-<style>
-.observablehq--inspect {
-  display: none;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
 <body>
 <script type="module">
 
-import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
-import notebook from "./652eb3b29737ccee.js";
+import {Runtime, Inspector} from "./runtime.js";
+import define from "./d/652eb3b29737ccee.js";
 
-Runtime.load(notebook, Inspector.into(document.body));
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
 
 </script>
