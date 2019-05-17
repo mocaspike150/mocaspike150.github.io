@@ -17,8 +17,8 @@ distance will be averaged and the weekly leaderboards will be adjusted
 
 <script type="module">
   import {Runtime, Inspector} from "/notebook/652eb3b29737ccee/runtime.js";
-  import leaderboard from 'https://api.observablehq.com/d/652eb3b29737ccee.js?v=3';
-  import define from "/notebook/652eb3b29737ccee/d/652eb3b29737ccee.js";
+  import define from 'https://api.observablehq.com/d/652eb3b29737ccee.js?v=3';
+  //import define from "/notebook/652eb3b29737ccee/d/652eb3b29737ccee.js";
 
   const runtime = new Runtime();
   const main = runtime.module(define, Inspector.into(document.getElementById('leaderboard')));
