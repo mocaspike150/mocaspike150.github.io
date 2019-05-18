@@ -7,8 +7,9 @@ subtitle: Running Forward With Our Stories
 <div id="leaderboard"></div>
 
 <script type="module">
-  import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
-  import leaderboard from '/notebook/a9d47eda9c8eb67c/a9d47eda9c8eb67c.js';
+  import {Runtime, Inspector} from "/notebook/a9d47eda9c8eb67c/runtime.js";
+  import define from "/notebook/a9d47eda9c8eb67c/d/a9d47eda9c8eb67c.js";
 
-  Runtime.load(leaderboard, Inspector.into(document.getElementById('leaderboard')));
+  const runtime = new Runtime();
+  const main = runtime.module(define, Inspector.into(document.getElementById('leaderboard')));
 </script>
