@@ -1,11 +1,11 @@
-// https://observablehq.com/d/7baba4c0122418cb@408
+// https://observablehq.com/d/7baba4c0122418cb@417
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html","mileage"], function(html,mileage){return(
 html`${mileage}`
 )});
-  main.variable(observer("total_fund_raised")).define("total_fund_raised", ["total"], function(total){return(
-`$${total.amount.toLocaleString()}`
+  main.variable(observer("total_fund_raised")).define("total_fund_raised", ["a"], function(a){return(
+`$${a.amount.toLocaleString()}`
 )});
   main.variable(observer("total")).define("total", ["d3"], function(d3){return(
 d3.json('https://www.mocaspike150.org/api/donation/total.json')
@@ -78,8 +78,8 @@ html`${style}`
 </div>
 `
 )});
-  main.variable(observer("num_current_mileage")).define("num_current_mileage", ["number_of_tracks","track_length","mile"], function(number_of_tracks,track_length,mile){return(
-number_of_tracks * track_length + mile
+  main.variable(observer("num_current_mileage")).define("num_current_mileage", ["number_of_tracks","track_length","a"], function(number_of_tracks,track_length,a){return(
+number_of_tracks * track_length + a.miles
 )});
   main.variable(observer("num_total_mileage")).define("num_total_mileage", ["num_current_mileage"], function(num_current_mileage){return(
 num_current_mileage
@@ -92,7 +92,7 @@ num_current_mileage
   main.variable(observer("current_week")).define("current_week", function(){return(
 1
 )});
-  main.variable(observer("mileage")).define("mileage", ["title","total_fund_raised","current_mileage","build","mile","railroad_completed","mileage_by_clubs","leaderboard_link","footnote"], function(title,total_fund_raised,current_mileage,build,mile,railroad_completed,mileage_by_clubs,leaderboard_link,footnote)
+  main.variable(observer("mileage")).define("mileage", ["title","total_fund_raised","current_mileage","build","a","railroad_completed","mileage_by_clubs","leaderboard_link","footnote"], function(title,total_fund_raised,current_mileage,build,a,railroad_completed,mileage_by_clubs,leaderboard_link,footnote)
 {
   return `
 <div style="background: #FFF7ED; padding:20px; width:100%">
@@ -105,7 +105,7 @@ Total Amount Raised </div>
 ${current_mileage}
 
 <div id="railroad" >
-${build(mile)}
+${build(a.miles)}
 </div>
 ${railroad_completed}
 ${mileage_by_clubs}
@@ -135,15 +135,24 @@ ${team_miles("01")}
   main.variable(observer("number_of_tracks")).define("number_of_tracks", ["weekly_miles","current_week_number","track_length"], function(weekly_miles,current_week_number,track_length){return(
 Math.floor(weekly_miles(current_week_number) / track_length)
 )});
-  main.variable(observer("mile")).define("mile", ["weekly_miles","current_week_number","track_length","Promises"], async function*(weekly_miles,current_week_number,track_length,Promises)
+  main.variable(observer("mile")).define("mile", ["mile_data"], function(mile_data){return(
+mile_data.mile
+)});
+  main.variable(observer("a")).define("a", ["weekly_miles","current_week_number","track_length","total","Promises"], async function*(weekly_miles,current_week_number,track_length,total,Promises)
 {
-  let i = 0;
-  const limit = weekly_miles(current_week_number) % track_length ;
-  while (i < limit / 10 - 10) {
-    await Promises.delay(0.5);
-    yield 10 * (++i);
+  const miles = weekly_miles(current_week_number) % track_length ;
+  const amount = total.amount;
+  for(let i = 0; i < 100; i++) {
+    await Promises.delay(1);
+    yield {
+      miles: Math.floor(i * miles / 100),
+      amount: Math.floor(i * amount / 100)
+    }
   }
-  yield weekly_miles(current_week_number) % track_length ;
+  yield { 
+    miles: miles, 
+    amount: amount 
+  } ;
 }
 );
   main.variable(observer("mile_data")).define("mile_data", ["weekly_miles","current_week_number"], function(weekly_miles,current_week_number){return(

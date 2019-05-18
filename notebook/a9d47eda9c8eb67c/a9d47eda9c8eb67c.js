@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/a9d47eda9c8eb67c
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 158
+// Version: 162
 // Runtime version: 1
 
 const m0 = {
-  id: "a9d47eda9c8eb67c@158",
+  id: "a9d47eda9c8eb67c@162",
   variables: [
     {
       inputs: ["html","club_leaderboard"],
@@ -431,7 +431,7 @@ html`${top50}`
     <table>
         <tr>
     <th>Rank</th>
-    <th>Club</th>
+    <!--<th>Club</th>-->
     <th>Name</th>
     <th>Distance</th>
   </tr>
@@ -442,7 +442,7 @@ html`${top50}`
       output +=  `
       <tr>
         <td>${counter+1} ${(counter < 3) ? '🏆' : ''}</td>
-        <td>${club.logo_html(line.club_id)}</td>
+       <!-- <td>${club.logo_html(line.club_id)}</td>-->
         <td>${line.name}</td>
         <td>${line.mile.toFixed(1)} miles</td>
       </tr>
@@ -456,10 +456,26 @@ html`${top50}`
 )
     },
     {
+      name: "uniq",
+      value: (function(){return(
+(input) => {
+  let previous = input[0]
+  let output = [previous]
+  for (const i of input) {
+    if (i.name != previous.name && i.mile != previous.mile  ) {
+      previous = i
+      output.push(i)
+    }
+  }
+  return output
+}
+)})
+    },
+    {
       name: "weekrank",
-      inputs: ["weekdata"],
-      value: (function(weekdata){return(
-weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1))
+      inputs: ["uniq","weekdata"],
+      value: (function(uniq,weekdata){return(
+uniq(weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1)))
 )})
     },
     {
@@ -497,7 +513,7 @@ d3.json("https://www.mocaspike150.org/api/leaderboard/week01/leaderboard.json")
 };
 
 const notebook = {
-  id: "a9d47eda9c8eb67c@158",
+  id: "a9d47eda9c8eb67c@162",
   modules: [m0]
 };
 
