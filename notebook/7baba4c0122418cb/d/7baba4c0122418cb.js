@@ -143,7 +143,7 @@ mile_data.mile
   const miles = weekly_miles(current_week_number) % track_length ;
   const amount = total.amount;
   for(let i = 0; i < 100; i++) {
-    await Promises.delay(0.5);
+    await Promises.delay(1);
     yield {
       miles: Math.floor(i * miles / 100),
       amount: Math.floor(i * amount / 100)
