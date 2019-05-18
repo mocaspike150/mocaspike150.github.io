@@ -2,7 +2,7 @@
 date: 2019-05-17 12:00:00 -0400
 layout: story
 title: Jadin Wong
-title-cn: Jadin Wong
+title-cn: 
 caption-en: Jadin Wong at Leon & Eddi\'s NY in 1941, Courtesy of Wally Wong, In memory of Jadin Wong, Museum of Chinese in America (MOCA) Collection
 caption-cn: 1941年Jadin Wong在纽约Leon &amp; Eddi&#39;s夜总会，Wally Wong捐赠，纪念Jadin Wong，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/57584731-a0a6e580-74ac-11e9-9e25-5a8a4f5cd859.jpg
