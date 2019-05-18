@@ -1,11 +1,11 @@
 // URL: https://observablehq.com/d/a9d47eda9c8eb67c
 // Title: Untitled
 // Author: MOCA Spike 150 (@mocaspike150)
-// Version: 159
+// Version: 162
 // Runtime version: 1
 
 const m0 = {
-  id: "a9d47eda9c8eb67c@159",
+  id: "a9d47eda9c8eb67c@162",
   variables: [
     {
       inputs: ["html","club_leaderboard"],
@@ -473,8 +473,8 @@ html`${top50}`
     },
     {
       name: "weekrank",
-      inputs: ["weekdata"],
-      value: (function(weekdata){return(
+      inputs: ["uniq","weekdata"],
+      value: (function(uniq,weekdata){return(
 uniq(weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1)))
 )})
     },
@@ -513,7 +513,7 @@ d3.json("https://www.mocaspike150.org/api/leaderboard/week01/leaderboard.json")
 };
 
 const notebook = {
-  id: "a9d47eda9c8eb67c@159",
+  id: "a9d47eda9c8eb67c@162",
   modules: [m0]
 };
 
