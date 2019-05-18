@@ -456,10 +456,26 @@ html`${top50}`
 )
     },
     {
+      name: "uniq",
+      value: (function(){return(
+(input) => {
+  let previous = input[0]
+  let output = [previous]
+  for (const i of input) {
+    if (i.name != previous.name && i.mile != previous.mile  ) {
+      previous = i
+      output.push(i)
+    }
+  }
+  return output
+}
+)})
+    },
+    {
       name: "weekrank",
       inputs: ["weekdata"],
       value: (function(weekdata){return(
-weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1))
+uniq(weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1)))
 )})
     },
     {
