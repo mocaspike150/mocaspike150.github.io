@@ -99,7 +99,7 @@ num_current_mileage
 <div style="margin: 10px">
 ${title}
 <div class="subtitle" >
-Total Amount Raised </div> 
+Total Amount Raised* </div> 
 <div class="subtitle_num">${total_fund_raised}</div> 
 
 ${current_mileage}
