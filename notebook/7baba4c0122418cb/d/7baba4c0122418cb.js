@@ -1,4 +1,4 @@
-// https://observablehq.com/d/7baba4c0122418cb@417
+// https://observablehq.com/d/7baba4c0122418cb@420
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html","mileage"], function(html,mileage){return(
@@ -130,7 +130,10 @@ ${team_miles("01")}
 `
 )});
   main.variable(observer("footnote")).define("footnote", function(){return(
-"<div class='footnote'>* Length of First Transcontinental Railroad: 1,776 miles</div>"
+`
+<div class='footnote'>* The total amount is being raised by MOCA Spike 150 ambassadors and relay teams, thank you!</div>
+<div class='footnote'>* Length of First Transcontinental Railroad: 1,776 miles</div>
+`
 )});
   main.variable(observer("number_of_tracks")).define("number_of_tracks", ["weekly_miles","current_week_number","track_length"], function(weekly_miles,current_week_number,track_length){return(
 Math.floor(weekly_miles(current_week_number) / track_length)
