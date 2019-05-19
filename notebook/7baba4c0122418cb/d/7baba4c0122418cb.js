@@ -35,7 +35,7 @@ html`${style}`
  .subtitle_num {
     font-family: Verlag-bold;
     color: #63bf87;
-    font-size: 30px;
+    font-size: 32px;
 }
  #railroad{
   height: 150px;
@@ -55,7 +55,7 @@ html`${style}`
  .subtitle_num2 {
     font-family: Verlag-bold;
     color: #63bf87;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 0.9;
     padding-bottom: 10px;
 }
