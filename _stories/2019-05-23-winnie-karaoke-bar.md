@@ -5,8 +5,8 @@ title: Winnie’s Karaoke Bar
 title-cn: Winnie’s卡拉OK酒吧
 caption-en: Left：Laserdisc of Karaoke Songs used at Winnie’s, Courtesy of Teddy Mui, Museum of Chinese in America (MOCA) Collection;<br>Right：Former MOCA Staff member Michael Robison singing the “I Want it that Way” that Winnie’s (104 Bayard Street)
 caption-cn: 左：Winnie’s卡拉OK酒吧的激光唱片，Teddy Mui捐赠，美国华人博物馆（MOCA）馆藏；右：MOCA前员工<br>Michael Robison在位于摆也街104 号的Winnie’s卡拉OK酒吧演唱 “I Want it that Way”
-post-image: https://user-images.githubusercontent.com/23090526/57584731-a0a6e580-74ac-11e9-9e25-5a8a4f5cd859.jpg
-card-image: https://user-images.githubusercontent.com/23090526/57584730-9f75b880-74ac-11e9-9fff-7ed2b46997f4.jpg
+post-image: https://user-images.githubusercontent.com/23090526/57984017-3d293480-7a25-11e9-9e01-9b9a840c60e0.jpg
+card-image: https://user-images.githubusercontent.com/23090526/57984018-3e5a6180-7a25-11e9-85b7-f5d3c4082793.jpg
 story-en: |
   <p>Winnie’s Karaoke Bar at 104 Bayard Street was a New York Chinatown staple from its inception in 1987 until it was forced to close in March of 2015 due to an expiring lease. The bar’s owner and namesake, Winnie Mui, opened the bar after a brief but illustrious career as a Cantonese opera star in Hong Kong. Winnie’s DJs juggled song requests scrawled on slips of scrap paper, a complicated-looking filing system of laserdiscs, hand-written location notes, and multiple laser disc players to smoothly transition from one song to the next. Diverse crowds crammed into Winnie’s on the weekends – Chinatown old-timers shared the stage with artist types and hipsters.</p>
   <p>The last night at Winnie’s looked like a fitting end to a Chinatown fixture: Winnie held court with quiet dignity as locals came to pay respects to her and the bar. On the stage, karaoke enthusiasts belted out boozy renditions of classics, serenading the space into retirement. Teddy Mui, Winnie’s son, was always adamant that the iconic karaoke bar would reopen. In 2019, Four years after its closure Winnie and Teddy have finally found a new home and reopened the bar at 53 East Broadway.</p>
