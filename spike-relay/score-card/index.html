@@ -1,0 +1,15 @@
+---
+layout: page
+title: Spike Relay Score Card
+subtitle: Running Forward With Our Stories
+---
+
+<div id="leaderboard"></div>
+
+<script type="module">
+  import {Runtime, Inspector} from "/notebook/652eb3b29737ccee/runtime.js";
+  import define from 'https://api.observablehq.com/d/eab9f36a39af17f0.js?v=3';
+  //import define from "/notebook/652eb3b29737ccee/d/652eb3b29737ccee.js";
+  const runtime = new Runtime();
+  const main = runtime.module(define, Inspector.into(document.getElementById('leaderboard')));
+</script>
