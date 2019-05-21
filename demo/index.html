@@ -9,9 +9,11 @@ subtitle: Running Forward With Our Stories
 
 import {Runtime, Inspector} from "/notebook/7baba4c0122418cb/runtime.js";
 import notebook from "https://api.observablehq.com/d/3f4fa13115bab893.js?v=3";
+import donation from "https://api.observablehq.com/d/4c0dc693a5db17ca.js?v=3";
 
 const runtime = new Runtime();
 runtime.module(notebook, Inspector.into(document.getElementById('notebook')));
+runtime.module(donation, Inspector.into(document.getElementById('donation')));
 
 </script>
 
