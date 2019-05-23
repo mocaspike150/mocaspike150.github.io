@@ -4,7 +4,7 @@ layout: story
 title: Winnie’s Karaoke Bar
 title-cn: 温娜卡啦OK酒廊
 caption-en: Left：Laserdisc of Karaoke Songs used at Winnie’s, Courtesy of Teddy Mui, Museum of Chinese in America (MOCA) Collection;<br>Right：Former MOCA Staff member Michael Robison singing the “I Want it that Way” that Winnie’s (104 Bayard Street)
-caption-cn: 左：温娜卡拉OK酒廊的激光唱片，Teddy Mui捐赠，美国华人博物馆（MOCA）馆藏；右：MOCA前员工<br>Michael Robison在位于摆也街104 号的Winnie’s卡拉OK酒吧演唱 “I Want it that Way”
+caption-cn: 左：温娜卡拉OK酒廊的激光唱片，Teddy Mui捐赠，美国华人博物馆（MOCA）馆藏；右：MOCA前员工<br>Michael Robison在位于摆也街104 号的温娜卡拉OK酒廊演唱 “I Want it that Way”
 post-image: https://user-images.githubusercontent.com/23090526/57984017-3d293480-7a25-11e9-9e01-9b9a840c60e0.jpg
 card-image: https://user-images.githubusercontent.com/23090526/57984018-3e5a6180-7a25-11e9-85b7-f5d3c4082793.jpg
 story-en: |
