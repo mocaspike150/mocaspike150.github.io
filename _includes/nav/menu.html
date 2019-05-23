@@ -29,20 +29,12 @@
     </li>
     <li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1 dropdown
        {% if page.dir contains '/marathon/' %} active {% endif %}
-       {% if page.dir contains '/spike-150-ambassadors/' %} active {% endif %}
-       {% if page.dir contains '/spike-150-clubs/' %} active {% endif %}
        ">
 	   <a title="TCS NYC Marathon" href="/marathon/" class="dropdown-toggle">
         Marathon <span class="caret-wrap"><span class="caret"></span></span>
       </a>
      
        <ul role="menu" class="dropdown-menu">
-        <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a title="MOCA Spike 150 Ambassadors" href="/spike-150-ambassadors/">MOCA Spike 150 Ambassadors 2019</a>
-        </li>
-	 <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a title="MOCA Spike 150 Ambassadors" href="/spike-150-clubs/">MOCA Spike 150 Clubs 2019</a>
-        </li>  
 	       
         <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page">
           <a title="MOCA Spike 150 Ambassadors" href="https://mocanyc.pastperfectonline.com/search?utf8=%E2%9C%93&search_criteria=2018.032&searchButton=Search" target=_blank>MOCA TCS NYC Marathon Team 2018</a>
@@ -87,12 +79,29 @@
       <a title="My Stories" href="/my-stories">My Stories</a>
     </li>
 -->
- 	<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom
+ 	<li id="menu-item-88" class="menu-item menu-item-type-custom menu-item-object-custom
       {% if page.path contains 'press' %} active {% endif %}">
       <a title="My Stories" href="/press">Press</a>
     </li>
-    <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page
-      {% if page.dir contains '/donate/' %} active {% endif %}">
-      <a title="Donate" href="/donate/">Donate</a></li>
+	<li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1 dropdown
+       {% if page.dir contains '//donate//' %} active {% endif %}
+       {% if page.dir contains '/spike-150-ambassadors/' %} active {% endif %}
+       {% if page.dir contains '/spike-150-clubs/' %} active {% endif %}
+       ">
+      <a title="Donate" href="/donate/">Donate</a>
+	  
+		
+	<ul role="menu" class="dropdown-menu">
+        <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="MOCA Spike 150 Ambassadors" href="/spike-150-ambassadors/">MOCA Spike 150 Ambassadors</a>
+        </li>
+	 <li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page">
+          <a title="MOCA Spike 150 Ambassadors" href="/spike-150-clubs/">MOCA Spike 150 Clubs</a>
+        </li>  
+	       
+       
+      </ul>
+	  
+	  </li>
   </ul>
 </div>
