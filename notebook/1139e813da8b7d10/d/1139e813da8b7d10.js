@@ -1,4 +1,4 @@
-// https://observablehq.com/d/1139e813da8b7d10@486
+// https://observablehq.com/d/1139e813da8b7d10@488
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html","mileage"], function(html,mileage){return(
@@ -8,7 +8,7 @@ html`${mileage}`
 `$${a.amount.toLocaleString()}`
 )});
   main.variable(observer("total")).define("total", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/donation/data/total.json')
+d3.json('https://raw.githubusercontent.com/mocaspike150/donation/master/data/total.json')
 )});
   main.variable(observer("current_week_number")).define("current_week_number", function(){return(
 2
