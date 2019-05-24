@@ -1,4 +1,4 @@
-// https://observablehq.com/d/0d77efac6cce1c60@225
+// https://observablehq.com/d/0d77efac6cce1c60@228
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html","max_row","sorted_donation_table","runner_donation_data","profile_data","club_donation_data","view_all_link"], function(html,max_row,sorted_donation_table,runner_donation_data,profile_data,club_donation_data,view_all_link){return(
@@ -18,6 +18,14 @@ html`
 }
 a.viewall{
   color: #fff;
+}
+.img-circle {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+    max-width: 100%;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
 }
 </style>
 <div id="donation" >
@@ -114,7 +122,7 @@ params.get('max_row') ? parseInt(params.get('max_row')) : 10
          output += `
 <tr>
 <td style="width:55px;">
-<img src="${profile['card-image']}" style="width:32px;">
+<img src="${profile['card-image']}" style="width:32px;" class="img-circle">
 </td>
 <td>
 ${html_name(profile)}
