@@ -310,8 +310,9 @@ html`${top50}`
 (input) => {
   let previous = input[0]
   let output = [previous]
+  let key = previous.name + previous.mile 
   for (const i of input) {
-    if (i.name != previous.name && i.mile != previous.mile  ) {
+    if ((i.name +  i.mile) != key  ) {
       previous = i
       output.push(i)
     }
