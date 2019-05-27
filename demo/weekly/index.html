@@ -1,6 +1,15 @@
 ---
-layout: demo
-title: MOCA Spike 150
+layout: page
+title: Spike 150 Relay weekly
 subtitle: Running Forward With Our Stories
-notebook: 'https://api.observablehq.com/d/ac54dbfb3290fe52.js'
 ---
+<div id="weekly"></div>
+
+<script type="module">
+  import {Runtime, Inspector} from "/notebook/be3279581aec9523/runtime.js";
+  import weekly from 'https://api.observablehq.com/d/be3279581aec9523.js?v=3';
+
+  const runtime = new Runtime();
+  const main = runtime.module(weekly, Inspector.into(document.getElementById('weekly')));
+</script>
+
