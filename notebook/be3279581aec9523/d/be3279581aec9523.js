@@ -1,4 +1,4 @@
-// https://observablehq.com/d/be3279581aec9523@62
+// https://observablehq.com/d/be3279581aec9523@73
 import define1 from "../d/8c3fb504983a53c4.js";
 
 export default function define(runtime, observer) {
@@ -8,7 +8,8 @@ html`${lineup()}`
 )});
   main.variable(observer("scorecard")).define("scorecard", function(){return(
 (week) => {
-  if (week === '01') {
+  const past_weeks = ['01', '02'];
+  if (past_weeks.includes(week)) {
   return `
 <div><a href="/spike-relay/scorecard/#${week}">Scorecard</a></div>
 `

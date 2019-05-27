@@ -3,14 +3,12 @@ layout: page
 title: Spike Relay Weekly Line Up
 subtitle: Running Forward With Our Stories
 ---
-<style>
-     .observablehq--inspect { display: none; }
-</style>
 <div id="weekly"></div>
 
 <script type="module">
   import {Runtime, Inspector} from "/notebook/54cd823ccb00cce5/runtime.js";
-  import weekly from "/notebook/54cd823ccb00cce5/d/54cd823ccb00cce5.js";
+  //import weekly from "/notebook/54cd823ccb00cce5/d/54cd823ccb00cce5.js";
+  import weekly from "https://api.observablehq.com/d/be3279581aec9523.js?v=3";
 
   const runtime = new Runtime();
   const main = runtime.module(weekly, Inspector.into(document.getElementById('weekly')));
