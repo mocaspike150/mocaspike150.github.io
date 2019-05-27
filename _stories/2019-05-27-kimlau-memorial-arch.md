@@ -1,5 +1,5 @@
 ---
-date: 2020-05-27 12:00:00 -0400
+date: 2019-05-27 12:00:00 -0400
 layout: story
 title: Kimlau Memorial Arch
 title-cn: 金劳纪念碑坊
