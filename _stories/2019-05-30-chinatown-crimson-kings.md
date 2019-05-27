@@ -1,5 +1,5 @@
 ---
-date: 2020-05-30 12:00:00 -0400
+date: 2019-05-30 12:00:00 -0400
 layout: story
 title: The New York Chinese School Crimson Kings Drum, Fife and Bugle Corps
 title-cn:
