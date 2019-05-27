@@ -1,5 +1,5 @@
 ---
-date: 2020-05-31 12:00:00 -0400
+date: 2019-05-31 12:00:00 -0400
 layout: story
 title: Mei Lanfang
 title-cn: 梅兰芳
