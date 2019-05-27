@@ -15,10 +15,9 @@ distance will be averaged on the weekly scorecard accordingly. </div>
 
 <script type="module">
   import {Runtime, Inspector} from "/notebook/652eb3b29737ccee/runtime.js";
-  //import define from 'https://api.observablehq.com/d/a83bbe5c485402ed.js?v=3';
-  import define from "/notebook/a83bbe5c485402ed/d/a83bbe5c485402ed.js";
+  import leaderboard from "https://api.observablehq.com/d/6b0a41ee4eb6effc.js?v=3';
 
   const runtime = new Runtime();
-  const main = runtime.module(define, Inspector.into(document.getElementById('leaderboard')));
+  const main = runtime.module(leaderboard, Inspector.into(document.getElementById('leaderboard')));
 </script>
 
