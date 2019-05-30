@@ -2,7 +2,7 @@
 date: 2019-05-30 12:00:00 -0400
 layout: story
 title: The New York Chinese School Crimson Kings Drum, Fife and Bugle Corps
-title-cn:
+title-cn: 纽约华侨学校鼓乐队
 caption-en: Program book for the 50th anniversary celebration of the Chinatown Crimson Kings, September 23, 2000, Museum of Chinese in<br>America (MOCA) Collection
 caption-cn: 纽约华侨学校鼓乐队50周年庆典纪念册，2000年9月23日，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/58391742-178fc280-8005-11e9-9bbe-cea0829ad0fc.jpg
