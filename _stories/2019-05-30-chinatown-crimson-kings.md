@@ -4,7 +4,7 @@ layout: story
 title: The New York Chinese School Crimson Kings Drum, Fife and Bugle Corps
 title-cn:
 caption-en: Program book for the 50th anniversary celebration of the Chinatown Crimson Kings, September 23, 2000, Museum of Chinese in<br>America (MOCA) Collection
-caption-cn: 贝聿铭与妻子陆书华在MOCA2008年的历史传承慈善募捐晚宴颁奖典礼上，美国华人博物馆（MOCA）机构档案
+caption-cn: 纽约华侨学校鼓乐队50周年庆典的纪念册，2000年9月23日，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/58391742-178fc280-8005-11e9-9bbe-cea0829ad0fc.jpg
 card-image: https://user-images.githubusercontent.com/23090526/58391743-18285900-8005-11e9-9976-1ff8230d7500.jpg
 story-en: |
