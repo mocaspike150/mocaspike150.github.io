@@ -13,7 +13,7 @@ After a day of being under the unrelenting Dallas sun, some creatures were lurki
 ---
 
 ##### Trail Hoppers Grand Canyon Travers
-![](https://https://user-images.githubusercontent.com/46349226/58903555-b9817000-86d3-11e9-86c7-e30127fae50f.JPG)
+![](https://user-images.githubusercontent.com/46349226/58903555-b9817000-86d3-11e9-86c7-e30127fae50f.JPG)
 Top picture represents 8 team members who ran from the South rim of Grand Canyon through South Kaibab to the Colorado River, then climbed up to the North Rim, down to the valley again, then climbed back to the South rim through the Bright Angel Trail in the same day. 
 
 The bottom picture represents 14 team members, 7 of them ran from the South Rim to the North Rim, whereas the other 7 ran from the North Rim to the South. They met in the middle of the Grand Canyon valley。
