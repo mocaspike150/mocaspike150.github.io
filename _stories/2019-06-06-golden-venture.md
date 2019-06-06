@@ -4,7 +4,7 @@ layout: story
 title: Golden Venture
 title-cn: 金色冒险号
 caption-en: Replica of the Golden Venture ship created by detained Fujianese Refugees, Museum of Chinese in America (Collection)
-caption-cn: 被拘留的福建难民制作的“金色冒险号”船纸雕模型，美国华人博物馆（MOCA）馆藏
+caption-cn: 被拘留的福建难民制作的“金色冒险号”纸雕模型，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/58674199-b4f83880-831c-11e9-830b-939513bdadd0.jpg
 card-image: https://user-images.githubusercontent.com/23090526/58674200-b6296580-831c-11e9-9f25-5e2d628349e0.jpg
 story-en: |
