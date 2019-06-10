@@ -4,7 +4,7 @@ layout: story
 title: The Chin Family in Sam Wah Laundry on Creston Street in the Bronx
 title-cn: Chin氏家族位于纽约布朗克斯克雷斯顿街上的Sam Wah洗衣店
 caption-en: Sam Wah Laundry, Bronx, owned by Chin Family, Nov. 1952, Museum of Chinese in America (MOCA) Collection
-caption-cn: Chin家经营Sam Wah洗衣店，位于纽约布朗克斯的，1952年11月，美国华人博物馆（MOCA）馆藏
+caption-cn: Chin家经营Sam Wah洗衣店，位于纽约布朗克斯，1952年11月，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/59154767-1076a480-8a48-11e9-9996-92aad3a6c3a9.jpg
 card-image: https://user-images.githubusercontent.com/23090526/59154768-11a7d180-8a48-11e9-8b21-f722bf1807f8.jpg
 story-en: |
