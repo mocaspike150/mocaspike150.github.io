@@ -1,0 +1,28 @@
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/pptxgenjs@2.5.0/dist/pptxgen.bundle.js"></script>
+<script>
+let pptx = new PptxGenJS();
+pptx.setLayout('LAYOUT_WIDE');
+
+fetch('https://www.mocaspike150.org/data/stories.json')
+  .then(res => res.json())
+  .then((data) => {
+    for(const id in data) {
+      console.log(data[id]);
+      let slide = pptx.addNewSlide();
+      slide.back = 'FFFFFF';
+      slide.addText(
+        [ { text: data[id]['title']  }], { x:1.5, y:1.5, w:6, h:2, margin:0.1, fontSize: 48}
+      );
+
+      let slide_cn = pptx.addNewSlide();
+      slide_cn.back = 'FFFFFF';
+      slide_cn.addText(
+        [ { text: data[id]['title-cn'] ? data[id]['title-cn'] : ''  }], { x:1.5, y:1.5, w:6, h:2, margin:0.1, fontSize: 48 }
+      );
+    }
+    pptx.save('spike150-slideshow');
+  })
+.catch(err => { throw err });
+
+</script>
+
