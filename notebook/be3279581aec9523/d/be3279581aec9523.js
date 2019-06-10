@@ -1,4 +1,4 @@
-// https://observablehq.com/d/be3279581aec9523@73
+// https://observablehq.com/d/be3279581aec9523@78
 import define1 from "../d/8c3fb504983a53c4.js";
 
 export default function define(runtime, observer) {
@@ -6,9 +6,20 @@ export default function define(runtime, observer) {
   main.variable(observer()).define(["html","lineup"], function(html,lineup){return(
 html`${lineup()}`
 )});
-  main.variable(observer("scorecard")).define("scorecard", function(){return(
+  main.variable(observer("past_weeks")).define("past_weeks", function()
+{
+  let output = []
+  const start = new Date('2019-05-13T04:00:00')
+  const today = new Date()
+  const weeks_since_start = Math.floor((today - start) / (3600 * 1000 * 24 * 7)) + 1
+  for(let i = 1; i < weeks_since_start; i++) {
+    output.push((i < 10) ? `0${i}` : `${i}`)
+  }
+  return output
+}
+);
+  main.variable(observer("scorecard")).define("scorecard", ["past_weeks"], function(past_weeks){return(
 (week) => {
-  const past_weeks = ['01', '02'];
   if (past_weeks.includes(week)) {
   return `
 <div><a href="/spike-relay/scorecard/#${week}">Scorecard</a></div>
