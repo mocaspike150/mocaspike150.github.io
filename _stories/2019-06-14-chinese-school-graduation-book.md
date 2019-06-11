@@ -2,7 +2,7 @@
 date: 2019-06-14 12:00:00 -0400
 layout: story
 title: New York Chinese School
-title-cn: 纽约中文学校
+title-cn: 纽约中文学校的
 caption-en: New York Chinese School 1951 Yearbook, courtesy of Jeffry Lee, Museum of Chinese in America (MOCA) Collection
 caption-cn: 纽约中文学校1951年毕业纪念册，Jeffry Lee捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/59154886-87ad3800-8a4a-11e9-8bcd-48dfe364bd4f.jpg
