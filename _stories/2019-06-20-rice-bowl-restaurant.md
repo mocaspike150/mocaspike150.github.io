@@ -4,7 +4,7 @@ layout: story
 title: Rice Bowl Restaurant
 title-cn: 大同酒家
 caption-en: Left：Rice Bowl Exterior; Right：Chef in the Rice Bowl Restaurant Kitchen, Courtesy of Marcella Chin Dear, Museum of Chinese in<br>America (MOCA) Collection
-caption-cn: 
+caption-cn: 左图：大同酒家外观；右图：师傅在大同酒家厨房，陈雪瑛捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/59553118-5ce94500-8f5e-11e9-95e7-1b9718328f1b.jpg
 card-image: https://user-images.githubusercontent.com/23090526/59553120-5e1a7200-8f5e-11e9-8793-e821a542766d.jpg
 story-en: |
