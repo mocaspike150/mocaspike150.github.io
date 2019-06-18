@@ -2,7 +2,7 @@
 date: 2019-06-17 12:00:00 -0400
 layout: story
 title: The Story of Mae Eng Chao & Hsio Ho Chao
-title-cn: Mae Eng Chao & Hsio Ho Chao的故事
+title-cn: Mae和Ho的故事
 caption-en: Left：A rare photo of Mae, Ted, and Ho all together in Hong Kong, 1949, shortly before their separation; Right：a letter from Ho<br>to Mae, September 26, 1952. Courtesy of Ted Chao, Museum of Chinese in America (MOCA) Collection
 caption-cn: 左图：1949年Mae, Ted, and Ho一家三口在香港的珍贵照片，不久之后他们就分开了；右图：1952年9月26日，Ho写给<br>Mae的一封信。Ted Chao捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/59552983-8903c680-8f5c-11e9-8b32-76af5d6248f6.jpg
