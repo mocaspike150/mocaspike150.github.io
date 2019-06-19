@@ -13,7 +13,7 @@ story-en: |
   <p>Chiang has written two cookbooks and a cookbook/memoir. In 2013, she was honored with a lifetime achievement award from the James Beard Foundation. Even at the age of 98, Chiang continues to champion charitable causes, most notably raising money for the Chinese American International School in San Francisco.</p>
 story-cn: |
   <p>江孙芸（出生于1920年）是一名美籍华裔餐馆老板和厨师，她在旧金山创办并管理着“福禄寿”中餐厅。1960年，餐厅开业，江孙芸因向美国客人推出正宗的中国菜而受到赞誉。</p>
-  <p>逃离1949年中国共产主义革命，乘最后一班机离开上海，江孙芸和她的丈夫及女儿最终定居在旧金山，在那里她同意帮助一些朋友开一家餐馆。但她的朋友们食言退出了，而房东又拒绝退还押金，这时江孙芸决定自己经营这家餐馆。她在第一个菜单上列出了200多种菜肴，以确定哪些菜肴会对非华裔美国人最有吸引力，并且在设计空间时避开陈规定型的中国餐馆装饰。虽然作为一名说普通话的中国女性，江孙芸最初在这个行业中很挣扎，但她很快就开始吸引重要的客户（例如《花鼓戏》（The Flower Drum Song）的作者黎锦扬（C.Y. Lee）），并将她蓬勃发展的餐厅搬到位于Ghirardelli广场的能容纳300个座位的新址。她一直经营这家餐馆，直到1991卖掉退休，之后这家餐厅继续营业到2006年。她的儿子江一帆（Philip Chiang），最终于其他人共同创办了很受欢迎的连锁餐厅“华馆”（P.F. Chang’s）。</p>
+  <p>逃离1949年中国共产主义革命，乘最后一班机离开上海，江孙芸和她的丈夫及女儿最终定居在旧金山，在那里她同意帮助一些朋友开一家餐馆。但她的朋友们食言退出了，而房东又拒绝退还押金，这时江孙芸决定自己经营这家餐馆。她在第一个菜单上列出了200多种菜肴，以确定哪些菜肴会对非华裔美国人最有吸引力，并且在设计空间时避开陈规定型的中国餐馆装饰。作为一名说普通话的中国女性，江孙芸最初在这个行业中很挣扎，但她很快就开始吸引重要的客户（例如《花鼓戏》（The Flower Drum Song）的作者黎锦扬（C.Y. Lee）），并将她蓬勃发展的餐厅搬到位于Ghirardelli广场的能容纳300个座位的新址。她一直经营这家餐馆，直到1991卖掉退休，之后这家餐厅继续营业到2006年。她的儿子江一帆（Philip Chiang），最终与其他人共同创办了很受欢迎的连锁餐厅“华馆”（P.F. Chang’s）。</p>
   <p>江孙芸写了两本烹饪书和一本烹饪回忆录。2013年，她被詹姆斯·比尔德基金会授予终身成就奖。即使在98岁高龄，江孙芸依然继续支持慈善事业，其中最著名的是为旧金山的中美国际学校筹集资金。</p>
 ---
 Cecilia Chiang (b. 1920) is a Chinese American restaurateur and chef that founded and managed the Mandarin Restaurant in San Francisco.
