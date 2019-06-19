@@ -3,7 +3,7 @@ date: 2019-06-18 12:00:00 -0400
 layout: story
 title: Cecilia Chiang
 title-cn: 江孙芸
-caption-en: Cecelia Chang Interview conducted for MOCA’s Sour, Sweet, Bitty, Spicy Exhibition, 2017 Museum of Chinese in America<br>(MOCA) Institutional Archives
+caption-en: Cecelia Chiang Interview conducted for MOCA’s Sour, Sweet, Bitty, Spicy Exhibition, 2017 Museum of Chinese in America<br>(MOCA) Institutional Archives
 caption-cn: 江孙芸在2017年MOCA的《酸甜苦辣》展览中被采访的照片，美国华人博物馆（MOCA）机构档案
 post-image: https://user-images.githubusercontent.com/23090526/59553031-573f2f80-8f5d-11e9-9fbe-ad1088a46f79.jpg
 card-image: https://user-images.githubusercontent.com/23090526/59553032-58705c80-8f5d-11e9-9699-f6f838d1ab18.jpg
