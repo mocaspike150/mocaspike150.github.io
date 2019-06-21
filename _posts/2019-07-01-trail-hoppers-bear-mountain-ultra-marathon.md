@@ -24,10 +24,10 @@ published: false
 <div class="container-fluid">
 <div class="row">
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655215-2dd80b00-91cc-11e9-8d56-cd2a33edbe3e.jpg" alt="Jonathan Chu" class=" size-full wp-image-160"></div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655215-2dd80b00-91cc-11e9-8d56-cd2a33edbe3e.jpg" alt="50M-1" class=" size-full wp-image-160"></div>
 </div>
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655229-36c8dc80-91cc-11e9-831d-b8910992d838.jpg" alt="Renny Shih" class="size-full wp-image-160"></div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655229-36c8dc80-91cc-11e9-831d-b8910992d838.jpg" alt="50M-2" class="size-full wp-image-160"></div>
 </div>
 </div>
 </div>
@@ -35,13 +35,13 @@ published: false
 <div class="container-fluid">
 <div class="row">
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655524-35e47a80-91cd-11e9-8036-ca6de0dbe1a8.jpg" alt="Bryan Sarkinen" class=" size-full wp-image-160"></div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655524-35e47a80-91cd-11e9-8036-ca6de0dbe1a8.jpg" alt="John Chen-1" class=" size-full wp-image-160"></div>
 </div>
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655514-2ebd6c80-91cd-11e9-8e4a-08db0a378828.jpg" alt="Bryan Sarkinen &amp; Ken Eng" class="size-full wp-image-160"></div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655514-2ebd6c80-91cd-11e9-8e4a-08db0a378828.jpg" alt="John Chen-2" class="size-full wp-image-160"></div>
 </div>
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655506-2a914f00-91cd-11e9-9ac6-ad5cbc8d8fd9.jpg" alt="Bryan Sarkinen &amp; Ken Eng" class="size-full wp-image-160"></div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655506-2a914f00-91cd-11e9-9ac6-ad5cbc8d8fd9.jpg" alt="John Chen &amp; Jiang Zhang" class="size-full wp-image-160"></div>
 </div>
 </div>
 </div>
@@ -51,33 +51,11 @@ published: false
 <div class="container-fluid">
 <div class="row">
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59931365-ccee4400-9412-11e9-8ad3-e421f0ebd842.jpg" alt="正谊 " class=" size-full wp-image-160"></div>
-<div class="imgcaption">正谊</div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59931365-ccee4400-9412-11e9-8ad3-e421f0ebd842.jpg" alt="Jian Tang-1" class=" size-full wp-image-160"></div>
 </div>
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/46349226/54958428-07d3ff00-4f2c-11e9-931d-849b1d6e8f17.jpg" alt="谢队" class=" size-full wp-image-160"></div>
-<div class="imgcaption">谢队</div>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/46349226/54958429-086c9580-4f2c-11e9-978a-c6fcb5cc977e.jpg" alt="傅月琴" class=" size-full wp-image-160"></div>
-<div class="imgcaption">傅月琴</div>
-</div>
-<div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/46349226/54958427-07d3ff00-4f2c-11e9-80cf-46b835e7ac0c.jpg" alt="Patrick Lin" class=" size-full wp-image-160"></div>
-<div class="imgcaption">Patrick Lin</div>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/46349226/54958238-795f7d80-4f2b-11e9-992c-be36dee8dc29.jpg" alt="Angela Yang &amp; Angela Yang" class=" size-full wp-image-160"></div>
-<div class="imgcaption">Angela Yang &amp; Angela Yang</div>
-</div>
-<div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/46349226/54956113-91340300-4f25-11e9-8cb3-c3cfb119fc20.jpg"></div>
-<div class="imgcaption">Kaylin Chan</div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59931392-daa3c980-9412-11e9-84dd-b8118b3be81f.jpg" alt="Jian Tan-2" class=" size-full wp-image-160"></div>
 </div>
 </div>
 </div>
-<p style="margin-top: 20px;">其实我也想象不出这些素材会被怎样剪接
+<p style="margin-top: 20px;"> “最后要特别感谢普林越野和岚山跑团的小伙伴们的鼓(忽)励(悠), 以及强大的后勤，啦啦和摄影，你们辛苦了，同时也要感谢我的陪跑者Tony Chen 教授，由于你陪伴，让我最后十迈跑的才没那么痛苦。”</p>
