@@ -56,6 +56,9 @@ published: false
 <div class="col-sm-6" style="padding-left: 0;">
 <div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59931392-daa3c980-9412-11e9-84dd-b8118b3be81f.jpg" alt="Jian Tan-2" class=" size-full wp-image-160"></div>
 </div>
+<div class="col-sm-6" style="padding-left: 0;">
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59932839-1ab87b80-9416-11e9-90ac-fee09130b909.jpg" alt="Jian Tan-2" class=" size-full wp-image-160"></div>
+</div>
 </div>
 </div>
 <p style="margin-top: 20px;"> “最后要特别感谢普林越野和岚山跑团的小伙伴们的鼓(忽)励(悠), 以及强大的后勤，啦啦和摄影，你们辛苦了，同时也要感谢我的陪跑者Tony Chen 教授，由于你陪伴，让我最后十迈跑的才没那么痛苦。”</p>
