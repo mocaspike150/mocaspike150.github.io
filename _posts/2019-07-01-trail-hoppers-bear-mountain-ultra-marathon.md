@@ -9,19 +9,15 @@ post-image: https://user-images.githubusercontent.com/47676628/59655466-fcac0a80
 published: false
 ---
 
-<p>五四青年节那一天，越野群与岚山近二十位越野大侠们在纽约州的熊山（Bear mountain State Park）疯野了整整一天。此次熊山越野赛事由户外运动品牌The north Face (北脸) 领衔主办，比赛分为50英里（80公里）， 50公里， 马拉松和马拉松接力，其中最难也最具挑战的熊山五十英里（八十公里）赛事，全程累积爬升6880英尺（约2100米），周六凌晨五点至傍晚七点，十四个小时的关门时间，404名参赛者中，只有336名最终完赛。</p>
-<div class="container-fluid">
-<div class="row">
-<div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655215-2dd80b00-91cc-11e9-8d56-cd2a33edbe3e.jpg" alt="map 1" class=" size-full wp-image-160"></div>
-</div>
-<div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655541-439a0000-91cd-11e9-970d-74161b943a60.jpg" alt="map 2" class="size-full wp-image-160"></div>
-</div>
-</div>
-</div>
-<p style="margin-top: 20px;">周六清晨五点钟，六位勇士（监工，女神，亦文，苗大哥，汤建，陆峰）戴着头灯，趁着浓浓的夜色，踏上了山道。</p>
-<div class="container-fluid">
+五四青年节那一天，越野群与岚山近二十位越野大侠们在纽约州的熊山（Bear mountain State Park）疯野了整整一天。此次熊山越野赛事由户外运动品牌The north Face (北脸) 领衔主办，比赛分为50英里（80公里）， 50公里， 马拉松和马拉松接力，其中最难也最具挑战的熊山五十英里（八十公里）赛事，全程累积爬升6880英尺（约2100米），周六凌晨五点至傍晚七点，十四个小时的关门时间，404名参赛者中，只有336名最终完赛。
+
+![50miles](https://user-images.githubusercontent.com/47676628/59655215-2dd80b00-91cc-11e9-8d56-cd2a33edbe3e.jpg)
+
+![50M-2](https://user-images.githubusercontent.com/47676628/59655541-439a0000-91cd-11e9-970d-74161b943a60.jpg)
+
+
+周六清晨五点钟，六位勇士（监工，女神，亦文，苗大哥，汤建，陆峰）戴着头灯，趁着浓浓的夜色，踏上了山道。
+
 <div class="row">
 <div class="col-sm-6" style="padding-left: 0;">
 <div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59655215-2dd80b00-91cc-11e9-8d56-cd2a33edbe3e.jpg" alt="50M-1" class=" size-full wp-image-160"></div>
@@ -62,3 +58,6 @@ published: false
 </div>
 </div>
 <p style="margin-top: 20px;"> “最后要特别感谢普林越野和岚山跑团的小伙伴们的鼓(忽)励(悠), 以及强大的后勤，啦啦和摄影，你们辛苦了，同时也要感谢我的陪跑者Tony Chen 教授，由于你陪伴，让我最后十迈跑的才没那么痛苦。”</p>
+<p>亦文几个月前脚腕受伤，期间参加了几个半马比赛，脚伤一直on and off的有所好转却又没有彻底痊愈，时时跳出来制造麻烦，屋漏偏逢连夜雨，不幸在比赛前又患上感冒，本着“不作不死”的大无畏精神，带伤带病坚持参赛，终于在23迈处，在贤妻与损友们的劝阻下，理智地做出了弃赛的决定，坚持完赛需要勇气，受伤决定弃赛也同样需要勇气，为小强点赞！</p>
+<p>亦文：“去年我跟几位跑友一起报名参加这次赛事里的50英里越野跑，但是因为脚伤的困扰，并且脚踝连累到膝盖，这几个月没有怎么练跑。虽然脚痛膝盖痛，心里还是痒痒地想和朋友们一起热闹，体验一下越野赛跑的气氛，到了临近几天又不幸感冒了，没敢让人知道，怕被跑友们骂“这是作死的节奏“。最后呢，WTF，还是去了！跑了[奋斗]！跑起来后，心里嘀咕着，跑到哪里停下呢？不至于要跑完40英里山路到了我们的啦啦总站才停吧？当跑到23英里的官方供给站时，看到了在做啦啦的我们跑群的队长和其他的亲们，也看到了我家领导，...，我就停了[偷笑]。”</P>
+<p>小强这笑容，像是带病忍痛在奔跑吗？跑步这剂良药，虽然苦口，但绝不能停......</p>
