@@ -51,7 +51,7 @@ published: false
 <div class="container-fluid">
 <div class="row">
 <div class="col-sm-6" style="padding-left: 0;">
-<div class="imgcard"><img src="https://user-images.githubusercontent.com/46349226/54958426-07d3ff00-4f2c-11e9-9a6f-678680e81272.jpg" alt="正谊 " class=" size-full wp-image-160"></div>
+<div class="imgcard"><img src="https://user-images.githubusercontent.com/47676628/59931365-ccee4400-9412-11e9-8ad3-e421f0ebd842.jpg" alt="正谊 " class=" size-full wp-image-160"></div>
 <div class="imgcaption">正谊</div>
 </div>
 <div class="col-sm-6" style="padding-left: 0;">
