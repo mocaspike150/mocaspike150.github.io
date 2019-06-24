@@ -1,5 +1,5 @@
 ---
-date: 2019-07-01 12:00:00 -0400
+date: 2019-06-25 12:00:00 -0400
 layout: post
 author: Claudia Liu
 title: Artist’s Statement: The Gilded Spike
