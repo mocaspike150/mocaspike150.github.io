@@ -5,9 +5,8 @@ author: Julia Seng & Sherry Sun
 title: 新泽西马拉松：我们加入了MOCA Spike 150接力团队
 language: cn
 card-image: https://user-images.githubusercontent.com/47676628/60054725-561ea880-96a9-11e9-8445-8b960d2ba5e9.jpg
+post-image: https://user-images.githubusercontent.com/47676628/60360274-5c629c80-99a9-11e9-8711-003aac338726.jpg
 ---
-
-![team](https://user-images.githubusercontent.com/47676628/60360274-5c629c80-99a9-11e9-8711-003aac338726.jpg)
 
 On Sunday, April 28th, Julia Zeng and Sherry Sun joined Nancy Yao Maasbach, the President, and Yue Ma, the Director of Collections & Research as a MCOA Spike 150 relay team at the annual Novo Nordisk New Jersery Marathon, run a 26.2 mile race, and complete in 3 hours 48 mintutes 29 seconds.      
 <!--more-->
