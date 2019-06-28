@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Artist’s Statement: The Gilded Spike
-date: 2019-06-28 12:00:00
 author: Claudia Liu
+title: "Artist's Statement: The Glided Spike"
 card-image: https://user-images.githubusercontent.com/47676628/60360924-d7788280-99aa-11e9-8abf-ebf8aee440a5.jpg
 post-image: https://user-images.githubusercontent.com/47676628/60360915-d2b3ce80-99aa-11e9-819b-11f0f8521a33.jpg
 ---
