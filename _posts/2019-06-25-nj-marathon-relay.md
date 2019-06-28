@@ -35,13 +35,13 @@ Nancy (Leg 4) & Julia (Leg 2) Were Waiting for Teammates at the Same Transition 
 
 2019年4月28日，一年一度的的新泽西马拉松赛事，今年因美东几个跑团近百人出动而盛况空前，原因之一在于这是part of MOCA spike 150活动。临赛前两周一个teammate 因伤必须把全马改成接力，MOCA 馆长南希和主任马越接棒1，4，三缺一的美差可遇不可求，赶紧报名，于是名正言顺的MOCA 接力队成立了。如此欢快而有意义的活动咱比赛服必须出彩啊，MOCA 的限量款白T配啥呢？灵光一闪间想到了五颜六色的tutu裙，肯定亮眼！                        
 
+![sherry2](https://user-images.githubusercontent.com/47676628/60363740-58874800-99b2-11e9-97d0-301d6eb32ae0.jpg)
+
 比赛当日一早各队人马都预留了足够多的时间，却还是在距停车场一迈处就大塞车而龟速前行，眼看着要迟到只好弃车逛奔至起点，却然后又被告知送接力队员的shuttle bus在场外！对主办方糟糕的调度管理真是无语了。         
 
-![sherry2](https://user-images.githubusercontent.com/47676628/60363756-68069100-99b2-11e9-9666-26902619875a.jpg)
+![sherry3](https://user-images.githubusercontent.com/47676628/60363756-68069100-99b2-11e9-9666-26902619875a.jpg)
 
 第一次参加接力我毫无经验，压根没想清楚第三棒得等差不多两小时呢，早早的把外套衣服留在了车上，在50度的阴冷气温中瑟瑟发抖，不得已裹上两个垃圾袋取暖，哇哦造型还不错呢接棒后吸睛回头率百分百噢，每一处加油点都有人大呼：I like your tutu！兔兔我一路赶超好多Runners，最终我们moca team 以3小时48分钟完美收官！looking forward to the next fun race！！
-
-![sherry3](https://user-images.githubusercontent.com/47676628/60363740-58874800-99b2-11e9-97d0-301d6eb32ae0.jpg)
 
 ![time](https://user-images.githubusercontent.com/47676628/60355241-f1f72f80-999b-11e9-841d-3115fdedd4c0.jpg)
 
