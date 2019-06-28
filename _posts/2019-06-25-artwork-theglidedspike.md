@@ -1,12 +1,12 @@
 ---
-date: 2019-06-25 12:00:00 -0400
+date: 2019-06-28 12:00:00 -0400
 layout: post
 author: Claudia Liu
 title: Artist’s Statement: The Gilded Spike
 card-image: https://user-images.githubusercontent.com/47676628/60039249-42148000-9684-11e9-9237-bd41dd8b5189.jpg
 post-image: https://user-images.githubusercontent.com/47676628/60039214-31640a00-9684-11e9-9b6d-a38129c4daa3.jpg
-published: false
 ---
+
 In this painting, I attempted to encapsulate the history of how Chinese migrant workers were exploited to build the first trans-continental railroad yet were barred from taking advantage of the benefits it offered. Branded as “perpetual foreigners” by widespread anti-Chinese sentiment, many of these migrant workers became victims of violent racism, riots, and massacres and were often forced to take refuge in the first American Chinatowns. As a result of xenophobic conditions, the Chinese Exclusion Act restricting all Chinese immigration to the United States passed in 1882, just a little over a decade after the planting of the golden spike in 1869.  
 <!--more-->
 Despite a lack of blood relation, these people were the ancestors of all Chinese-Americans. They paved the way for the general acceptance and, for better or worse, the cultural assimilation of the Chinese into American society. Therefore, in studying this history, something alarming became clear to me: many “successful” Chinese-Americans have forgotten where they come from. What do I mean by this? Migrant workers still form the backbone of this country. They are still exploited and paid less than fair wages, although they perform critical jobs. They are still looked down on, they are still scorned, they are still treated with suspect and hate, just as the first Chinese-Americans were. Yet, I have met many Chinese enjoying success in America today that, although they come from immigrant roots themselves, harbor these same unfair prejudices towards modern migrant workers. Not only migrant workers, but refugees and other immigrants, especially non-Chinese. It is baffling. We forget how our ancestors were treated when they first came here and project the same hatred on others. I know the scale of white supremacy cannot be compared, but our modern-day racial dynamics, too, are Chinese-American history: somehow, minority groups have been tricked into turning on each other. 
