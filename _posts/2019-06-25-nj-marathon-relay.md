@@ -12,7 +12,7 @@ card-image: https://user-images.githubusercontent.com/47676628/60054725-561ea880
 On Sunday, April 28th, Julia Zeng and Sherry Sun joined Nancy Yao Maasbach, the President, and Yue Ma, the Director of Collections & Research as a MCOA Spike 150 relay team at the annual Novo Nordisk New Jersery Marathon, run a 26.2 mile race, and complete in 3 hours 48 mintutes 29 seconds.      
 <!--more-->
 
-Leg 2: Julia
+**Leg 2: Julia** 
 
 ![julia1](https://user-images.githubusercontent.com/47676628/60357564-f0c90100-99a1-11e9-9d43-8eea29371537.jpg)
 
@@ -29,7 +29,7 @@ Nancy (Leg 4) & Julia (Leg 2) Were Waiting for Teammates at the Same Station
 
 ![julia3](https://user-images.githubusercontent.com/47676628/60357529-dc850400-99a1-11e9-9fcb-8c07fee6aeac.jpg)
 
-Leg 3: Sherry
+**Leg 3: Sherry**
 
 ![Sherry1](https://user-images.githubusercontent.com/47676628/60357680-51583e00-99a2-11e9-8bb5-f3ea35e4c820.jpg)
 
