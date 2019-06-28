@@ -2,7 +2,7 @@
 date: 2019-06-28 12:00:00 -0400
 layout: story
 title: Parade Rally in NYC Chinatown Chinese Americans against Japanese invasion in China May 9, 1938
-title-cn: 纽约唐人街的游行聚会：美国华人反对日本入侵中国1938年5月9日
+title-cn: 纽约唐人街的游行聚会：美国华人反对日本入侵中国 1938年5月9日
 caption-en: Parade Rally in New York City Chinatown, Chinese Americans against Japanese invasion in China, a fundraising parade for China relief, from<br>the left in the front, Annabelle Wong (the 4th ). Ruth Chin (the 5th ), Sophia Chu (the 6th ), Jeaw Yee Wong (the 7th ), Grace Chu (the 9th ) were<br>recognized, May 9, 1938, Courtesy of Warren Chan, Museum of Chinese in America (MOCA) Collection
 caption-cn: 纽约唐人街的游行聚会，美国华人反对日本入侵中国，一场救济中国的筹款游行，前排左四Annabelle Wong， 左五Ruth Chin，左六Sophia Chu，左七Jeaw Yee Wong，左九Grace Chu，1938年5月9日，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/59970258-1ffcef80-9516-11e9-8bf5-bda74cc305b8.jpg
