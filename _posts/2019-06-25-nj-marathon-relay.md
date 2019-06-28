@@ -20,7 +20,7 @@ MOCA 是Museum Of Chinese America 的缩写。今年是美国第一条横贯大�
 这么有意义的活动当然要支持参加了。自己除了报名当MOCA 大使，加入MOCA今年纽约马拉松战队，并将今年自己的第一场比赛新马接力取名为MOCA Spike 150，和MOCA 馆藏主任️Yue及馆长Nancy , 美女跑友Sherry 一起通过新马接力来宣传这一活动。
 
 ![julia2](https://user-images.githubusercontent.com/47676628/60357577-fd4d5980-99a1-11e9-9596-f6309ed8fb96.jpg)
-Nancy (Leg 4) & Julia (Leg 2) Were Waiting for Teammates at the Same Transition Station 
+Nancy (Leg 4) & Julia (Leg 2) were Waiting for Teammates at the Transition Station 
 
 当天早上5点半就往45分钟车程外的赛场开。车子在离赛场不到两迈处堵的再也不往前走了，跑第二棒的我必须七点半到达赛场，做组委会的车去接力交接处。车上的我们幸亏有啦啦队友送，果断弃车而往停车场狂奔。当找到交通车在关门前一分钟跳上车，简直太幸运了！事实证明，我们的Museum 白色Keep Calm and 吃饭T恤加色彩鲜艳的tutu 裙在赛场上绝对拉风，旁边加油的观众不时对着我们喊，tutu群美女加油Chinese Museum 加油！向早期华工致敬的我们四位拼尽全力的狂奔换来非常不错的好成绩：3小时48分钟完赛！！
 
