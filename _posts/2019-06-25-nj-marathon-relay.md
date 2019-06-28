@@ -2,7 +2,7 @@
 date: 2019-06-28 12:00:00 -0400
 layout: post
 author: Julia Zeng & Sherry Sun
-title: 新泽西马拉松：我们加入了MOCA Spike 150接力团队
+title: "新泽西马拉松：我们加入了MOCA Spike 150接力团队"
 language: cn
 card-image: https://user-images.githubusercontent.com/47676628/60054725-561ea880-96a9-11e9-8445-8b960d2ba5e9.jpg
 post-image: https://user-images.githubusercontent.com/47676628/60360274-5c629c80-99a9-11e9-8711-003aac338726.jpg
