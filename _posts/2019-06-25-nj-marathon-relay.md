@@ -24,9 +24,10 @@ Nancy (Leg 4) & Julia (Leg 2) Were Waiting for Teammates at the Same Station
 
 当天早上5点半就往45分钟车程外的赛场开。车子在离赛场不到两迈处堵的再也不往前走了，跑第二棒的我必须七点半到达赛场，做组委会的车去接力交接处。车上的我们幸亏有啦啦队友送，果断弃车而往停车场狂奔。当找到交通车在关门前一分钟跳上车，简直太幸运了！事实证明，我们的Museum 白色Keep Calm and 吃饭T恤加色彩鲜艳的tutu 裙在赛场上绝对拉风，旁边加油的观众不时对着我们喊，tutu群美女加油Chinese Museum 加油向早期华工致敬的我们四位拼尽全力的狂奔换来非常不错的好成绩：3小时48分钟完赛！！
 
+![julia3](https://user-images.githubusercontent.com/47676628/60357529-dc850400-99a1-11e9-9fcb-8c07fee6aeac.jpg)
+
 虽然新马结束了，但MOCA纪念华工的活动才刚刚看始。全国跑团点亮Spike 的线上跑即将开始，希望跟随跑团的小伙伴们一起继续为宣传MOCA Spike 150 – Running Forward With Our Storie活动而尽自己的微薄力量！
 
-![julia3](https://user-images.githubusercontent.com/47676628/60357529-dc850400-99a1-11e9-9fcb-8c07fee6aeac.jpg)
 
 **Leg 3: Sherry**
 
