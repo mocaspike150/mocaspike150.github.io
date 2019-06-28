@@ -1,12 +1,13 @@
 ---
-layout: post
-title: NJ Marathon: We Joined the MOCA Spike 150 Relay Team
 date: 2019-06-28 12:00:00 -0400
-author: Julia & Sherry
+layout: post
+author: Julia Seng & Sherry Sun
+title: 新泽西马拉松：我们加入了MOCA Spike 150接力团队
+language: cn
 card-image: https://user-images.githubusercontent.com/47676628/60054725-561ea880-96a9-11e9-8445-8b960d2ba5e9.jpg
 ---
 
-![postimage](https://user-images.githubusercontent.com/47676628/60355241-f1f72f80-999b-11e9-841d-3115fdedd4c0.jpg)
+![team](https://user-images.githubusercontent.com/47676628/60360274-5c629c80-99a9-11e9-8711-003aac338726.jpg)
 
 On Sunday, April 28th, Julia Zeng and Sherry Sun joined Nancy Yao Maasbach, the President, and Yue Ma, the Director of Collections & Research as a MCOA Spike 150 relay team at the annual Novo Nordisk New Jersery Marathon, run a 26.2 mile race, and complete in 3 hours 48 mintutes 29 seconds.      
 <!--more-->
@@ -37,6 +38,8 @@ Leg 3: Sherry
 ![sherry2](https://user-images.githubusercontent.com/47676628/60358781-13a8e480-99a5-11e9-931e-b6be60bbc035.jpg)
 
 第一次参加接力我毫无经验，压根没想清楚第三棒得等差不多两小时呢，早早的把外套衣服留在了车上，在50度的阴冷气温中瑟瑟发抖，不得已裹上两个垃圾袋取暖，哇哦造型还不错呢接棒后吸睛回头率百分百噢，每一处加油点都有人大呼：I like your tutu!兔兔我一路赶超好多Runners,最终我们moca team 以3小时48分钟完美收官！looking forward to the next fun race!!
+
+![time](https://user-images.githubusercontent.com/47676628/60355241-f1f72f80-999b-11e9-841d-3115fdedd4c0.jpg)
 
 ![group](https://user-images.githubusercontent.com/47676628/60054791-8e25eb80-96a9-11e9-9715-1a7371853fdc.jpg)
 MOCA Spike 150 Relay Team赛前与岚山跑团合影
