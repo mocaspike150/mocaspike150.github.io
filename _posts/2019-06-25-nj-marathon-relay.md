@@ -1,11 +1,12 @@
 ---
-date: 2019-06-28 12:00:00 -0400
 layout: post
-author: Julia & Sherry
 title: NJ Marathon: We Joined the MOCA Spike 150 Relay Team
+date: 2019-06-28 12:00:00 -0400
+author: Julia & Sherry
 card-image: https://user-images.githubusercontent.com/47676628/60054725-561ea880-96a9-11e9-8445-8b960d2ba5e9.jpg
-Post-image: https://user-images.githubusercontent.com/47676628/60355241-f1f72f80-999b-11e9-841d-3115fdedd4c0.jpg
 ---
+
+![postimage](https://user-images.githubusercontent.com/47676628/60355241-f1f72f80-999b-11e9-841d-3115fdedd4c0.jpg)
 
 On Sunday, April 28th, Julia Zeng and Sherry Sun joined Nancy Yao Maasbach, the President, and Yue Ma, the Director of Collections & Research as a MCOA Spike 150 relay team at the annual Novo Nordisk New Jersery Marathon, run a 26.2 mile race, and complete in 3 hours 48 mintutes 29 seconds.      
 <!--more-->
