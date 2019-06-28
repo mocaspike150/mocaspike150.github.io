@@ -1,12 +1,11 @@
 ---
-date: 2019-06-28 12:00:00 -0400
 layout: post
-author: Claudia Liu
 title: Artist’s Statement: The Gilded Spike
+date: 2019-06-28 12:00:00
+author: Claudia Liu
 card-image: https://user-images.githubusercontent.com/47676628/60360924-d7788280-99aa-11e9-8abf-ebf8aee440a5.jpg
+post-image: https://user-images.githubusercontent.com/47676628/60360915-d2b3ce80-99aa-11e9-819b-11f0f8521a33.jpg
 ---
-
-![graphic](https://user-images.githubusercontent.com/47676628/60360915-d2b3ce80-99aa-11e9-819b-11f0f8521a33.jpg)
 
 In this painting, I attempted to encapsulate the history of how Chinese migrant workers were exploited to build the first trans-continental railroad yet were barred from taking advantage of the benefits it offered. Branded as “perpetual foreigners” by widespread anti-Chinese sentiment, many of these migrant workers became victims of violent racism, riots, and massacres and were often forced to take refuge in the first American Chinatowns. As a result of xenophobic conditions, the Chinese Exclusion Act restricting all Chinese immigration to the United States passed in 1882, just a little over a decade after the planting of the golden spike in 1869.  
 <!--more-->
