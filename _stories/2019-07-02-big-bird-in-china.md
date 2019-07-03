@@ -3,7 +3,7 @@ date: 2019-07-02 12:00:00 -0400
 layout: story
 title: Big Bird in China
 title-cn: 《大鸟在中国》
-caption-en: Big Bird in China Filming, June 6th , 1982, Photograph taken by Emile Bocian, Museum of Chinese in America (MOCA)<br>collection.
+caption-en: Big Bird in China Filming, June 6th , 1982, Photograph taken by Emile Bocian, Museum of Chinese in America (MOCA)<br>Collection.
 caption-cn: 《大鸟在中国》在纽约唐人街录制，1982年6月6日，包信拍摄，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/60389116-44af1500-9a8a-11e9-925f-4fa519cc01c7.jpg
 card-image: https://user-images.githubusercontent.com/23090526/60389117-45e04200-9a8a-11e9-8745-28de5e5f37f6.jpg
