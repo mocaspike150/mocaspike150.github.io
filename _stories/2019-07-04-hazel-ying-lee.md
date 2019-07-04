@@ -4,7 +4,7 @@ layout: story
 title: Hazel Ying Lee
 title-cn: 李月英
 caption-en: Left：Hazel Ying Lee in her uniform with a WASP (Women\'s Airforce Service Pilot) pin, ca. 1943; Right：Hazel Ying<br>Lee (R) with fellow pilot Virginia Wong, ca. 1932, Courtesy of Frances M. Tong, Museum of Chinese in American<br>(MOCA) Hazel Ying Lee & Frances M. Tong Collection
-caption-cn: 左：身着制服并佩戴“女子航空勤务飞行队（WASP）”徽章的李月英，大约1943年；右：李月英（右）和飞行员<br>Virginia Wong，大约1932年，Frances M. Tong捐赠，美国华人博物馆（MOCA）李月英和Frances M. Tong馆藏
+caption-cn: 左：身着制服并佩戴“女子航空勤务飞行队（WASP）”徽章的李月英，大约1943年；右：李月英（右）和飞行员<br>Virginia Wong，大约1932年，Frances M. Tong捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/60389213-db300600-9a8b-11e9-932c-40775d0c8bb7.jpg
 card-image: https://user-images.githubusercontent.com/23090526/60389214-dc613300-9a8b-11e9-9b18-58f06996895d.jpg
 story-en: |
