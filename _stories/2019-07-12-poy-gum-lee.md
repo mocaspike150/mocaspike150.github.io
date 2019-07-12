@@ -4,7 +4,7 @@ layout: story
 title: Poy Gum Lee
 title-cn: 李锦沛
 caption-en: Poy Gum Lee at a drafting table, Courtesy of the Lee Family, Museum of Chinese in America (MOCA) Collection
-caption-cn: 李锦沛坐在绘图桌旁，李锦沛家族捐赠，欸过华人博物馆（MOCA）馆藏
+caption-cn: 李锦沛坐在绘图桌旁，李锦沛家族捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/60757539-27260200-9fda-11e9-9fe7-d7f2379a1f62.jpg
 card-image: https://user-images.githubusercontent.com/23090526/60757540-27be9880-9fda-11e9-98e2-873742db788f.jpg
 story-en: |
