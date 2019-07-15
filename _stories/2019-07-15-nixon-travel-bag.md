@@ -1,9 +1,9 @@
 ---
 date: 2019-07-15 12:00:00 -0400
 layout: story
-title: President Nixon\'s Visit to China
+title: President Nixon's Visit to China
 title-cn: 尼克松总统访问中国
-caption-en: Pan Am Travel Bag and a note written on Nov. 6th , 1989 by a child whose mom\'s uncle Jack was the owner of the<br>manufactory, courtesy of Roy Delbyck, Museum of Chinese in America (MCOA) Collection
+caption-en: Pan Am Travel Bag and a note written on Nov. 6th , 1989 by a child whose mom's uncle Jack was the owner of the<br>manufactory, courtesy of Roy Delbyck, Museum of Chinese in America (MCOA) Collection
 caption-cn: 泛美世界航空旅行袋和一个孩子在1989年11月6日写的关于这个旅行袋的卡片，这个孩子的舅公是生产这个旅行袋厂家<br>的老板。Roy Delbyck捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/61183429-4e4e8600-a60f-11e9-8d7a-0ce8ca42040e.jpg
 card-image: https://user-images.githubusercontent.com/23090526/61183430-4ee71c80-a60f-11e9-98dc-92b194485709.jpg
