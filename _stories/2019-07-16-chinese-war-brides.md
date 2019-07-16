@@ -4,7 +4,7 @@ layout: story
 title: Chinese War Brides
 title-cn: 来自中国的战争新娘
 caption-en: EX-GI And Chinese Bride Welcomed Home, a black-and-white press photo taken by ACME, a newspaper firm on Sept.<br>4th , 1946, Courtesy of Roy Delbyck, Museum of Chinese in America (MOCA) Collection
-caption-cn: 复员军人和他的中国新娘，欢迎回家，一张1946年9月4日ACME报纸的黑白新闻照片, Roy Delbyck捐赠，美国华<br>人博物馆（MOCA）馆藏
+caption-cn: 美国复员军人和他的中国新娘，欢迎回家，一张1946年9月4日ACME报纸的黑白新闻照片, Roy Delbyck捐赠，美国华<br>人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/61183501-17c53b00-a610-11e9-89e5-45ebf18ac074.jpg
 card-image: https://user-images.githubusercontent.com/23090526/61183502-18f66800-a610-11e9-8f97-7bb98227afe4.jpg
 story-en: |
