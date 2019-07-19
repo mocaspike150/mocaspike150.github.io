@@ -1,8 +1,8 @@
 ---
 date: 2019-07-18 12:00:00 -0400
 layout: story
-title: Madame Chiang Kai-Shek in New York
-title-cn: 蒋夫人宋美龄在纽约
+title: Madame Chiang Kai-Shek’s US Visit
+title-cn: 蒋夫人宋美龄访问美国
 caption-en: Left：Welcome Madame Chiang Kai-Shek program, March 2, 1943, Courtesy of Douglas J. Chu; Right：Madame Chiang Kai Shek<br>via San Francisco, The San Francisco Examiner image, Courtesy of Roy Delbyck, Museum of Chinese in America (MOCA)<br>Collection
 caption-cn: 左：欢迎蒋夫人活动安排，1943年3月2日，Douglas J. Chu捐赠；右：蒋夫人访美途径旧金山，The San Francisco<br>Examiner image，Roy Delbyck捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/61183608-63c4af80-a611-11e9-8896-423608415b44.jpg
