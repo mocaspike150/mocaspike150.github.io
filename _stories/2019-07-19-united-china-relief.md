@@ -3,7 +3,7 @@ date: 2019-07-19 12:00:00 -0400
 layout: story
 title: United China Relief
 title-cn: 美国援华联合会
-caption-en: An image page in <i>What Li Wen Saw<\i>, \"…AND ONE IN EVERY NINE OF US IS A REFUGEE TODAY.\" Courtesy of Roy Delbyck,<br>Museum of Chinese in America (MOCA) Collection
+caption-en: An image page in <i>What Li Wen Saw<\i"…AND ONE IN EVERY NINE OF US IS A REFUGEE TODAY." Courtesy of Roy Delbyck,<br>Museum of Chinese in America (MOCA) Collection
 caption-cn: 《What Li Wen Saw》书中的图片页“……今天我们每九个人当中就有一个是难民。”Roy Delbyck捐赠，美国华人博物<br>馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/61183649-b69e6700-a611-11e9-96ee-187c74bcc715.jpg
 card-image: https://user-images.githubusercontent.com/23090526/61183651-b736fd80-a611-11e9-81de-851fddae03f9.jpg
