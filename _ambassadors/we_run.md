@@ -1,6 +1,6 @@
 ---
 crowdrise_id: 5828658
-crowdrise_page: moca-spike-150-moving-forward-with-our-storieswerun
+crowdrise_page: werunclub
 firstname: WeRun
 lastname: Club
 team: moca-spike-150-ambassadors
