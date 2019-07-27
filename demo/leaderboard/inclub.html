@@ -1,0 +1,13 @@
+---
+layout: page
+title: Spike 150 Relay Leaderboard
+subtitle: Running Forward With Our Stories
+---
+<div id="leaderboard"></div>
+
+<script type="module">
+  import {Runtime, Inspector} from "/notebook/652eb3b29737ccee/runtime.js";
+  import leaderboard from "https://api.observablehq.com/d/7e39189d1ffd9035.js?v=3";
+  const runtime = new Runtime();
+  const main = runtime.module(leaderboard, Inspector.into(document.getElementById('leaderboard')));
+</script>
