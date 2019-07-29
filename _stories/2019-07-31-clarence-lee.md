@@ -14,4 +14,5 @@ story-cn: |
   <p>1992年，美国邮政总局（USPS）决定发行农历新年邮票，以纪念华裔美国人在美国取得的成就。美国邮政总局委托了夏威夷平面设计师李健文（Clarence Lee）设计了一款庆祝鸡年的邮票。这是有史以来第一张印上汉字的邮票，深受喜爱，在美国和中国的销售额超过了500万美元。由于邮票大受欢迎，李健文被委托设计剩下的11张邮票，以完成一个完整的12年农历新年周期套票。</p>
   <p>1966年，李健文创立了自己的设计公司Clarence Lee Design & Associates；他在2005年出售了该公司。该公司总部位于夏威夷之外，为岛上的许多公司设计了商标；这些公司包括皇家科纳咖啡公司（Royal Kona Coffee）、夏威夷会议中心（the Hawaii Convention Center），夏威夷电力公司（Hawaii Electric Industries）和西北航空等公司。李健文还获得了为北京奥运会设计邮票的机会。虽然李健文72岁时去世了，但人们会通过他的作品记住他。</p>
 ---
+
 In 1992 the US Postal Service (USPS) decided to issue a Lunar New Year’s stamp in an effort to commemorate the accomplishments of Chinese Americans in the U.S.  
