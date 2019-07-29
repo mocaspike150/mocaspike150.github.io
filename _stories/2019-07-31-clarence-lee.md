@@ -3,8 +3,8 @@ date: 2019-07-31 12:00:00 -0400
 layout: story
 title: Clarence Lee Stamps
 title-cn: 李健文的邮票
-caption-en: Left: Rooster Stamp Reception, San Francisco May 1993, Clarence Lee and his wife Elsa Lee; Right: 1992 Rooster Stamps and commemorative envelopes, Courtesy of Elsa Lee, Museum of Chinese in America (MOCA) Collection
-caption-cn: 左图：鸡年邮票发行酒会，1993年5月旧金山，李健文和妻子Elsa Lee；右图：1992鸡年邮票和及纪念信封，Elsa Lee捐赠，美国华人博物馆（MOCA）馆藏
+caption-en: "Left: Rooster Stamp Reception, San Francisco May 1993, Clarence Lee and his wife Elsa Lee; Right: 1992 Rooster Stamps and commemorative envelopes, Courtesy of Elsa Lee, Museum of Chinese in America (MOCA) Collection"
+caption-cn: "左图：鸡年邮票发行酒会，1993年5月旧金山，李健文和妻子Elsa Lee；右图：1992鸡年邮票和及纪念信封，Elsa Lee捐赠，美国华人博物馆（MOCA）馆藏"
 post-image: https://user-images.githubusercontent.com/47676628/62085536-d779d580-b229-11e9-8e7f-356fb4ef1733.jpg
 card-image: https://user-images.githubusercontent.com/47676628/62085545-dcd72000-b229-11e9-8119-9251f1818420.jpg
 story-en: |
