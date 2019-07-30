@@ -4,7 +4,7 @@ layout: story
 title: Wang Leehom
 title-cn: 王力宏
 caption-en: Wang Leehom at MOCA, 2014, Museum of Chinese in America (MOCA) Institutional Archives
-caption-cn: 王力宏在MOCA，2014年，美国华人博物馆（MOCA）机构档案
+caption-cn: 王力宏2014年访问MOCA，美国华人博物馆（MOCA）机构档案
 post-image: https://user-images.githubusercontent.com/47676628/62085159-e3b16300-b228-11e9-8f65-b3dcdc5efbbe.jpg
 card-image: https://user-images.githubusercontent.com/47676628/62085172-ead87100-b228-11e9-909a-7505fe891eca.jpg
 story-en: |
