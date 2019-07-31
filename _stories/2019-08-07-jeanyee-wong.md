@@ -3,8 +3,8 @@ date: 2019-08-07 12:00:00 -0400
 layout: story
 title: Jeanyee Wong
 title-cn: 
-caption-en: "Left: Yun Gee Headshot; Right: Illustration from “Le Voyageur de Nuit” by Henry Jaques, Courtesy of Alex Jay, Museum of Chinese in America (MOCA) Collection"
-caption-cn: "左图：朱沅芷证件照；右图：Henry Jaques的“Le Voyageur de Nuit”插图，Alex Jay捐赠，美国华人博物馆（MOCA）馆藏"
+caption-en: "Left: Calligraphy by Jeanyee Wong; Right: Handwritten and illustrated by Jeanyee Wong, Courtesy of Alex Jay, Museum of Chinese in America (MOCA) Collection"
+caption-cn: "左图：Jeanyee Wong的书法；右图：Jeanyee Wong的手迹与插图，Alex Jay捐赠，美国华人博物馆（MOCA）馆藏"
 post-image: https://user-images.githubusercontent.com/47510739/62239941-d7054a00-b3a3-11e9-96f7-950a2c3d01d9.jpg
 card-image: https://user-images.githubusercontent.com/47510739/62239929-d2d92c80-b3a3-11e9-8472-c2d7272775cf.jpg
 story-en: |
