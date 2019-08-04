@@ -3,8 +3,8 @@ date: 2019-08-13 12:00:00 -0400
 layout: story
 title: Miss Chinatown Pageant
 title-cn: 华埠小姐选美
-caption-en: Bound feet shoe, embroidered fabric w/ wooden, concave heel and leather sole, pointed toe. Courtesy of Cora May Chin, Museum of Chinese in America (MOCA) Collection
-caption-cn: 弓鞋，绣花鞋面，木制鞋底，高跟皮垫，尖头。Cora May Chin捐赠，美国华人博物馆（MOCA）馆藏
+caption-en: The Miss Chinatown 1955 Pageant program pamphlet, Courtesy of Douglas J. Chu, Museum of Chinese in America (MOCA) Collection
+caption-cn: 1955年华埠小姐竞选节目单，Douglas J. Chu捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/47510739/62420994-3051cf80-b669-11e9-8ac1-25f43b80fbe3.jpg
 card-image: https://user-images.githubusercontent.com/47510739/62420993-2cbe4880-b669-11e9-88e0-df1c7afca39e.jpg
 story-en: |
