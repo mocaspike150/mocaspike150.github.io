@@ -2,7 +2,7 @@
 date: 2019-08-16 12:00:00 -0400
 layout: story
 title: Garment Workers
-title-cn: 服装工人
+title-cn: 服装工
 caption-en: Quilt made by garment workers depicting garment work tasks, 1989, Museum of Chinese in America (MOCA) Collection
 caption-cn: 由服装工人制作的被子，描绘了服装工作的各项任务分工，1989年，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/47510739/62421246-cfc49180-b66c-11e9-8535-826d13da41ca.jpg
