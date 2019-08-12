@@ -1,7 +1,7 @@
 ---
 date: 2019-08-27 12:00:00 -0400
 layout: story
-title: Ing \"Doc\" Hay
+title: Ing “Doc” Hay
 title-cn: 喜医生伍于念
 caption-en: Ing “Doc” Hay 21 years old, Baker City, Oregon, ca. 1883. Courtesy of the Kam Wah Chung State Heritage Site, Museum of Chinese in America<br>(MOCA) “On the Shelves of Kam Wah Chung & Co.： General Store and Apothecary in John Day, Oregon” Exhibition 2018
 caption-cn: 21岁的喜医生伍于念，大约1883年，俄勒冈州 贝克市，由金华昌州立文化保护遗址提供，美国华人博物馆（MOCA）2018年展览《在金<br>华昌公司的货架上——俄勒冈州约翰日的综合商店和药房》
