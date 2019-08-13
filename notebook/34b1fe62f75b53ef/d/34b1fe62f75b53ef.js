@@ -1,4 +1,4 @@
-// https://observablehq.com/d/34b1fe62f75b53ef@660
+// https://observablehq.com/d/34b1fe62f75b53ef@669
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("start")).define("start", function(){return(
@@ -203,9 +203,9 @@ ${team_miles(week_id)}
 </div>
 `
 )});
-  main.variable(observer("leaderboard_link")).define("leaderboard_link", ["last_week_id"], function(last_week_id){return(
+  main.variable(observer("leaderboard_link")).define("leaderboard_link", function(){return(
 `<div class="footnote_link" style="padding-top:15px;">
-<a href="/spike-relay/leaderboard/">Current Week Leaderboard</a> | <a href="https://www.mocaspike150.org/spike-relay/scorecard/#${last_week_id}">Last Week's Scorecard</a>
+<a href="/spike-relay/leaderboard/">Current Week Leaderboard</a> | <a href="https://www.mocaspike150.org/spike-relay/scorecard/list">Past Scorecards</a>
 </div>
 `
 )});
@@ -255,7 +255,7 @@ mile_data.mile
   main.variable(observer("weekly_miles")).define("weekly_miles", ["week","club_miles"], function(week,club_miles){return(
 (week_num) => {
   let total = 0;
-  let week_id = `0${week_num}`
+  let week_id = week_num < 10 ? `0${week_num}` : week_num;
   let teams = week[week_id].teams;
   for(let team of teams) {
     total += club_miles(team.id)
@@ -324,11 +324,11 @@ d3.json('https://www.mocaspike150.org/json/track.json')
 }
 )});
   main.variable(observer()).define(["club_miles"], function(club_miles){return(
-club_miles(301632)
+club_miles(187897)
 )});
   main.variable(observer("club_miles")).define("club_miles", ["leaderboard"], function(leaderboard){return(
 (id) => {
-  const km = leaderboard[id].map((d) => (parseFloat(d[2])))
+  const km = leaderboard[id].map((d) => (parseFloat(d[2]) ? parseFloat(d[2]) : 0))
   let total = 0
   if(km.length > 0) {
      total = parseInt(km.reduce((x, y) => (x + y)) * 0.621371) 
