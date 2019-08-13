@@ -1,4 +1,4 @@
-// https://observablehq.com/d/a4f1c0a7b834d9ac@394
+// https://observablehq.com/d/a4f1c0a7b834d9ac@428
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("start")).define("start", function(){return(
@@ -347,8 +347,25 @@ html`${top50}`
   return output
 }
 )});
-  main.variable(observer("weekrank")).define("weekrank", ["uniq","weekdata"], function(uniq,weekdata){return(
-uniq(weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1)))
+  main.variable(observer("by_mile_and_name")).define("by_mile_and_name", function(){return(
+function (a, b) {  
+  if(b.mile < a.mile) {
+    return -1
+  }
+  if(b.mile > a.mile ) {
+    return 1
+  }
+  return b.name <= a.name ? 1 : -1
+}
+)});
+  main.variable(observer("weekrank")).define("weekrank", ["uniq","weekdata","by_mile_and_name"], function(uniq,weekdata,by_mile_and_name){return(
+uniq(weekdata.sort(by_mile_and_name))
+)});
+  main.variable(observer()).define(["weekdata"], function(weekdata){return(
+weekdata
+)});
+  main.variable(observer()).define(["weekdata","by_mile_and_name"], function(weekdata,by_mile_and_name){return(
+weekdata.sort(by_mile_and_name)
 )});
   main.variable(observer("weekdata")).define("weekdata", ["leaderboard","club_name"], function(leaderboard,club_name)
 {
@@ -356,13 +373,13 @@ uniq(weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1)))
   for (let id in leaderboard){
     let club = leaderboard[id]
     for (let c of club){
-      const mile = c[2]
+      const mile = parseFloat(c[2]) * 0.621371
       if(mile) {
       let entry = {
         club_id : id,
         club_name : (club_name(id) ? club_name(id): ''),
         name : c[1],
-        mile : (c[2] ? parseFloat(c[2])*0.621371 : 0),
+        mile : mile,
         count : c[3]
       }
       output.push(entry)
@@ -391,6 +408,11 @@ d3.json(`https://raw.githubusercontent.com/mocaspike150/leaderboard/master/data/
 )});
   main.variable(observer("update_time")).define("update_time", ["d3"], function(d3){return(
 d3.text('https://raw.githubusercontent.com/mocaspike150/leaderboard/master/data/update_time.txt')
+)});
+  main.variable(observer()).define(["md","update_time"], function(md,update_time){return(
+md`<div style="padding-top:20px;color:#666;">Last update: ${update_time}
+<br>Data update approximately every 6 hours for clubs more than 200 memebers.
+</div>`
 )});
   return main;
 }
