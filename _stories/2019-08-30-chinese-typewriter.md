@@ -2,7 +2,7 @@
 date: 2019-08-30 12:00:00 -0400
 layout: story
 title: Chinese Typewriter, Radical Machines
-title-cn: 中文打字机，“革新中传统”
+title-cn: 中文打字机“革新中传统”
 caption-en: Chinese typewriter, Courtesy of David and Lisa Tang--In memory of Ho Poy Sing, Museum of Chinese in America (MOCA) Collection
 caption-cn: 舒式华文打字机，David and Lisa Tang捐赠，纪念Ho Poy Sing，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/62899508-ec745f80-bd25-11e9-97e1-2db528e5b690.jpg
