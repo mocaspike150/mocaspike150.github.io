@@ -14,4 +14,4 @@ story-cn: |
   
   
 ---
-The Ging Hawk Club started as off as a Young Women’s Christian Association (YWCA) affiliated organization that was founded in the 1929 by Social worker Theodora Chan.
+The legacy of New York City's prominent garment industry can be traced back to the mid-19th century when German and East European immigrants brought experienced manufacturing to Manhattan. 
