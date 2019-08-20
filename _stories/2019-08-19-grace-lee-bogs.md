@@ -3,8 +3,8 @@ date: 2019-08-19 12:00:00 -0400
 layout: story
 title: Grace Lee Bogs
 title-cn: 
-caption-en: Courtesy of the Public Affairs Television, Museum of Chinese in America (MOCA) Core Exhibition \"With A Single Step\"
-caption-cn: 由Public Affairs Television提供，美国华人博物馆（MOCA）核心展览《千里之行》图片
+caption-en: Grace Lee Bogs, Courtesy of the Public Affairs Television, Museum of Chinese in America (MOCA) Core Exhibition \"With A Single Step\"
+caption-cn: Grace Lee Bogs，由Public Affairs Television提供，美国华人博物馆（MOCA）核心展览《千里之行》图片
 post-image: https://user-images.githubusercontent.com/23090526/62877820-da7ac880-bcf5-11e9-830e-6419fed37134.jpg
 card-image: https://user-images.githubusercontent.com/23090526/62877821-dbabf580-bcf5-11e9-9d26-39effbb7e798.jpg
 story-en: |
