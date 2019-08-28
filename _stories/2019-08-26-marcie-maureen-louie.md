@@ -4,7 +4,7 @@ layout: story
 title: Marcie & Maureen Louie
 title-cn: 
 caption-en: Marcie (left) and Maureen “Peanut” Louie (right) at the US Open at Forest Hills Stadium, 1977, Photograph taken by Emile<br>Bocian, Museum of Chinese in America (MOCA) collection
-caption-cn: Marcie（左）和Maureen “Peanut” Louie（右）在1977年在Forest Hills体育场举行的美国公开赛上，照片由Emile Bocian拍<br>摄，美国华人博物馆（MOCA）馆藏
+caption-cn: Marcie（左）和Maureen “Peanut” Louie（右）在1977年在Forest Hills体育场举行的美国公开赛上，照片由包信拍摄，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/62879008-35adba80-bcf8-11e9-9d44-00efd405e7ac.jpg
 card-image: https://user-images.githubusercontent.com/23090526/62879010-36dee780-bcf8-11e9-8f42-d00cb8b8e990.jpg
 story-en: |
