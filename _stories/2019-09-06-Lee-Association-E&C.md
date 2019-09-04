@@ -1,7 +1,7 @@
 ---
 date: 2019-09-06 12:00:00 -0400
 layout: story
-title: Lee Family Association
+title: Lee Family Associatio
 title-cn: 李氏公所
 caption-en: Lee Family San Francisco Chapter Membership card, 1927, Museum of Chinese in America (MOCA) Collection 
 caption-cn: 李氏公所旧金山分会会员卡，1927年，美国华人博物馆（MOCA）馆藏
