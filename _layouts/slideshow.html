@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+<body class="home page-template-default page page-id-8 custom-background wp-custom-logo tribe-no-js blog-post header-layout-classic-blog">
+  {% include header.html %}
+    <style>
+     .observablehq--inspect { display: none; }
+    </style>
+<div class="main">
+    {{ content }}
+</div>
+{% include footer.html %}
+{% include social.html %}
+  {% include foot-script.html %}
+</body>
+</html>
