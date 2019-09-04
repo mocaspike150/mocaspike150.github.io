@@ -1,0 +1,43 @@
+<style>
+.main {
+  margin-top: 90px; 
+}
+
+.carousel-inner item {
+  height: 250px;
+  overflow: hidden;
+}
+
+</style>
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    {% for slide in page.slides %}
+      {% if forloop.first == true %} 
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      {% else %}
+        <li data-target="#carousel" data-slide-to="{{ forloop.index0 }}"></li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+  <div class="carousel-inner">
+    {% for slide in page.slides %}
+      {% if forloop.first == true %} 
+        <div class="item active">
+          {% include {{ slide }} %}
+        </div>
+      {% else %}
+      <div class="item">
+        {% include {{ slide }} %}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <span class="icon-prev" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <span class="icon-next" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+  </a>
+</div>
