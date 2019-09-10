@@ -1,7 +1,7 @@
 ---
 date: 2019-09-09 12:00:00 -0400
 layout: story
-title: Doyers Stree
+title: Doyers Street
 title-cn: 宰也街
 caption-en: Street view of Doyers Street, Chinatown, Courtesy of Eric Y. Ng, Museum of Chinese in America (MOCA) collection
 caption-cn: 唐人街宰也街景，Eric Y. Ng捐赠，美国华人博物馆（MOCA）馆藏
