@@ -2,7 +2,7 @@
 date: 2019-09-13 12:00:00 -0400
 layout: story
 title: Mee Heung Chow Main Co. Inc.
-title-cn: 美香面
+title-cn: 美香面行
 caption-en: Left：A team from MOCA salvaging the Mee Heung Chow Main Co., 1992, Museum of Chinese in America (MOCA) Insitutional<br>Archives; Right：Sign of the Mee Heung Chow Main Co., Museum of Chinese in America (MOCA) Collection
 caption-cn: MOCA团队抢救美香面行遗留档案，1992年，美国华人博物馆（MOCA）机构档案；右：美香面行招牌，美国华人博<br>物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/64495080-3b4ce080-d263-11e9-97f8-b776de38bed2.jpg
