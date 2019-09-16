@@ -1,18 +1,3 @@
-<style>
-.main {
-  margin-top: 90px; 
-}
-
-.carousel {
-  padding-top: 0;
-}
-
-.carousel-inner item {
-  height: 250px;
-  overflow: hidden;
-}
-
-</style>
 <div id="carousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     {% for slide in page.slides %}
@@ -27,11 +12,11 @@
     {% for slide in page.slides %}
       {% if forloop.first == true %} 
         <div class="item active">
-          {% include {{ slide }} %}
+          <img width="100%" src="{{ slide }}"/>
         </div>
       {% else %}
       <div class="item">
-        {% include {{ slide }} %}
+          <img width="100%" src="{{ slide }}"/>
       </div>
       {% endif %}
     {% endfor %}

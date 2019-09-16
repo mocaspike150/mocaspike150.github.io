@@ -28,6 +28,7 @@ collections:
 
 exclude: 
 - Dockerfile
+- Makefile
 - docker-compose.yml
 - node_modules
 - package.json
