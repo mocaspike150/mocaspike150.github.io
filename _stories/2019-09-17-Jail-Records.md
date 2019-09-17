@@ -1,7 +1,7 @@
 ---
 date: 2019-09-17 12:00:00 -0400
 layout: story
-title: Jail Records
+title: Jail Record
 title-cn: 监狱记录
 caption-en: Jail Records, 1901-1903, Courtesy of the Moriah Historical Society, Museum of Chinese in America (MOCA) Collection
 caption-cn: 1901-1903年，监狱记录，原件保存在莫里亚历史学会，美国华人博物馆（MOCA）数字化馆藏
