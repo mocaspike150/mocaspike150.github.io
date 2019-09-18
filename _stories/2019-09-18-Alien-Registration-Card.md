@@ -2,7 +2,7 @@
 date: 2019-09-18 12:00:00 -0400
 layout: story
 title: Alien Registration Card
-title-cn: 外国人登记
+title-cn: 外国人登记卡
 caption-en: On Chin's Alien Registration Receipt Card, courtesy of Lung Chin, Museum of Chinese in America (MOCA) Collection
 caption-cn: On Chin的外国人登记卡，Lung Chin捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/47510739/64959558-6afd7900-d85f-11e9-831e-97e34944bebc.jpg
