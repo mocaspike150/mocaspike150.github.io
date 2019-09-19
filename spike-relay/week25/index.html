@@ -3,7 +3,7 @@ layout: page
 title: Week 25
 subtitle: Running Forward With Our Stories
 ---
-<div id="currentweek"></div>
+<div id="finalweek"></div>
 <div style="margin: auto; width: 90%;"><h6><a href="/spike-relay/leaderboard/">Weekly leaderboard</a></h6></div>
 
 
@@ -11,9 +11,9 @@ subtitle: Running Forward With Our Stories
   // Load the Observable runtime and inspector.
   import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
   // Your notebook, compiled as an ES module.
-  import currentweek from 'https://api.observablehq.com/d/719286a1fd3c6c0c.js';
+  import currentweek from 'https://api.observablehq.com/d/aa30dcbc003829a9.js';
   // Load the notebook, observing its cells with a default Inspector
   // that simply renders the value of each cell into the provided DOM node.
 
-  Runtime.load(currentweek, Inspector.into(document.getElementById('currentweek')));
+  Runtime.load(currentweek, Inspector.into(document.getElementById('finalweek')));
 </script>
