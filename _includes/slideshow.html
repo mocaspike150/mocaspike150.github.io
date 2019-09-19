@@ -12,11 +12,11 @@
     {% for slide in page.slides %}
       {% if forloop.first == true %} 
         <div class="item active">
-          <img width="100%" src="{{ slide }}"/>
+          <a href="{{ slide.url }}"><img width="100%" src="{{ slide.img }}"/></a>
         </div>
       {% else %}
       <div class="item">
-          <img width="100%" src="{{ slide }}"/>
+          <a href="{{ slide.url }}"><img width="100%" src="{{ slide.img }}"/></a>
       </div>
       {% endif %}
     {% endfor %}
