@@ -3,7 +3,7 @@ date: 2019-09-19 12:00:00 -0400
 layout: story
 title: Leong-Yau Chan
 title-cn: 陈良猷
-caption-en: Leong-Yau Chan letters, courtesy of Michael Calvert, Museum of Chinese in America (MOCA) Collection
+caption-en: Leong-Yau Chan letters, Courtesy of Michael Calvert, Museum of Chinese in America (MOCA) Collection
 caption-cn: 陈良猷信件，Michael Calvert捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/47510739/64959800-ed863880-d85f-11e9-85c0-7f7f09efdbfc.jpg
 card-image: https://user-images.githubusercontent.com/47510739/64959811-f37c1980-d85f-11e9-9058-913f2d0fd5eb.jpg
