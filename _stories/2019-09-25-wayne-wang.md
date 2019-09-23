@@ -3,7 +3,7 @@ date: 2019-09-25 12:00:00 -0400
 layout: story
 title: Wayne Wang
 title-cn: 王颖
-caption-en: Article \"Wayne Wang\'s The Joy Luck Club\", published in Cinemaya, The Asian film magazine, Issue Autumn 1993 No. 21,<br>Museum of Chinese in America (MOCA) Library
+caption-en: Article "Wayne Wang's The Joy Luck Club", published in Cinemaya, The Asian film magazine, Issue Autumn 1993 No. 21,<br>Museum of Chinese in America (MOCA) Library
 caption-cn: 王颖的《喜福会》，刊登于亚洲电影杂志《Cinemaya》1993年秋季号第21期，美国华人博物馆（MOCA）图书馆馆藏
 post-image: https://user-images.githubusercontent.com/23090526/65396128-fc458180-dd70-11e9-8e1a-2d5aabe930b0.jpg
 card-image: https://user-images.githubusercontent.com/23090526/65396129-fd76ae80-dd70-11e9-9d91-ef565de6bb34.jpg
