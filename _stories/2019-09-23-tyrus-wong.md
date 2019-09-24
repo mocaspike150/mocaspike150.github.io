@@ -1,4 +1,4 @@
-b---
+---
 date: 2019-09-23 12:00:00 -0400
 layout: story
 title: Tyrus Wong
