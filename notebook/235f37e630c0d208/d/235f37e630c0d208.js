@@ -1,4 +1,4 @@
-// https://observablehq.com/d/235f37e630c0d208@100
+// https://observablehq.com/d/235f37e630c0d208@101
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html","countdown"], function(html,countdown){return(
@@ -16,7 +16,7 @@ ${countdown}`
 )});
   main.variable(observer("countdown")).define("countdown", ["days","hours","minutes","seconds"], function(days,hours,minutes,seconds)
 {
-  return `<div id="clock"><span>${days}</span> DAYS <span>${hours > 9 ? hours : `0${hours}`}</span> HRS <span>${minutes > 9 ? minutes : `0${minutes}`}</span> MINS <span>${seconds > 9 ? seconds : `0${seconds}`}</span> SEC until the TCS New York City Marathon!</div>`
+  return `<div id="clock"><span>${days}</span> DAYS <span>${hours > 9 ? hours : `0${hours}`}</span> HRS <span>${minutes > 9 ? minutes : `0${minutes}`}</span> MINS <span>${seconds > 9 ? seconds : `0${seconds}`}</span> SEC<br/> until the TCS New York City Marathon!</div>`
 }
 );
   main.variable(observer("NYCM")).define("NYCM", function(){return(
