@@ -1,4 +1,4 @@
-// https://observablehq.com/d/235f37e630c0d208@101
+// https://observablehq.com/d/235f37e630c0d208@102
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html","countdown"], function(html,countdown){return(
@@ -10,6 +10,7 @@ html`
 #clock span {
   min-width: 3em;
   font-size: 32px;
+  font-family: monospace;
 }
 </style>
 ${countdown}`
