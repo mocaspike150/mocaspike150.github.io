@@ -30,3 +30,12 @@
   <span class="sr-only">Next</span>
   </a>
 </div>
+{% if page.randomslideshow == true %}
+<script>
+// random start
+jQuery(document).ready(function() {
+  const slide = Math.floor((Math.random() * jQuery('#carousel .item').length));
+  jQuery('#carousel').carousel(slide);
+})
+</script>
+{% endif %}
