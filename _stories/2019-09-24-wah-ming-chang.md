@@ -4,7 +4,7 @@ layout: story
 title: Wah Ming Chang
 title-cn: 郑华明
 caption-en: Book Wah Ming Chang：Artist and Master of Special Effects &amp; Magazine Life, October 1961, Courtesy of Alex Jay, Museum<br>of Chinese in America (MOCA) Collection
-caption-cn: 有关郑华明的书《郑华明：特效艺术家和大师》和《生活》杂志，1961年10月刊，Alex Jay捐赠，美国华人博物馆<br>（MOCA）馆藏
+caption-cn: 有关郑华明的书《郑华明：特效艺术家和大师》和《生活》杂志，1961年10月刊，Alex Jay捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/65396370-ab835800-dd73-11e9-9aae-632317090156.jpg
 card-image: https://user-images.githubusercontent.com/23090526/65396371-ac1bee80-dd73-11e9-908d-e37e7c51cca7.jpg
 story-en: |
