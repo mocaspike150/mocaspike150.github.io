@@ -1,4 +1,5 @@
 <div id="carousel" class="carousel slide" data-ride="carousel">
+  {% if page.randomslideshow != true %}
   <ol class="carousel-indicators">
     {% for slide in page.slides %}
       {% if forloop.first == true %} 
@@ -8,6 +9,7 @@
       {% endif %}
     {% endfor %}
   </ol>
+  {% endif %}
   <div class="carousel-inner">
     {% for slide in page.slides %}
       {% if forloop.first == true %} 
