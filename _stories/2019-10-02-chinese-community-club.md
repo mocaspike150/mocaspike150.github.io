@@ -3,8 +3,8 @@ date: 2019-10-02 12:00:00 -0400
 layout: story
 title: Chinese Community Club
 title-cn: 华人社区俱乐部
-caption-en: Left Nora Wu and her husband, Al wong at a CCC Annual Dinner, 1955, Courtesy of Lung Chin; Right CCC sponsored basketball team jacket, ca. 1960, Courtesy of Tim Tsang, Museum of Chinese in America (MOCA) Collection
-caption-cn: 左图 Nora Wu和他的先生Al wong在华人社区俱乐部年度晚宴上，1955年，Lung Chin捐赠；右图 由华人社区俱乐部支持的篮球队夹克衫，大约1960年，Tim Tsang捐赠，美国华人博物馆（MOCA）馆藏
+caption-en: Left, Nora Wu and her husband, Al wong at a CCC Annual Dinner, 1955, Courtesy of Lung Chin; Right, CCC sponsored basketball team jacket, ca. 1960, Courtesy of Tim Tsang, Museum of Chinese in America (MOCA) Collection
+caption-cn: 左图，Nora Wu和他的先生Al wong在华人社区俱乐部年度晚宴上，1955年，Lung Chin捐赠；右图，由华人社区俱乐部支持的篮球队夹克衫，大约1960年，Tim Tsang捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/47676628/65890820-885b3880-e371-11e9-81c2-80fca626f06f.jpg
 card-image: https://user-images.githubusercontent.com/47676628/65890824-8d1fec80-e371-11e9-9639-7539efa220c1.jpg
 story-en: |
