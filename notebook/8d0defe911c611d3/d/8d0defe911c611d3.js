@@ -1,4 +1,4 @@
-// https://observablehq.com/d/8d0defe911c611d3@465
+// https://observablehq.com/d/8d0defe911c611d3@466
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("start")).define("start", function(){return(
@@ -102,7 +102,7 @@ d3.json('https://www.mocaspike150.org/api/club/profile.json')
 d3.json('https://www.mocaspike150.org/api/club/avatar.json')
 )});
   main.variable(observer("members")).define("members", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/members.json')
+d3.json('https://raw.githubusercontent.com/mocaspike150/api/master/club/members.json')
 )});
   main.variable(observer("relay_week")).define("relay_week", ["d3"], function(d3){return(
 d3.json('https://www.mocaspike150.org/api/relay/week.json')
