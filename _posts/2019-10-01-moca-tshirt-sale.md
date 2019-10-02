@@ -5,9 +5,10 @@ date: 2019-10-01 12:00:00
 card-image: https://user-images.githubusercontent.com/41637129/66043249-aac59100-e4ec-11e9-8330-c4c5a6959d51.jpeg
 post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpg
 ---
-Great news! MOCA Spike 150 runnig tees are availble to be purchase! Two ways to order:
-  
-  <!--more-->
+<b>Great news! MOCA Spike 150 runnig tees are availble to be purchase!  <span style="color:red;">Store will be closed on 10/7, order your T-shirt TODAY!</span></b>
+
+Two ways to order:
+<!--more-->
 <div class="title-block" style="margin:15px 0;font-size:13pt;padding:20px;">
 <ul>
   <li>Visit <a href="https://www.newbalanceteam.com/team/member/order?orderId=56449">MOCA New Balance Team Store</a>  to place your order and have the products shipped directly to you!</li>
@@ -16,7 +17,7 @@ Great news! MOCA Spike 150 runnig tees are availble to be purchase! Two ways to 
  </ul>
  </div>
  
- <div style="color:red;">Store will be closed on 10/7, order your T-shirt TODAY!</div>
+
 
 
 
