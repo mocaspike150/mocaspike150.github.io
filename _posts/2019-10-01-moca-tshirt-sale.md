@@ -10,9 +10,9 @@ post-image: https://user-images.githubusercontent.com/46349226/66008347-fc860100
 
 <!--more-->
 
-What a great year we had together with MOCA Spike 150 relay, runners events, team bonding, marathon races... The fun memory can't be completed without a MOCA running T-shirt!
+What a great year we had together with MOCA Spike 150 relay, runners events, team bonding, marathon races... The fun memory can't be completed without a MOCA running shirt!
 
-MOCA has worked with New Balance - the official partner of TCS New York City Marathon, to provide our runners top of line quality of running T-shirts. We have short and long sleeves options for both male and female runners. All with MOCA's logo in the front, Spike 150 logo on the right sleeve, and Keep Calm and 吃飯 (eat rice) slogan in the back. Show your support by purchasing MOCA Spike 150 Tshirt and keep this fun memory!
+MOCA has worked with New Balance - the official partner of TCS New York City Marathon, to provide our runners top of line quality of running shirts. We have short and long sleeves options for both male and female runners. All with MOCA's logo in the front, Spike 150 logo on the right sleeve, and Keep Calm and 吃飯 (eat rice) slogan in the back. Show your support by purchasing MOCA Spike 150 shirt and keep this fun memory going!
 
 <a href="https://web.stanford.edu/group/chineserailroad/cgi-bin/website/"><img src="https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpp alt="MOCA Spike 150 Running Tee online store"></a>
 
