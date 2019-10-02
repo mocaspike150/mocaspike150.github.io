@@ -5,17 +5,20 @@ date: 2019-10-01 12:00:00
 card-image: https://user-images.githubusercontent.com/41637129/66043249-aac59100-e4ec-11e9-8330-c4c5a6959d51.jpeg
 post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpg
 ---
-
-<div class="title-block" style="margin:15px 0;font-size:13pt;padding:20px;">Great news! MOCA Spike 150 runnig tees are availble to be purchase! Tow ways to order:
+Great news! MOCA Spike 150 runnig tees are availble to be purchase! Two ways to order:
+  
+  <!--more-->
+<div class="title-block" style="margin:15px 0;font-size:13pt;padding:20px;">
 <ul>
   <li>Visit <a href="https://www.newbalanceteam.com/team/member/order?orderId=56449">MOCA New Balance Team Store</a>  to place your order and have the products shipped directly to you!</li>
   <li>Pre-order using <a href="https://forms.gle/oQucetKVoMaHVFny8">Google order form</a> and pick up your t-shirt in MOCA SPIKE 150 Pre-Race Lunch Festival on 11/2! We will have a New York City Downtown fun walk and photo shooting opportunity with classic New York City view by professional photographers right after the party. Wear your MOCA Tee to get the photo shooting!
   </li>
  </ul>
+ </div>
  
  <div style="color:red;">Store will be closed on 10/7, order your T-shirt TODAY!</div>
 
-<!--more-->
+
 
 What a great year we had together with MOCA Spike 150 relay, runners events, team bonding, marathon races... The fun memory can't be completed without a MOCA running shirt!
 
