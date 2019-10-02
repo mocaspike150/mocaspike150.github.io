@@ -4,7 +4,7 @@ layout: story
 title: Chinatown Sports 
 title-cn: 唐人街体育运动
 caption-en: My First Real Team, Chinatown Sport Teams, L. to R. Top row. Bobby (Red Tie) Lee, CA; Gilbert Chin, FLA; Coach Lung Chin; Shang Wong Wu; Bill Chin. Bottom row. Robert (Smokey) Lee, Southbridge tower NY; James Wong, Seaford LI; Ralph Chin; Edwin "Peanut" Chu, Long Island; Daniel Wong, 1943, Museum of Chinese in America (MOCA) Collection
-caption-cn: 我的第一个真正的体育队，唐人街体育队，从左至右，上排：来自加州的Bobby (Red Tie) Lee、来自佛罗里达的Gilbert Chin、Lung Chin教练、Shang Wong Wu、Bill Chin，下排： 来自纽约曼哈顿Southbridge tower的Robert (Smokey) Lee、来自长岛Seaford 的`James Wong、Ralph Chin;、来自长岛的Edwin "Peanut" Chu、以及Daniel Wong，1943年，美国华人博物馆（MOCA）馆藏
+caption-cn: 我的第一个真正的体育队，唐人街体育队，从左至右，上排：来自加州的Bobby (Red Tie) Lee、来自佛罗里达的Gilbert Chin、Lung Chin教练、Shang Wong Wu、Bill Chin，下排： 来自纽约曼哈顿Southbridge tower的Robert (Smokey) Lee、来自长岛Seaford 的James Wong、Ralph Chin;、来自长岛的Edwin "Peanut" Chu、以及Daniel Wong，1943年，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/47676628/65890139-6b723580-e370-11e9-9641-afbbcd4c94de.jpg
 card-image: https://user-images.githubusercontent.com/47676628/65890148-7036e980-e370-11e9-865f-04fe03affe95.jpg
 story-en: |
