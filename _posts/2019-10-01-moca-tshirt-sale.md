@@ -13,7 +13,7 @@ What a year we had together with MOCA Spike 150 Relay, runners events, team bond
 
 MOCA has worked with New Balance - the official partner of TCS New York City Marathon, to provide our runners top of line quality of running T-shirts. We have short and long sleeves options for both male and female runners. All with MOCA's logo in the front, Spike 150 logo on the right sleeve, and Keep Calm and 吃飯 (eat rice) slogan in the back. Show your support by purchasing MOCA Spike 150 Tshirt and keep this fun memory!
 
-<div class="title-block">Visit New Balance MOCA team store [here](https://www.newbalanceteam.com/team/member/order?orderId=56449) by <span style="color:red;">10/7</span> and have merchandise shipped to you. Shipping is free is order $150 or more! </div>
+<div class="title-block">Visit <a href="https://www.newbalanceteam.com/team/member/order?orderId=56449" target=_blank>New Balance MOCA team store</a> by <span style="color:red;">10/7</span>. Shipping is free with order $150 or more! </div>
 
   
 ![MOCA Spike 150 Running Tee](https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpg "MOCA Spike 150 Running Tee")
