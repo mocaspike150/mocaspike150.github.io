@@ -2,7 +2,7 @@
 layout: post
 title: "MOCA Spike 150 Store is Open!"
 date: 2019-10-01 12:00:00
-card-image: https://user-images.githubusercontent.com/46349226/66041988-40f7b800-e4e9-11e9-8ab8-e753b99039a4.jpg
+card-image: https://user-images.githubusercontent.com/41637129/66043249-aac59100-e4ec-11e9-8330-c4c5a6959d51.jpeg
 post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpg
 ---
 
