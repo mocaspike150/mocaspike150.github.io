@@ -6,7 +6,7 @@ card-image: https://user-images.githubusercontent.com/46349226/66008346-fc860100
 post-image: https://user-images.githubusercontent.com/46349226/66008347-fc860100-e483-11e9-9299-eb9a75c8cbb6.jpg
 ---
 
-<div class="title-block" style="margin:15px 0;font-size:13pt;padding:20px;">Great news! MOCA Spike 150 runnig tees are availble to purchase on-line! Visit <a href="https://web.stanford.edu/group/chineserailroad/cgi-bin/website/">MOCA New Balance Team Store</a> today to place your order. Shipping is free with purchase $150 or more. <span style="color:red;">Store will be closed on 10/7</span>, don't miss this great opportunity show your support!</div>
+<div class="title-block" style="margin:15px 0;font-size:13pt;padding:20px;">Great news! MOCA Spike 150 runnig tees are availble to purchase on-line! Visit <a href="https://web.stanford.edu/group/chineserailroad/cgi-bin/website/">MOCA New Balance Team Store</a> today to place your order. Shipping is free with purchase $150 or more. <span style="color:red;">Store will be closed on 10/7</span>, don't miss this great opportunity to show your support!</div>
 
 <!--more-->
 
