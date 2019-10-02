@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MOCA Spike 150 Shop is Open!"
+title: "MOCA Spike 150 Store is Open!"
 date: 2019-10-01 12:00:00
 card-image: https://user-images.githubusercontent.com/46349226/66008346-fc860100-e483-11e9-8e1b-1bd60f822748.jpg
 post-image: https://user-images.githubusercontent.com/46349226/66008347-fc860100-e483-11e9-9299-eb9a75c8cbb6.jpg
