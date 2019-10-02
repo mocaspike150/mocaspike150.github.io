@@ -16,7 +16,7 @@ MOCA has worked with New Balance - the official partner of TCS New York City Mar
 
 <a href=" https://www.newbalanceteam.com/team/member/order?orderId=56449"><img src="https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpg" alt="MOCA Spike 150 Running Tee online store"></a>
 
-<b>Any quesiton about the products? Please email us at <a href="mailto:mocaspike150@mocanyc.org">mocaspike150@mocanyc.org</a></b>
+<b>Any quesiton about the products? Email us at <a href="mailto:mocaspike150@mocanyc.org">mocaspike150@mocanyc.org</a></b>
 
 ![TshirtBack](https://user-images.githubusercontent.com/46349226/66016618-5fd45b00-e4a5-11e9-9b07-e90b7332b8d8.jpg)
 
