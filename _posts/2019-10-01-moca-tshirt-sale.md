@@ -9,7 +9,7 @@ post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000
 <div class="title-block" style="margin:15px 0;font-size:13pt;padding:20px;">Great news! MOCA Spike 150 runnig tees are availble to be purchase! Tow ways to order:
 <ul>
   <li>Visit <a href="https://www.newbalanceteam.com/team/member/order?orderId=56449">MOCA New Balance Team Store</a>  to place your order and have the products shipped directly to you!</li>
-  <li>Pre-order using <a href="https://forms.gle/oQucetKVoMaHVFny8">Google order form</a> and pick up and pay in MOCA SPIKE 150 Pre-Race Lunch Festival on 11/2! We will have a New York City Downtown fun walk and photo shooting opportunity with classic New York City view by professional photographers right after the party. Wear your MOCA Tee to get the photo shooting!
+  <li>Pre-order using <a href="https://forms.gle/oQucetKVoMaHVFny8">Google order form</a> and pick up your t-shirt in MOCA SPIKE 150 Pre-Race Lunch Festival on 11/2! We will have a New York City Downtown fun walk and photo shooting opportunity with classic New York City view by professional photographers right after the party. Wear your MOCA Tee to get the photo shooting!
   </li>
  </ul>
  
