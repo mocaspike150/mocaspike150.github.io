@@ -5,7 +5,7 @@ date: 2019-10-01 12:00:00
 card-image: https://user-images.githubusercontent.com/41637129/66043249-aac59100-e4ec-11e9-8330-c4c5a6959d51.jpeg
 post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpg
 ---
-<b>Great news! MOCA Spike 150 runnig tees are availble to be purchase!  <span style="color:red;">Store will be closed on 10/7, order your T-shirt TODAY to recieve by New York City Marathon day!</span></b>
+<b>Great news! MOCA Spike 150 runnig tees are availble to be purchase!  <span style="color:red;"> Sale ends on 10/7 so don't miss this great opportunity to show your support! Order your T-shirt TODAY to recieve by New York City Marathon day!</span></b>
 
 <b>Two ways to order:</b>
 <!--more-->
@@ -17,9 +17,9 @@ post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000
  </ul>
 
 
-What a great year we had together with MOCA Spike 150 relay, runners events, team bonding, marathon races... The fun memory can't be completed without a MOCA running shirt!
+What a remarkable year we have had — MOCA Spike 150 relay, runners events, team bonding, marathon races, etc... Round out the fun memory with a MOCA running shirt!
 
-MOCA has worked with New Balance - the official partner of TCS New York City Marathon, to provide our runners top of line quality of running shirts. We have short and long sleeves options for both male and female runners. All with MOCA's logo in the front, Spike 150 logo on the right sleeve, and Keep Calm and 吃飯 (eat rice) slogan in the back. Show your support by purchasing MOCA Spike 150 shirt and keep this fun memory going!
+MOCA has teamed up with New Balance - the official partner of TCS New York City Marathon, to provide our runners with the highest quality running shirts — available in men’s or women’s short- or long- sleeve tees.  Each shirt is designed with meticulous details, sporting the MOCA’s logo in the front, the Spike 150 graphics on the right sleeve, and “Keep Calm and 吃飯” (eat rice) text on the back. Show your support by ordering a MOCA Spike 150 shirt and keep this fun memory alive!
 
 Any quesiton about the products? Email us at <a href="mailto:mocaspike150@mocanyc.org">mocaspike150@mocanyc.org</a>
 
