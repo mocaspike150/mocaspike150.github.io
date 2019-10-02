@@ -16,7 +16,7 @@ MOCA has worked with New Balance - the official partner of TCS New York City Mar
 
 ![MOCA Spike 150 Running Tee](https://user-images.githubusercontent.com/46349226/66008702-871b3000-e485-11e9-8996-ffc4d804ab4a.jpg "MOCA Spike 150 Running Tee")
 
-<div style="font-size:15pt;">Visit <a href="https://web.stanford.edu/group/chineserailroad/cgi-bin/website/">New Balance MOCA team store</a> by <span style="color:red;">10/7</span> to place your MOCA running Tshirt order. Shipping is free with purchase $150 or more! </div>
+<p>&nbsp;</p>
 
 ![MOCA Spike 150 banner](https://user-images.githubusercontent.com/46349226/66006907-5e436c80-e47e-11e9-8bc8-bdea9b810b2a.JPG "MOCA Spike 150 banner")
 
