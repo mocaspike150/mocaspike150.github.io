@@ -5,8 +5,8 @@ title: Chinese Youth Club in New York City (CYC)
 title-cn: 纽约华侨青年救国团
 caption-en: The Chinese Youth Newsletter, Courtesy of Milton L. Barnett, Museum of Chinese in America (MOCA) Collection
 caption-cn: 《华侨青年》通讯，Milton L. Barnett捐赠，美国华人博物馆（MOCA）馆藏
-post-image: https://user-images.githubusercontent.com/23090526/65396296-00729e80-dd73-11e9-917c-31bd7f88ea8d.jpg
-card-image: https://user-images.githubusercontent.com/23090526/65396298-010b3500-dd73-11e9-8623-8eadf57d6dc4.jpg
+post-image: https://user-images.githubusercontent.com/47676628/65891179-1e8f5e80-e372-11e9-9d25-87254c301468.jpg
+card-image: https://user-images.githubusercontent.com/47676628/65891184-218a4f00-e372-11e9-8cf8-a3537497cf30.jpg
 story-en: |
   <p>When Japan invaded Guangzhou in 1938, many Chinese parents living in the United States began to worry for the children they left at home. This fear of Japanese aggression resulted in an influx of Chinese youth to many cities across the United States by the late 1930’s. Empowered by China’s now-unified front against Japan, Chinese youths had the freedom in the United States to protest the Japanese invasion—and did so through creating Chinese Youth National Salvation Club, which also became known as the Chinese Youth Club (CYC).</p>
   <p>The youth organization supported the Chinese war effort against Japan through lectures, photography exhibitions, film screening, and various performances. The CYC even branched out into more mainstream American political movements, like the May First Labor Day Parades, New York City boycotts of Japanese silk, and protests at the Brooklyn waterfront over the shipment of scrap metal to Japan. Its heyday continued into the U.S. and China’s alliance, but once American presidents started suspecting Chinese clubs for communist activity during the Cold War, membership to centers like the Chinese Youth Club became dangerous and declined.</p>
