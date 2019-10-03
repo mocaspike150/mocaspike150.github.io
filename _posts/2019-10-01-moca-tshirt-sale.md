@@ -11,9 +11,8 @@ post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000
 <!--more-->
 <div class="titleblock">
 <ul>
-  <li>Visit <a href="https://www.newbalanceteam.com/team/member/order?orderId=56449">MOCA New Balance Team Store</a>  to place your order and have the products shipped directly to you!</li>
-  <li>Pre-order using <a href="https://forms.gle/oQucetKVoMaHVFny8">Google order form</a> and pick up your t-shirt in MOCA SPIKE 150 Pre-Race Lunch Festival on 11/2. We will have a New York City Downtown fun walk and photo shooting opportunity with classic New York City view by professional photographers right after the party. Wear your MOCA Tee to get the photo shooting!
-  </li>
+  <li>Visit <a href="https://www.newbalanceteam.com/team/member/order?orderId=56449">MOCA New Balance Team Store</a> to place your order which will be shipped directly to you!</li>
+  <li>Pre-order using the <a href="https://forms.gle/oQucetKVoMaHVFny8">Google order form</a> and picks up at the MOCA SPIKE 150 Pre-Race Lunch Festival on 11/2.  After the Lunch Festival, join us for a fun pre-race shake out in downtown Manhattan and take part in a professional photo shoot against the breathtaking and classic backdrop of the New York City skyline.  Don’t forget to wear your MOCA Tee to take part in the photo shooting!</li>
  </ul>
 </div>
 
