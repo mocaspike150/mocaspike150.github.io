@@ -19,7 +19,9 @@ MOCA Spike 150 relay award ceremony will be presented at 1:30pm to the top winne
 A speical pre-race fun shake out run will start from MOCA at 2pm after the party.  Join us for a easy 3 mile run and take part in a professional photo shoot against the breathtaking and classic backdrop of the New York City skyline. Don’t forget to wear your <a href="https://www.mocaspike150.org/posts/2019-10-01-moca-tshirt-sale">MOCA Tee</a> to take part in the photo shooting!
 <div style="text-aligment:center;">
 <b>Ticket $40 per person, kids 12 and under is free!</b>
+<br>
   <a href="https://my.mocanyc.org/3636/5272"><button>PURCHASE TICKETS</button></a>
+<br>
   <b> Space is limited, purchase tickets now before it sold out!</b>
  </div>
  <a href="https://my.mocanyc.org/3636/5272"><img src="https://user-images.githubusercontent.com/46349226/66163416-4bf03c80-e5fe-11e9-902c-e739f1614383.jpg"></a>
