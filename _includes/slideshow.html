@@ -1,6 +1,6 @@
 <div id="carousel" class="carousel slide" data-ride="carousel">
   {% if page.randomslideshow != true %}
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators" style="bottom:-30px;">
     {% for slide in page.slides %}
       {% if forloop.first == true %} 
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
