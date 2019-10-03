@@ -9,11 +9,11 @@ Buffet lunch, Mr. Bing cart, music, photo booth, museum tour, tons of fun and me
 
 <!--more-->
 
-MOCA Spike 150 relay award ceremony will be awards will be presented at 1:30pm for the top winners of three categories: 
+MOCA Spike 150 relay award ceremony will be presented at 1:30pm to the top winners of three categories: 
 <ul>
   <li>Total mileage: Top 3 By Club</li>
   <li>Average mileage by runners: Top 3 By Club</li>
-  <li>Total amount of fund raised :Top 3 By Club</li>
+  <li>Total amount of fund raised:Top 3 By Club</li>
 </ul>
 
 A speical pre-race fun shake out run will start from MOCA at 2pm after the party.  Join us for a easy 3 mile run and take part in a professional photo shoot against the breathtaking and classic backdrop of the New York City skyline. Don’t forget to wear your MOCA Tee to take part in the photo shooting!
