@@ -17,6 +17,6 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 
   <b></b>
  </div>
- <a href="https://my.mocanyc.org/3636/5272"><img src="https://user-images.githubusercontent.com/46349226/66163416-4bf03c80-e5fe-11e9-902c-e739f1614383.jpg"></a>
+ <a href="https://my.mocanyc.org/3636/5272"><img src="https://user-images.githubusercontent.com/46349226/66169399-3edb4980-e60e-11e9-8b0f-91a9cf5e6c13.jpg"></a>
 
   
