@@ -12,7 +12,7 @@ post-image: https://user-images.githubusercontent.com/46349226/66008702-871b3000
 <div class="title-block">
 <ul>
   <li>Visit <a href="https://www.newbalanceteam.com/team/member/order?orderId=56449">MOCA New Balance Team Store</a> to place your order which will be shipped directly to you!</li>
-  <li>Pre-order using the <a href="https://forms.gle/oQucetKVoMaHVFny8">Google order form</a> and pick up from MOCA before or after NYC marathon to avoid shipping fee.</li>
+  <li>Pre-order using the <a href="https://forms.gle/oQucetKVoMaHVFny8">Google order form</a> and pick up from MOCA before or after NYC marathon day.</li>
  </ul>
 </div>
 
