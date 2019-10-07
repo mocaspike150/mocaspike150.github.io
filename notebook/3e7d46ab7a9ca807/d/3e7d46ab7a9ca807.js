@@ -1,9 +1,35 @@
-// https://observablehq.com/d/3e7d46ab7a9ca807@76
+// https://observablehq.com/d/3e7d46ab7a9ca807@129
 export default function define(runtime, observer) {
   const main = runtime.module();
-  main.variable(observer("clubs")).define("clubs", ["location","club","html"], function(location,club,html)
+  main.variable(observer()).define(["md"], function(md){return(
+md`[notebook](https://observablehq.com/d/3e7d46ab7a9ca807)
+
+Default to Bergen Runners
+
+[https://www.mocaspike150.org/spike-relay/club/club_detail.html](https://www.mocaspike150.org/spike-relay/club/club_detail.html)
+
+
+To see other club detail, add hashtag to the URL, such as
+
+- [https://www.mocaspike150.org/spike-relay/club/club_detail.html#241951](https://www.mocaspike150.org/spike-relay/club/club_detail.html#241951)
+
+- [https://www.mocaspike150.org/spike-relay/club/club_detail.html#229749](https://www.mocaspike150.org/spike-relay/club/club_detail.html#229749)
+
+- [https://www.mocaspike150.org/spike-relay/club/club_detail.html#155681](https://www.mocaspike150.org/spike-relay/club/club_detail.html#155681)
+
+- [https://www.mocaspike150.org/spike-relay/club/club_detail.html#484248](https://www.mocaspike150.org/spike-relay/club/club_detail.html#484248) (no ambassador image)
+
+- [https://www.mocaspike150.org/spike-relay/club/club_detail.html#438046](https://www.mocaspike150.org/spike-relay/club/club_detail.html#438046) (no ambassador image)
+
+- [https://www.mocaspike150.org/spike-relay/club/club_detail.html#523430](https://www.mocaspike150.org/spike-relay/club/club_detail.html#523430)
+
+`
+)});
+  main.variable(observer("id")).define("id", ["location"], function(location){return(
+location.hash.replace('#', '') || '327007'
+)});
+  main.variable(observer("clubs")).define("clubs", ["id","club","html"], function(id,club,html)
 {
-  let id = location.hash.replace('#', '') || '327007'
   const base = 'https://www.mocaspike150.org/spike-relay/club/index.html'
   if(id) {
     document.title = 'MOCA Spike 150 Relay Club: '
@@ -30,7 +56,7 @@ ${club.detail_html(id)}
   return club
 }
 );
-  main.variable(observer("detail_html")).define("detail_html", ["profile","avatar","members","location_html","donation_html","relay_weeks","paypal","club_message","footnote"], function(profile,avatar,members,location_html,donation_html,relay_weeks,paypal,club_message,footnote){return(
+  main.variable(observer("detail_html")).define("detail_html", ["profile","avatar","ambassador_img","members","location_html","donation_html","relay_weeks","paypal","club_message","footnote"], function(profile,avatar,ambassador_img,members,location_html,donation_html,relay_weeks,paypal,club_message,footnote){return(
 (id) => {
   let club = profile[id]
   const base = 'https://www.mocaspike150.org/spike-relay/club/index.html'
@@ -43,6 +69,7 @@ ${club.detail_html(id)}
 ${club.en ? club.en: '' }
 ${club.cn ? club.cn: '' }
 </h1>
+${ambassador_img}
   <div>
     Club size: ${profile[id].size} 
   </div>
@@ -237,6 +264,21 @@ d3.json('https://raw.githubusercontent.com/mocaspike150/api/master/club/members.
 )});
   main.variable(observer("donation")).define("donation", ["d3"], function(d3){return(
 d3.json('https://raw.githubusercontent.com/mocaspike150/donation/master/data/clubs.json')
+)});
+  main.variable(observer("ambassadors")).define("ambassadors", ["d3"], function(d3){return(
+d3.json('https://www.mocaspike150.org/data/ambassadors.json')
+)});
+  main.variable(observer("ambassador_img_url")).define("ambassador_img_url", ["ambassadors"], function(ambassadors)
+{
+  let output = {}
+  for(const ambassador of ambassadors) {
+    output[ambassador.crowdrise_id] = `https://www.mocaspike150.org/lab/ambassadors-slideshow${ambassador.id}/img.html`
+  }
+  return output
+}
+);
+  main.variable(observer("ambassador_img")).define("ambassador_img", ["profile","id","ambassador_img_url","d3"], function(profile,id,ambassador_img_url,d3){return(
+profile[id].crowdrise_id && ambassador_img_url[profile[id].crowdrise_id] ? d3.text(ambassador_img_url[profile[id].crowdrise_id]) : ''
 )});
   return main;
 }
