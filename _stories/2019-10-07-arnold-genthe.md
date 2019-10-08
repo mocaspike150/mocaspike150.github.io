@@ -3,12 +3,12 @@ date: 2019-10-07 12:00:00 -0400
 layout: story
 title: Arnold Genthe
 title-cn: 阿诺德·根特
-caption-en: 'The New Toy', Arnold Genthe print, courtesy of Gerald Chan, Museum of Chinese in America (MOCA) Collection
+caption-en: The New Toy, Arnold Genthe print, courtesy of Gerald Chan, Museum of Chinese in America (MOCA) Collection
 caption-cn: 《新玩具》，阿诺德·根特照片，Gerald Chan捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/66271415-be922f80-e82b-11e9-9f93-1f82cdcd8a6a.jpg
 card-image: https://user-images.githubusercontent.com/23090526/66271416-bfc35c80-e82b-11e9-966f-7078ed695342.jpg
 story-en: |
-  <p>In 1895, a young German intellectual by the name of Arnold Genthe arrived in San Francisco and became fascinated by the city’s Chinatown, then called \"Tangrenbu\" (Port of the People of Tang). He produced around 200 images of Chinatown before going onto a career as a highly successful portrait photographer. Genthe’s photographs remain a rare collection that captures the rich street life of Old Chinatown before it was leveled by the 1906 San Francisco earthquake.</p>
+  <p>In 1895, a young German intellectual by the name of Arnold Genthe arrived in San Francisco and became fascinated by the city’s Chinatown, then called "Tangrenbu" (Port of the People of Tang). He produced around 200 images of Chinatown before going onto a career as a highly successful portrait photographer. Genthe’s photographs remain a rare collection that captures the rich street life of Old Chinatown before it was leveled by the 1906 San Francisco earthquake.</p>
   <p>But his process of emphasis and omission proved highly problematic. While Genthe claimed insider status, his contact extended to tourist hot spots and he often hid to capture suspicious residents with his “candid camera.” He intentionally mislabeled certain images to make their content more palatable to his white patrons; for example one of vendors selling offal on a street cart was titled “The Fish Monger.” While Chinatown’s residents were predominantly male, two-thirds of his photographs depict children (who were easier to photograph and more appealing to his patrons), and over half of his images depict residents in ornate holiday dress as if they were daily clothing. Most shockingly, Genthe severely cropped and retouched his images, often scratching out English signs and white passersby, to communicate a more exotic representation of Chinatown. In all their detail and inauthenticity, Genthe’s photographs provide us a glimpse into the richness of the lost neighborhood and the stereotypes of the period.</p>
 story-cn: |
   <p>1895年，一位名叫阿诺德·根特（Arnold Genthe）的年轻德国知识分子来到旧金山。他对该市的唐人街着迷，当时被称作“唐人埠”（唐人的港湾）。在成为一名非常成功的肖像摄影师之前，他拍摄了大约200张唐人街的照片。根特的照片是一个珍贵的收藏，他记录了老唐人街在1906年因旧金山地震而被夷为平地之前丰富的街头生活。</p>
