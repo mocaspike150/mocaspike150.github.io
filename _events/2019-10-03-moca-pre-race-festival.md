@@ -21,7 +21,7 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
  <a href="https://my.mocanyc.org/3636/5272"><img src="https://user-images.githubusercontent.com/46349226/66169399-3edb4980-e60e-11e9-8b0f-91a9cf5e6c13.jpg"></a>
 
 <br>
- <h4><b>Come directly from Marathon Expo?</h4>
+ <h4>Come directly from Marathon Expo?</h4>
   
 NYC marathon opens from 9am to 5pm on Saturday. (<a href="https://docs.google.com/spreadsheets/d/1h4ELrIZ_HcvpkTrzAE6k-HGGQCf-JMI-wGT9fAtWDtM/edit?usp=sharing">see full schedule here</a>)
 
