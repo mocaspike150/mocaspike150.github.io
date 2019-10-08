@@ -3,8 +3,8 @@ date: 2019-10-07 12:00:00 -0400
 layout: story
 title: Arnold Genthe
 title-cn: 阿诺德·根特
-caption-en: <i〉The New Toy</i>, Arnold Genthe print, courtesy of Gerald Chan, Museum of Chinese in America (MOCA) Collection
-caption-cn: <i〉新玩具</i>，阿诺德·根特照片，Gerald Chan捐赠，美国华人博物馆（MOCA）馆藏
+caption-en: <The New Toy>, Arnold Genthe print, courtesy of Gerald Chan, Museum of Chinese in America (MOCA) Collection
+caption-cn: 《新玩具》，阿诺德·根特照片，Gerald Chan捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/66271415-be922f80-e82b-11e9-9f93-1f82cdcd8a6a.jpg
 card-image: https://user-images.githubusercontent.com/23090526/66271416-bfc35c80-e82b-11e9-966f-7078ed695342.jpg
 story-en: |
