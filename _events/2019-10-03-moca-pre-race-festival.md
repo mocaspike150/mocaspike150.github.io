@@ -21,8 +21,11 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
  <a href="https://my.mocanyc.org/3636/5272"><img src="https://user-images.githubusercontent.com/46349226/66169399-3edb4980-e60e-11e9-8b0f-91a9cf5e6c13.jpg"></a>
 
 <br>
- <div class="titleblock"><b>Come directly from Marathon Expo?</b></div>
- 
+ <h4><b>Come directly from Marathon Expo?</h4>
+  
+NYC marathon opens from 9am to 5pm on Saturday. (<a href="https://docs.google.com/spreadsheets/d/1h4ELrIZ_HcvpkTrzAE6k-HGGQCf-JMI-wGT9fAtWDtM/edit?usp=sharing">see full schedule here</a>)
+
+<span class="title-block">Diection how to come to MOCA from Marathon Expo</span>
 Take 7 train (purple) from <b>34th St Hudson Yards station</b>, transfer to 6 train(green) in <b>Grand Central Station</b> and get off in <b>Canal Street</b>. MOCA is 5 minutes walking from the train station. Total travel time is about 30 minutes.
 <div>
 MOCA address: <a href="https://www.google.com/maps/place/215+Centre+St,+New+York,+NY+10013/@40.7192026,-74.0020955,16.42z/data=!4m5!3m4!1s0x89c25989be8a76ed:0xb95994a245698aef!8m2!3d40.7194599!4d-73.9991797">215 Centre Street New York, NY 10013</a>
