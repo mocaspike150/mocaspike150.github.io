@@ -34,6 +34,6 @@ MOCA address: <a href="https://www.google.com/maps/place/215+Centre+St,+New+York
 </div>
  <img src="https://user-images.githubusercontent.com/46349226/66436968-825efa80-e9f6-11e9-946c-b6304648b860.PNG">
 
- <div><br>
+<div style="text-align:center;">
   <a href="https://my.mocanyc.org/3636/5272"><button>PURCHASE TICKETS</button></a>
 </div>
