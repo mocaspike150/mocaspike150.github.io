@@ -16,7 +16,7 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 <div style="text-align:center;">
 <div style="font-size:1.2em"><b>Space is limited.  Act now and purchase your ticket now before the event is sold out!</b></div>
 
-<a href="https://my.mocanyc.org/3636/5272"><button>PURCHASE TICKETS</button></a>
+
  </div>
 
 
