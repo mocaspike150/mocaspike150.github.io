@@ -23,7 +23,7 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 <br>
  <h4>Come Directly From Marathon Expo?</h4>
  <div>
-NYC marathon opens from 9am to 5pm on Saturday. (<a href="https://docs.google.com/spreadsheets/d/1h4ELrIZ_HcvpkTrzAE6k-HGGQCf-JMI-wGT9fAtWDtM/edit?usp=sharing">see full schedule here</a>)
+NYC marathon opens from 9am to 5pm on Saturday. (<a href="https://www.nyrr.org/tcsnycmarathon/raceweek/marathon-expo">see full schedule here</a>)
 </div>
 <span class="title-block">Diection  to MOCA from Marathon Expo</span>
 <div>
