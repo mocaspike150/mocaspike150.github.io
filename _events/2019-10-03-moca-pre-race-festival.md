@@ -6,7 +6,7 @@ card-image: https://user-images.githubusercontent.com/46349226/66122084-d445f180
 post-image: https://user-images.githubusercontent.com/46349226/66169399-3edb4980-e60e-11e9-8b0f-91a9cf5e6c13.jpg
 
 ---
-<div style="text-align:center;"><a href="https://my.mocanyc.org/3636/5272"><button>PURCHASE TICKETS</button></a></div>
+
 Join us for a buffet lunch, a mouth-watering “jianbing” (煎饼) from Mr. Bing, music, photo booth, museum tour, endless fun and a chance to meet with your fellow MOCA Spike 150 and TCS New York City Marathon runners around the country to wind down before the big day!  MOCA Spike 150 relay award ceremony will also be presented to the top winners at 1:30pm.
 
 <!--more-->
@@ -18,7 +18,7 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 
 
  </div>
-
+<div style="text-align:center;"><a href="https://my.mocanyc.org/3636/5272"><button>PURCHASE TICKETS</button></a></div>
 
 <br>
  <h4>Come Directly From Marathon Expo?</h4>
