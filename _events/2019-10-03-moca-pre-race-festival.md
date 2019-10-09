@@ -23,9 +23,9 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 <br>
  <h4>Come Directly From Marathon Expo?</h4>
  <div>
-NYC marathon opens from 9am to 5pm on Saturday. (<a href="https://www.nyrr.org/tcsnycmarathon/raceweek/marathon-expo">see full schedule here</a>)
+NYC Marathon Expo opens from 9am to 5pm on Saturday. (<a href="https://www.nyrr.org/tcsnycmarathon/raceweek/marathon-expo">see full schedule here</a>)
 </div>
-<span class="title-block">Diection  to MOCA from Marathon Expo</span>
+<span class="title-block">Direction to MOCA from Marathon Expo</span>
 <div>
 Take 7 train (purple) from <b>34th St Hudson Yards station</b>, transfer to 6 train(green) in <b>Grand Central Station</b> and get off in <b>Canal Street</b>. MOCA is 5 minutes walking from the train station. Total travel time is about 30 minutes.
 </div>
