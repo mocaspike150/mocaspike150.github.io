@@ -5,7 +5,7 @@ title: Rockwell "Rocky" Chin
 title-cn: 陈兆文
 caption-en: Rocky Chin for City Council Election Poster, 2001, Courtesy of Rocky Chin, Museum of Chinese in America (MOCA) Collection
 caption-cn: 陈兆文竞选市议员的海报，2001年，陈兆文捐赠，美国华人博物馆（MOCA）馆藏
-post-image: https://user-images.githubusercontent.com/23090526/66610640-39d84600-eb8a-11e9-945a-7f0c90443cf6.jpg
+post-image: https://user-images.githubusercontent.com/23090526/66615276-03a2c280-eb9a-11e9-8644-e0832c60b0bf.jpg
 card-image: https://user-images.githubusercontent.com/23090526/66610640-39d84600-eb8a-11e9-945a-7f0c90443cf6.jpg
 story-en: |
   <p>Rockwell “Rocky” Chin is a civil rights attorney and activist born in Washington D.C. in 1947. In the 1970s he became involved with the Asian American Movement when he joined the art collective, Basement Workshop. He continued to advocate for the empowerment of minorities; particularly taking an interest in the Asian Americans in New York’s Chinatown. He would help spearhead the founding of the Asian American Bar Association of New York (AABANY) in 1989 and serve as one of the directors.</p>
