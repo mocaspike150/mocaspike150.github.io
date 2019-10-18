@@ -7,4 +7,4 @@ post-image: https://user-images.githubusercontent.com/46349226/67051111-39025f80
 ---
 All MOCA New York City Marathon official charity runners will receive a team singlet, brought you by the renowned fashion designer Dao-Yi Chow, Co-Founder and Managing Partner of <a href="https://www.publicschoolnyc.com/">Public School NYC</a>. Dao-Yi is also one of MOCA Spike 150 official runners!
 
-Besides the official charity runners, any MOCA Spike 150 ambassador raises or any individual's donation for MOCA spike 150 cause more than $500 can receive a free singlet also.  Contact <a href="mailto:spike150@mocanyc.org">spike150@mocanyc.org</a> to claim your team singlet and show off your Spike 150 spirit on the marathon day! 
+Besides the official charity runners, any MOCA Spike 150 ambassador raises with minimum $500, or any individual's donation more than $500 can receive a free singlet also.  Contact <a href="mailto:spike150@mocanyc.org">spike150@mocanyc.org</a> to claim your team singlet and show off your Spike 150 spirit on the marathon day! 
