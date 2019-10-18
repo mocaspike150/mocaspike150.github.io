@@ -7,4 +7,4 @@ post-image: https://user-images.githubusercontent.com/46349226/67051111-39025f80
 ---
 Designed by Dao-Yi Chow, Co-Founder and Managing Partner <a href="https://www.publicschoolnyc.com/">Public School NYC</a>, MOCA team runners marathon team singlets are here!
 
-All MOCA New York City Marathon official charity runners will receive a team singlet, also any MOCA Spike 150 ambassador fundraised more than $500. 
+All MOCA New York City Marathon official charity runners will receive a team singlet, also any MOCA Spike 150 ambassador fundraised more than $500. Quickly come claim your team singlet and show off your Spike 150 spirit on the marathon day!
