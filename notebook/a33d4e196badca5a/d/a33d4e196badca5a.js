@@ -1,4 +1,4 @@
-// https://observablehq.com/d/a33d4e196badca5a@417
+// https://observablehq.com/d/a33d4e196badca5a@419
 import define1 from "../d/a39ec5429de765b5.js";
 
 export default function define(runtime, observer) {
@@ -17,12 +17,6 @@ This page contains the team leaderborads of the current standing of:
 <div>
 Please note the first two ranking <u>only includes the teams completed the third relay phase</u>. The leaderboards will be updated weekly and finalized in the end of week 24 (10/27/2019). <span style="font-weight:bold;color:red;">We will honor the top ${toplimit} fundraised teams to join the relay on week 25 to the finish line</span>. However all teams can still continue fundraising until 12/1/2019 to support MOCA. 
 </div>
-<div class="title-block">
-
-Top 3 teams of three categories will be honored during the MOCA SPIKE 150 x New York City Marathon Pre-Race Festival on Saturday, November 2 from 12:00 PM to 3:00 PM. The SPIKE 150 Awards Presentation will be held at 2:00 PM. Purchase your tickets <a href="https://my.mocanyc.org/3636/5272">here</a> today or at <a href="http://www.mocanyc.org/visit/events/spike150festival.">MOCA event page.</a>. Tickets are at $40, including Buffet Lunch, Mr. Bing Cart, Entertainment, Museum Admission, and Gallery Tour as well as 10% off at MOCA Shop by Pearl River.
-</a>
-</div>
-
 `
 )});
   main.variable(observer("toplimit")).define("toplimit", function(){return(
@@ -44,7 +38,7 @@ ${totaltable(aggregate(team_miles_by_week.finished).sort((x, y) => (x.mile < y.m
   main.variable(observer()).define(["toplimit","avgtable","aggregate","team_miles_by_week","html"], function(toplimit,avgtable,aggregate,team_miles_by_week,html)
 {
   let output = `
-<h4>Top ${toplimit} by Average Mileage </h4>
+<h4>Top ${toplimit} by Average Weekly Mileage Per Runner </h4>
 ${avgtable(aggregate(team_miles_by_week.finished).sort((x, y) => (x.mpr < y.mpr ? 1 : -1 )))}
 `
   return html`${output}`
