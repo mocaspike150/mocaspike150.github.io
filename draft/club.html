@@ -1,0 +1,16 @@
+---
+layout: page
+subtitle: Running Forward With Our Stories
+---
+
+<div id="clubs"></div>
+
+<script type="module">
+  // Load the Observable runtime and inspector.
+  import {Runtime, Inspector} from '/notebook/3d56d18cd7847fcf/runtime.js';
+  // Your notebook, compiled as an ES module.
+  import clubs from '/notebook/3d56d18cd7847fcf/d/3d56d18cd7847fcf.js';
+
+  const runtime = new Runtime();
+  const main = runtime.module(clubs, Inspector.into(document.getElementById('clubs')));
+</script>
