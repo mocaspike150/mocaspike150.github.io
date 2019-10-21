@@ -1,4 +1,4 @@
-// https://observablehq.com/d/3d56d18cd7847fcf@108
+// https://observablehq.com/d/3d56d18cd7847fcf@111
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("clubs")).define("clubs", ["id","profile","html","detail_html"], function(id,profile,html,detail_html)
@@ -266,11 +266,11 @@ d3.json('https://www.mocaspike150.org/data/ambassadors.json')
   return output
 }
 );
-  main.variable(observer("ambassador_img")).define("ambassador_img", ["id","d3","profile","ambassador_img_url"], function(id,d3,profile,ambassador_img_url)
+  main.variable(observer("ambassador_img")).define("ambassador_img", ["profile","id","ambassador_img_url","d3"], function(profile,id,ambassador_img_url,d3)
 {
-  if (id === '484248') { 
-    return d3.text('https://www.mocaspike150.org/lab/slides/nankai.jpg.html')
-  } // nankai
+ if (!profile[id].crowdrise_id) { 
+    return ''
+ }
  else {
   return profile[id].crowdrise_id && ambassador_img_url[profile[id].crowdrise_id] ? d3.text(ambassador_img_url[profile[id].crowdrise_id]) : ''
   }
