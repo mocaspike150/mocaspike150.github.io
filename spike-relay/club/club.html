@@ -10,7 +10,7 @@ subtitle: Running Forward With Our Stories
   import {Runtime, Inspector} from '/notebook/3d56d18cd7847fcf/runtime.js';
   // Your notebook, compiled as an ES module.
   import clubs from '/notebook/3d56d18cd7847fcf/d/3d56d18cd7847fcf.js';
-  // Load the notebook, observing its cells with a default Inspector
-  // that simply renders the value of each cell into the provided DOM node.
-  Runtime.load(clubs, Inspector.into(document.getElementById('clubs')));
+
+  const runtime = new Runtime();
+  const main = runtime.module(clubs, Inspector.into(document.getElementById('clubs')));
 </script>
