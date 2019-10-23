@@ -17,12 +17,12 @@ If you are not sure your fundraising page link, please check <a href="https://ww
 
 Again, please don't hesitate to contact me if you have any question. I am looking forward to meeting many of you in the party and on the NYC marathon day!
 
-Cheers,
+Cheers,<br>
 Renny
 
 ----
 
 Renny Shih
 Producer and Co-Captain of the MOCA Spike 150 Initiative  
-Museum of Chinese in America (MOCA) |美国华人博物馆
+Museum of Chinese in America (MOCA) |美国华人博物馆<br>
 <a href="http://www.mocanyc.org">www.mocanyc.org</a>
