@@ -24,10 +24,13 @@
 }
 
 @media (max-width: 600px){
-body.admin-bar .navbar.navbar-scroll-point.navbar-fixed-top .navbar-collapse, body.admin-bar .navbar.navbar-scroll-point.header-with-topbar.navbar-fixed-top .navbar-collapse {
+	body.admin-bar .navbar.navbar-scroll-point.navbar-fixed-top .navbar-collapse, body.admin-bar .navbar.navbar-scroll-point.header-with-topbar.navbar-fixed-top .navbar-collapse {
     max-height: calc(100% - 70px);
     margin-top: 68px;
-}
+	}
+	.ambassador .content {
+    height: 80px;
+	}
 }
 .image-in-page {
     margin-top: 20px;
