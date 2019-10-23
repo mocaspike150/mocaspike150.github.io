@@ -19,10 +19,11 @@ Again, please don't hesitate to <a href="https://www.mocaspike150.org/contactus/
 
 Cheers,<br>
 Renny
+<a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150/rennyshih">Support Me</a>
 
 ----
 
-Renny Shih
+Renny Shih<br>
 Producer and Co-Captain of the MOCA Spike 150 Initiative  
 Museum of Chinese in America (MOCA) |美国华人博物馆<br>
 <a href="http://www.mocanyc.org">www.mocanyc.org</a>
