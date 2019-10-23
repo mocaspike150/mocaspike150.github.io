@@ -1,7 +1,6 @@
 
 <div class="row">
 
-<h1>Official</h1>
 {% for ambassador in site.ambassadors %}
   {% if ambassador.type %}
   
@@ -9,6 +8,15 @@
        {% include ambassadors/official-card.html %} 
   {% endif %}
 {% endfor %}
+
+{% for ambassador in site.ambassadors %}
+  {% if ambassador.type %}
+  
+  {% else %}
+       {% include ambassadors/non-official-card.html %} 
+  {% endif %}
+{% endfor %}
+
  </div>
 <div class="row">
 <div class="col-md-12">

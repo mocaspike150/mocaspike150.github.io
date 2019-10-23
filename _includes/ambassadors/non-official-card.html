@@ -1,0 +1,20 @@
+{% if ambassador.official %}
+{% else %}
+<article class="col-xs-6 col-ms-6  col-sm-4  col-md-3 hestia-blog-item">
+	<div class="ambassador card card-plain card-blog">
+		<div class="card-image image-border">
+			<a href="https://www.crowdrise.com/o/en/campaign/{{ambassador.team}}/{{ambassador.crowdrise_page}}" title="{{ambassador.firstname}}  {{page.lastname}}" target=_blank><img width="360" height="240" src="{{ambassador.card-image}}" class="attachment-hestia-blog size-hestia-blog wp-post-image" alt=""></a>
+		</div>
+		<div class="content">
+			
+			<a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/{{ambassador.team}}/{{ambassador.crowdrise_page}}" title="{{ambassador.firstname}}  {{ambassador.lastname}}" target=_blank>{{ambassador.firstname}}  {{ambassador.lastname}}</a>
+			
+		</div>
+		<div class="support">
+			
+			<a class="blog-item-title-link" href="https://www.crowdrise.com/o/en/campaign/{{ambassador.team}}/{{ambassador.crowdrise_page}}" title="{{ambassador.firstname}}  {{ambassador.lastname}}" target=_blank>Support</a>
+			
+		</div>
+	</div>
+</article>
+{% endif %}
