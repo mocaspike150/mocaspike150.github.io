@@ -4,7 +4,7 @@ layout: story
 title: Hiram Fong
 title-cn: 邝友良
 caption-en: Photograph of Hiram Fong, Courtesy of Alex Jay, Museum of Chinese in America (MOCA) Collection
-caption-cn: 邝友良的照片，of Alex Jay捐赠，美国华人博物馆（MOCA）馆藏
+caption-cn: 邝友良的照片，Alex Jay捐赠，美国华人博物馆（MOCA）馆藏
 post-image: https://user-images.githubusercontent.com/23090526/67168872-078ecb80-f376-11e9-846c-849736aa430f.jpg
 card-image: https://user-images.githubusercontent.com/23090526/67168873-08276200-f376-11e9-90fb-6d31f69ab0a8.jpg
 story-en: |
