@@ -15,7 +15,7 @@ As stated previously, we will give every individual ambassador who raises more t
 
 If you are not sure your fundraising page link, please check <a href="https://www.mocaspike150.org/spike-150-ambassadors/">https://www.mocaspike150.org/spike-150-ambassadors/</a> which lists all the ambassadors with quick links. Also please remember to come to MOCA's NYC Marathon pre-race festival to have some fun celebration together before the big marathon day. For further information and to purchase tickets please visit <a href="https://www.mocaspike150.org/events/2019-10-03-moca-pre-race-festival">https://www.mocaspike150.org/events/2019-10-03-moca-pre-race-festival</a>
 
-Again, please don't hesitate to contact me if you have any question. I am looking forward to meeting many of you in the party and on the NYC marathon day!
+Again, please don't hesitate to <a href="https://www.mocaspike150.org/contactus/">contact us</a> if you have any question. I am looking forward to meeting many of you in the party and on the NYC marathon day!
 
 Cheers,<br>
 Renny
