@@ -1,0 +1,37 @@
+---
+layout: homepage
+title: MOCA Spike 150
+subtitle: Running Forward With Our Stories
+slides:
+  -
+    img: https://user-images.githubusercontent.com/46349226/66178557-bcfe1700-e633-11e9-8120-79bb2ea2c542.jpg
+    url: https://www.mocaspike150.org/events/2019-10-03-moca-pre-race-festival
+  - 
+    img: https://user-images.githubusercontent.com/46349226/66076923-d10b2100-e52c-11e9-9248-64f56ea09648.jpg
+    url: https://www.mocaspike150.org/posts/2019-10-01-moca-tshirt-sale
+  - 
+    img: https://user-images.githubusercontent.com/41637129/65340563-825c9f00-db9c-11e9-93b2-ad73f2a7f52f.png
+    url: https://vimeo.com/338891721
+---
+{% include slideshow.html %}
+<div id="bars"></div>
+
+<div id="countdown" style="background:#ffa10a;height;200px;color:#fff; padding:15px;text-align:center;font-size:18px;font-family: verlag-bold;">
+</div>
+<div id="donation"></div>
+<script type="module">
+
+import {Runtime, Inspector} from "/notebook/34b1fe62f75b53ef/runtime.js";
+import bars from "https://api.observablehq.com/d/417ed09dc4e779c8.js";
+import countdown from "/notebook/235f37e630c0d208/d/235f37e630c0d208.js";
+import donation from "/notebook/c36cd7dc87178901/d/c36cd7dc87178901.js";
+
+const runtime = new Runtime();
+runtime.module(bars, Inspector.into(document.getElementById('bars')));
+runtime.module(countdown, Inspector.into(document.getElementById('countdown')));
+runtime.module(donation, Inspector.into(document.getElementById('donation')));
+
+</script>
+
+{% include about.html %}
+{% include cards/index.html %}
