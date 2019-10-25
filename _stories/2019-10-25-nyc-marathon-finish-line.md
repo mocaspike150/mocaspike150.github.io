@@ -13,8 +13,8 @@ story-en: |
   <p>Today MOCA Spike 150 Stories crosses its finish line as well. Thank you for following along on our journey through 150 stories told from items in MOCA’s collection. Next week, our team of 40 runners will participate in the 49 th New York City Marathon. To support MOCA’s mission and help us beat last year’s fundraising record, you can donate to the MOCA Team <a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150">here</a>. Wish our runners luck as they run on Sunday, November 3rd!</p>
 story-cn: |
   <p>1970年，纽约马拉松首次举办，当时整个赛道都在中央公园里。报名费只有1美元，127名参赛者中只有55人完成了比赛，他们获得了便宜的手表和棒球或保龄球奖杯作为奖品。今天，纽约马拉松是世界上规模最大、最受欢迎的马拉松比赛，2018年有超过5.2万名选手完成比赛。</p>
-  <p>上图由包信（Emile Bocian）拍摄，俄勒冈州的Kenny Moore通过1979年纽约马拉松终点线；在10,455名选手中排名51，官方成绩为2时25分13秒。去年，美国华人博物馆（MOCA）馆长姚南薰（Nancy Yao Maasbach），馆藏研究中心主任马越（Yue Ma）加入MOCA七人慈善团队完成了比赛，为MOCA 的发展募款8万8 千元。 她们二位今年将继续加入MOCA慈善团队参加比赛。</p>
-  <p>今天，MOCA Spike 150的故事也讲完了。感谢你们一路跟随我们一起领略了这150个MOCA馆藏中的故事。下周，我们MOCA慈善团队的40位跑者将上场参加第49届纽约马拉松比赛。请支持MOCA的使命并帮助我们打破去年的募款记录，您可以在<a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150">这里</a>捐款给MOCA团队，祝我们的队员11月3日比赛好运！</p>
+  <p>上图由包信（Emile Bocian）拍摄，俄勒冈州的Kenny Moore通过1979年纽约马拉松终点线；在10,455名选手中排名51，官方成绩为2时25分13秒。去年，美国华人博物馆（MOCA）馆长姚南薰（Nancy Yao Maasbach），馆藏研究中心主任马越（Yue Ma）加入MOCA七人慈善团队完成了比赛，为MOCA 的发展募款8万8千元。她们二位今年将继续加入MOCA慈善团队参加比赛。</p>
+  <p>今天，MOCA Spike 150的故事也讲完了。感谢你们一路跟随我们一起领略了这150个MOCA馆藏中的美国华人历史故事。下周，我们MOCA慈善团队的40几位跑者将上场参加第49届纽约马拉松比赛。请支持MOCA的使命并帮助我们打破去年的募款记录，您可以在<a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150">这里</a>捐款给MOCA团队，祝我们的队员11月3日比赛好运！</p>
  
 ---
 The first New York City Marathon was held in 1970 with a course entirely in Central Park.
