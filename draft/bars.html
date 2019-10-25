@@ -13,18 +13,10 @@ slides:
     img: https://user-images.githubusercontent.com/41637129/65340563-825c9f00-db9c-11e9-93b2-ad73f2a7f52f.png
     url: https://vimeo.com/338891721
 ---
-{% include slideshow.html %}
 <div id="bars"></div>
-
-<div id="countdown" style="background:#ffa10a;height;200px;color:#fff; padding:15px;text-align:center;font-size:18px;font-family: verlag-bold;">
-</div>
-<div id="donation"></div>
 <script type="module">
 
 import {Runtime, Inspector} from '/notebook/notebook-runtime.js';
 import bars from "https://api.observablehq.com/d/417ed09dc4e779c8.js";
 Runtime.load(bars, Inspector.into(document.getElementById('bars')));
 </script>
-
-{% include about.html %}
-{% include cards/index.html %}
