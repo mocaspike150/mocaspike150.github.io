@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<div id="notebook"></div>
+<script type="module">
+  import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
+  import notebook from 'https://api.observablehq.com/d/5375e854035bc764.js';
+  Runtime.load(notebook, Inspector.into(document.getElementById('notebook')));
+</script>
+
