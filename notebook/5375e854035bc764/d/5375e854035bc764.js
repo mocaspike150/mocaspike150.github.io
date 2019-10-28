@@ -1,10 +1,9 @@
-// https://observablehq.com/d/5375e854035bc764@709
+// https://observablehq.com/d/5375e854035bc764@712
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("bars")).define("bars", ["progress_bar","a"], function(progress_bar,a)
 {
   return `
-<div class="container">
 <div class="subtitle">
 Total Raised* <span class=subtitle3>(<a href="https://www.crowdrise.com/o/en/campaign/moca-spike-150">Donate</a>)</span>
 </div> 
@@ -18,7 +17,6 @@ Total Mileage</span>
 </div>
 <div>
 ${progress_bar('miles', a.miles, '#63bf87', '', ' ')}
-</div>
 </div>
 `
 }
@@ -125,7 +123,7 @@ d3.json('https://raw.githubusercontent.com/mocaspike150/donation/master/data/tot
 )});
   main.variable(observer()).define(["html","title","bars","railroad_completed","all_club_leaderboard","leaderboard_link","footnote"], function(html,title,bars,railroad_completed,all_club_leaderboard,leaderboard_link,footnote){return(
 html`
-<div style="background: #FFF7ED; padding:20px; width:100%">
+<div style="background: #FFF7ED;" class="container">
 ${title}
 ${bars}
 ${railroad_completed}
