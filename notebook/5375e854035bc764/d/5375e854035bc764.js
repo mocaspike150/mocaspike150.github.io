@@ -1,4 +1,4 @@
-// https://observablehq.com/d/5375e854035bc764@715
+// https://observablehq.com/d/5375e854035bc764@718
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("bars")).define("bars", ["progress_bar","a"], function(progress_bar,a)
@@ -585,7 +585,9 @@ ${parseInt(a.miles / track_length)}
 )});
   main.variable(observer("leaderboard_link")).define("leaderboard_link", function(){return(
 `<div class="footnote_link" style="padding-top:15px;">
-<a href="/spike-relay/final/" style="color: red;">Final Result Scorecard</a> | <a href="https://www.mocaspike150.org/spike-relay/scorecard/list">Past Scorecards</a>
+<a href="/spike-relay/final/" style="color: red;">Final Result Scorecard</a> | <a href="/spike-relay/scorecard/list">Past Scorecards</a>
+|
+<a href="/fundraised-list/?max_row=1000">Fundraiser List</a>
 </div>
 `
 )});
