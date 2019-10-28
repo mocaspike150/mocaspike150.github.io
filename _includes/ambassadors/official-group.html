@@ -1,0 +1,11 @@
+
+<div class="row">
+
+{% for ambassador in site.ambassadors %}
+  {% if ambassador.type %}
+  {% else %}
+       {% include ambassadors/official-card.html %} 
+  {% endif %}
+{% endfor %}
+
+</div>
