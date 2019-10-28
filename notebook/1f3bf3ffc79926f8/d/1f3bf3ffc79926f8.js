@@ -1,9 +1,9 @@
-// https://observablehq.com/d/1f3bf3ffc79926f8@27
+// https://observablehq.com/d/1f3bf3ffc79926f8@28
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html"], function(html){return(
 html`
-<a href="/spike-relay/final/" style="color: red;">Final Result Scorecard</a>
+<a href="/spike-relay/final/" style="color: red; font-size: 15px; font-family: Verlag-bold">Final Result Scorecard</a>
 `
 )});
   main.variable(observer()).define(["html","scorecards"], function(html,scorecards){return(
