@@ -1,4 +1,4 @@
-// https://observablehq.com/d/5375e854035bc764@707
+// https://observablehq.com/d/5375e854035bc764@708
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("bars")).define("bars", ["progress_bar","a"], function(progress_bar,a)
@@ -37,7 +37,7 @@ ${progress_bar('miles', a.miles, '#63bf87', '', ' ')}
 }
 @media only screen and (max-width: 991px) {
     #${id} {
-    width: 320px;
+    width: 295px;
   }
 }
 
