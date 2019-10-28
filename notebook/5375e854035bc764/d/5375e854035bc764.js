@@ -1,4 +1,4 @@
-// https://observablehq.com/d/5375e854035bc764@714
+// https://observablehq.com/d/5375e854035bc764@715
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("bars")).define("bars", ["progress_bar","a"], function(progress_bar,a)
@@ -13,7 +13,7 @@ ${progress_bar('amount', a.amount, '#ffa10a', '$', ' ')}
 </div>
 
 <div class="subtitle" >
-Total Mileage</span>
+Total <a href="/spike-relay/rules/">Relay</a> Mileage</span>
 </div>
 <div>
 ${progress_bar('miles', a.miles, '#63bf87', '', ' ')}
