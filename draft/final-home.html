@@ -18,21 +18,18 @@ slides:
 
 <div id="countdown" style="background:#ffa10a;height;200px;color:#fff; padding:15px;text-align:center;font-size:18px;font-family: verlag-bold;">
 </div>
-{% include slideshow.html %}
-<div id="donation"></div>
+
+{% include ambassadors/official.html %}
+
 <script type="module">
 import {Runtime, Inspector} from '/notebook/5375e854035bc764/runtime.js';
 import relay from '/notebook/5375e854035bc764/d/5375e854035bc764.js';
 import countdown from '/notebook/235f37e630c0d208/d/235f37e630c0d208.js';
-import donation from '/notebook/c36cd7dc87178901/d/c36cd7dc87178901.js';
 
 const runtime = new Runtime();
 runtime.module(relay, Inspector.into(document.getElementById('relay')));
 runtime.module(countdown, Inspector.into(document.getElementById('countdown')));
-runtime.module(donation, Inspector.into(document.getElementById('donation')));
+
 </script>
 
-{% include ambassadors/official.html %}
-
-{% include about.html %}
 {% include cards/index.html %}
