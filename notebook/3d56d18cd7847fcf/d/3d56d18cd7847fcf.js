@@ -1,4 +1,4 @@
-// https://observablehq.com/d/3d56d18cd7847fcf@111
+// https://observablehq.com/d/3d56d18cd7847fcf@115
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("clubs")).define("clubs", ["id","profile","html","detail_html"], function(id,profile,html,detail_html)
@@ -212,7 +212,9 @@ alt="${title}"
 ${club.en ? club.en: '' }
 ${club.cn ? club.cn: '' }
 </h1>
+<div style="margin-bottom: 10px;">
 ${ambassador_img}
+</div>
   <div>
     Club size: ${profile[id].size} 
   </div>
