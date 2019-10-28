@@ -1,4 +1,4 @@
-// https://observablehq.com/d/5375e854035bc764@712
+// https://observablehq.com/d/5375e854035bc764@714
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("bars")).define("bars", ["progress_bar","a"], function(progress_bar,a)
@@ -31,7 +31,7 @@ ${progress_bar('miles', a.miles, '#63bf87', '', ' ')}
     background: #eee;
     border-radius: 13px;
     height: 20px;
-    width: 80%;
+    width: 95%;
     padding: 3px;
     margin-top: 10px;
 }
@@ -123,7 +123,7 @@ d3.json('https://raw.githubusercontent.com/mocaspike150/donation/master/data/tot
 )});
   main.variable(observer()).define(["html","title","bars","railroad_completed","all_club_leaderboard","leaderboard_link","footnote"], function(html,title,bars,railroad_completed,all_club_leaderboard,leaderboard_link,footnote){return(
 html`
-<div style="background: #FFF7ED;" class="container">
+<div class="container">
 ${title}
 ${bars}
 ${railroad_completed}
