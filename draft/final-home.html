@@ -13,19 +13,17 @@ slides:
     img: https://user-images.githubusercontent.com/41637129/65340563-825c9f00-db9c-11e9-93b2-ad73f2a7f52f.png
     url: https://vimeo.com/338891721
 ---
-<div class="container">
-<div id="relay"></div>
+<div id="relay" style="background: #FFF7ED;"></div>
 
 <div id="countdown" style="background:#ffa10a;height;200px;color:#fff; padding:15px;text-align:center;font-size:18px;font-family: verlag-bold;">
 </div>
 
+{% include about.html %}
 {% include ambassadors/official-group.html %}
-
-</div>
 
 <script type="module">
 import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
-import relay from 'https://api.observablehq.com/d/42dc3e85b0c28c87.js';
+import relay from 'https://api.observablehq.com/d/5375e854035bc764.js';
 import countdown from 'https://api.observablehq.com/d/235f37e630c0d208.js';
 
 Runtime.load(relay, Inspector.into(document.getElementById('relay')));
@@ -33,5 +31,5 @@ Runtime.load(countdown, Inspector.into(document.getElementById('countdown')));
 
 </script>
 
-
 {% include cards/index.html %}
+
