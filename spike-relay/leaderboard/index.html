@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spike 150 Relay Leaderboard
+title: Spike 150 Relay All Leaderboard 
 subtitle: Running Forward With Our Stories
 ---
 <div>This page contains vital statistics for Spike 150 Virtual Relay; including weekly club and individual
@@ -15,10 +15,7 @@ distance will be averaged on the weekly scorecard accordingly. </div>
 <div id="leaderboard"></div>
 
 <script type="module">
-  import {Runtime, Inspector} from "/notebook/8d0defe911c611d3/runtime.js";
-  import leaderboard from "/notebook/8d0defe911c611d3/d/8d0defe911c611d3.js";
-
-  const runtime = new Runtime();
-  const main = runtime.module(leaderboard, Inspector.into(document.getElementById('leaderboard')));
+  import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
+  import leaderboard from 'https://api.observablehq.com/d/e5e5bf27f2e7eb79.js';
+  Runtime.load(leaderboard, Inspector.into(document.getElementById('leaderboard')));
 </script>
-
