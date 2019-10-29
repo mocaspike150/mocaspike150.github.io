@@ -49,7 +49,7 @@ slides:
 
 ---
 
-{% include slideshow/sequential.html %}
+
 
 More than 30 weeks of continuiously planning and coding, countless nights of back and forth coordination, 34 major Chinese running clubs in North America's participatioon, more than three thousand runners take turn to run virtually in period of 24 weeks,  we can now finally annouce the winners of our unpresendented MOCA Spike 150 Relay!
 
@@ -74,3 +74,7 @@ Here are our winners:
 <a href="https://www.mocaspike150.org/spike-relay/final/">See completed final scorecard</a>
 
 Winner teams will be honored during <a href="https://www.mocaspike150.org/events/2019-10-03-moca-pre-race-festival">MOCA TCS NYC Marathon Pre-Race Festival</a> with certificate award. All the presented relay teams will also receive a speical gift. Please don't miss this opportunity to celebrate and honor MOCA Spike 150 initiative together!
+
+*Please submit your most memorialable relay photos to mocaspike150@mocanyc.org to include on the slide show.
+
+{% include slideshow/sequential.html %}
