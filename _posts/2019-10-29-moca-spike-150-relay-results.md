@@ -75,6 +75,6 @@ Here are our winners:
 
 Winner teams will be honored during <a href="https://www.mocaspike150.org/events/2019-10-03-moca-pre-race-festival">MOCA TCS NYC Marathon Pre-Race Festival</a> with certificate award. All the presented relay teams will also receive a speical gift. Please don't miss this opportunity to celebrate and honor MOCA Spike 150 initiative together!
 
-*Please submit your most memorialable relay photos to mocaspike150@mocanyc.org to include on the slide show.
+*Please submit your most memorialable relay photos to <a href="mailto:mocaspike150@mocanyc.org">mocaspike150@mocanyc.org</a> to include on the slide show.
 
 {% include slideshow/sequential.html %}
