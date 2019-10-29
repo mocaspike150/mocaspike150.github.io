@@ -26,4 +26,6 @@ Here are our winners:
 2. <a href="/spike-relay/club/club.htmlTrail Hoppers">Trail Hoppers</a> - $3,843
 3. <a href="https://flyingfoxcsc.org/">Flying Fox Sports</a> - $3,225
 
+<a href="https://www.mocaspike150.org/spike-relay/final/">See completed final scorecard</a>
+
 Winner teams will be honored during <a href="https://www.mocaspike150.org/events/2019-10-03-moca-pre-race-festival">MOCA TCS NYC Marathon Pre-Race Festival</a> with certificate award. All the presented relay teams will also receive a speical gift. Please don't miss this opportunity to celebrate and honor MOCA Spike 150 initiative together!
