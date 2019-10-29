@@ -9,6 +9,7 @@ card-image: https://user-images.githubusercontent.com/46349226/67727928-abedbf00
 More than 30 weeks of continuiously planning and coding, countless nights of back and forth coordination, 34 major Chinese running clubs in North America's participatioon, more than three thousand runners take turn to run virtually in period of 24 weeks,  we can now finally annouce the winners of our unpresendented MOCA Spike 150 Relay!
 
 Here are our winners:
+<!--more-->
 
 <b>Total mileage: Top 3 By Club</b>
 1. <a href="/spike-relay/club/club.html#128445">Burn Running</a> - 19,001 Miles
