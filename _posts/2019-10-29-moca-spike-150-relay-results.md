@@ -49,7 +49,7 @@ slides:
 
 ---
 
-{% include slideshow/random.html %}
+{% include slideshow/sequential.html %}
 
 More than 30 weeks of continuiously planning and coding, countless nights of back and forth coordination, 34 major Chinese running clubs in North America's participatioon, more than three thousand runners take turn to run virtually in period of 24 weeks,  we can now finally annouce the winners of our unpresendented MOCA Spike 150 Relay!
 

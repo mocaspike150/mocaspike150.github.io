@@ -1,0 +1,31 @@
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    {% for slide in page.slides %}
+      {% if forloop.first == true %} 
+        <div class="item active">
+          {% if slide.url %}
+          <a href="{{ slide.url }}"><img width="100%" src="{{ slide.img }}"/></a>
+          {% else %}
+          <img width="100%" src="{{ slide.img }}"/>
+          {% endif %}
+        </div>
+      {% else %}
+      <div class="item">
+          {% if slide.url %}
+          <a href="{{ slide.url }}"><img width="100%" src="{{ slide.img }}"/></a>
+          {% else %}
+          <img width="100%" src="{{ slide.img }}"/>
+          {% endif %}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+  <span class="icon-prev" style="color:#fff;font-size:58px;" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+  <span class="icon-next" style="color:#fff;font-size:58px;" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+  </a>
+</div>
