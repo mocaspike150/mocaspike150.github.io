@@ -1,4 +1,4 @@
-// https://observablehq.com/d/5375e854035bc764@718
+// https://observablehq.com/d/5375e854035bc764@719
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("bars")).define("bars", ["progress_bar","a"], function(progress_bar,a)
@@ -562,9 +562,8 @@ let teams = all_teams.sort((x, y) => (club_miles(x.id)  <= club_miles(y.id)) ? 1
   let rank = 1
   for(let team of teams) {
     output += `
-<span>
-<a href="${base}#${team.id}"><img style="border-radius: 32px; width: 32px; height: 32px; margin: 5px; "  src="${avatar[team.id].src}"/></a>
-${club_miles(team.id)} </span>
+<span style="white-space:nowrap;">
+<a href="${base}#${team.id}"><img style="border-radius: 32px; width: 32px; height: 32px; margin: 5px; "  src="${avatar[team.id].src}"/></a> &nbsp; ${club_miles(team.id)} </span>
 `
      rank++
   }
