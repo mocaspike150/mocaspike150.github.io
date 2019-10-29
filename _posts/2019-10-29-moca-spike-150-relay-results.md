@@ -3,8 +3,53 @@ layout: post
 title: "MOCA Spike 150 Virtual Relay Results"
 date: 2019-10-29 12:00:00
 card-image: https://user-images.githubusercontent.com/46349226/67727928-abedbf00-f9c1-11e9-8b66-606fb8eb9241.jpg
+slides:
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/00.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/01.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/02.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/03.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/04.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/05.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/06.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/07.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/08.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/09.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/10.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/11.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/12.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/13.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/14.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/15.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/16.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/17.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/18.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/19.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/20.jpg
 
 ---
+
+{% include slideshow/random.html %}
 
 More than 30 weeks of continuiously planning and coding, countless nights of back and forth coordination, 34 major Chinese running clubs in North America's participatioon, more than three thousand runners take turn to run virtually in period of 24 weeks,  we can now finally annouce the winners of our unpresendented MOCA Spike 150 Relay!
 
