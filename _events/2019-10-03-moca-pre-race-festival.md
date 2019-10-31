@@ -28,11 +28,9 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 We Have TWO Pre-race Shakeout run before and after the festival. <Br>
 Shakeout Run I (Two-Bridge Run): 10:30am<Br>
 Shakeout Run II (South Street River Run) : 2:00pm<Br>
-Shakeout runs are free. <a href="/events/2019-11-02-pre-race-shakeout-runs">Please signup to join!</a><Br>
+<a href="/events/2019-11-02-pre-race-shakeout-runs">Please signup to join!</a><Br>
   </span>
 
-
-<br>
  <h4>Come Directly From Marathon Expo?</h4>
  <div>
 NYC Marathon Expo opens from 9am to 5pm on Saturday. (<a href="https://www.nyrr.org/tcsnycmarathon/raceweek/marathon-expo">see full schedule here</a>)
