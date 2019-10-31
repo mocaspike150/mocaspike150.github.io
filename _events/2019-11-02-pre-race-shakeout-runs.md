@@ -18,7 +18,7 @@ Your choice which one to join and please sign up here <a href="https://forms.gle
 Meet Time: 10:30 AM, Nov. 2<br/>
 Meet Location: MOCA (215 Center St<br/>
 Distance: 3 Mi<br/>
-Course: MOCA - Chinatown - South Street - South Street Seaport - City Hall - MOCA<br/>
+Course: MOCA - Brooklyn Bridge - Manhattan Bridge - MOCA<br/>
 Strava Map <a href="https://www.strava.com/clubs/513442/group_events/602941">https://www.strava.com/clubs/513442/group_events/602941</a>
 <br/>
 <img src="https://user-images.githubusercontent.com/46349226/67946329-862a0b00-fbb7-11e9-952d-578e284c8eee.PNG">
@@ -29,7 +29,7 @@ Strava Map <a href="https://www.strava.com/clubs/513442/group_events/602941">htt
 Meet Time: 2:00 PM, Nov. 2<br/>
 Meet Location: MOCA (215 Center St)<br/>
 Distance: 3.5 Mi<br/>
-Course: MOCA - Brooklyn Bridge - Manhattan Bridge - MOCA<br/>
+Course: MOCA - Chinatown - South Street - South Street Seaport - City Hall - MOCA<br/>
 Strava Map <a href="https://www.strava.com/clubs/513442/group_events/602942">https://www.strava.com/clubs/513442/group_events/602942</a>
 <br/>
 <img src="https://user-images.githubusercontent.com/46349226/67946330-862a0b00-fbb7-11e9-9d7f-42d10eebdc2c.PNG">
