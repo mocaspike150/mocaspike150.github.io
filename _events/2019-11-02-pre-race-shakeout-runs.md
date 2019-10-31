@@ -33,9 +33,10 @@ Course: MOCA - Brooklyn Bridge - Manhattan Bridge - MOCA<br/>
 <img src="https://user-images.githubusercontent.com/46349226/67946330-862a0b00-fbb7-11e9-9d7f-42d10eebdc2c.PNG">
 
 
-<div>
-MOCA address: <a href="https://www.google.com/maps/place/215+Centre+St,+New+York,+NY+10013/@40.7192026,-74.0020955,16.42z/data=!4m5!3m4!1s0x89c25989be8a76ed:0xb95994a245698aef!8m2!3d40.7194599!4d-73.9991797">215 Centre Street New York, NY 10013</a>
-</div>
+
+MOCA address: 
+ <a href="https://www.google.com/maps/place/215+Centre+St,+New+York,+NY+10013/@40.7192026,-74.0020955,16.42z/data=!4m5!3m4!1s0x89c25989be8a76ed:0xb95994a245698aef!8m2!3d40.7194599!4d-73.9991797">215 Centre Street New York, NY 10013</a>
+
 <a href="/events/2019-10-03-moca-pre-race-festival">
  <img src="https://user-images.githubusercontent.com/46349226/66169399-3edb4980-e60e-11e9-8b0f-91a9cf5e6c13.jpg">
  </a>
