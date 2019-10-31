@@ -1,15 +1,26 @@
+const fs = require('fs');
+const yaml = require('js-yaml');
 const PptxGenJS = require('pptxgenjs');
+const { JSDOM } = require('jsdom');
+const jquery = require('jquery');
+
 const pptx = new PptxGenJS();
 const darkblue = '040d74';
 const lightblue = 'd6dfee'; 
+const input_dir = process.argv[2]  || '_stories';
+
 
 pptx.defineSlideMaster({
   title: 'MOCA_EN',
   bkgd:  darkblue,
   objects: [
     { 'image': {
-           path: 'https://www.mocaspike150.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', x:0.5, y: 0.5, w: 2.5 * 272/272, h: 2.5 * 85/272
-        }
+        path: 'https://www.mocaspike150.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', 
+        x: 0.25, 
+        y: 0.25,
+        w: 2.5 * 272/272, 
+        h: 2.5 * 85/272
+      }
     }
   ]
 });
@@ -18,9 +29,14 @@ pptx.defineSlideMaster({
   title: 'MOCA_CN',
   bkgd:  darkblue,
   objects: [
-    { 'image': {
-           path: 'https://www.mocaspike150.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', x:5.0, y: 0.5, w: 2.5 * 272/272, h: 2.5 * 85/272
-        }
+    { 
+      'image': {
+        path: 'https://www.mocaspike150.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', 
+        x: 5.25, 
+        y: 0.25, 
+        w: 2.5 * 272/272, 
+        h: 2.5 * 85/272
+      }
     }
   ]
 });
@@ -28,41 +44,75 @@ pptx.defineSlideMaster({
 
 const add_en_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_EN');
-  slide.addText(content, { x:0.5, y:1.5, w: 4, h: 4, fontSize:12, fontFace: 'Arial', fill: lightblue, color: darkblue, valign: 'top', margin: '10px' })
+  slide.addText(content, { 
+    x: 0.25, 
+    y: 1.25, 
+    w: 4.5, 
+    h: 4.0, 
+    fontSize: 11, 
+    fontFace: 'Arial', 
+    fill: lightblue, 
+    color: darkblue, 
+    valign: 'top', 
+    margin: '10px' 
+  })
+
   slide.addImage({ 
     path: image,
-    x:5.0, 
-    y:0.5, 
-    w: 750/750 * 4,
-    h: 590/750 * 4
+    x:5.25, 
+    y:0.25, 
+    w: 750/750 * 4.5,
+    h: 590/750 * 4.5
   });
 }
 
 const add_cn_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_CN');
-  slide.addText(content, 
-     { x: 5.0, y:1.5, w: 4, h: 4, fontSize:12, fontFace: 'Arial', fill: lightblue, color: darkblue, valign: 'top', margin: '10px' })
+  slide.addText(content, { 
+    x: 5.25, 
+    y: 1.25, 
+    w: 4.5,
+    h: 4.0, 
+    fontSize: 11, 
+    fontFace: 'Arial', 
+    fill: lightblue, 
+    color: 
+    darkblue, 
+    valign: 'top', 
+    margin: '10px' 
+  })
+
   slide.addImage({ 
     path: image,
-    x:0.5, 
-    y:0.5, 
-    w: 750/750 * 4,
-    h: 590/750 * 4
+    x: 0.25, 
+    y: 0.25, 
+    w: 750/750 * 4.5,
+    h: 590/750 * 4.5
   });
 }
 
-add_en_slide(
-   'https://user-images.githubusercontent.com/23090526/67169076-1924a300-f377-11e9-98c4-6245bc0aef3a.jpg',
-   'title',
-   'date',
-   `The first New York City Marathon was held in 1970 with a course entirely in Central Park. The entry fee was just $1 and only 55 out of the 127 entrants finished, receiving cheap wristwatches and baseball or bowling trophies as prizes. Today, the New York City Marathon is the world’s largest and most popular marathon, with over 52,000 finishers in 2018.
-`
-);
+for(let file of fs.readdirSync(input_dir)) {
+  const input = `${input_dir}/${file}`
+  console.log(input)
+  const md = fs.readFileSync(input, 'utf-8').split('---');
+  const doc = yaml.safeLoad(md[1]);
+  const en = new JSDOM(doc['story-en']); 
+  const cn = new JSDOM(doc['story-cn']); 
+  const en_content = jquery(en.window)('p').text();
+  const cn_content = jquery(cn.window)('p').text();
+  add_en_slide(
+    doc['post-image'],
+    doc['title'],
+    doc['date'],
+    en_content
+  )
 
-add_cn_slide(
-  'https://user-images.githubusercontent.com/23090526/67169076-1924a300-f377-11e9-98c4-6245bc0aef3a.jpg',
-   'title',
-   'date',
-   `1970年，纽约马拉松首次举办，当时整个赛道都在中央公园里。报名费只有1美元，127名参赛者中只有55人完成了比赛，他们获得了便宜的手表和棒球或保龄球奖杯作为奖品>。今天，纽约马拉松是世界上规模最大、最受欢迎的马拉松比赛，2018年有超过5.2万名选手完成比赛。`
-)
+  add_cn_slide(
+    doc['post-image'],
+    doc['title'],
+    doc['date'],
+    cn_content
+  )
+}
+
 pptx.save('output.pptx');
