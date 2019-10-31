@@ -28,7 +28,7 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 We Have TWO Pre-race Shakeout run before and after the festival. <Br>
 Shakeout Run I (Two-Bridge Run): 10:30am<Br>
 Shakeout Run II (South Street River Run) : 2:00pm<Br>
-<a href="/events/2019-11-02-pre-race-shakeout-runs">Please signup to join!</a><Br>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScRaWJu3x9nwOAkC6KWfMcli_QlUlMlGE6lerw2-b_qrDV1ig/viewform">Please signup to join!</a><Br>
   </span>
 
  <h4>Come Directly From Marathon Expo?</h4>
