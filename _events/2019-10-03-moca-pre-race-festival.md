@@ -12,11 +12,6 @@ Join us for a buffet lunch, a mouth-watering “jianbing” (煎饼) from Mr. Bi
 <!--more-->
 A speical fun run will start from MOCA at 2pm after the party. Join us for an easy 3 mile pre-race, shake out run and take part in a professional photo shoot against the breathtaking and classic backdrop of the New York City skyline. Don’t forget to wear your <a href="https://www.mocaspike150.org/posts/2019-10-01-moca-tshirt-sale">MOCA Tee</a> to take part in the photo shooting!
 
-<b><span style="color:red">*Update!</span><b>
-We will have Two Pre-race Shakeout run before and after the festival. 
-Shakeout Run I (Two-Bridge Run): 10:30am
-Shakeout Run II (South Street River Run) : 2:00pm
-Shakeout runs are free. <a href="/events/2019-11-02-pre-race-shakeout-runs">Please signup to join!</a>
                        
 
 
@@ -44,3 +39,10 @@ MOCA address: <a href="https://www.google.com/maps/place/215+Centre+St,+New+York
 <div style="text-align:center;">
   <a href="https://my.mocanyc.org/3636/5272"><button>PURCHASE TICKETS</button></a>
 </div>
+
+
+***Update!***
+We will have Two Pre-race Shakeout run before and after the festival. 
+Shakeout Run I (Two-Bridge Run): 10:30am
+Shakeout Run II (South Street River Run) : 2:00pm
+Shakeout runs are free. <a href="/events/2019-11-02-pre-race-shakeout-runs">Please signup to join!</a>
