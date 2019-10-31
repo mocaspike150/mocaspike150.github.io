@@ -1,0 +1,14 @@
+{
+  "name": "3e7d46ab7a9ca807",
+  "main": "d/3e7d46ab7a9ca807.js",
+  "version": "129.0.0",
+  "homepage": "https://observablehq.com/d/3e7d46ab7a9ca807",
+  "author": {
+    "name": "Sam Liu",
+    "url": "https://observablehq.com/@ontouchstart"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
