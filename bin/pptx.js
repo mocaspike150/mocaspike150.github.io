@@ -7,6 +7,7 @@ const jquery = require('jquery');
 const pptx = new PptxGenJS();
 const darkblue = '040d74';
 const lightblue = 'd6dfee'; 
+const brown = '582700';
 const input_dir = process.argv[2]  || '_stories';
 
 
@@ -44,12 +45,41 @@ pptx.defineSlideMaster({
 
 const add_en_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_EN');
+
+  slide.addText(date, {
+    x: 0.25,
+    y: 1.25,
+    w: 4.5,
+    h: 0.25,
+    bold: true,
+    fill: lightblue,
+    color: brown,
+    fontSize: 12,
+    fontFace: 'Arial',
+    valign: 'top',
+    margin: '10px'
+  });
+
+  slide.addText(title, {
+    x: 0.25,
+    y: 1.5,
+    w: 4.5,
+    h: 0.25,
+    bold: true,
+    fill: lightblue,
+    color: brown,
+    fontSize: 12,
+    fontFace: 'Arial',
+    valign: 'top',
+    margin: '10px'
+  });
+
   slide.addText(content, { 
     x: 0.25, 
-    y: 1.25, 
+    y: 1.75, 
     w: 4.5, 
-    h: 4.0, 
-    fontSize: 11, 
+    h: 3.5, 
+    fontSize: 10, 
     fontFace: 'Arial', 
     fill: lightblue, 
     color: darkblue, 
@@ -68,16 +98,44 @@ const add_en_slide = (image, title, date, content) => {
 
 const add_cn_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_CN');
-  slide.addText(content, { 
+  
+  slide.addText(date, { 
     x: 5.25, 
     y: 1.25, 
     w: 4.5,
-    h: 4.0, 
-    fontSize: 11, 
+    h: 0.25, 
+    bold: true,
+    fill: lightblue, 
+    color: brown,
+    fontSize: 12, 
+    fontFace: 'Arial', 
+    valign: 'top', 
+    margin: '10px' 
+  });
+
+  slide.addText(title, { 
+    x: 5.25, 
+    y: 1.5, 
+    w: 4.5,
+    h: 0.25, 
+    bold: true,
+    fill: lightblue, 
+    color: brown,
+    fontSize: 12, 
+    fontFace: 'Arial', 
+    valign: 'top', 
+    margin: '10px' 
+  });
+
+  slide.addText(content, { 
+    x: 5.25, 
+    y: 1.75, 
+    w: 4.5,
+    h: 3.50, 
+    fontSize: 10, 
     fontFace: 'Arial', 
     fill: lightblue, 
-    color: 
-    darkblue, 
+    color: darkblue, 
     valign: 'top', 
     margin: '10px' 
   })
@@ -91,9 +149,27 @@ const add_cn_slide = (image, title, date, content) => {
   });
 }
 
+const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October', 
+  'November',
+  'December'
+]
+
 for(let file of fs.readdirSync(input_dir)) {
   const input = `${input_dir}/${file}`
-  console.log(input)
+  console.log(file)
+  const fn_array = file.split('-');
+  const date = `${fn_array[2]} ${months[fn_array[1] - 1]} ${fn_array[0]}`
+
   const md = fs.readFileSync(input, 'utf-8').split('---');
   const doc = yaml.safeLoad(md[1]);
   const en = new JSDOM(doc['story-en']); 
@@ -103,16 +179,16 @@ for(let file of fs.readdirSync(input_dir)) {
   add_en_slide(
     doc['post-image'],
     doc['title'],
-    doc['date'],
+    date,
     en_content
   )
 
   add_cn_slide(
     doc['post-image'],
-    doc['title'],
-    doc['date'],
+    doc['title-cn'],
+    date,
     cn_content
   )
 }
 
-pptx.save('output.pptx');
+pptx.save('150stories.pptx');
