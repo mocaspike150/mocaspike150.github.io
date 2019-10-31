@@ -46,6 +46,12 @@ slides:
     img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/19.jpg
   - 
     img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/20.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/21.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/22.jpg
+  - 
+    img: /assets/blogs/2019-10-29-moca-spike-150-relay-results/23.jpg
 
 ---
 
