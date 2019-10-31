@@ -23,12 +23,13 @@ A speical fun run will start from MOCA at 2pm after the party. Join us for an ea
 <div style="text-align:center;"><a href="https://my.mocanyc.org/3636/5272"><button>PURCHASE TICKETS</button></a></div>
 
 <Br>
-***Update!***<Br>
+<span class="title-block">
+  ***<span syle="color:red;">Update!</span>***<Br>
 We will have Two Pre-race Shakeout run before and after the festival. <Br>
 Shakeout Run I (Two-Bridge Run): 10:30am<Br>
 Shakeout Run II (South Street River Run) : 2:00pm<Br>
 Shakeout runs are free. <a href="/events/2019-11-02-pre-race-shakeout-runs">Please signup to join!</a><Br>
-
+  </span>
 
 
 <br>
