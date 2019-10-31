@@ -13,19 +13,19 @@ One day, two shakeout runs! Two speical fun run events will be hosted on 11/2 be
 
 
 <h5>MOCA Pre-Race Shakeout Run I (Two-Bridge Run)</h5>
-<b>Meet Time: 10:30 AM, Nov. 2
-Meet Location: MOCA (215 Center St)
-Distance: 3 Mi
-Course: MOCA - Chinatown - South Street - South Street Seaport - City Hall - MOCA
-</b>
+Meet Time: 10:30 AM, Nov. 2<br/>
+Meet Location: MOCA (215 Center St<br/>
+Distance: 3 Mi<br/>
+Course: MOCA - Chinatown - South Street - South Street Seaport - City Hall - MOCA<br/>
+
 <img src="https://user-images.githubusercontent.com/46349226/67946329-862a0b00-fbb7-11e9-952d-578e284c8eee.PNG">
 
 
 <h5>MOCA Pre-Race Shakeout Run II (South Street River Run)</h5>
-<b>
-Meet Time: 2:00 PM, Nov. 2
-Meet Location: MOCA (215 Center St)
-Distance: 3.5 Mi
-Course: MOCA - Brooklyn Bridge - Manhattan Bridge - MOCA
-</b>
+
+Meet Time: 2:00 PM, Nov. 2<br/>
+Meet Location: MOCA (215 Center St)<br/>
+Distance: 3.5 Mi<br/>
+Course: MOCA - Brooklyn Bridge - Manhattan Bridge - MOCA<br/>
+
 <img src="https://user-images.githubusercontent.com/46349226/67946330-862a0b00-fbb7-11e9-9d7f-42d10eebdc2c.PNG">
