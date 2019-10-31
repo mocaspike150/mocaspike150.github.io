@@ -89,10 +89,11 @@ const add_en_slide = (image, title, date, content) => {
 
   slide.addImage({ 
     path: image,
-    x:5.25, 
-    y:0.25, 
-    w: 750/750 * 4.5,
-    h: 590/750 * 4.5
+    x: 5.25, 
+    y: 0.25, 
+    w: 4.5,
+    h: 5,
+    sizing: { type:'contain', w:4.5, h:5 }
   });
 }
 
@@ -144,8 +145,9 @@ const add_cn_slide = (image, title, date, content) => {
     path: image,
     x: 0.25, 
     y: 0.25, 
-    w: 750/750 * 4.5,
-    h: 590/750 * 4.5
+    w: 4.5,
+    h: 5,
+    sizing: { type:'contain', w:4.5, h:5 }
   });
 }
 
