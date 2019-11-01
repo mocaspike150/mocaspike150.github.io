@@ -23,7 +23,7 @@ for(let file of fs.readdirSync(input_dir)) {
         const data = response.data;
         const buffer = Buffer.from(data, 'binary');
         sharp(buffer)
-          .resize({ width: w, height: h, fit: 'contain', background: { r: 4, g: 13, b: 116 } })
+          .resize({ width: w, height: h, fit: 'contain', background: { r: 255, g: 255, b: 255 } })
           .toBuffer()
           .then( (data) => {
              const src = `data:image/png;base64,${data.toString('base64')}`

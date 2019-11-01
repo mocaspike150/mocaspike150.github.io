@@ -48,16 +48,15 @@ pptx.defineSlideMaster({
 const add_en_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_EN');
 
-/*
   slide.addShape(pptx.shapes.RIGHT_TRIANGLE, { 
     align:'c', 
-    x:0.40, 
-    y:4.3, 
-    w:6, 
-    h:3, 
+    x:5, 
+    y:4.625, 
+    w:5, 
+    h:1, 
+    flipH: true,
     fill: pink
   });
-*/
  
   slide.addText(date, {
     x: 0.25,
@@ -112,16 +111,14 @@ const add_en_slide = (image, title, date, content) => {
 
 const add_cn_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_CN');
-/*
   slide.addShape(pptx.shapes.RIGHT_TRIANGLE, { 
     align:'c', 
     x:0, 
-    y:4, 
-    w:7, 
-    h:3, 
+    y:4.625, 
+    w:5, 
+    h:1, 
     fill: pink
   });
-*/
   
   slide.addText(date, { 
     x: 5.25, 
