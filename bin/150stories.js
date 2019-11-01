@@ -9,6 +9,7 @@ const darkblue = '040d74';
 const lightblue = 'd6dfee'; 
 const brown = '582700';
 const input_dir = process.argv[2]  || '_stories';
+const image_dir = process.argv[3] || 'story_images';
 
 
 pptx.defineSlideMaster({
@@ -88,7 +89,7 @@ const add_en_slide = (image, title, date, content) => {
   })
 
   slide.addImage({ 
-    path: image,
+    data: image,
     x: 5.25, 
     y: 0.25, 
     w: 4.5,
@@ -142,7 +143,7 @@ const add_cn_slide = (image, title, date, content) => {
   })
 
   slide.addImage({ 
-    path: image,
+    data: image,
     x: 0.25, 
     y: 0.25, 
     w: 4.5,
@@ -178,15 +179,18 @@ for(let file of fs.readdirSync(input_dir)) {
   const cn = new JSDOM(doc['story-cn']); 
   const en_content = jquery(en.window)('p').text();
   const cn_content = jquery(cn.window)('p').text();
+
+  const image = fs.readFileSync(`${image_dir}/${file}`, 'utf-8');
+
   add_en_slide(
-    doc['post-image'],
+    image,
     doc['title'],
     date,
     en_content
   )
 
   add_cn_slide(
-    doc['post-image'],
+    image,
     doc['title-cn'],
     date,
     cn_content
