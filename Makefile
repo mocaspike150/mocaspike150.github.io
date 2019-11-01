@@ -5,5 +5,5 @@ down:
 
 pptx:
 	node bin/story_images.js
-	node bin/150stories.js
+	node bin/150stories_pptx.js
 

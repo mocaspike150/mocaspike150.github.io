@@ -8,6 +8,7 @@ const pptx = new PptxGenJS();
 const darkblue = '040d74';
 const lightblue = 'd6dfee'; 
 const brown = '582700';
+const pink = 'f7cac9';
 const input_dir = process.argv[2]  || '_stories';
 const image_dir = process.argv[3] || 'story_images';
 
@@ -47,6 +48,15 @@ pptx.defineSlideMaster({
 const add_en_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_EN');
 
+  slide.addShape(pptx.shapes.RIGHT_TRIANGLE, { 
+    align:'c', 
+    x:0.40, 
+    y:4.3, 
+    w:6, 
+    h:3, 
+    fill: pink
+  });
+ 
   slide.addText(date, {
     x: 0.25,
     y: 1.25,
@@ -100,6 +110,15 @@ const add_en_slide = (image, title, date, content) => {
 
 const add_cn_slide = (image, title, date, content) => {
   const slide = pptx.addNewSlide('MOCA_CN');
+
+  slide.addShape(pptx.shapes.RIGHT_TRIANGLE, { 
+    align:'c', 
+    x:0, 
+    y:4, 
+    w:7, 
+    h:3, 
+    fill: pink
+  });
   
   slide.addText(date, { 
     x: 5.25, 
