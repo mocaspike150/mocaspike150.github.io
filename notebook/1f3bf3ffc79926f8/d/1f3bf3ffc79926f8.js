@@ -15,7 +15,7 @@ ${scorecards}
 {
   let output = []
   const start = new Date('2019-05-13T04:00:00')
-  const today = new Date()
+  const today = new Date('2019-11-03')
   const weeks_since_start = Math.floor((today - start) / (3600 * 1000 * 24 * 7)) + 1
   for(let i = 1; i < weeks_since_start; i++) {
     output.push((i < 10) ? `0${i}` : `${i}`)
