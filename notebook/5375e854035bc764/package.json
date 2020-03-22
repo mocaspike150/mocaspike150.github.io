@@ -1,11 +1,11 @@
 {
   "name": "5375e854035bc764",
-  "main": "d/5375e854035bc764.js",
-  "version": "718.0.0",
+  "main": "5375e854035bc764@743.js",
+  "version": "743.0.0",
   "homepage": "https://observablehq.com/d/5375e854035bc764",
   "author": {
-    "name": "Sam Liu",
-    "url": "https://observablehq.com/@ontouchstart"
+    "name": "MOCA Spike 150",
+    "url": "https://observablehq.com/@mocaspike150"
   },
   "type": "module",
   "peerDependencies": {

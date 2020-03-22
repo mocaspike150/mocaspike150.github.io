@@ -17,6 +17,9 @@ slides:
 <div id="relay" style="background: #FFF7ED;"></div>
 
 <div id="countdown" style="background:#ffa10a;height;200px;color:#fff;text-align:center;font-size:24px;font-family: verlag-bold;">
+<a href="https://www.nyrr.org/races/2019tcsnewyorkcitymarathon" style="color:#FFF">2019 TCS New York City Marathon</a>
+<br/>
+November 3, 2019 8:00 AM
 </div>
 {% include slideshow.html %}
 {% include about.html %}
@@ -35,13 +38,10 @@ slides:
 </div>
 
 <script type="module">
-import {Runtime, Inspector} from "/notebook/notebook-runtime.js";
-import relay from 'https://api.observablehq.com/d/5375e854035bc764.js';
-import countdown from 'https://api.observablehq.com/d/235f37e630c0d208.js';
-
-Runtime.load(relay, Inspector.into(document.getElementById('relay')));
-Runtime.load(countdown, Inspector.into(document.getElementById('countdown')));
-
+import {Runtime, Inspector} from "/notebook/5375e854035bc764/runtime.js";
+import relay from '/notebook/5375e854035bc764/index.js';
+const runtime = new Runtime();
+runtime.module(relay, Inspector.into(document.getElementById('relay')));
 </script>
 
 {% include cards/index.html %}
