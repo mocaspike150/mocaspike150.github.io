@@ -7,7 +7,7 @@
     "mocaspike150.github.io": "pptx.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "jquery": "^3.4.1",
     "js-yaml": "^3.13.1",
     "jsdom": "^14.1.0",
