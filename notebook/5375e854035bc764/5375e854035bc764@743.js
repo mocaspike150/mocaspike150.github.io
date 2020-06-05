@@ -204,7 +204,7 @@ ${
 }
 )});
   main.variable(observer("profile")).define("profile", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('/api/club/profile.json')
 )});
   main.variable(observer("phase")).define("phase", ["relay_week"], function(relay_week)
 {
@@ -221,13 +221,13 @@ d3.json('https://www.mocaspike150.org/api/club/profile.json')
 }
 );
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('/api/club/avatar.json')
 )});
   main.variable(observer("members")).define("members", ["d3"], function(d3){return(
 d3.json('https://raw.githubusercontent.com/mocaspike150/api/master/club/members.json')
 )});
   main.variable(observer("relay_week")).define("relay_week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('/api/relay/week.json')
 )});
   main.variable(observer("relay_weeks")).define("relay_weeks", ["weeks"], function(weeks){return(
 (id) => {
@@ -303,7 +303,7 @@ Meetup locations: ${loc}
 )});
   main.variable(observer("list_html")).define("list_html", ["avatar","profile","members","location_html","relay_weeks"], function(avatar,profile,members,location_html,relay_weeks){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = '/spike-relay/club/club.html'
   return `
 <div style="margin-top: 1em; background: #FFF7ED; padding: 1em; border-radius: 5px;">
   <img src="${avatar[id].src}" style="width: 64px; heigh:64px; border-radius: 64px;"/>
@@ -329,7 +329,7 @@ ${relay_weeks(id)}
 )});
   main.variable(observer("logo_html")).define("logo_html", ["profile","avatar"], function(profile,avatar){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = '/spike-relay/club/club.html'
   let title = 'N/A'
   if( profile[id]) {
      title = `${profile[id].en ? profile[id].en : ''}  ${profile[id].cn ? `| ${profile[id].cn} `: '' }`
@@ -388,7 +388,7 @@ require('d3@5')
 }
 )});
   main.variable(observer("week")).define("week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('/api/relay/week.json')
 )});
   main.variable(observer("all_teams")).define("all_teams", ["week"], function(week)
 {
@@ -417,7 +417,7 @@ d3.json('https://www.mocaspike150.org/api/relay/week.json')
   </tr>
 `
 let teams = week[week_id].teams.sort((x, y) => (club_miles(x.id)  <= club_miles(y.id)) ? 1 : -1 )
- const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+ const base = '/spike-relay/club/club.html'
   let rank = 1
   for(let team of teams) {
     output += `
@@ -563,7 +563,7 @@ weekdata.map((d) => ({ key: `${d.name}|${d.mile}`, club: d.club_id}))
 `
 let teams = all_teams.sort((x, y) => (club_miles(x.id)  <= club_miles(y.id)) ? 1 : -1 )
 
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = '/spike-relay/club/club.html'
   let rank = 1
   for(let team of teams) {
     output += `
@@ -631,10 +631,10 @@ ${parseInt(a.miles / track_length)}
 }
 )});
   main.variable(observer("spike_svg")).define("spike_svg", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('/api/spike.json')
 )});
   main.variable(observer("track")).define("track", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/json/track.json')
+d3.json('/json/track.json')
 )});
   main.variable(observer("spike_positions")).define("spike_positions", function(){return(
 [
