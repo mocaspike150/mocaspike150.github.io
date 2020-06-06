@@ -14,16 +14,16 @@ Usage
 require('d3@5')
 )});
   main.variable(observer("profile")).define("profile", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('https://spike150.mocanyc.org/api/club/profile.json')
 )});
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )});
   main.variable(observer("members")).define("members", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/members.json')
+d3.json('https://spike150.mocanyc.org/api/club/members.json')
 )});
   main.variable(observer("relay_week")).define("relay_week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   main.variable(observer("weeks")).define("weeks", ["profile","relay_week"], function(profile,relay_week)
 {
@@ -67,7 +67,7 @@ Meetup locations: ${loc}
 )});
   main.variable(observer("list_html")).define("list_html", ["avatar","profile","members","location_html","relay_weeks"], function(avatar,profile,members,location_html,relay_weeks){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   return `
 <div style="margin-top: 1em; background: #FFF7ED; padding: 1em; border-radius: 5px;">
   <img src="${avatar[id].src}" style="width: 64px; heigh:64px; border-radius: 64px;"/>
@@ -93,7 +93,7 @@ ${relay_weeks(id)}
 )});
   main.variable(observer("logo_html")).define("logo_html", ["profile","avatar"], function(profile,avatar){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   const title = `${profile[id].en ? profile[id].en : ''}  ${profile[id].cn ? `| ${profile[id].cn} `: '' }`
   return `
 <a href="${base}#${id}"
@@ -127,7 +127,7 @@ Week ${parseInt(week.week)}
   main.variable(observer("detail_html")).define("detail_html", ["profile","avatar","members","location_html","relay_weeks"], function(profile,avatar,members,location_html,relay_weeks){return(
 (id) => {
   let club = profile[id]
-  const base = 'https://www.mocaspike150.org/spike-relay/club/index.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/index.html'
   return `
 <div style="margin-top: 1em; background: #FFF7ED; padding: 2em; border-radius: 5px;">
 <div style="text-align: right;"><a href="${base}">MOCA Spike 150 Relay Clubs</a></div>

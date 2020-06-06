@@ -73,7 +73,7 @@ map()
   
       const link = g.append('a')
 
-      link.attr("href", `https://www.mocaspike150.org/demo/club/club.html#${key}`)
+      link.attr("href", `https://spike150.mocanyc.org/demo/club/club.html#${key}`)
         .attr("target", `club_${key}`)
 
       if(avatar[key].src) {
@@ -96,17 +96,17 @@ map()
 }
 )});
   main.variable(observer("spike_svg")).define("spike_svg", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('https://spike150.mocanyc.org/api/spike.json')
 )});
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )});
   main.variable(observer("geo")).define("geo", ["d3"], function(d3){return(
-d3.json(`https://www.mocaspike150.org/api/map/club/geo.json`)
+d3.json(`https://spike150.mocanyc.org/api/map/club/geo.json`)
 )});
   main.variable(observer("us")).define("us", ["d3"], async function(d3)
 {
-  const us = await d3.json("https://www.mocaspike150.org/api/map/us.json");
+  const us = await d3.json("https://spike150.mocanyc.org/api/map/us.json");
   us.objects.lower48 = {
     type: "GeometryCollection",
     geometries: us.objects.states.geometries.filter(d => d.id !== "02" && d.id !== "15")

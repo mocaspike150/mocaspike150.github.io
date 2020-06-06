@@ -24,14 +24,14 @@ require('d3@5')
       name: "relay_week",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )})
     },
     {
       name: "club_profile",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('https://spike150.mocanyc.org/api/club/profile.json')
 )})
     },
     {

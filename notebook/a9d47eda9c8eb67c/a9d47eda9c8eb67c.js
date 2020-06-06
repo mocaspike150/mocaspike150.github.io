@@ -67,7 +67,7 @@ ${
       name: "profile",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('https://spike150.mocanyc.org/api/club/profile.json')
 )})
     },
     {
@@ -100,21 +100,21 @@ d3.json('https://www.mocaspike150.org/api/club/profile.json')
       name: "avatar",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )})
     },
     {
       name: "members",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/members.json')
+d3.json('https://spike150.mocanyc.org/api/club/members.json')
 )})
     },
     {
       name: "relay_week",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )})
     },
     {
@@ -210,7 +210,7 @@ Meetup locations: ${loc}
       inputs: ["avatar","profile","members","location_html","relay_weeks"],
       value: (function(avatar,profile,members,location_html,relay_weeks){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   return `
 <div style="margin-top: 1em; background: #FFF7ED; padding: 1em; border-radius: 5px;">
   <img src="${avatar[id].src}" style="width: 64px; heigh:64px; border-radius: 64px;"/>
@@ -240,7 +240,7 @@ ${relay_weeks(id)}
       inputs: ["profile","avatar"],
       value: (function(profile,avatar){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   const title = `${profile[id].en ? profile[id].en : ''}  ${profile[id].cn ? `| ${profile[id].cn} `: '' }`
   return `
 <a href="${base}#${id}"
@@ -259,7 +259,7 @@ alt="${title}"
       value: (function(profile,avatar,members,location_html,relay_weeks,paypal,club_message){return(
 (id) => {
   let club = profile[id]
-  const base = 'https://www.mocaspike150.org/spike-relay/club/index.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/index.html'
   return `
 <div style="margin-top: 1em; background: #FFF7ED; padding: 2em; border-radius: 5px;">
 <div style="text-align: right;"><a href="${base}">MOCA Spike 150 Relay Clubs</a></div>
@@ -335,7 +335,7 @@ ${club_message(id)}
       value: (function(profile,oneline_relay_weeks){return(
 (id) => {
   return `
-庆祝美国横贯大陆铁路建成通车150周年，并彰显华人在美国历史上的重大贡献，我们${ profile[id].cn ? profile[id].cn: profile[id].en }支持美国华人博物馆（MOCA）保存华人在美国历史的使命，积极响应MOCA组织倡议的MOCA Spike 150:  Running Forward With Our Stories活动。${ profile[id].cn ? profile[id].cn: profile[id].en } 将于 ${oneline_relay_weeks(id)}参加<a href="http://www.mocaspike150.org">MOCA Spike 150</a>线上接力，为MOCA募款，请支持我们的团队！
+庆祝美国横贯大陆铁路建成通车150周年，并彰显华人在美国历史上的重大贡献，我们${ profile[id].cn ? profile[id].cn: profile[id].en }支持美国华人博物馆（MOCA）保存华人在美国历史的使命，积极响应MOCA组织倡议的MOCA Spike 150:  Running Forward With Our Stories活动。${ profile[id].cn ? profile[id].cn: profile[id].en } 将于 ${oneline_relay_weeks(id)}参加<a href="http://spike150.mocanyc.org">MOCA Spike 150</a>线上接力，为MOCA募款，请支持我们的团队！
 `
 }
 )})
@@ -365,7 +365,7 @@ require('d3@5')
       name: "week",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )})
     },
     {
@@ -383,7 +383,7 @@ d3.json('https://www.mocaspike150.org/api/relay/week.json')
   </tr>
 `
   let teams = week[week_id].teams.sort((x, y) => (club_miles(x.id)  <= club_miles(y.id)) ? 1 : -1 )
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   let rank = 1
   for(let team of teams) {
     output += `
@@ -506,7 +506,7 @@ uniq(weekdata.sort((x,y) => ((x.mile <= y.mile) ? 1 : -1)))
       name: "leaderboard",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json("https://www.mocaspike150.org/api/leaderboard/week01/leaderboard.json")
+d3.json("https://spike150.mocanyc.org/api/leaderboard/week01/leaderboard.json")
 )})
     }
   ]

@@ -18,7 +18,7 @@ require('d3@5')
       name: "json_data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('https://spike150.mocanyc.org/api/spike.json')
 )})
     },
     {

@@ -185,7 +185,7 @@ mile_data.mile
 (week_id) => {
   let output = `<div>`
   let teams = week[week_id].teams.sort((x, y) => (club_miles(x.id)  <= club_miles(y.id)) ? 1 : -1 )
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   for(let team of teams) {
     output += `
 <a href="${base}#${team.id}">
@@ -198,10 +198,10 @@ mile_data.mile
 }
 )});
   main.variable(observer("week")).define("week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require('d3@5')
@@ -210,7 +210,7 @@ require('d3@5')
 club_miles
 )});
   main.variable(observer("track")).define("track", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/json/track.json')
+d3.json('https://spike150.mocanyc.org/json/track.json')
 )});
   main.variable(observer("track_length")).define("track_length", function(){return(
 1776
@@ -258,7 +258,7 @@ d3.json('https://www.mocaspike150.org/json/track.json')
 d3.json(`https://raw.githubusercontent.com/mocaspike150/api/master/leaderboard/week02/leaderboard.json`)
 )});
   main.variable(observer("spike_svg")).define("spike_svg", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('https://spike150.mocanyc.org/api/spike.json')
 )});
   main.variable(observer("spike_positions")).define("spike_positions", function(){return(
 [

@@ -140,14 +140,14 @@ Date.now()
       name: "track",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/json/track.json')
+d3.json('https://spike150.mocanyc.org/json/track.json')
 )})
     },
     {
       name: "spike_svg",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('https://spike150.mocanyc.org/api/spike.json')
 )})
     },
     {

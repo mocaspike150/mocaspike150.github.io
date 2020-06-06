@@ -84,7 +84,7 @@ ${team_miles("01")}
   
   for(let id in teams) {
     output += `
-<a href="https://www.mocaspike150.org/demo/club/#${teams[id].id}" target="${teams[id].id}">
+<a href="https://spike150.mocanyc.org/demo/club/#${teams[id].id}" target="${teams[id].id}">
 <img style="border-radius: 32px; width: 32px; height: 32px; margin: 5px"  src="${avatar[teams[id].id].src}"/>
 </a>${teams[id].mile} miles
 `
@@ -161,28 +161,28 @@ Date.now()
       name: "spike_svg",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('https://spike150.mocanyc.org/api/spike.json')
 )})
     },
     {
       name: "track",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/json/track.json')
+d3.json('https://spike150.mocanyc.org/json/track.json')
 )})
     },
     {
       name: "week",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )})
     },
     {
       name: "avatar",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )})
     },
     {

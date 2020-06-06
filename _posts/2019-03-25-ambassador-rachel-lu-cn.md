@@ -3,8 +3,8 @@ layout: post
 title: 用Spike 150 为波马热身
 author: Rachel Lu
 language: cn
-card-image: https://www.mocaspike150.org/wp/uploads/2019/03/Rachel-360x240.jpg
-post-image: https://www.mocaspike150.org/wp/uploads/2019/03/Rachel.jpg
+card-image: https://spike150.mocanyc.org/wp/uploads/2019/03/Rachel-360x240.jpg
+post-image: https://spike150.mocanyc.org/wp/uploads/2019/03/Rachel.jpg
 redirect_from:
   - experience/2019-03-25-ambassador-rachel-lu
   - posts/2019-03-25-ambassador-rachel-lu

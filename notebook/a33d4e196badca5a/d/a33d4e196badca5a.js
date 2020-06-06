@@ -78,7 +78,7 @@ Railroads Completed
 ${n}
 </td>
 <td>
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">
 ${logo(row.id)}
 </a>
 <br/>
@@ -87,7 +87,7 @@ ${row.start? row.start.substring(5) : ''}
 
 
 <td style="text-align:center;">
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">${row.mile.toLocaleString()}</a> 
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">${row.mile.toLocaleString()}</a> 
 </td>
 
 <td style="text-align:center;">
@@ -138,7 +138,7 @@ Total Runners*
 ${n}
 </td>
 <td>
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">
 ${logo(row.id)}
 </a>
 <br/>
@@ -146,7 +146,7 @@ ${row.start? row.start.substring(5) : ''}
 </td>
 
 <td  style="text-align:center;">
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">${parseFloat(row.mile / row.runners).toFixed(2)}</a> 
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">${parseFloat(row.mile / row.runners).toFixed(2)}</a> 
 </td>
 <td style="text-align:center;">
 ${row.runners}
@@ -227,13 +227,13 @@ Object.values(data).map(d => { let teams =  d.teams; teams.start = d.start; retu
 }
 )});
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )});
   main.variable(observer("profile")).define("profile", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('https://spike150.mocanyc.org/api/club/profile.json')
 )});
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require('d3@5')
@@ -252,7 +252,7 @@ ${table(toplimit)}
 );
   main.variable(observer()).define(["html"], function(html){return(
 html `<div class=footnote style="padding:10px 0;">
-<div><a href="https://www.mocaspike150.org/fundraised-list/?max_row=1000">View full current fundraising standing</a></div>
+<div><a href="https://spike150.mocanyc.org/fundraised-list/?max_row=1000">View full current fundraising standing</a></div>
 <div>*Total Runners: The sum of numbers of a club's runners counted in each of the three phases. For example, if a club with 75 Strava members in phase one, 76 in phase tow and 78 in phase three, the total runners will be  229 (75+76+78).
 </div>
 `

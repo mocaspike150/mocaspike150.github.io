@@ -99,7 +99,7 @@ club.profile
 }
 );
   main.variable(observer("relay_week")).define("relay_week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   const child1 = runtime.module(define1);
   main.import("club", child1);

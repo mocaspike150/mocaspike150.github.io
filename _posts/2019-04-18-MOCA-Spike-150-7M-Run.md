@@ -22,10 +22,10 @@ My goal was simple:  get up, show up, support and run, except something more hap
 I felt elated.  We were running forward with our stories, not just figuratively.  Restoring this missing piece of collective history gives me hope that our future generations would connect with their true self.  As the day went on, I pondered what piqued this strangers interest.  As a physical activity, running commands a special kind of respect, not only because it demands a level of physical fitness but also mental toughness.  So I suspect seeing a large group of people running for a little known cause grabbed his attention.  And I took enormous comfort that our mission was accomplished today.  
 
 About MOCA Spike 150
-[https://www.mocaspike150.org/moca-spike-150/](https://www.mocaspike150.org/moca-spike-150/)
+[https://spike150.mocanyc.org/moca-spike-150/](https://spike150.mocanyc.org/moca-spike-150/)
 
 About Chinatown 7 Miles Run
-[https://www.mocaspike150.org/events/2019-04-13-moca-chinatown-7m-run](https://www.mocaspike150.org/events/2019-04-13-moca-chinatown-7m-run)
+[https://spike150.mocanyc.org/events/2019-04-13-moca-chinatown-7m-run](https://spike150.mocanyc.org/events/2019-04-13-moca-chinatown-7m-run)
 
 On more stories 
-[https://www.mocaspike150.org/stories/](https://www.mocaspike150.org/stories/)
+[https://spike150.mocanyc.org/stories/](https://spike150.mocanyc.org/stories/)

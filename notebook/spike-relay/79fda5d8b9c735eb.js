@@ -19,7 +19,7 @@ require('d3@5')
       inputs: ["d3"],
       value: (async function(d3)
 {
-  const us = await d3.json("https://www.mocaspike150.org/api/map/us.json");
+  const us = await d3.json("https://spike150.mocanyc.org/api/map/us.json");
   us.objects.lower48 = {
     type: "GeometryCollection",
     geometries: us.objects.states.geometries.filter(d => d.id !== "02" && d.id !== "15")
@@ -39,7 +39,7 @@ require("topojson-client@3")
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json(`https://www.mocaspike150.org/api/map/club/geo.json`)
+d3.json(`https://spike150.mocanyc.org/api/map/club/geo.json`)
 )})
     },
     {
@@ -59,7 +59,7 @@ d3.geoAlbersUsa().scale(1280).translate([480, 300])
       name: "track",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/json/track.json')
+d3.json('https://spike150.mocanyc.org/json/track.json')
 )})
     },
     {

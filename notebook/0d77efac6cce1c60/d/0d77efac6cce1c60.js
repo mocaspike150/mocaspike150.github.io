@@ -60,10 +60,10 @@ a.viewall{
 require('d3@5')
 )});
   main.variable(observer("runner_donation_data")).define("runner_donation_data", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/donation/data/runners.json')
+d3.json('https://spike150.mocanyc.org/donation/data/runners.json')
 )});
   main.variable(observer("club_donation_data")).define("club_donation_data", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/donation/data/clubs.json')
+d3.json('https://spike150.mocanyc.org/donation/data/clubs.json')
 )});
   main.variable(observer("runner_donation")).define("runner_donation", ["total_amount","runner_donation_data"], function(total_amount,runner_donation_data){return(
 total_amount(runner_donation_data)
@@ -152,7 +152,7 @@ ${profile.firstname ? profile.firstname : ''} ${profile.lastname ? profile.lastn
 }
 )});
   main.variable(observer("profile_data")).define("profile_data", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/data/ambassadors.json')
+d3.json('https://spike150.mocanyc.org/data/ambassadors.json')
 )});
   main.variable(observer("params")).define("params", function(){return(
 new URL(document.baseURI).searchParams

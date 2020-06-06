@@ -85,7 +85,7 @@ html`${club_leaderboard_by_distance}`
 html`${club_leaderboard_by_average}`
 )});
   main.variable(observer("profile")).define("profile", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('https://spike150.mocanyc.org/api/club/profile.json')
 )});
   main.variable(observer("phase")).define("phase", ["relay_week"], function(relay_week)
 {
@@ -102,13 +102,13 @@ d3.json('https://www.mocaspike150.org/api/club/profile.json')
 }
 );
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )});
   main.variable(observer("members")).define("members", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/members.json')
+d3.json('https://spike150.mocanyc.org/api/club/members.json')
 )});
   main.variable(observer("relay_week")).define("relay_week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   main.variable(observer("weeks")).define("weeks", ["profile","relay_week"], function(profile,relay_week)
 {
@@ -128,7 +128,7 @@ d3.json('https://www.mocaspike150.org/api/relay/week.json')
 );
   main.variable(observer("logo_html")).define("logo_html", ["profile","avatar"], function(profile,avatar){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   const title = `${profile[id].en ? profile[id].en : ''}  ${profile[id].cn ? `| ${profile[id].cn} `: '' }`
   return `
 <a href="${base}#${id}"
@@ -164,7 +164,7 @@ require('d3@5')
 week["01"].teams[0].runners
 )});
   main.variable(observer("week")).define("week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   main.variable(observer("by_distance")).define("by_distance", function(){return(
 (x, y) => { return (x.mile  <= y.mile) ? 1 : -1}
@@ -191,7 +191,7 @@ d3.json('https://www.mocaspike150.org/api/relay/week.json')
   </tr>
  `
   let teams = week[weekid].teams.sort(by_distance)
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   let rank = 1
   for(let team of teams) {
     output += `
@@ -222,7 +222,7 @@ d3.json('https://www.mocaspike150.org/api/relay/week.json')
   </tr>
  `
   let teams = week[weekid].teams.sort(by_average)
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   let rank = 1
   for(let team of teams) {
     output += `

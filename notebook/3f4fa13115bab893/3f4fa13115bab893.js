@@ -143,7 +143,7 @@ Math.floor(total_miles('01') / track_length)
 (week_id) => {
   let output = `<div>`
   let teams = week[week_id].teams.sort((x, y) => (club_miles(x.id)  <= club_miles(y.id)) ? 1 : -1 )
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   for(let team of teams) {
     output += `
 <a href="${base}#${team.id}">
@@ -160,14 +160,14 @@ Math.floor(total_miles('01') / track_length)
       name: "week",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )})
     },
     {
       name: "avatar",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )})
     },
     {
@@ -187,7 +187,7 @@ club_miles
       name: "track",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/json/track.json')
+d3.json('https://spike150.mocanyc.org/json/track.json')
 )})
     },
     {
@@ -259,14 +259,14 @@ leaderboard[128445].map((d) => (parseInt(d[2])* 0.621371))
       name: "leaderboard",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json(`https://www.mocaspike150.org/api/leaderboard/week01/leaderboard.json`)
+d3.json(`https://spike150.mocanyc.org/api/leaderboard/week01/leaderboard.json`)
 )})
     },
     {
       name: "spike_svg",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('https://spike150.mocanyc.org/api/spike.json')
 )})
     },
     {

@@ -141,28 +141,28 @@ Date.now()
       name: "spike_svg",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/spike.json')
+d3.json('https://spike150.mocanyc.org/api/spike.json')
 )})
     },
     {
       name: "track",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/json/track.json')
+d3.json('https://spike150.mocanyc.org/json/track.json')
 )})
     },
     {
       name: "avatar",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )})
     },
     {
       name: "data",
       inputs: ["d3"],
       value: (function(d3){return(
-d3.json(`https://www.mocaspike150.org/api/map/club/geo.json`)
+d3.json(`https://spike150.mocanyc.org/api/map/club/geo.json`)
 )})
     },
     {
@@ -170,7 +170,7 @@ d3.json(`https://www.mocaspike150.org/api/map/club/geo.json`)
       inputs: ["d3"],
       value: (async function(d3)
 {
-  const us = await d3.json("https://www.mocaspike150.org/api/map/us.json");
+  const us = await d3.json("https://spike150.mocanyc.org/api/map/us.json");
   us.objects.lower48 = {
     type: "GeometryCollection",
     geometries: us.objects.states.geometries.filter(d => d.id !== "02" && d.id !== "15")

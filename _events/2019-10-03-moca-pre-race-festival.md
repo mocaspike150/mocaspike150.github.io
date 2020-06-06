@@ -10,7 +10,7 @@ post-image: https://user-images.githubusercontent.com/46349226/66169399-3edb4980
 Join us for a buffet lunch, a mouth-watering “jianbing” (煎饼) from Mr. Bing, music, photo booth, museum tour, endless fun and a chance to meet with your fellow MOCA Spike 150 and TCS New York City Marathon runners around the country to wind down before the big day!  MOCA Spike 150 relay award ceremony will also be presented to the top winners at 1:30pm.
 
 <!--more-->
-A speical fun run will start from MOCA at 2pm after the party. Join us for an easy 3 mile pre-race, shake out run and take part in a professional photo shoot against the breathtaking and classic backdrop of the New York City skyline. Don’t forget to wear your <a href="https://www.mocaspike150.org/posts/2019-10-01-moca-tshirt-sale">MOCA Tee</a> to take part in the photo shooting!
+A speical fun run will start from MOCA at 2pm after the party. Join us for an easy 3 mile pre-race, shake out run and take part in a professional photo shoot against the breathtaking and classic backdrop of the New York City skyline. Don’t forget to wear your <a href="https://spike150.mocanyc.org/posts/2019-10-01-moca-tshirt-sale">MOCA Tee</a> to take part in the photo shooting!
 
                        
 

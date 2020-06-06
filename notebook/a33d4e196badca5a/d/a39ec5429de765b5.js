@@ -26,10 +26,10 @@ require('d3@5')
 d3.json('https://raw.githubusercontent.com/mocaspike150/donation/master/data/clubs.json')
 )});
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )});
   main.variable(observer("profile")).define("profile", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('https://spike150.mocanyc.org/api/club/profile.json')
 )});
   main.variable(observer("strava")).define("strava", ["profile"], function(profile)
 {
@@ -55,7 +55,7 @@ d3.json('https://www.mocaspike150.org/api/club/profile.json')
   main.variable(observer("logo")).define("logo", ["avatar"], function(avatar){return(
 (id) => {
   if(avatar[id]) {
-   return `<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${id}"><img style="width: 64px; heigh:64px;border-radius: 64px;" src="${avatar[id].src}"/></a>`
+   return `<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${id}"><img style="width: 64px; heigh:64px;border-radius: 64px;" src="${avatar[id].src}"/></a>`
   }
   else {
     return '<a href="https://flyingfoxcsc.org/"><img style="width: 64px; heigh:64px;border-radius: 64px;" src="https://cdn.crowdrise.com/v2/photo/file/member/5337023"/></a>'

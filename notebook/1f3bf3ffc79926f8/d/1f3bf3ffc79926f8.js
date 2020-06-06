@@ -38,7 +38,7 @@ ${scorecards}
 relay_week["01"]
 )});
   main.variable(observer("relay_week")).define("relay_week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   main.variable(observer("d3")).define("d3", ["require"], function(require){return(
 require('d3@5')

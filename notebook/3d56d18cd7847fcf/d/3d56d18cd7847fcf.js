@@ -3,7 +3,7 @@ export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer("clubs")).define("clubs", ["id","profile","html","detail_html"], function(id,profile,html,detail_html)
 {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/index.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/index.html'
   if(id) {
     document.title = 'MOCA Spike 150 Relay Club: '
     document.title += profile[id].en ? profile[id].en : ''
@@ -42,16 +42,16 @@ d3.json('https://raw.githubusercontent.com/mocaspike150/donation/master/data/clu
 `
 )});
   main.variable(observer("profile")).define("profile", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/profile.json')
+d3.json('https://spike150.mocanyc.org/api/club/profile.json')
 )});
   main.variable(observer("avatar")).define("avatar", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/club/avatar.json')
+d3.json('https://spike150.mocanyc.org/api/club/avatar.json')
 )});
   main.variable(observer("members")).define("members", ["d3"], function(d3){return(
 d3.json('https://raw.githubusercontent.com/mocaspike150/api/master/club/members.json')
 )});
   main.variable(observer("relay_week")).define("relay_week", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/api/relay/week.json')
+d3.json('https://spike150.mocanyc.org/api/relay/week.json')
 )});
   main.variable(observer("mpr")).define("mpr", ["mpr_ranking"], function(mpr_ranking)
 {
@@ -73,7 +73,7 @@ d3.json('https://www.mocaspike150.org/api/relay/week.json')
   let week_list = '<div>Relay Weeks: <ul>'
   for( let week of weeks[id].sort(by_week)) {
     let relay_result =  week.runners ? `
-<br/>(<a href="https://www.mocaspike150.org/spike-relay/scorecard/#${week.week}">${week.mile.toLocaleString()} miles | ${week.runners} runners</a>)
+<br/>(<a href="https://spike150.mocanyc.org/spike-relay/scorecard/#${week.week}">${week.mile.toLocaleString()} miles | ${week.runners} runners</a>)
 ` : ''
     week_list += `<li>
 Week ${parseInt(week.week)}
@@ -147,7 +147,7 @@ Meetup locations: ${loc}
 )});
   main.variable(observer("list_html")).define("list_html", ["avatar","profile","members","location_html","donation_html","relay_weeks"], function(avatar,profile,members,location_html,donation_html,relay_weeks){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   return `
 <div style="margin-top: 1em; background: #FFF7ED; padding: 1em; border-radius: 5px;">
   <img src="${avatar[id].src}" style="width: 64px; heigh:64px; border-radius: 64px;"/>
@@ -187,7 +187,7 @@ Meetup locations: ${loc}
 )});
   main.variable(observer("logo_html")).define("logo_html", ["profile","avatar"], function(profile,avatar){return(
 (id) => {
-  const base = 'https://www.mocaspike150.org/spike-relay/club/club.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/club.html'
   const title = `${profile[id].en ? profile[id].en : ''}  ${profile[id].cn ? `| ${profile[id].cn} `: '' }`
   return `
 <a href="${base}#${id}"
@@ -202,7 +202,7 @@ alt="${title}"
   main.variable(observer("detail_html")).define("detail_html", ["profile","avatar","ambassador_img","members","location_html","relay_weeks","donation_html","paypal","club_message","footnote"], function(profile,avatar,ambassador_img,members,location_html,relay_weeks,donation_html,paypal,club_message,footnote){return(
 (id) => {
   let club = profile[id]
-  const base = 'https://www.mocaspike150.org/spike-relay/club/index.html'
+  const base = 'https://spike150.mocanyc.org/spike-relay/club/index.html'
   return `
 <div style="margin-top: 1em; background: #FFF7ED; padding: 2em; border-radius: 5px;">
 <div style="text-align: right;"><a href="${base}">MOCA Spike 150 Relay Clubs</a></div>
@@ -252,18 +252,18 @@ ${footnote}
   main.variable(observer("club_message")).define("club_message", ["profile","oneline_relay_weeks"], function(profile,oneline_relay_weeks){return(
 (id) => {
   return `
-庆祝美国横贯大陆铁路建成通车150周年，并彰显华人在美国历史上的重大贡献，我们${ profile[id].cn ? profile[id].cn: profile[id].en }支持美国华人博物馆（MOCA）保存华人在美国历史的使命，积极响应MOCA组织倡议的MOCA Spike 150:  Running Forward With Our Stories活动。${ profile[id].cn ? profile[id].cn: profile[id].en } 将于 ${oneline_relay_weeks(id)}参加<a href="http://www.mocaspike150.org">MOCA Spike 150</a>线上接力，为MOCA募款，请支持我们的团队！
+庆祝美国横贯大陆铁路建成通车150周年，并彰显华人在美国历史上的重大贡献，我们${ profile[id].cn ? profile[id].cn: profile[id].en }支持美国华人博物馆（MOCA）保存华人在美国历史的使命，积极响应MOCA组织倡议的MOCA Spike 150:  Running Forward With Our Stories活动。${ profile[id].cn ? profile[id].cn: profile[id].en } 将于 ${oneline_relay_weeks(id)}参加<a href="http://spike150.mocanyc.org">MOCA Spike 150</a>线上接力，为MOCA募款，请支持我们的团队！
 `
 }
 )});
   main.variable(observer("ambassadors")).define("ambassadors", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/data/ambassadors.json')
+d3.json('https://spike150.mocanyc.org/data/ambassadors.json')
 )});
   main.variable(observer("ambassador_img_url")).define("ambassador_img_url", ["ambassadors"], function(ambassadors)
 {
   let output = {}
   for(const ambassador of ambassadors) {
-    output[ambassador.crowdrise_id] = `https://www.mocaspike150.org/lab/ambassadors-slideshow${ambassador.id}/img.html`
+    output[ambassador.crowdrise_id] = `https://spike150.mocanyc.org/lab/ambassadors-slideshow${ambassador.id}/img.html`
   }
   return output
 }

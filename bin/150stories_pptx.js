@@ -18,7 +18,7 @@ pptx.defineSlideMaster({
   bkgd:  darkblue,
   objects: [
     { 'image': {
-        path: 'https://www.mocaspike150.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', 
+        path: 'https://spike150.mocanyc.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', 
         x: 0.25, 
         y: 0.25,
         w: 2.5 * 272/272, 
@@ -34,7 +34,7 @@ pptx.defineSlideMaster({
   objects: [
     { 
       'image': {
-        path: 'https://www.mocaspike150.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', 
+        path: 'https://spike150.mocanyc.org/wp/uploads/2019/03/cropped-spike-150-logo-85-1.png', 
         x: 5.25, 
         y: 0.25, 
         w: 2.5 * 272/272, 

@@ -152,7 +152,7 @@ ${profile.firstname ? profile.firstname : ''} ${profile.lastname ? profile.lastn
 }
 )});
   main.variable(observer("profile_data")).define("profile_data", ["d3"], function(d3){return(
-d3.json('https://www.mocaspike150.org/data/ambassadors.json')
+d3.json('https://spike150.mocanyc.org/data/ambassadors.json')
 )});
   main.variable(observer("params")).define("params", function(){return(
 new URL(document.baseURI).searchParams
