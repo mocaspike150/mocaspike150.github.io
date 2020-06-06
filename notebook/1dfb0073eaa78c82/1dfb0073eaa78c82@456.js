@@ -1,4 +1,4 @@
-// https://observablehq.com/d/1dfb0073eaa78c82@453
+// https://observablehq.com/d/1dfb0073eaa78c82@456
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["html"], function(html){return(
@@ -77,7 +77,7 @@ Railroads Completed
 ${n} ${medal[n-1] ? medal[n-1]: ' '}
 </td>
 <td>
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">
 ${logo(row.id)}
 </a>
 <br/>
@@ -86,7 +86,7 @@ ${row.start? row.start.substring(5) : ''}
 
 
 <td style="text-align:center;">
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">${row.mile.toLocaleString()}</a> 
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">${row.mile.toLocaleString()}</a> 
 </td>
 
 <td style="text-align:center;">
@@ -137,7 +137,7 @@ Total Runners*
 ${n} ${medal[n-1] ? medal[n-1]: ' '}
 </td>
 <td>
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">
 ${logo(row.id)}
 </a>
 <br/>
@@ -145,7 +145,7 @@ ${row.start? row.start.substring(5) : ''}
 </td>
 
 <td  style="text-align:center;">
-<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${row.id}">${parseFloat(row.mile / row.runners).toFixed(2)}</a> 
+<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${row.id}">${parseFloat(row.mile / row.runners).toFixed(2)}</a> 
 </td>
 <td style="text-align:center;">
 ${row.runners}
@@ -218,7 +218,7 @@ Object.values(data).map(d => { let teams =  d.teams; teams.start = d.start; retu
   main.variable(observer("logo")).define("logo", ["avatar"], function(avatar){return(
 (id) => {
   if(avatar[id]) {
-   return `<a href="https://www.mocaspike150.org/spike-relay/club/club.html#${id}"><img style="width: 64px; heigh:64px;border-radius: 64px;" src="${avatar[id].src}"/></a>`
+   return `<a href="https://spike150.mocanyc.org/spike-relay/club/club.html#${id}"><img style="width: 64px; heigh:64px;border-radius: 64px;" src="${avatar[id].src}"/></a>`
   }
   else {
     return '<a href="https://flyingfoxcsc.org/"><img style="width: 64px; heigh:64px;border-radius: 64px;" src="https://cdn.crowdrise.com/v2/photo/file/member/5337023"/></a>'
