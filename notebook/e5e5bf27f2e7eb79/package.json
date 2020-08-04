@@ -1,0 +1,14 @@
+{
+  "name": "e5e5bf27f2e7eb79",
+  "main": "e5e5bf27f2e7eb79@594.js",
+  "version": "594.0.0",
+  "homepage": "https://observablehq.com/d/e5e5bf27f2e7eb79",
+  "author": {
+    "name": "MOCA Spike 150",
+    "url": "https://observablehq.com/@mocaspike150"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
